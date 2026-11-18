@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Localization and identifiability across initial colourings.
 
-The localization results of the prior papers and of X2/E5a use the identifier
+The localization results of the attribution pipeline and of X2/E5a use the identifier
 colouring only. This repeats the exact Proposition-1 decomposition for the
 renaming-invariant colourings, clean and under per-app identifier renaming, at
 d = 2^10, 2^16, 2^20, on the staged proxy apps (5-fold DEX-grouped linear SGD per
@@ -250,7 +250,7 @@ def main():
                     v_norm, _ = vec(toks[s][0], d)
                     row_mats.append(sparse.csr_matrix(v_norm))
                 X = sparse.vstack(row_mats).tocsr()
-                del row_mats, v_norm  # X is a copy; release the per-app rows as the original temporary list did
+                del row_mats, v_norm  # X is a copy; release the per-app rows
                 prec = defaultdict(list)
                 f1s = []
                 cv = StratifiedGroupKFold(5, shuffle=True, random_state=0)

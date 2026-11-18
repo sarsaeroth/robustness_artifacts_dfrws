@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Plan v3, block B: validate the "post-WL data is linear because evidence is additive" story.
+"""validate the "post-WL data is linear because evidence is additive" story.
 
   B6  Synthetic additive generator (positive + negative control for the whole diagnostic).
       Additive scenario: each family owns private marker tokens, apps draw them independently

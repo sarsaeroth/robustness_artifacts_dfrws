@@ -216,7 +216,7 @@ def main():
         if v:
             return float(np.median(v))
         return None
-    # summary, evaluated in the same order as the original dict literal
+    # summary values
     n_rows = len(rows)
     k_cert_median = med("k_cert")
     k_attack_median = med("k_attack")

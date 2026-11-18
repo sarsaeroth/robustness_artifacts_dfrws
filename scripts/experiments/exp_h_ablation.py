@@ -207,7 +207,7 @@ def evaluate():
             if k:
                 stacked.append(z[col])
         A = np.stack(stacked)  # n x rounds x d
-        del stacked  # A is a copy; release the per-app arrays as the original temporary list did
+        del stacked  # A is a copy; release the per-app arrays
         f1 = {}
         for h in range(ITERS + 1):
             X = A[:, :h + 1].sum(1)

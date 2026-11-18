@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Plan v3, A2: is the SDK signal portable across hosts?
+"""is the SDK signal portable across hosts?
 
 A1 showed accuracy falls under host-cluster holdout, and the SDK-only figures of A4/G28
 included apps with no SDK ground truth (an empty SDK vector is itself a family cue, mostly

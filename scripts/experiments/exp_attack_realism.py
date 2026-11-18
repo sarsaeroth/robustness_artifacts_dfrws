@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Plan v3, block F: realistic attack threat models beyond the white-box upper bound.
+"""realistic attack threat models beyond the white-box upper bound.
 
 The white-box aimed attack assumes the adversary holds the deployed weights. Two weaker,
 more realistic models:

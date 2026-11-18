@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Plan v3, D1: the exact-token controls on control-flow graphs.
+"""the exact-token controls on control-flow graphs.
 
 CFG nodes are basic blocks labeled "method:block"; stripping the block index gives the
 method signature, so the FCG exact-token builder applies with SDK membership by method

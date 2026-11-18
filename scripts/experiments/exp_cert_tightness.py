@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Plan v3, block C: how tight and how reproducible is the per-application certificate.
+"""how tight and how reproducible is the per-application certificate.
 
   C11/C12  Per staged app, held out of its fold, compute four quantities on the deployed
            (full-corpus-trained) linear model:

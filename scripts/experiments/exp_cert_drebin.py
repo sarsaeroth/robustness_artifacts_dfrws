@@ -204,7 +204,7 @@ def _evaluate(rep):
             for j, i in enumerate(te):
                 if pred[j] == y[i]:
                     rows.append({"family": str(fam[i]), "k": cert_one(W, b, X[i].toarray().ravel(), int(y[i]))})
-        # summary, evaluated in the same order as the original dict literal
+        # summary values
         ks = []
         for row in rows:
             if row["k"] is not None:

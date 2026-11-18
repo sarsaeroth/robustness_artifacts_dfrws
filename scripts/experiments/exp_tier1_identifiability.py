@@ -29,7 +29,7 @@ import gen_wl_vectors as G
 
 E.cap_memory(float(os.environ.get("MEM_GB", "12")))
 
-# ID_TAG / ID_TRUTH (opt-in, #1756): ID_TRUTH=label_audit replaces the SDK targets with exp_label_audit.SDK (the
+# ID_TAG / ID_TRUTH (opt-in): ID_TRUTH=label_audit replaces the SDK targets with exp_label_audit.SDK (the
 # reverse-engineered namespaces of all eight corpus-v3 classes), and ID_TAG names separate output files, so
 # the default run and its outputs (used by the robustness paper) are unchanged
 if os.environ.get("ID_TAG"):

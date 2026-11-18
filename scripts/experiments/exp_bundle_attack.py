@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Plan v3, F26: evasion restricted to a semantics-preserving transformation.
+"""evasion restricted to a semantics-preserving transformation.
 
 The aimed attack of the paper adds arbitrary tokens. Here the adversary may only bundle real
 benign code: whole packages taken from the 40 staged non-proxy applications, added unused, so
@@ -173,7 +173,7 @@ def main():
         else:
             median_ok = None
         return {"success": len(ok) / len(v), "median_tokens_when_successful": median_ok}
-    # summary, evaluated in the same order as the original dict literal
+    # summary values
     n_rows = len(rows)
     token_summ = summ("token")
     greedy_summ = summ("greedy")

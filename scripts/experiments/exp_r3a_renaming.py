@@ -71,7 +71,7 @@ def run(clean_rep, renamed_rep):
     C = np.array(rec["correct"])
     inside = D < R
     fams = np.array(rec["family"])
-    # summary values, computed in the same order as the original dict literal
+    # summary values
     n_evals = int(len(R))
     clean_accuracy = float(C.mean())
     flip_rate = float(F.mean())

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Plan v3, D2 + open world: the deployed representation against real Google Play apps.
+"""the deployed representation against real Google Play apps.
 
 Corpus: four proxy families + 996 non-proxy apps, deployed identifier WL vectors (CFG and
 FCG at d = 1,024 each, separately normalized). In the wild: 4,888 random Google Play apps

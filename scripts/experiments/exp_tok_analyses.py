@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Plan v2, step 3: exact-WL-token analyses on the 155 staged apps (no hashing).
+"""exact-WL-token analyses on the 155 staged apps (no hashing).
 
   L5  naive Bayes vs logistic on exact tokens, per coloring.
   L6  classification from each WL round (0, 1, 2) alone.

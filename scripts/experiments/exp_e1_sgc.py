@@ -4,7 +4,7 @@
 The flagship: first Linear-SHAP-on-SGC code-localization result on real malware,
 quantifying the continuity <-> sharpness frontier.
 
-Memory-safe design (2026-09-28 rewrite after an OOM incident): NEVER caches all apps'
+Memory-safe design: NEVER caches all apps'
 per-node propagated matrices. Pass 1 keeps only the small pooled graph feature per app;
 localization RE-PARSES and re-propagates one app at a time inside the CV loop. Address
 space is hard-capped (RLIMIT_AS) so a runaway dies instead of taking the box down.

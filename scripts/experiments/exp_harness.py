@@ -47,7 +47,7 @@ SPECS = {
                   "targets": ["original", "piggybacked"], "benign": "original", "groups": "neardup",
                   "graphs": ("fcg",), "graphs_dir": os.path.join(ROOT, "datasets", "piggyback"),
                   "full_graphs": ("dir", os.path.join(ROOT, "datasets", "piggyback"), None)},
-    # #1751 corpus v3 (datasets/corpus_v3/manifest.jsonl): validated DEX pivots + version builds +
+    # corpus v3 (datasets/corpus_v3/manifest.jsonl): validated DEX pivots + version builds +
     # C2-domain-pivot providers; v2 corpus apps keep their bundle graphs/vectors, new apps are staged
     # in work/staged_v3 (stage_local_apks.py). Packed by pack_proxy_v3.py; DEX groups dex_groups_v3.py.
     "proxy_v3": {"vec": os.path.join(ROOT, "results", "datasets", "proxy_v3", "vectors"),

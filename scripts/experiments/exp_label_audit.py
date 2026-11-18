@@ -9,7 +9,7 @@ identically except for the labels:
   v3    the validated labels (datasets/corpus_v3/manifest.jsonl, status kept), same four families
 Each run trains its own four-class SGD (log loss, alpha 1e-4, upsampled to the largest family) on its
 labels' FCG vectors, samples 25 apps per family with the same seed, and ranks methods. Ground truth is
-the authoritative SDK namespaces of the published analysis (SDK below). Graphs come from
+the reference SDK namespaces (SDK below). Graphs come from
 exp_harness.load_graph (staged copies or the bundle).
 
 Output: results/datasets/proxy_v3/label_audit.json: per run and family, precision@k, AUC, the share of
@@ -34,10 +34,10 @@ ROOT = H.ROOT
 FAMS = ["ipninja", "luminati", "monkeysocks", "oxylabs"]
 # the eight corpus-v3 classes, for the v3-only experiments (exp_analyst_heuristics v3 runs, highdim HD_V3, MKLDroid)
 FAMS_V3 = FAMS + ["cashraven", "ipidea", "popa", "traffmonetizer"]
-# the ground truth of the published analysis (provenance_localization.py with DATASET=proxy); importing it
+# the reference ground truth (provenance_localization.py with DATASET=proxy); importing it
 # under DATASET=proxy_v3 would substitute the v3 payload prefixes, so it is pinned here. Luminati also
-# gets the later Bright Data namespaces (lumnet, brdat, eapx; c2_reversing.py), which the published list
-# predates; the run with the published list alone is kept in label_audit.published_ns.json
+# gets the later Bright Data namespaces (lumnet, brdat, eapx; c2_reversing.py), which the reference list
+# predates; the run with the reference list alone is kept in label_audit.published_ns.json
 SDK = {"ipninja": ("Lcom/ipninja/", "Lnet/ipninja/"),
        "luminati": ("Lio/lum/", "Lio/topvpn/", "Lorg/hola/", "Lio/luminati/",
                     "Llumnet/sdk/", "Lbrdat/sdk/", "Lcom/android/eapx/"),

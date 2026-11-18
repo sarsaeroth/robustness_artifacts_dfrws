@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Plan v3, block D: localization against known SDK ground truth, and its stability.
+"""localization against known SDK ground truth, and its stability.
 
   D18  Exact-token method localization vs the known SDK method set (PL.SDK_PREFIXES).
        Train logistic on exact identifier tokens; for each held-out app rank its methods by
