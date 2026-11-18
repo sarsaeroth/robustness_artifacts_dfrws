@@ -1,0 +1,799 @@
+{
+ "n": 94,
+ "n_donors": 40,
+ "n_packages": 1313,
+ "token": {
+  "success": 1.0,
+  "median_tokens_when_successful": 25.0
+ },
+ "greedy": {
+  "success": 1.0,
+  "median_tokens_when_successful": 3086.0
+ },
+ "random": {
+  "success": 0.8191489361702128,
+  "median_tokens_when_successful": 2961.0
+ },
+ "greedy_packages_median": 1.0,
+ "whole_app_flip_rate_mean": 0.5109042553191491,
+ "per_family": {
+  "adware": {
+   "n": 23,
+   "greedy_success": 1.0,
+   "random_success": 0.6956521739130435,
+   "whole_app_flip_rate": 0.40543478260869564
+  },
+  "pua": {
+   "n": 30,
+   "greedy_success": 1.0,
+   "random_success": 0.8333333333333334,
+   "whole_app_flip_rate": 0.6824999999999999
+  },
+  "riskware": {
+   "n": 26,
+   "greedy_success": 1.0,
+   "random_success": 0.8461538461538461,
+   "whole_app_flip_rate": 0.5134615384615385
+  },
+  "trojan": {
+   "n": 15,
+   "greedy_success": 1.0,
+   "random_success": 0.9333333333333333,
+   "whole_app_flip_rate": 0.325
+  }
+ },
+ "rows": [
+  {
+   "family": "adware",
+   "token": 20,
+   "greedy": 3642.0,
+   "greedy_packages": 1,
+   "random": 877.0,
+   "whole_app_flip_rate": 0.625
+  },
+  {
+   "family": "adware",
+   "token": 180,
+   "greedy": 5658.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.1
+  },
+  {
+   "family": "adware",
+   "token": 33,
+   "greedy": 3642.0,
+   "greedy_packages": 1,
+   "random": 3670.0,
+   "whole_app_flip_rate": 0.4
+  },
+  {
+   "family": "adware",
+   "token": 150,
+   "greedy": 10655.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.025
+  },
+  {
+   "family": "adware",
+   "token": 6,
+   "greedy": 3642.0,
+   "greedy_packages": 1,
+   "random": 1022.0,
+   "whole_app_flip_rate": 0.775
+  },
+  {
+   "family": "adware",
+   "token": 157,
+   "greedy": 5658.0,
+   "greedy_packages": 2,
+   "random": 5898.0,
+   "whole_app_flip_rate": 0.075
+  },
+  {
+   "family": "adware",
+   "token": 80,
+   "greedy": 3642.0,
+   "greedy_packages": 1,
+   "random": 16997.0,
+   "whole_app_flip_rate": 0.425
+  },
+  {
+   "family": "adware",
+   "token": 9,
+   "greedy": 3642.0,
+   "greedy_packages": 1,
+   "random": 2975.0,
+   "whole_app_flip_rate": 0.7
+  },
+  {
+   "family": "adware",
+   "token": 117,
+   "greedy": 3642.0,
+   "greedy_packages": 1,
+   "random": 8148.0,
+   "whole_app_flip_rate": 0.25
+  },
+  {
+   "family": "pua",
+   "token": 7,
+   "greedy": 64.0,
+   "greedy_packages": 1,
+   "random": 991.0,
+   "whole_app_flip_rate": 0.85
+  },
+  {
+   "family": "pua",
+   "token": 45,
+   "greedy": 3642.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.4
+  },
+  {
+   "family": "pua",
+   "token": 7,
+   "greedy": 64.0,
+   "greedy_packages": 1,
+   "random": 484.0,
+   "whole_app_flip_rate": 0.85
+  },
+  {
+   "family": "pua",
+   "token": 7,
+   "greedy": 64.0,
+   "greedy_packages": 1,
+   "random": 987.0,
+   "whole_app_flip_rate": 0.85
+  },
+  {
+   "family": "pua",
+   "token": 7,
+   "greedy": 64.0,
+   "greedy_packages": 1,
+   "random": 2883.0,
+   "whole_app_flip_rate": 0.85
+  },
+  {
+   "family": "pua",
+   "token": 7,
+   "greedy": 64.0,
+   "greedy_packages": 1,
+   "random": 1391.0,
+   "whole_app_flip_rate": 0.85
+  },
+  {
+   "family": "pua",
+   "token": 7,
+   "greedy": 64.0,
+   "greedy_packages": 1,
+   "random": 791.0,
+   "whole_app_flip_rate": 0.875
+  },
+  {
+   "family": "riskware",
+   "token": 62,
+   "greedy": 5140.0,
+   "greedy_packages": 2,
+   "random": 11534.0,
+   "whole_app_flip_rate": 0.15
+  },
+  {
+   "family": "riskware",
+   "token": 78,
+   "greedy": 5140.0,
+   "greedy_packages": 2,
+   "random": 10270.0,
+   "whole_app_flip_rate": 0.15
+  },
+  {
+   "family": "riskware",
+   "token": 6,
+   "greedy": 650.0,
+   "greedy_packages": 1,
+   "random": 1581.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "riskware",
+   "token": 23,
+   "greedy": 1498.0,
+   "greedy_packages": 1,
+   "random": 5676.0,
+   "whole_app_flip_rate": 0.4
+  },
+  {
+   "family": "riskware",
+   "token": 39,
+   "greedy": 1498.0,
+   "greedy_packages": 1,
+   "random": 5710.0,
+   "whole_app_flip_rate": 0.35
+  },
+  {
+   "family": "riskware",
+   "token": 9,
+   "greedy": 1498.0,
+   "greedy_packages": 1,
+   "random": 5625.0,
+   "whole_app_flip_rate": 0.75
+  },
+  {
+   "family": "trojan",
+   "token": 28,
+   "greedy": 3795.0,
+   "greedy_packages": 1,
+   "random": 2961.0,
+   "whole_app_flip_rate": 0.4
+  },
+  {
+   "family": "trojan",
+   "token": 33,
+   "greedy": 3795.0,
+   "greedy_packages": 1,
+   "random": 2617.0,
+   "whole_app_flip_rate": 0.3
+  },
+  {
+   "family": "trojan",
+   "token": 58,
+   "greedy": 6881.0,
+   "greedy_packages": 2,
+   "random": 19083.0,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "trojan",
+   "token": 83,
+   "greedy": 3795.0,
+   "greedy_packages": 1,
+   "random": 13218.0,
+   "whole_app_flip_rate": 0.125
+  },
+  {
+   "family": "adware",
+   "token": 147,
+   "greedy": 9792.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "adware",
+   "token": 131,
+   "greedy": 6150.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.075
+  },
+  {
+   "family": "adware",
+   "token": 229,
+   "greedy": 6150.0,
+   "greedy_packages": 2,
+   "random": 19576.0,
+   "whole_app_flip_rate": 0.05
+  },
+  {
+   "family": "pua",
+   "token": 10,
+   "greedy": 2221.0,
+   "greedy_packages": 1,
+   "random": 233.0,
+   "whole_app_flip_rate": 0.775
+  },
+  {
+   "family": "pua",
+   "token": 25,
+   "greedy": 2221.0,
+   "greedy_packages": 1,
+   "random": 6834.0,
+   "whole_app_flip_rate": 0.725
+  },
+  {
+   "family": "pua",
+   "token": 25,
+   "greedy": 2221.0,
+   "greedy_packages": 1,
+   "random": 2592.0,
+   "whole_app_flip_rate": 0.725
+  },
+  {
+   "family": "pua",
+   "token": 26,
+   "greedy": 2221.0,
+   "greedy_packages": 1,
+   "random": 4578.0,
+   "whole_app_flip_rate": 0.725
+  },
+  {
+   "family": "pua",
+   "token": 7,
+   "greedy": 2221.0,
+   "greedy_packages": 1,
+   "random": 1231.0,
+   "whole_app_flip_rate": 0.85
+  },
+  {
+   "family": "riskware",
+   "token": 2,
+   "greedy": 1139.0,
+   "greedy_packages": 1,
+   "random": 1680.0,
+   "whole_app_flip_rate": 0.925
+  },
+  {
+   "family": "riskware",
+   "token": 74,
+   "greedy": 5863.0,
+   "greedy_packages": 2,
+   "random": 15463.0,
+   "whole_app_flip_rate": 0.175
+  },
+  {
+   "family": "riskware",
+   "token": 7,
+   "greedy": 3642.0,
+   "greedy_packages": 1,
+   "random": 1619.0,
+   "whole_app_flip_rate": 0.825
+  },
+  {
+   "family": "riskware",
+   "token": 53,
+   "greedy": 3642.0,
+   "greedy_packages": 1,
+   "random": 8235.0,
+   "whole_app_flip_rate": 0.25
+  },
+  {
+   "family": "riskware",
+   "token": 3,
+   "greedy": 1139.0,
+   "greedy_packages": 1,
+   "random": 1555.0,
+   "whole_app_flip_rate": 0.9
+  },
+  {
+   "family": "riskware",
+   "token": 11,
+   "greedy": 1139.0,
+   "greedy_packages": 1,
+   "random": 1005.0,
+   "whole_app_flip_rate": 0.825
+  },
+  {
+   "family": "riskware",
+   "token": 129,
+   "greedy": 3642.0,
+   "greedy_packages": 1,
+   "random": 4743.0,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "riskware",
+   "token": 6,
+   "greedy": 1139.0,
+   "greedy_packages": 1,
+   "random": 2690.0,
+   "whole_app_flip_rate": 0.825
+  },
+  {
+   "family": "trojan",
+   "token": 513,
+   "greedy": 16485.0,
+   "greedy_packages": 5,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "trojan",
+   "token": 55,
+   "greedy": 3795.0,
+   "greedy_packages": 1,
+   "random": 7729.0,
+   "whole_app_flip_rate": 0.325
+  },
+  {
+   "family": "trojan",
+   "token": 11,
+   "greedy": 3064.0,
+   "greedy_packages": 1,
+   "random": 2951.0,
+   "whole_app_flip_rate": 0.675
+  },
+  {
+   "family": "adware",
+   "token": 298,
+   "greedy": 9792.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "adware",
+   "token": 86,
+   "greedy": 6728.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.1
+  },
+  {
+   "family": "adware",
+   "token": 5,
+   "greedy": 3642.0,
+   "greedy_packages": 1,
+   "random": 17053.0,
+   "whole_app_flip_rate": 0.85
+  },
+  {
+   "family": "pua",
+   "token": 5,
+   "greedy": 753.0,
+   "greedy_packages": 1,
+   "random": 97.0,
+   "whole_app_flip_rate": 0.875
+  },
+  {
+   "family": "pua",
+   "token": 35,
+   "greedy": 4997.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.475
+  },
+  {
+   "family": "pua",
+   "token": 3,
+   "greedy": 76.0,
+   "greedy_packages": 1,
+   "random": 148.0,
+   "whole_app_flip_rate": 0.925
+  },
+  {
+   "family": "pua",
+   "token": 35,
+   "greedy": 4997.0,
+   "greedy_packages": 1,
+   "random": 6842.0,
+   "whole_app_flip_rate": 0.475
+  },
+  {
+   "family": "pua",
+   "token": 12,
+   "greedy": 753.0,
+   "greedy_packages": 1,
+   "random": 4298.0,
+   "whole_app_flip_rate": 0.775
+  },
+  {
+   "family": "riskware",
+   "token": 19,
+   "greedy": 2221.0,
+   "greedy_packages": 1,
+   "random": 2121.0,
+   "whole_app_flip_rate": 0.55
+  },
+  {
+   "family": "riskware",
+   "token": 120,
+   "greedy": 5318.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.225
+  },
+  {
+   "family": "riskware",
+   "token": 3,
+   "greedy": 1498.0,
+   "greedy_packages": 1,
+   "random": 717.0,
+   "whole_app_flip_rate": 0.875
+  },
+  {
+   "family": "trojan",
+   "token": 83,
+   "greedy": 7437.0,
+   "greedy_packages": 2,
+   "random": 18844.0,
+   "whole_app_flip_rate": 0.15
+  },
+  {
+   "family": "trojan",
+   "token": 75,
+   "greedy": 3795.0,
+   "greedy_packages": 1,
+   "random": 16461.0,
+   "whole_app_flip_rate": 0.25
+  },
+  {
+   "family": "adware",
+   "token": 2,
+   "greedy": 1604.0,
+   "greedy_packages": 1,
+   "random": 106.0,
+   "whole_app_flip_rate": 0.85
+  },
+  {
+   "family": "adware",
+   "token": 2,
+   "greedy": 1604.0,
+   "greedy_packages": 1,
+   "random": 143.0,
+   "whole_app_flip_rate": 0.85
+  },
+  {
+   "family": "adware",
+   "token": 181,
+   "greedy": 3086.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.175
+  },
+  {
+   "family": "adware",
+   "token": 2,
+   "greedy": 1604.0,
+   "greedy_packages": 1,
+   "random": 233.0,
+   "whole_app_flip_rate": 0.85
+  },
+  {
+   "family": "adware",
+   "token": 53,
+   "greedy": 3086.0,
+   "greedy_packages": 1,
+   "random": 11376.0,
+   "whole_app_flip_rate": 0.275
+  },
+  {
+   "family": "pua",
+   "token": 5,
+   "greedy": 1146.0,
+   "greedy_packages": 1,
+   "random": 4440.0,
+   "whole_app_flip_rate": 0.825
+  },
+  {
+   "family": "pua",
+   "token": 117,
+   "greedy": 6519.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.15
+  },
+  {
+   "family": "pua",
+   "token": 12,
+   "greedy": 2221.0,
+   "greedy_packages": 1,
+   "random": 2638.0,
+   "whole_app_flip_rate": 0.675
+  },
+  {
+   "family": "pua",
+   "token": 23,
+   "greedy": 4298.0,
+   "greedy_packages": 1,
+   "random": 15192.0,
+   "whole_app_flip_rate": 0.55
+  },
+  {
+   "family": "pua",
+   "token": 65,
+   "greedy": 4298.0,
+   "greedy_packages": 1,
+   "random": 11245.0,
+   "whole_app_flip_rate": 0.25
+  },
+  {
+   "family": "pua",
+   "token": 112,
+   "greedy": 9295.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.15
+  },
+  {
+   "family": "pua",
+   "token": 14,
+   "greedy": 2221.0,
+   "greedy_packages": 1,
+   "random": 4608.0,
+   "whole_app_flip_rate": 0.65
+  },
+  {
+   "family": "riskware",
+   "token": 175,
+   "greedy": 12359.0,
+   "greedy_packages": 3,
+   "random": 14299.0,
+   "whole_app_flip_rate": 0.025
+  },
+  {
+   "family": "riskware",
+   "token": 3,
+   "greedy": 1498.0,
+   "greedy_packages": 1,
+   "random": 10887.0,
+   "whole_app_flip_rate": 0.85
+  },
+  {
+   "family": "riskware",
+   "token": 6,
+   "greedy": 650.0,
+   "greedy_packages": 1,
+   "random": 2039.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "riskware",
+   "token": 192,
+   "greedy": 12359.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "riskware",
+   "token": 170,
+   "greedy": 12359.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.025
+  },
+  {
+   "family": "trojan",
+   "token": 91,
+   "greedy": 6881.0,
+   "greedy_packages": 2,
+   "random": 10891.0,
+   "whole_app_flip_rate": 0.15
+  },
+  {
+   "family": "trojan",
+   "token": 11,
+   "greedy": 3795.0,
+   "greedy_packages": 1,
+   "random": 2079.0,
+   "whole_app_flip_rate": 0.7
+  },
+  {
+   "family": "trojan",
+   "token": 51,
+   "greedy": 3795.0,
+   "greedy_packages": 1,
+   "random": 5434.0,
+   "whole_app_flip_rate": 0.325
+  },
+  {
+   "family": "trojan",
+   "token": 44,
+   "greedy": 3795.0,
+   "greedy_packages": 1,
+   "random": 13563.0,
+   "whole_app_flip_rate": 0.35
+  },
+  {
+   "family": "adware",
+   "token": 57,
+   "greedy": 3086.0,
+   "greedy_packages": 1,
+   "random": 11142.0,
+   "whole_app_flip_rate": 0.225
+  },
+  {
+   "family": "adware",
+   "token": 13,
+   "greedy": 2444.0,
+   "greedy_packages": 1,
+   "random": 2158.0,
+   "whole_app_flip_rate": 0.725
+  },
+  {
+   "family": "adware",
+   "token": 3,
+   "greedy": 2444.0,
+   "greedy_packages": 1,
+   "random": 1087.0,
+   "whole_app_flip_rate": 0.925
+  },
+  {
+   "family": "pua",
+   "token": 15,
+   "greedy": 2221.0,
+   "greedy_packages": 1,
+   "random": 721.0,
+   "whole_app_flip_rate": 0.825
+  },
+  {
+   "family": "pua",
+   "token": 5,
+   "greedy": 76.0,
+   "greedy_packages": 1,
+   "random": 369.0,
+   "whole_app_flip_rate": 0.975
+  },
+  {
+   "family": "pua",
+   "token": 15,
+   "greedy": 2221.0,
+   "greedy_packages": 1,
+   "random": 9817.0,
+   "whole_app_flip_rate": 0.825
+  },
+  {
+   "family": "pua",
+   "token": 799,
+   "greedy": 16311.0,
+   "greedy_packages": 5,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "pua",
+   "token": 28,
+   "greedy": 2221.0,
+   "greedy_packages": 1,
+   "random": 2384.0,
+   "whole_app_flip_rate": 0.85
+  },
+  {
+   "family": "pua",
+   "token": 6,
+   "greedy": 76.0,
+   "greedy_packages": 1,
+   "random": 2019.0,
+   "whole_app_flip_rate": 0.9
+  },
+  {
+   "family": "riskware",
+   "token": 6,
+   "greedy": 1139.0,
+   "greedy_packages": 1,
+   "random": 917.0,
+   "whole_app_flip_rate": 0.95
+  },
+  {
+   "family": "riskware",
+   "token": 4,
+   "greedy": 2448.0,
+   "greedy_packages": 1,
+   "random": 140.0,
+   "whole_app_flip_rate": 0.95
+  },
+  {
+   "family": "riskware",
+   "token": 20,
+   "greedy": 2448.0,
+   "greedy_packages": 1,
+   "random": 3248.0,
+   "whole_app_flip_rate": 0.575
+  },
+  {
+   "family": "riskware",
+   "token": 127,
+   "greedy": 5545.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "trojan",
+   "token": 71,
+   "greedy": 3086.0,
+   "greedy_packages": 1,
+   "random": 9969.0,
+   "whole_app_flip_rate": 0.225
+  },
+  {
+   "family": "trojan",
+   "token": 17,
+   "greedy": 3086.0,
+   "greedy_packages": 1,
+   "random": 1457.0,
+   "whole_app_flip_rate": 0.7
+  }
+ ]
+}

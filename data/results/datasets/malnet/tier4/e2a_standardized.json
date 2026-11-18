@@ -1,0 +1,86 @@
+{
+ "labeled": {
+  "dim": 1024,
+  "n": 5995,
+  "anisotropy_raw": 0.006565380375832319,
+  "lin_raw": 0.564130312694926,
+  "lin_l2": 0.564130312694926,
+  "lin_std": 0.5293917462169878,
+  "rf": 0.4720186467262742,
+  "hardmargin_train_err": 0.2552126772310258,
+  "best_linear": 0.564130312694926,
+  "lin_over_rf": 1.1951441253592419
+ },
+ "combined": {
+  "dim": 1024,
+  "n": 5994,
+  "anisotropy_raw": 0.36374834179878235,
+  "lin_raw": 0.6387770561248652,
+  "lin_l2": 0.638587374604875,
+  "lin_std": 0.6176755575840074,
+  "rf": 0.581772203768203,
+  "hardmargin_train_err": 0.09175842509175847,
+  "best_linear": 0.6387770561248652,
+  "lin_over_rf": 1.0979848332172548
+ },
+ "fuzzy": {
+  "dim": 1024,
+  "n": 5995,
+  "anisotropy_raw": 0.765405535697937,
+  "lin_raw": 0.5802996017338149,
+  "lin_l2": 0.5809789692094268,
+  "lin_std": 0.597704173344652,
+  "rf": 0.5953178870181709,
+  "hardmargin_train_err": 0.14128440366972472,
+  "best_linear": 0.597704173344652,
+  "lin_over_rf": 1.0040084236985276
+ },
+ "structure": {
+  "dim": 1024,
+  "n": 5995,
+  "anisotropy_raw": 0.8721156120300293,
+  "lin_raw": 0.3419601103064837,
+  "lin_l2": 0.3418573855491502,
+  "lin_std": 0.4319901947259456,
+  "rf": 0.4877844643651075,
+  "hardmargin_train_err": 0.16797331109257718,
+  "best_linear": 0.4319901947259456,
+  "lin_over_rf": 0.8856169605323884
+ },
+ "node2vec": {
+  "error": "'cfg_n2v_1024: no packed vectors for dataset malnet'"
+ },
+ "dex": {
+  "error": "'dex_bytecode_1024: no packed vectors for dataset malnet'"
+ },
+ "mama_family": {
+  "dim": 121,
+  "n": 5995,
+  "anisotropy_raw": 0.6040448546409607,
+  "lin_raw": 0.24279683468046867,
+  "lin_l2": 0.25041871215572414,
+  "lin_std": 0.31447883402813964,
+  "rf": 0.5033775508369047,
+  "hardmargin_train_err": 0.8151793160967473,
+  "best_linear": 0.31447883402813964,
+  "lin_over_rf": 0.6247375027060581
+ },
+ "mama_package": {
+  "dim": 14884,
+  "n": 5995,
+  "anisotropy_raw": 0.4339657127857208,
+  "lin_raw": 0.32585911325335615,
+  "lin_l2": 0.3376201984246096,
+  "lin_std": 0.5418854841820717,
+  "rf": 0.5775837560825787,
+  "hardmargin_train_err": 0.34678899082568804,
+  "best_linear": 0.5418854841820717,
+  "lin_over_rf": 0.9381937744533745
+ },
+ "drebin_code": {
+  "error": "'drebin_code: no packed vectors for dataset malnet'"
+ },
+ "drebin": {
+  "error": "'drebin: no packed vectors for dataset malnet'"
+ }
+}

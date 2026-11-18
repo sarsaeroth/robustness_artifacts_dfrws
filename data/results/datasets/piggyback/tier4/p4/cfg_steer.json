@@ -1,0 +1,128 @@
+{
+ "concat|b1": {
+  "n": 5,
+  "flipped": 5,
+  "k_median_flipped": 9.0,
+  "never_frac": 0.0,
+  "per_family": {
+   "original": [
+    2,
+    35,
+    1
+   ],
+   "piggybacked": [
+    9,
+    10
+   ]
+  },
+  "rows": [
+   {
+    "family": "original",
+    "sha": "268acdfdab9f6f187640789d5849ce53e810ad9a30ec67e1033403e198c4b7f5",
+    "k_stubs": 2
+   },
+   {
+    "family": "original",
+    "sha": "e32b355a45b168f340a51e33af1639823f584d2e5b4e84cbd8a756e8f1c75914",
+    "k_stubs": 35
+   },
+   {
+    "family": "original",
+    "sha": "38e67f2c6b4a4a8ee43d2418c229c19dac225cb204d60cc55a2a6270abdf3e4c",
+    "k_stubs": 1
+   },
+   {
+    "family": "piggybacked",
+    "sha": "2bd2ccc32b87b8a6173d8efff96c682c86a0c7979cd5f9ba21b56e651a142bdb",
+    "k_stubs": 9
+   },
+   {
+    "family": "piggybacked",
+    "sha": "52aeb980bc5da8adca4dcd382e721ad41b2d6eaa68f59607e799f900a68b9366",
+    "k_stubs": 10
+   }
+  ]
+ },
+ "concat|b16": {
+  "n": 5,
+  "flipped": 5,
+  "k_median_flipped": 2.0,
+  "never_frac": 0.0,
+  "per_family": {
+   "original": [
+    1,
+    10,
+    1
+   ],
+   "piggybacked": [
+    2,
+    2
+   ]
+  },
+  "rows": [
+   {
+    "family": "original",
+    "sha": "268acdfdab9f6f187640789d5849ce53e810ad9a30ec67e1033403e198c4b7f5",
+    "k_stubs": 1
+   },
+   {
+    "family": "original",
+    "sha": "e32b355a45b168f340a51e33af1639823f584d2e5b4e84cbd8a756e8f1c75914",
+    "k_stubs": 10
+   },
+   {
+    "family": "original",
+    "sha": "38e67f2c6b4a4a8ee43d2418c229c19dac225cb204d60cc55a2a6270abdf3e4c",
+    "k_stubs": 1
+   },
+   {
+    "family": "piggybacked",
+    "sha": "2bd2ccc32b87b8a6173d8efff96c682c86a0c7979cd5f9ba21b56e651a142bdb",
+    "k_stubs": 2
+   },
+   {
+    "family": "piggybacked",
+    "sha": "52aeb980bc5da8adca4dcd382e721ad41b2d6eaa68f59607e799f900a68b9366",
+    "k_stubs": 2
+   }
+  ]
+ },
+ "cfg|b16": {
+  "n": 4,
+  "flipped": 4,
+  "k_median_flipped": 1.0,
+  "never_frac": 0.0,
+  "per_family": {
+   "original": [
+    3,
+    1
+   ],
+   "piggybacked": [
+    1,
+    1
+   ]
+  },
+  "rows": [
+   {
+    "family": "original",
+    "sha": "e32b355a45b168f340a51e33af1639823f584d2e5b4e84cbd8a756e8f1c75914",
+    "k_stubs": 3
+   },
+   {
+    "family": "original",
+    "sha": "38e67f2c6b4a4a8ee43d2418c229c19dac225cb204d60cc55a2a6270abdf3e4c",
+    "k_stubs": 1
+   },
+   {
+    "family": "piggybacked",
+    "sha": "2bd2ccc32b87b8a6173d8efff96c682c86a0c7979cd5f9ba21b56e651a142bdb",
+    "k_stubs": 1
+   },
+   {
+    "family": "piggybacked",
+    "sha": "52aeb980bc5da8adca4dcd382e721ad41b2d6eaa68f59607e799f900a68b9366",
+    "k_stubs": 1
+   }
+  ]
+ }
+}

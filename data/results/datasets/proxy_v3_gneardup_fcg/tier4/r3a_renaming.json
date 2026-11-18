@@ -1,0 +1,87 @@
+{
+ "labeled": {
+  "n_evals": 18885,
+  "clean_accuracy": 0.9249669049510193,
+  "flip_rate": 0.6786867884564469,
+  "inside_certified_frac": 0.0,
+  "unsound_flips_inside": 0,
+  "delta_median": 1.41443932056427,
+  "radius_median": 0.12363586050801001,
+  "delta_over_radius_median": 11.415865372366078,
+  "delta_over_radius_q": [
+   6.000590866342772,
+   6.630713525559244,
+   20.282815984830656,
+   66.97293257369613
+  ],
+  "flip_rate_given_outside": 0.6786867884564469,
+  "per_family": {
+   "cashraven": {
+    "n": 195,
+    "flip_rate": 0.6564102564102564,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 86.47190654367219
+   },
+   "ipidea": {
+    "n": 1025,
+    "flip_rate": 0.9639024390243902,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 31.92300784637986
+   },
+   "ipninja": {
+    "n": 185,
+    "flip_rate": 0.9783783783783784,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 11.597098780764487
+   },
+   "luminati": {
+    "n": 10425,
+    "flip_rate": 0.47683453237410073,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 15.805153339766175
+   },
+   "monkeysocks": {
+    "n": 5625,
+    "flip_rate": 0.9985777777777778,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 6.066998411932826
+   },
+   "oxylabs": {
+    "n": 455,
+    "flip_rate": 0.9054945054945055,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 13.657768977541437
+   },
+   "popa": {
+    "n": 890,
+    "flip_rate": 0.5056179775280899,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 23.733402483629582
+   },
+   "traffmonetizer": {
+    "n": 85,
+    "flip_rate": 0.8235294117647058,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 63.14688232148763
+   }
+  }
+ },
+ "combined": {
+  "clean_accuracy": 0.8698437913688112,
+  "radius_median": 0.07603608922572722,
+  "renaming_delta": 0.0,
+  "note": "renaming-invariant (see comment)"
+ },
+ "fuzzy": {
+  "clean_accuracy": 0.8253640455387874,
+  "radius_median": 0.02949646615939448,
+  "renaming_delta": 0.0,
+  "note": "renaming-invariant (see comment)"
+ },
+ "structure": {
+  "clean_accuracy": 0.7591739475774424,
+  "radius_median": 0.00850466092779254,
+  "renaming_delta": 0.0,
+  "note": "renaming-invariant (see comment)"
+ }
+}

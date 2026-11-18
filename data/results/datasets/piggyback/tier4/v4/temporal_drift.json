@@ -1,0 +1,481 @@
+{
+ "dataset": "piggyback",
+ "groups": "neardup",
+ "graphs": [
+  "fcg"
+ ],
+ "n": 2713,
+ "fields": {
+  "first_seen": {
+   "dated": 1.0,
+   "coverage": {
+    "original": {
+     "n": 1350,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.15,
+      2013.87,
+      2014.41
+     ]
+    },
+    "piggybacked": {
+     "n": 1363,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.73,
+      2013.93,
+      2014.42
+     ]
+    }
+   },
+   "date_only": {
+    "n": 2713,
+    "f1_date_only": 0.6328720225607041,
+    "f1_prior": 0.49513309851665915
+   },
+   "era": {
+    "original": {
+     "n": 1350,
+     "split_year": 2013.87,
+     "auroc_late_vs_early": 0.6799133058984912
+    },
+    "piggybacked": {
+     "skipped": "1363 dated apps or interquartile range < 0.5 years"
+    }
+   },
+   "feature_drift": {
+    "original": [
+     {
+      "year": 2012,
+      "n": 79,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2013,
+      "n": 717,
+      "dist_first": 0.5844559626995044,
+      "dist_prev": 0.5844559626995044,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2014,
+      "n": 546,
+      "dist_first": 0.7462456957348903,
+      "dist_prev": 0.20285145245256198,
+      "new_active_share": 0.0
+     }
+    ],
+    "piggybacked": [
+     {
+      "year": 2013,
+      "n": 706,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 652,
+      "dist_first": 0.4226323648077115,
+      "dist_prev": 0.4226323648077115,
+      "new_active_share": 0.0
+     }
+    ]
+   },
+   "global_split": {
+    "split_year": 2013.92,
+    "f1": 0.5220934944566245,
+    "n_test_scored": 1398,
+    "train_classes": {
+     "original": 730,
+     "piggybacked": 585
+    },
+    "test_classes": {
+     "original": 620,
+     "piggybacked": 778
+    }
+   },
+   "within_class": {
+    "classes": [
+     "original",
+     "piggybacked"
+    ],
+    "n_train": 1317,
+    "n_test": 895,
+    "f1_temporal": 0.5895943562610229,
+    "f1_random": 0.6761223814728875,
+    "gap": 0.08652802521186465
+   },
+   "rolling": {
+    "windows": [
+     {
+      "year": 2014,
+      "f1": 0.5745716154349247,
+      "classes": [
+       "original",
+       "piggybacked"
+      ],
+      "n_test": 692,
+      "test_apps_of_untrained_classes": 0
+     }
+    ],
+    "aut": 0.5745716154349247
+   },
+   "oof_by_year": {
+    "original": {
+     "by_year": {
+      "2011": [
+       8,
+       0.5
+      ],
+      "2012": [
+       79,
+       0.595
+      ],
+      "2013": [
+       717,
+       0.778
+      ],
+      "2014": [
+       546,
+       0.744
+      ]
+     },
+     "spearman_correct_date": 0.043080824177260564
+    },
+    "piggybacked": {
+     "by_year": {
+      "2012": [
+       5,
+       0.8
+      ],
+      "2013": [
+       706,
+       0.678
+      ],
+      "2014": [
+       652,
+       0.555
+      ]
+     },
+     "spearman_correct_date": -0.09199211207237458
+    }
+   },
+   "versions": {
+    "packages": 73,
+    "packages_by_class": {
+     "original": 56,
+     "piggybacked": 17
+    },
+    "pairs": 235,
+    "spearman_dist_timegap": 0.3850856893427223,
+    "median_dist_consecutive": 0.0036369692370379347,
+    "acc_first_build": 0.7534246575342466,
+    "acc_last_build": 0.6575342465753424
+   }
+  },
+  "dex_date": {
+   "dated": 1.0,
+   "coverage": {
+    "original": {
+     "n": 1350,
+     "dated": 0.999,
+     "p10_p50_p90": [
+      2011.21,
+      2013.49,
+      2014.24
+     ]
+    },
+    "piggybacked": {
+     "n": 1363,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2011.49,
+      2013.65,
+      2014.33
+     ]
+    }
+   },
+   "date_only": {
+    "n": 2712,
+    "f1_date_only": 0.5156321793727056,
+    "f1_prior": 0.5044973939910016
+   },
+   "era": {
+    "original": {
+     "n": 1349,
+     "split_year": 2013.49,
+     "auroc_late_vs_early": 0.8484899439498845
+    },
+    "piggybacked": {
+     "n": 1363,
+     "split_year": 2013.65,
+     "auroc_late_vs_early": 0.9314809232624237
+    }
+   },
+   "feature_drift": {
+    "original": [
+     {
+      "year": 2008,
+      "n": 12,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2009,
+      "n": 16,
+      "dist_first": 1.0079122034257644,
+      "dist_prev": 1.0079122034257644,
+      "new_active_share": 0.07403314917127071
+     },
+     {
+      "year": 2010,
+      "n": 87,
+      "dist_first": 0.9714121527422157,
+      "dist_prev": 0.8868948904825531,
+      "new_active_share": 0.0029296875
+     },
+     {
+      "year": 2011,
+      "n": 181,
+      "dist_first": 0.9583289624960283,
+      "dist_prev": 0.5350384673767249,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2012,
+      "n": 271,
+      "dist_first": 0.7859915198449585,
+      "dist_prev": 0.6530718050492177,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2013,
+      "n": 521,
+      "dist_first": 0.8751257767763012,
+      "dist_prev": 0.5816419541753507,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2014,
+      "n": 260,
+      "dist_first": 0.8879365536443277,
+      "dist_prev": 0.38953240350090423,
+      "new_active_share": 0.0
+     }
+    ],
+    "piggybacked": [
+     {
+      "year": 2008,
+      "n": 23,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2010,
+      "n": 58,
+      "dist_first": 0.8751940731960043,
+      "dist_prev": 0.8751940731960043,
+      "new_active_share": 0.0019550342130987292
+     },
+     {
+      "year": 2011,
+      "n": 141,
+      "dist_first": 0.8291430907960102,
+      "dist_prev": 0.5290023629300635,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2012,
+      "n": 301,
+      "dist_first": 0.8452459273986588,
+      "dist_prev": 0.7049844974753574,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2013,
+      "n": 552,
+      "dist_first": 0.7911637382812285,
+      "dist_prev": 0.8057859501134419,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2014,
+      "n": 285,
+      "dist_first": 0.8856607766614624,
+      "dist_prev": 0.568799857993471,
+      "new_active_share": 0.0
+     }
+    ]
+   },
+   "global_split": {
+    "split_year": 2013.55,
+    "f1": 0.4618659196396693,
+    "n_test_scored": 1358,
+    "train_classes": {
+     "original": 712,
+     "piggybacked": 642
+    },
+    "test_classes": {
+     "original": 637,
+     "piggybacked": 721
+    }
+   },
+   "within_class": {
+    "classes": [
+     "original",
+     "piggybacked"
+    ],
+    "n_train": 1354,
+    "n_test": 1193,
+    "f1_temporal": 0.46466433746945934,
+    "f1_random": 0.6520655320075813,
+    "gap": 0.18740119453812198
+   },
+   "rolling": {
+    "windows": [
+     {
+      "year": 2010,
+      "f1": 0.49552317880794705,
+      "classes": [
+       "original",
+       "piggybacked"
+      ],
+      "n_test": 138,
+      "test_apps_of_untrained_classes": 0
+     },
+     {
+      "year": 2011,
+      "f1": 0.4002594627594628,
+      "classes": [
+       "original",
+       "piggybacked"
+      ],
+      "n_test": 271,
+      "test_apps_of_untrained_classes": 0
+     },
+     {
+      "year": 2012,
+      "f1": 0.546757968460732,
+      "classes": [
+       "original",
+       "piggybacked"
+      ],
+      "n_test": 477,
+      "test_apps_of_untrained_classes": 0
+     },
+     {
+      "year": 2013,
+      "f1": 0.47602636369831675,
+      "classes": [
+       "original",
+       "piggybacked"
+      ],
+      "n_test": 963,
+      "test_apps_of_untrained_classes": 0
+     },
+     {
+      "year": 2014,
+      "f1": 0.544806704183998,
+      "classes": [
+       "original",
+       "piggybacked"
+      ],
+      "n_test": 451,
+      "test_apps_of_untrained_classes": 0
+     }
+    ],
+    "aut": 0.48580218410362097
+   },
+   "oof_by_year": {
+    "original": {
+     "by_year": {
+      "2002": [
+       1,
+       1.0
+      ],
+      "2008": [
+       12,
+       0.75
+      ],
+      "2009": [
+       16,
+       0.812
+      ],
+      "2010": [
+       87,
+       0.563
+      ],
+      "2011": [
+       181,
+       0.735
+      ],
+      "2012": [
+       271,
+       0.708
+      ],
+      "2013": [
+       521,
+       0.823
+      ],
+      "2014": [
+       260,
+       0.723
+      ]
+     },
+     "spearman_correct_date": 0.06436854701171318
+    },
+    "piggybacked": {
+     "by_year": {
+      "2008": [
+       23,
+       0.652
+      ],
+      "2009": [
+       3,
+       0.333
+      ],
+      "2010": [
+       58,
+       0.5
+      ],
+      "2011": [
+       141,
+       0.326
+      ],
+      "2012": [
+       301,
+       0.701
+      ],
+      "2013": [
+       552,
+       0.672
+      ],
+      "2014": [
+       285,
+       0.604
+      ]
+     },
+     "spearman_correct_date": 0.1362237907282381
+    }
+   },
+   "versions": {
+    "packages": 73,
+    "packages_by_class": {
+     "original": 55,
+     "piggybacked": 18
+    },
+    "pairs": 235,
+    "spearman_dist_timegap": 0.5165128165646725,
+    "median_dist_consecutive": 0.005316938072614796,
+    "acc_first_build": 0.6986301369863014,
+    "acc_last_build": 0.684931506849315
+   }
+  }
+ },
+ "oof_f1": 0.6843485255137818
+}

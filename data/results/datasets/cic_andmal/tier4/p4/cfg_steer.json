@@ -1,0 +1,230 @@
+{
+ "concat|b1": {
+  "n": 9,
+  "flipped": 9,
+  "k_median_flipped": 10.0,
+  "never_frac": 0.0,
+  "per_family": {
+   "adware": [
+    10,
+    10,
+    10
+   ],
+   "pua": [
+    4,
+    5,
+    16,
+    14
+   ],
+   "riskware": [
+    2
+   ],
+   "trojan": [
+    1
+   ]
+  },
+  "rows": [
+   {
+    "family": "adware",
+    "sha": "3247990845ae647d1e6b85e36f0990d06624bb0ea21da2012ac87925016157cb",
+    "k_stubs": 10
+   },
+   {
+    "family": "adware",
+    "sha": "79837f162bed63fb5976734ae372d277d2f5f458b5291c99ef0e073b9e7b659d",
+    "k_stubs": 10
+   },
+   {
+    "family": "adware",
+    "sha": "e8fd65ebc2a850124ae10da34a638833873402079e23d47e1d8f68afd9551e27",
+    "k_stubs": 10
+   },
+   {
+    "family": "pua",
+    "sha": "18c3f15c8fa90ebe95e09154764d4f55ad3db45dfe92391504402a8f4f835bbe",
+    "k_stubs": 4
+   },
+   {
+    "family": "pua",
+    "sha": "4e36574c199ce6792bc90fedc9e32c84a771663fec9a8f28685800ea98ec8965",
+    "k_stubs": 5
+   },
+   {
+    "family": "pua",
+    "sha": "ebf91bda8bbc838829e23e0f249624f95d4a8e30ee92984ebf60158f7538acb2",
+    "k_stubs": 16
+   },
+   {
+    "family": "pua",
+    "sha": "e66f386d9169f29ae76448f48c0d20d4368ff19cfd2b186f5093b0eb8a7f5676",
+    "k_stubs": 14
+   },
+   {
+    "family": "riskware",
+    "sha": "4983289e57638d8e4924b433ae56ceac34df7a863bf291b33cf31d3aaa065874",
+    "k_stubs": 2
+   },
+   {
+    "family": "trojan",
+    "sha": "61f48e76dc8f14ccc1a0c8e3179a5a74bd32a488f590c3d26d43c76159a2598b",
+    "k_stubs": 1
+   }
+  ]
+ },
+ "concat|b16": {
+  "n": 9,
+  "flipped": 9,
+  "k_median_flipped": 4.0,
+  "never_frac": 0.0,
+  "per_family": {
+   "adware": [
+    5,
+    5,
+    5
+   ],
+   "pua": [
+    2,
+    4,
+    4,
+    6
+   ],
+   "riskware": [
+    1
+   ],
+   "trojan": [
+    1
+   ]
+  },
+  "rows": [
+   {
+    "family": "adware",
+    "sha": "3247990845ae647d1e6b85e36f0990d06624bb0ea21da2012ac87925016157cb",
+    "k_stubs": 5
+   },
+   {
+    "family": "adware",
+    "sha": "79837f162bed63fb5976734ae372d277d2f5f458b5291c99ef0e073b9e7b659d",
+    "k_stubs": 5
+   },
+   {
+    "family": "adware",
+    "sha": "e8fd65ebc2a850124ae10da34a638833873402079e23d47e1d8f68afd9551e27",
+    "k_stubs": 5
+   },
+   {
+    "family": "pua",
+    "sha": "18c3f15c8fa90ebe95e09154764d4f55ad3db45dfe92391504402a8f4f835bbe",
+    "k_stubs": 2
+   },
+   {
+    "family": "pua",
+    "sha": "4e36574c199ce6792bc90fedc9e32c84a771663fec9a8f28685800ea98ec8965",
+    "k_stubs": 4
+   },
+   {
+    "family": "pua",
+    "sha": "ebf91bda8bbc838829e23e0f249624f95d4a8e30ee92984ebf60158f7538acb2",
+    "k_stubs": 4
+   },
+   {
+    "family": "pua",
+    "sha": "e66f386d9169f29ae76448f48c0d20d4368ff19cfd2b186f5093b0eb8a7f5676",
+    "k_stubs": 6
+   },
+   {
+    "family": "riskware",
+    "sha": "4983289e57638d8e4924b433ae56ceac34df7a863bf291b33cf31d3aaa065874",
+    "k_stubs": 1
+   },
+   {
+    "family": "trojan",
+    "sha": "61f48e76dc8f14ccc1a0c8e3179a5a74bd32a488f590c3d26d43c76159a2598b",
+    "k_stubs": 1
+   }
+  ]
+ },
+ "cfg|b16": {
+  "n": 11,
+  "flipped": 11,
+  "k_median_flipped": 2.0,
+  "never_frac": 0.0,
+  "per_family": {
+   "adware": [
+    3,
+    3,
+    3
+   ],
+   "pua": [
+    1,
+    1,
+    1,
+    2
+   ],
+   "riskware": [
+    1,
+    1
+   ],
+   "trojan": [
+    2,
+    3
+   ]
+  },
+  "rows": [
+   {
+    "family": "adware",
+    "sha": "3247990845ae647d1e6b85e36f0990d06624bb0ea21da2012ac87925016157cb",
+    "k_stubs": 3
+   },
+   {
+    "family": "adware",
+    "sha": "79837f162bed63fb5976734ae372d277d2f5f458b5291c99ef0e073b9e7b659d",
+    "k_stubs": 3
+   },
+   {
+    "family": "adware",
+    "sha": "e8fd65ebc2a850124ae10da34a638833873402079e23d47e1d8f68afd9551e27",
+    "k_stubs": 3
+   },
+   {
+    "family": "pua",
+    "sha": "18c3f15c8fa90ebe95e09154764d4f55ad3db45dfe92391504402a8f4f835bbe",
+    "k_stubs": 1
+   },
+   {
+    "family": "pua",
+    "sha": "4e36574c199ce6792bc90fedc9e32c84a771663fec9a8f28685800ea98ec8965",
+    "k_stubs": 1
+   },
+   {
+    "family": "pua",
+    "sha": "ebf91bda8bbc838829e23e0f249624f95d4a8e30ee92984ebf60158f7538acb2",
+    "k_stubs": 1
+   },
+   {
+    "family": "pua",
+    "sha": "e66f386d9169f29ae76448f48c0d20d4368ff19cfd2b186f5093b0eb8a7f5676",
+    "k_stubs": 2
+   },
+   {
+    "family": "riskware",
+    "sha": "4983289e57638d8e4924b433ae56ceac34df7a863bf291b33cf31d3aaa065874",
+    "k_stubs": 1
+   },
+   {
+    "family": "riskware",
+    "sha": "a93be67293cca1eb24020ac8232dda9c3df1f5dc5ded293a95cb34bfbd9cc2f6",
+    "k_stubs": 1
+   },
+   {
+    "family": "trojan",
+    "sha": "61f48e76dc8f14ccc1a0c8e3179a5a74bd32a488f590c3d26d43c76159a2598b",
+    "k_stubs": 2
+   },
+   {
+    "family": "trojan",
+    "sha": "c894b3a0d0b4e0543786cbf797bb075d89e244047e11abe0672a36b9c588697f",
+    "k_stubs": 3
+   }
+  ]
+ }
+}

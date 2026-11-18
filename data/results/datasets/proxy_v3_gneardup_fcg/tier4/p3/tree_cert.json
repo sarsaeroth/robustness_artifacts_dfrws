@@ -1,0 +1,219 @@
+{
+ "summary": {
+  "n": 33,
+  "model": "RandomForest(60) on normalized FCG identifier WL",
+  "k_cert_median": 0.0,
+  "k_attack_median": 184.0,
+  "zero_cert_frac": 0.8181818181818182,
+  "attack_over_cert_median": 184.0,
+  "per_family": {
+   "cashraven": {
+    "n": 0,
+    "k_cert": null,
+    "k_attack": null
+   },
+   "ipidea": {
+    "n": 5,
+    "k_cert": 1.0,
+    "k_attack": 1965.0
+   },
+   "ipninja": {
+    "n": 1,
+    "k_cert": 0.0,
+    "k_attack": 126.0
+   },
+   "luminati": {
+    "n": 12,
+    "k_cert": 0.0,
+    "k_attack": 1573.0
+   },
+   "monkeysocks": {
+    "n": 7,
+    "k_cert": 0.0,
+    "k_attack": 166.0
+   },
+   "oxylabs": {
+    "n": 2,
+    "k_cert": 0.0,
+    "k_attack": 202.0
+   },
+   "popa": {
+    "n": 5,
+    "k_cert": 0.0,
+    "k_attack": null
+   },
+   "traffmonetizer": {
+    "n": 1,
+    "k_cert": 0.0,
+    "k_attack": 161.0
+   }
+  }
+ },
+ "rows": [
+  {
+   "family": "ipidea",
+   "k_cert": 0,
+   "k_attack": 1965
+  },
+  {
+   "family": "ipidea",
+   "k_cert": 2,
+   "k_attack": null
+  },
+  {
+   "family": "ipidea",
+   "k_cert": 1,
+   "k_attack": null
+  },
+  {
+   "family": "ipidea",
+   "k_cert": 1,
+   "k_attack": null
+  },
+  {
+   "family": "ipidea",
+   "k_cert": 1,
+   "k_attack": null
+  },
+  {
+   "family": "ipninja",
+   "k_cert": 0,
+   "k_attack": 126
+  },
+  {
+   "family": "luminati",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "luminati",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "luminati",
+   "k_cert": 0,
+   "k_attack": 1573
+  },
+  {
+   "family": "luminati",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "luminati",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "luminati",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "luminati",
+   "k_cert": 1,
+   "k_attack": null
+  },
+  {
+   "family": "luminati",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "luminati",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "luminati",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "luminati",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "luminati",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "monkeysocks",
+   "k_cert": 0,
+   "k_attack": 362
+  },
+  {
+   "family": "monkeysocks",
+   "k_cert": 0,
+   "k_attack": 166
+  },
+  {
+   "family": "monkeysocks",
+   "k_cert": 0,
+   "k_attack": 166
+  },
+  {
+   "family": "monkeysocks",
+   "k_cert": 0,
+   "k_attack": 362
+  },
+  {
+   "family": "monkeysocks",
+   "k_cert": 0,
+   "k_attack": 166
+  },
+  {
+   "family": "monkeysocks",
+   "k_cert": 0,
+   "k_attack": 166
+  },
+  {
+   "family": "monkeysocks",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "oxylabs",
+   "k_cert": 0,
+   "k_attack": 202
+  },
+  {
+   "family": "oxylabs",
+   "k_cert": 0,
+   "k_attack": 202
+  },
+  {
+   "family": "popa",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "popa",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "popa",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "popa",
+   "k_cert": 1,
+   "k_attack": null
+  },
+  {
+   "family": "popa",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "traffmonetizer",
+   "k_cert": 0,
+   "k_attack": 161
+  }
+ ]
+}

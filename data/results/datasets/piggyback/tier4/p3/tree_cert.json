@@ -1,0 +1,109 @@
+{
+ "summary": {
+  "n": 17,
+  "model": "RandomForest(60) on normalized FCG identifier WL",
+  "k_cert_median": 0.0,
+  "k_attack_median": 125.0,
+  "zero_cert_frac": 1.0,
+  "attack_over_cert_median": 125.0,
+  "per_family": {
+   "original": {
+    "n": 10,
+    "k_cert": 0.0,
+    "k_attack": 125.0
+   },
+   "piggybacked": {
+    "n": 7,
+    "k_cert": 0.0,
+    "k_attack": 210.0
+   }
+  }
+ },
+ "rows": [
+  {
+   "family": "original",
+   "k_cert": 0,
+   "k_attack": 231
+  },
+  {
+   "family": "original",
+   "k_cert": 0,
+   "k_attack": 120
+  },
+  {
+   "family": "original",
+   "k_cert": 0,
+   "k_attack": 21
+  },
+  {
+   "family": "original",
+   "k_cert": 0,
+   "k_attack": 301
+  },
+  {
+   "family": "original",
+   "k_cert": 0,
+   "k_attack": 129
+  },
+  {
+   "family": "original",
+   "k_cert": 0,
+   "k_attack": 121
+  },
+  {
+   "family": "original",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "original",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "original",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "original",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "piggybacked",
+   "k_cert": 0,
+   "k_attack": 899
+  },
+  {
+   "family": "piggybacked",
+   "k_cert": 0,
+   "k_attack": 37
+  },
+  {
+   "family": "piggybacked",
+   "k_cert": 0,
+   "k_attack": 79
+  },
+  {
+   "family": "piggybacked",
+   "k_cert": 0,
+   "k_attack": 34
+  },
+  {
+   "family": "piggybacked",
+   "k_cert": 0,
+   "k_attack": 341
+  },
+  {
+   "family": "piggybacked",
+   "k_cert": 0,
+   "k_attack": 1221
+  },
+  {
+   "family": "piggybacked",
+   "k_cert": 0,
+   "k_attack": null
+  }
+ ]
+}

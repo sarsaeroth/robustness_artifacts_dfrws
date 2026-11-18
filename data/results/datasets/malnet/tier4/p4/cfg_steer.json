@@ -1,0 +1,596 @@
+{
+ "concat|b1": {
+  "n": 28,
+  "flipped": 8,
+  "k_median_flipped": 10.0,
+  "never_frac": 0.7142857142857143,
+  "per_family": {
+   "revmob": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "igexin": [
+    null,
+    null,
+    null
+   ],
+   "cauly": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "plankton": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "viser": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "kyview": [
+    null
+   ],
+   "droidkungfu": [
+    22
+   ],
+   "ginmaster": [
+    11,
+    31
+   ],
+   "gingermaster": [],
+   "smspay": [],
+   "dowgin": [
+    12
+   ],
+   "eldorado": [
+    7,
+    9,
+    9,
+    9
+   ]
+  },
+  "rows": [
+   {
+    "family": "revmob",
+    "sha": "05400f42016a11289a703457b88b21ac1926559f81e13c11e6246d66987ab03a",
+    "k_stubs": null
+   },
+   {
+    "family": "revmob",
+    "sha": "5cbcda24806041ab1aae0992781c34c30b096ef04aaf40d981aa1ed5ace4c986",
+    "k_stubs": null
+   },
+   {
+    "family": "revmob",
+    "sha": "37a021c45f891ea07fa073d04d4f7193322ba67868f516d86011f291689b6c8a",
+    "k_stubs": null
+   },
+   {
+    "family": "revmob",
+    "sha": "98b022f2a1ba51634ca3f5696cbc7e936e17279e7a4a326c24bec4eec8908090",
+    "k_stubs": null
+   },
+   {
+    "family": "igexin",
+    "sha": "261d6a332a046f3d4f0315d7a31bb2c0fa4ec4c324cc2a2316c8bfb3d900f876",
+    "k_stubs": null
+   },
+   {
+    "family": "igexin",
+    "sha": "04f982104a4c6ecacc174bca6b69916888be6c53b2a6edfac8ed9c02b1c7a8e8",
+    "k_stubs": null
+   },
+   {
+    "family": "igexin",
+    "sha": "06229ee8677fb41108d22a8371261a1de3eddad3efa21a3f54ac4d3de71cb13d",
+    "k_stubs": null
+   },
+   {
+    "family": "cauly",
+    "sha": "f7e2df5ca53efa84727d4ea10fcc5389e9569c4b9f0172b3de9df4daae57b4f9",
+    "k_stubs": null
+   },
+   {
+    "family": "cauly",
+    "sha": "156e9a93b12fb2e16b62080c6024528671744d281a6464784eaea408fa6d1a64",
+    "k_stubs": null
+   },
+   {
+    "family": "cauly",
+    "sha": "8e55cc87ac4712abe8825a2f2bec398433e664620e0ba07fc3a3f20e68bd298b",
+    "k_stubs": null
+   },
+   {
+    "family": "cauly",
+    "sha": "543c0bb90c8072670b5db5dfcdb0fecee56fdf22649bd5ba4e29090bbf952b0f",
+    "k_stubs": null
+   },
+   {
+    "family": "plankton",
+    "sha": "0d6ea9a98da10a7acb4af73d3b44246b4fdbc568eb93193d4e944be371e44929",
+    "k_stubs": null
+   },
+   {
+    "family": "plankton",
+    "sha": "da07693f3a21629a87b6bba6958f28b72c213a60e51a6933345dcfc58e2163c0",
+    "k_stubs": null
+   },
+   {
+    "family": "plankton",
+    "sha": "604271ae53ac6722fe5e88901bd3ecc1b14f29909e03277ec91d87cd30a345b7",
+    "k_stubs": null
+   },
+   {
+    "family": "plankton",
+    "sha": "c7641bcecaa9e68cc44f5d8816611b504ae5d38fa27c9b2c8970b45b710d744b",
+    "k_stubs": null
+   },
+   {
+    "family": "viser",
+    "sha": "993a0c16ad26bdc7aeb406686c7d19bb54bacb26226f3783a0197157ff1bade4",
+    "k_stubs": null
+   },
+   {
+    "family": "viser",
+    "sha": "70ce8b0de53ebb5f2612e8b1b2083827acc7d76af9b1259454aa708f3a558b65",
+    "k_stubs": null
+   },
+   {
+    "family": "viser",
+    "sha": "5b5ce9999bf690cd15d3cc7e1ac5d4c6674f86b409d346df8e07178b9bb02280",
+    "k_stubs": null
+   },
+   {
+    "family": "viser",
+    "sha": "c5a084fdffc8873cf2fc2a13fc12e6eb6ee92bcfd84c5df6c744858b7453450e",
+    "k_stubs": null
+   },
+   {
+    "family": "kyview",
+    "sha": "d59a922ffda5279c54c2d1c285e2b96cf6e547a74bb982d2323ff3094c450717",
+    "k_stubs": null
+   },
+   {
+    "family": "droidkungfu",
+    "sha": "0512bc500d213f9681c876de2ac837211c2ab3e57d410e3933f37f789ed39e0f",
+    "k_stubs": 22
+   },
+   {
+    "family": "ginmaster",
+    "sha": "5690f6617d2b18f87cebec6cb6447886f21a64f30a068d48c368b4e94d603432",
+    "k_stubs": 11
+   },
+   {
+    "family": "ginmaster",
+    "sha": "d756f53f40d518e4756f7c301ea50dd65858d08e9e30ce452e6cfc250c87dc74",
+    "k_stubs": 31
+   },
+   {
+    "family": "dowgin",
+    "sha": "a5d2b5f9e779111fe4069f0dc55cafd27a4efbf0b7b5714407564a02b3469715",
+    "k_stubs": 12
+   },
+   {
+    "family": "eldorado",
+    "sha": "5ca0ce96e399c4c2bc329f1b489633b822c110d2ee358c2d34af8cce18f901a6",
+    "k_stubs": 7
+   },
+   {
+    "family": "eldorado",
+    "sha": "707e0e8a189f837983554af8043d495695e8e5d0ddad7d3834425384149f3682",
+    "k_stubs": 9
+   },
+   {
+    "family": "eldorado",
+    "sha": "4276c3f7088a8cf438fb1d1a76fbadde34c72200093647077b148e44a67e62c3",
+    "k_stubs": 9
+   },
+   {
+    "family": "eldorado",
+    "sha": "30fdd1f06767bd51f2839dde9fa8d9f88c871003db31fa73bfcdb1165a980f7a",
+    "k_stubs": 9
+   }
+  ]
+ },
+ "concat|b16": {
+  "n": 28,
+  "flipped": 19,
+  "k_median_flipped": 14.0,
+  "never_frac": 0.32142857142857145,
+  "per_family": {
+   "revmob": [
+    12,
+    30,
+    null,
+    40
+   ],
+   "igexin": [
+    null,
+    null,
+    null
+   ],
+   "cauly": [
+    23,
+    41,
+    null,
+    26
+   ],
+   "plankton": [
+    null,
+    14,
+    39,
+    null
+   ],
+   "viser": [
+    16,
+    null,
+    17,
+    null
+   ],
+   "kyview": [
+    16
+   ],
+   "droidkungfu": [
+    4
+   ],
+   "ginmaster": [
+    4,
+    6
+   ],
+   "gingermaster": [],
+   "smspay": [],
+   "dowgin": [
+    3
+   ],
+   "eldorado": [
+    3,
+    6,
+    6,
+    6
+   ]
+  },
+  "rows": [
+   {
+    "family": "revmob",
+    "sha": "05400f42016a11289a703457b88b21ac1926559f81e13c11e6246d66987ab03a",
+    "k_stubs": 12
+   },
+   {
+    "family": "revmob",
+    "sha": "5cbcda24806041ab1aae0992781c34c30b096ef04aaf40d981aa1ed5ace4c986",
+    "k_stubs": 30
+   },
+   {
+    "family": "revmob",
+    "sha": "37a021c45f891ea07fa073d04d4f7193322ba67868f516d86011f291689b6c8a",
+    "k_stubs": null
+   },
+   {
+    "family": "revmob",
+    "sha": "98b022f2a1ba51634ca3f5696cbc7e936e17279e7a4a326c24bec4eec8908090",
+    "k_stubs": 40
+   },
+   {
+    "family": "igexin",
+    "sha": "261d6a332a046f3d4f0315d7a31bb2c0fa4ec4c324cc2a2316c8bfb3d900f876",
+    "k_stubs": null
+   },
+   {
+    "family": "igexin",
+    "sha": "04f982104a4c6ecacc174bca6b69916888be6c53b2a6edfac8ed9c02b1c7a8e8",
+    "k_stubs": null
+   },
+   {
+    "family": "igexin",
+    "sha": "06229ee8677fb41108d22a8371261a1de3eddad3efa21a3f54ac4d3de71cb13d",
+    "k_stubs": null
+   },
+   {
+    "family": "cauly",
+    "sha": "f7e2df5ca53efa84727d4ea10fcc5389e9569c4b9f0172b3de9df4daae57b4f9",
+    "k_stubs": 23
+   },
+   {
+    "family": "cauly",
+    "sha": "156e9a93b12fb2e16b62080c6024528671744d281a6464784eaea408fa6d1a64",
+    "k_stubs": 41
+   },
+   {
+    "family": "cauly",
+    "sha": "8e55cc87ac4712abe8825a2f2bec398433e664620e0ba07fc3a3f20e68bd298b",
+    "k_stubs": null
+   },
+   {
+    "family": "cauly",
+    "sha": "543c0bb90c8072670b5db5dfcdb0fecee56fdf22649bd5ba4e29090bbf952b0f",
+    "k_stubs": 26
+   },
+   {
+    "family": "plankton",
+    "sha": "0d6ea9a98da10a7acb4af73d3b44246b4fdbc568eb93193d4e944be371e44929",
+    "k_stubs": null
+   },
+   {
+    "family": "plankton",
+    "sha": "da07693f3a21629a87b6bba6958f28b72c213a60e51a6933345dcfc58e2163c0",
+    "k_stubs": 14
+   },
+   {
+    "family": "plankton",
+    "sha": "604271ae53ac6722fe5e88901bd3ecc1b14f29909e03277ec91d87cd30a345b7",
+    "k_stubs": 39
+   },
+   {
+    "family": "plankton",
+    "sha": "c7641bcecaa9e68cc44f5d8816611b504ae5d38fa27c9b2c8970b45b710d744b",
+    "k_stubs": null
+   },
+   {
+    "family": "viser",
+    "sha": "993a0c16ad26bdc7aeb406686c7d19bb54bacb26226f3783a0197157ff1bade4",
+    "k_stubs": 16
+   },
+   {
+    "family": "viser",
+    "sha": "70ce8b0de53ebb5f2612e8b1b2083827acc7d76af9b1259454aa708f3a558b65",
+    "k_stubs": null
+   },
+   {
+    "family": "viser",
+    "sha": "5b5ce9999bf690cd15d3cc7e1ac5d4c6674f86b409d346df8e07178b9bb02280",
+    "k_stubs": 17
+   },
+   {
+    "family": "viser",
+    "sha": "c5a084fdffc8873cf2fc2a13fc12e6eb6ee92bcfd84c5df6c744858b7453450e",
+    "k_stubs": null
+   },
+   {
+    "family": "kyview",
+    "sha": "d59a922ffda5279c54c2d1c285e2b96cf6e547a74bb982d2323ff3094c450717",
+    "k_stubs": 16
+   },
+   {
+    "family": "droidkungfu",
+    "sha": "0512bc500d213f9681c876de2ac837211c2ab3e57d410e3933f37f789ed39e0f",
+    "k_stubs": 4
+   },
+   {
+    "family": "ginmaster",
+    "sha": "5690f6617d2b18f87cebec6cb6447886f21a64f30a068d48c368b4e94d603432",
+    "k_stubs": 4
+   },
+   {
+    "family": "ginmaster",
+    "sha": "d756f53f40d518e4756f7c301ea50dd65858d08e9e30ce452e6cfc250c87dc74",
+    "k_stubs": 6
+   },
+   {
+    "family": "dowgin",
+    "sha": "a5d2b5f9e779111fe4069f0dc55cafd27a4efbf0b7b5714407564a02b3469715",
+    "k_stubs": 3
+   },
+   {
+    "family": "eldorado",
+    "sha": "5ca0ce96e399c4c2bc329f1b489633b822c110d2ee358c2d34af8cce18f901a6",
+    "k_stubs": 3
+   },
+   {
+    "family": "eldorado",
+    "sha": "707e0e8a189f837983554af8043d495695e8e5d0ddad7d3834425384149f3682",
+    "k_stubs": 6
+   },
+   {
+    "family": "eldorado",
+    "sha": "4276c3f7088a8cf438fb1d1a76fbadde34c72200093647077b148e44a67e62c3",
+    "k_stubs": 6
+   },
+   {
+    "family": "eldorado",
+    "sha": "30fdd1f06767bd51f2839dde9fa8d9f88c871003db31fa73bfcdb1165a980f7a",
+    "k_stubs": 6
+   }
+  ]
+ },
+ "cfg|b16": {
+  "n": 27,
+  "flipped": 24,
+  "k_median_flipped": 10.0,
+  "never_frac": 0.1111111111111111,
+  "per_family": {
+   "revmob": [
+    5,
+    11,
+    19
+   ],
+   "igexin": [
+    null,
+    null,
+    null
+   ],
+   "cauly": [
+    9,
+    13,
+    11,
+    11
+   ],
+   "plankton": [
+    25,
+    18,
+    22
+   ],
+   "viser": [
+    17,
+    35,
+    13,
+    20
+   ],
+   "kyview": [
+    8
+   ],
+   "droidkungfu": [
+    3
+   ],
+   "ginmaster": [
+    3,
+    1,
+    3
+   ],
+   "gingermaster": [],
+   "smspay": [],
+   "dowgin": [
+    2,
+    1
+   ],
+   "eldorado": [
+    2,
+    2,
+    2
+   ]
+  },
+  "rows": [
+   {
+    "family": "revmob",
+    "sha": "5cbcda24806041ab1aae0992781c34c30b096ef04aaf40d981aa1ed5ace4c986",
+    "k_stubs": 5
+   },
+   {
+    "family": "revmob",
+    "sha": "37a021c45f891ea07fa073d04d4f7193322ba67868f516d86011f291689b6c8a",
+    "k_stubs": 11
+   },
+   {
+    "family": "revmob",
+    "sha": "98b022f2a1ba51634ca3f5696cbc7e936e17279e7a4a326c24bec4eec8908090",
+    "k_stubs": 19
+   },
+   {
+    "family": "igexin",
+    "sha": "261d6a332a046f3d4f0315d7a31bb2c0fa4ec4c324cc2a2316c8bfb3d900f876",
+    "k_stubs": null
+   },
+   {
+    "family": "igexin",
+    "sha": "04f982104a4c6ecacc174bca6b69916888be6c53b2a6edfac8ed9c02b1c7a8e8",
+    "k_stubs": null
+   },
+   {
+    "family": "igexin",
+    "sha": "06229ee8677fb41108d22a8371261a1de3eddad3efa21a3f54ac4d3de71cb13d",
+    "k_stubs": null
+   },
+   {
+    "family": "cauly",
+    "sha": "f7e2df5ca53efa84727d4ea10fcc5389e9569c4b9f0172b3de9df4daae57b4f9",
+    "k_stubs": 9
+   },
+   {
+    "family": "cauly",
+    "sha": "156e9a93b12fb2e16b62080c6024528671744d281a6464784eaea408fa6d1a64",
+    "k_stubs": 13
+   },
+   {
+    "family": "cauly",
+    "sha": "8e55cc87ac4712abe8825a2f2bec398433e664620e0ba07fc3a3f20e68bd298b",
+    "k_stubs": 11
+   },
+   {
+    "family": "cauly",
+    "sha": "543c0bb90c8072670b5db5dfcdb0fecee56fdf22649bd5ba4e29090bbf952b0f",
+    "k_stubs": 11
+   },
+   {
+    "family": "plankton",
+    "sha": "0d6ea9a98da10a7acb4af73d3b44246b4fdbc568eb93193d4e944be371e44929",
+    "k_stubs": 25
+   },
+   {
+    "family": "plankton",
+    "sha": "604271ae53ac6722fe5e88901bd3ecc1b14f29909e03277ec91d87cd30a345b7",
+    "k_stubs": 18
+   },
+   {
+    "family": "plankton",
+    "sha": "c7641bcecaa9e68cc44f5d8816611b504ae5d38fa27c9b2c8970b45b710d744b",
+    "k_stubs": 22
+   },
+   {
+    "family": "viser",
+    "sha": "993a0c16ad26bdc7aeb406686c7d19bb54bacb26226f3783a0197157ff1bade4",
+    "k_stubs": 17
+   },
+   {
+    "family": "viser",
+    "sha": "70ce8b0de53ebb5f2612e8b1b2083827acc7d76af9b1259454aa708f3a558b65",
+    "k_stubs": 35
+   },
+   {
+    "family": "viser",
+    "sha": "5b5ce9999bf690cd15d3cc7e1ac5d4c6674f86b409d346df8e07178b9bb02280",
+    "k_stubs": 13
+   },
+   {
+    "family": "viser",
+    "sha": "c5a084fdffc8873cf2fc2a13fc12e6eb6ee92bcfd84c5df6c744858b7453450e",
+    "k_stubs": 20
+   },
+   {
+    "family": "kyview",
+    "sha": "d59a922ffda5279c54c2d1c285e2b96cf6e547a74bb982d2323ff3094c450717",
+    "k_stubs": 8
+   },
+   {
+    "family": "droidkungfu",
+    "sha": "0512bc500d213f9681c876de2ac837211c2ab3e57d410e3933f37f789ed39e0f",
+    "k_stubs": 3
+   },
+   {
+    "family": "ginmaster",
+    "sha": "5690f6617d2b18f87cebec6cb6447886f21a64f30a068d48c368b4e94d603432",
+    "k_stubs": 3
+   },
+   {
+    "family": "ginmaster",
+    "sha": "3f61f97bdc697519dd06378ca85c7c660081320233507463e0abc8fd1301e8df",
+    "k_stubs": 1
+   },
+   {
+    "family": "ginmaster",
+    "sha": "d756f53f40d518e4756f7c301ea50dd65858d08e9e30ce452e6cfc250c87dc74",
+    "k_stubs": 3
+   },
+   {
+    "family": "dowgin",
+    "sha": "eedfcabbb4688f02072a0e7d73b65212c22f4241e853297406d40745c64101c7",
+    "k_stubs": 2
+   },
+   {
+    "family": "dowgin",
+    "sha": "a5d2b5f9e779111fe4069f0dc55cafd27a4efbf0b7b5714407564a02b3469715",
+    "k_stubs": 1
+   },
+   {
+    "family": "eldorado",
+    "sha": "707e0e8a189f837983554af8043d495695e8e5d0ddad7d3834425384149f3682",
+    "k_stubs": 2
+   },
+   {
+    "family": "eldorado",
+    "sha": "4276c3f7088a8cf438fb1d1a76fbadde34c72200093647077b148e44a67e62c3",
+    "k_stubs": 2
+   },
+   {
+    "family": "eldorado",
+    "sha": "30fdd1f06767bd51f2839dde9fa8d9f88c871003db31fa73bfcdb1165a980f7a",
+    "k_stubs": 2
+   }
+  ]
+ }
+}

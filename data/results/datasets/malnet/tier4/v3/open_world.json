@@ -1,0 +1,2558 @@
+{
+ "n_corpus": 6495,
+ "n_wild": 4888,
+ "classes": [
+  "admobads",
+  "admogo",
+  "adpush",
+  "adwo",
+  "airpush",
+  "anydown",
+  "appsgeyser",
+  "artemis",
+  "benign",
+  "cauly",
+  "cve",
+  "deng",
+  "domob",
+  "dowgin",
+  "droidkungfu",
+  "eldorado",
+  "feiwo",
+  "genbl",
+  "genpua",
+  "gingermaster",
+  "ginmaster",
+  "igexin",
+  "inmobiads",
+  "jiagu",
+  "kuguo",
+  "kyview",
+  "leadbolt",
+  "millennialmediaads",
+  "mobwin",
+  "nandrobox",
+  "plankton",
+  "revmob",
+  "smspay",
+  "startapp",
+  "umeng",
+  "utchi",
+  "viser",
+  "waps",
+  "wapsx",
+  "wooboo",
+  "youmi"
+ ],
+ "repeats": 1,
+ "O1_abstain": {
+  "auroc_proxy_vs_wild": 0.79137277177244,
+  "tau_95_coverage": 0.2039104551076889,
+  "wild_fp_at_tau": 0.9461947626841244
+ },
+ "O1": {
+  "linear": {
+   "wild_fp_rate": 0.40421702127659576,
+   "sd": 0.007262257674485692
+  },
+  "additive": {
+   "wild_fp_rate": 0.4520052373158756,
+   "sd": 0.021160073613801268
+  },
+  "pairwise": {
+   "wild_fp_rate": 0.24112635024549917,
+   "sd": 0.012564626154965399
+  },
+  "rf": {
+   "wild_fp_rate": 0.07327168576104745,
+   "sd": 0.00115018234114145
+  },
+  "mlp": {
+   "wild_fp_rate": 0.35952602291325697,
+   "sd": 0.011102143183162742
+  }
+ },
+ "O2": {
+  "linear": {
+   "macro_f1": 0.554190472616997,
+   "sd": 0.009132458288838277
+  },
+  "additive": {
+   "macro_f1": 0.5011599210197855,
+   "sd": 0.00830302709449925,
+   "diff_vs_linear": -0.05303055159721173,
+   "p": 0.003873097967613857
+  },
+  "pairwise": {
+   "macro_f1": 0.509023396409492,
+   "sd": 0.00883395395010457,
+   "diff_vs_linear": -0.04516707620750517,
+   "p": 0.015060798346343494
+  },
+  "rf": {
+   "macro_f1": 0.49097830668174935,
+   "sd": 0.010569735964864293,
+   "diff_vs_linear": -0.06321216593524777,
+   "p": 0.0022903698764081613
+  },
+  "mlp": {
+   "macro_f1": 0.5534103029019031,
+   "sd": 0.00485155734081606,
+   "diff_vs_linear": -0.0007801697150941367,
+   "p": 0.8946701566372074
+  }
+ },
+ "O3": {
+  "n": 296,
+  "k_any_median": 46.5,
+  "k_benign_median": 77.0,
+  "attack_any_median": 59.0,
+  "attack_benign_median": 123.5,
+  "attack_benign_censored": 0.0,
+  "untargeted_lands_benign": 0.14527027027027026,
+  "per_family": {
+   "cauly": {
+    "n": 37,
+    "k_any_median": 72.0,
+    "k_benign_median": 102.0,
+    "attack_benign_median": 159.0
+   },
+   "dowgin": {
+    "n": 16,
+    "k_any_median": 6.0,
+    "k_benign_median": 20.0,
+    "attack_benign_median": 27.5
+   },
+   "droidkungfu": {
+    "n": 13,
+    "k_any_median": 28.0,
+    "k_benign_median": 76.0,
+    "attack_benign_median": 119.0
+   },
+   "eldorado": {
+    "n": 35,
+    "k_any_median": 3.0,
+    "k_benign_median": 3.0,
+    "attack_benign_median": 7.0
+   },
+   "gingermaster": {
+    "n": 10,
+    "k_any_median": 33.0,
+    "k_benign_median": 50.0,
+    "attack_benign_median": 74.0
+   },
+   "ginmaster": {
+    "n": 9,
+    "k_any_median": 14.0,
+    "k_benign_median": 73.0,
+    "attack_benign_median": 126.0
+   },
+   "igexin": {
+    "n": 32,
+    "k_any_median": 94.5,
+    "k_benign_median": 166.0,
+    "attack_benign_median": 251.5
+   },
+   "kyview": {
+    "n": 32,
+    "k_any_median": 64.0,
+    "k_benign_median": 102.5,
+    "attack_benign_median": 151.5
+   },
+   "plankton": {
+    "n": 36,
+    "k_any_median": 53.0,
+    "k_benign_median": 74.0,
+    "attack_benign_median": 97.0
+   },
+   "revmob": {
+    "n": 33,
+    "k_any_median": 130.0,
+    "k_benign_median": 180.0,
+    "attack_benign_median": 245.0
+   },
+   "smspay": {
+    "n": 19,
+    "k_any_median": 59.0,
+    "k_benign_median": 81.0,
+    "attack_benign_median": 131.0
+   },
+   "viser": {
+    "n": 24,
+    "k_any_median": 41.5,
+    "k_benign_median": 71.0,
+    "attack_benign_median": 96.5
+   }
+  },
+  "rows": [
+   {
+    "family": "revmob",
+    "k_any": 33,
+    "k_benign": 36,
+    "attack_benign": 68,
+    "attack_any": 54,
+    "lands": "leadbolt"
+   },
+   {
+    "family": "revmob",
+    "k_any": 153,
+    "k_benign": 183,
+    "attack_benign": 245,
+    "attack_any": 187,
+    "lands": "artemis"
+   },
+   {
+    "family": "revmob",
+    "k_any": 196,
+    "k_benign": 216,
+    "attack_benign": 461,
+    "attack_any": 263,
+    "lands": "artemis"
+   },
+   {
+    "family": "revmob",
+    "k_any": 55,
+    "k_benign": 85,
+    "attack_benign": 158,
+    "attack_any": 59,
+    "lands": "inmobiads"
+   },
+   {
+    "family": "revmob",
+    "k_any": 196,
+    "k_benign": 216,
+    "attack_benign": 461,
+    "attack_any": 263,
+    "lands": "artemis"
+   },
+   {
+    "family": "igexin",
+    "k_any": 0,
+    "k_benign": 75,
+    "attack_benign": 179,
+    "attack_any": 1,
+    "lands": "artemis"
+   },
+   {
+    "family": "igexin",
+    "k_any": 40,
+    "k_benign": 121,
+    "attack_benign": 456,
+    "attack_any": 41,
+    "lands": "kyview"
+   },
+   {
+    "family": "igexin",
+    "k_any": 193,
+    "k_benign": 193,
+    "attack_benign": 235,
+    "attack_any": 235,
+    "lands": "benign"
+   },
+   {
+    "family": "igexin",
+    "k_any": 65,
+    "k_benign": 182,
+    "attack_benign": 215,
+    "attack_any": 67,
+    "lands": "gingermaster"
+   },
+   {
+    "family": "igexin",
+    "k_any": 2,
+    "k_benign": 130,
+    "attack_benign": 408,
+    "attack_any": 3,
+    "lands": "smspay"
+   },
+   {
+    "family": "igexin",
+    "k_any": 92,
+    "k_benign": 175,
+    "attack_benign": 285,
+    "attack_any": 98,
+    "lands": "deng"
+   },
+   {
+    "family": "igexin",
+    "k_any": 145,
+    "k_benign": 222,
+    "attack_benign": 373,
+    "attack_any": 193,
+    "lands": "artemis"
+   },
+   {
+    "family": "igexin",
+    "k_any": 123,
+    "k_benign": 170,
+    "attack_benign": 484,
+    "attack_any": 139,
+    "lands": "feiwo"
+   },
+   {
+    "family": "igexin",
+    "k_any": 80,
+    "k_benign": 99,
+    "attack_benign": 105,
+    "attack_any": 84,
+    "lands": "utchi"
+   },
+   {
+    "family": "cauly",
+    "k_any": 107,
+    "k_benign": 120,
+    "attack_benign": 298,
+    "attack_any": 235,
+    "lands": "waps"
+   },
+   {
+    "family": "cauly",
+    "k_any": 5,
+    "k_benign": 7,
+    "attack_benign": 8,
+    "attack_any": 6,
+    "lands": "airpush"
+   },
+   {
+    "family": "cauly",
+    "k_any": 164,
+    "k_benign": 202,
+    "attack_benign": 667,
+    "attack_any": 250,
+    "lands": "ginmaster"
+   },
+   {
+    "family": "plankton",
+    "k_any": 46,
+    "k_benign": 50,
+    "attack_benign": 79,
+    "attack_any": 72,
+    "lands": "waps"
+   },
+   {
+    "family": "plankton",
+    "k_any": 57,
+    "k_benign": 87,
+    "attack_benign": 118,
+    "attack_any": 63,
+    "lands": "deng"
+   },
+   {
+    "family": "viser",
+    "k_any": 65,
+    "k_benign": 80,
+    "attack_benign": 116,
+    "attack_any": 98,
+    "lands": "kuguo"
+   },
+   {
+    "family": "viser",
+    "k_any": 43,
+    "k_benign": 81,
+    "attack_benign": 143,
+    "attack_any": 45,
+    "lands": "genbl"
+   },
+   {
+    "family": "viser",
+    "k_any": 18,
+    "k_benign": 40,
+    "attack_benign": 47,
+    "attack_any": 20,
+    "lands": "appsgeyser"
+   },
+   {
+    "family": "kyview",
+    "k_any": 62,
+    "k_benign": 74,
+    "attack_benign": 96,
+    "attack_any": 75,
+    "lands": "adwo"
+   },
+   {
+    "family": "kyview",
+    "k_any": 131,
+    "k_benign": 165,
+    "attack_benign": 284,
+    "attack_any": 180,
+    "lands": "adwo"
+   },
+   {
+    "family": "kyview",
+    "k_any": 15,
+    "k_benign": 76,
+    "attack_benign": 151,
+    "attack_any": 16,
+    "lands": "deng"
+   },
+   {
+    "family": "kyview",
+    "k_any": 79,
+    "k_benign": 113,
+    "attack_benign": 151,
+    "attack_any": 90,
+    "lands": "gingermaster"
+   },
+   {
+    "family": "kyview",
+    "k_any": 14,
+    "k_benign": 48,
+    "attack_benign": 156,
+    "attack_any": 15,
+    "lands": "igexin"
+   },
+   {
+    "family": "kyview",
+    "k_any": 53,
+    "k_benign": 74,
+    "attack_benign": 175,
+    "attack_any": 63,
+    "lands": "deng"
+   },
+   {
+    "family": "kyview",
+    "k_any": 132,
+    "k_benign": 170,
+    "attack_benign": 644,
+    "attack_any": 174,
+    "lands": "dowgin"
+   },
+   {
+    "family": "ginmaster",
+    "k_any": 2,
+    "k_benign": 73,
+    "attack_benign": 123,
+    "attack_any": 3,
+    "lands": "gingermaster"
+   },
+   {
+    "family": "ginmaster",
+    "k_any": 8,
+    "k_benign": 87,
+    "attack_benign": 147,
+    "attack_any": 9,
+    "lands": "gingermaster"
+   },
+   {
+    "family": "ginmaster",
+    "k_any": 17,
+    "k_benign": 93,
+    "attack_benign": 141,
+    "attack_any": 18,
+    "lands": "gingermaster"
+   },
+   {
+    "family": "smspay",
+    "k_any": 67,
+    "k_benign": 105,
+    "attack_benign": 151,
+    "attack_any": 78,
+    "lands": "feiwo"
+   },
+   {
+    "family": "smspay",
+    "k_any": 106,
+    "k_benign": 133,
+    "attack_benign": 186,
+    "attack_any": 128,
+    "lands": "dowgin"
+   },
+   {
+    "family": "smspay",
+    "k_any": 97,
+    "k_benign": 165,
+    "attack_benign": 277,
+    "attack_any": 110,
+    "lands": "artemis"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 41,
+    "k_benign": 121,
+    "attack_benign": 637,
+    "attack_any": 44,
+    "lands": "genbl"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 2,
+    "k_benign": 3,
+    "attack_benign": 7,
+    "attack_any": 4,
+    "lands": "gingermaster"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 20,
+    "k_benign": 101,
+    "attack_benign": 593,
+    "attack_any": 21,
+    "lands": "genbl"
+   },
+   {
+    "family": "revmob",
+    "k_any": 31,
+    "k_benign": 34,
+    "attack_benign": 38,
+    "attack_any": 46,
+    "lands": "cve"
+   },
+   {
+    "family": "revmob",
+    "k_any": 38,
+    "k_benign": 46,
+    "attack_benign": 88,
+    "attack_any": 65,
+    "lands": "viser"
+   },
+   {
+    "family": "revmob",
+    "k_any": 39,
+    "k_benign": 47,
+    "attack_benign": 92,
+    "attack_any": 75,
+    "lands": "viser"
+   },
+   {
+    "family": "revmob",
+    "k_any": 116,
+    "k_benign": 181,
+    "attack_benign": 369,
+    "attack_any": 130,
+    "lands": "artemis"
+   },
+   {
+    "family": "revmob",
+    "k_any": 136,
+    "k_benign": 187,
+    "attack_benign": 335,
+    "attack_any": 157,
+    "lands": "artemis"
+   },
+   {
+    "family": "revmob",
+    "k_any": 120,
+    "k_benign": 179,
+    "attack_benign": 344,
+    "attack_any": 134,
+    "lands": "artemis"
+   },
+   {
+    "family": "revmob",
+    "k_any": 118,
+    "k_benign": 180,
+    "attack_benign": 363,
+    "attack_any": 131,
+    "lands": "artemis"
+   },
+   {
+    "family": "revmob",
+    "k_any": 136,
+    "k_benign": 187,
+    "attack_benign": 333,
+    "attack_any": 157,
+    "lands": "artemis"
+   },
+   {
+    "family": "revmob",
+    "k_any": 120,
+    "k_benign": 177,
+    "attack_benign": 334,
+    "attack_any": 135,
+    "lands": "artemis"
+   },
+   {
+    "family": "revmob",
+    "k_any": 136,
+    "k_benign": 187,
+    "attack_benign": 335,
+    "attack_any": 157,
+    "lands": "artemis"
+   },
+   {
+    "family": "igexin",
+    "k_any": 26,
+    "k_benign": 65,
+    "attack_benign": 200,
+    "attack_any": 27,
+    "lands": "waps"
+   },
+   {
+    "family": "igexin",
+    "k_any": 178,
+    "k_benign": 248,
+    "attack_benign": 572,
+    "attack_any": 216,
+    "lands": "genbl"
+   },
+   {
+    "family": "igexin",
+    "k_any": 108,
+    "k_benign": 170,
+    "attack_benign": 368,
+    "attack_any": 128,
+    "lands": "airpush"
+   },
+   {
+    "family": "igexin",
+    "k_any": 143,
+    "k_benign": 201,
+    "attack_benign": 874,
+    "attack_any": 176,
+    "lands": "genbl"
+   },
+   {
+    "family": "igexin",
+    "k_any": 144,
+    "k_benign": 168,
+    "attack_benign": 249,
+    "attack_any": 192,
+    "lands": "mobwin"
+   },
+   {
+    "family": "igexin",
+    "k_any": 97,
+    "k_benign": 132,
+    "attack_benign": 557,
+    "attack_any": 122,
+    "lands": "airpush"
+   },
+   {
+    "family": "igexin",
+    "k_any": 68,
+    "k_benign": 217,
+    "attack_benign": 913,
+    "attack_any": 70,
+    "lands": "dowgin"
+   },
+   {
+    "family": "igexin",
+    "k_any": 54,
+    "k_benign": 338,
+    "attack_benign": 1503,
+    "attack_any": 55,
+    "lands": "smspay"
+   },
+   {
+    "family": "igexin",
+    "k_any": 102,
+    "k_benign": 156,
+    "attack_benign": 203,
+    "attack_any": 115,
+    "lands": "genbl"
+   },
+   {
+    "family": "cauly",
+    "k_any": 183,
+    "k_benign": 200,
+    "attack_benign": 281,
+    "attack_any": 243,
+    "lands": "genpua"
+   },
+   {
+    "family": "cauly",
+    "k_any": 79,
+    "k_benign": 140,
+    "attack_benign": 178,
+    "attack_any": 85,
+    "lands": "leadbolt"
+   },
+   {
+    "family": "cauly",
+    "k_any": 109,
+    "k_benign": 138,
+    "attack_benign": 234,
+    "attack_any": 229,
+    "lands": "inmobiads"
+   },
+   {
+    "family": "cauly",
+    "k_any": 28,
+    "k_benign": 32,
+    "attack_benign": 60,
+    "attack_any": 46,
+    "lands": "genpua"
+   },
+   {
+    "family": "cauly",
+    "k_any": 126,
+    "k_benign": 146,
+    "attack_benign": 167,
+    "attack_any": 140,
+    "lands": "genbl"
+   },
+   {
+    "family": "cauly",
+    "k_any": 72,
+    "k_benign": 83,
+    "attack_benign": 220,
+    "attack_any": 116,
+    "lands": "kyview"
+   },
+   {
+    "family": "cauly",
+    "k_any": 64,
+    "k_benign": 106,
+    "attack_benign": 125,
+    "attack_any": 68,
+    "lands": "dowgin"
+   },
+   {
+    "family": "plankton",
+    "k_any": 94,
+    "k_benign": 94,
+    "attack_benign": 114,
+    "attack_any": 130,
+    "lands": "adpush"
+   },
+   {
+    "family": "plankton",
+    "k_any": 57,
+    "k_benign": 57,
+    "attack_benign": 73,
+    "attack_any": 73,
+    "lands": "benign"
+   },
+   {
+    "family": "plankton",
+    "k_any": 47,
+    "k_benign": 49,
+    "attack_benign": 74,
+    "attack_any": 87,
+    "lands": "leadbolt"
+   },
+   {
+    "family": "plankton",
+    "k_any": 56,
+    "k_benign": 65,
+    "attack_benign": 99,
+    "attack_any": 80,
+    "lands": "leadbolt"
+   },
+   {
+    "family": "plankton",
+    "k_any": 79,
+    "k_benign": 90,
+    "attack_benign": 108,
+    "attack_any": 138,
+    "lands": "droidkungfu"
+   },
+   {
+    "family": "plankton",
+    "k_any": 52,
+    "k_benign": 76,
+    "attack_benign": 95,
+    "attack_any": 59,
+    "lands": "kuguo"
+   },
+   {
+    "family": "plankton",
+    "k_any": 78,
+    "k_benign": 78,
+    "attack_benign": 94,
+    "attack_any": 103,
+    "lands": "kuguo"
+   },
+   {
+    "family": "plankton",
+    "k_any": 53,
+    "k_benign": 53,
+    "attack_benign": 66,
+    "attack_any": 66,
+    "lands": "benign"
+   },
+   {
+    "family": "plankton",
+    "k_any": 65,
+    "k_benign": 65,
+    "attack_benign": 73,
+    "attack_any": 73,
+    "lands": "benign"
+   },
+   {
+    "family": "plankton",
+    "k_any": 46,
+    "k_benign": 46,
+    "attack_benign": 60,
+    "attack_any": 75,
+    "lands": "artemis"
+   },
+   {
+    "family": "viser",
+    "k_any": 1,
+    "k_benign": 7,
+    "attack_benign": 8,
+    "attack_any": 2,
+    "lands": "deng"
+   },
+   {
+    "family": "viser",
+    "k_any": 33,
+    "k_benign": 50,
+    "attack_benign": 74,
+    "attack_any": 39,
+    "lands": "leadbolt"
+   },
+   {
+    "family": "viser",
+    "k_any": 28,
+    "k_benign": 100,
+    "attack_benign": 136,
+    "attack_any": 30,
+    "lands": "millennialmediaads"
+   },
+   {
+    "family": "kyview",
+    "k_any": 0,
+    "k_benign": 33,
+    "attack_benign": 48,
+    "attack_any": 1,
+    "lands": "deng"
+   },
+   {
+    "family": "kyview",
+    "k_any": 30,
+    "k_benign": 42,
+    "attack_benign": 50,
+    "attack_any": 34,
+    "lands": "utchi"
+   },
+   {
+    "family": "kyview",
+    "k_any": 101,
+    "k_benign": 145,
+    "attack_benign": 190,
+    "attack_any": 115,
+    "lands": "artemis"
+   },
+   {
+    "family": "kyview",
+    "k_any": 68,
+    "k_benign": 76,
+    "attack_benign": 96,
+    "attack_any": 87,
+    "lands": "droidkungfu"
+   },
+   {
+    "family": "kyview",
+    "k_any": 96,
+    "k_benign": 112,
+    "attack_benign": 152,
+    "attack_any": 137,
+    "lands": "waps"
+   },
+   {
+    "family": "kyview",
+    "k_any": 77,
+    "k_benign": 96,
+    "attack_benign": 110,
+    "attack_any": 86,
+    "lands": "smspay"
+   },
+   {
+    "family": "droidkungfu",
+    "k_any": 44,
+    "k_benign": 80,
+    "attack_benign": 132,
+    "attack_any": 50,
+    "lands": "wapsx"
+   },
+   {
+    "family": "droidkungfu",
+    "k_any": 10,
+    "k_benign": 34,
+    "attack_benign": 94,
+    "attack_any": 11,
+    "lands": "gingermaster"
+   },
+   {
+    "family": "droidkungfu",
+    "k_any": 57,
+    "k_benign": 77,
+    "attack_benign": 154,
+    "attack_any": 69,
+    "lands": "wapsx"
+   },
+   {
+    "family": "droidkungfu",
+    "k_any": 6,
+    "k_benign": 76,
+    "attack_benign": 177,
+    "attack_any": 7,
+    "lands": "waps"
+   },
+   {
+    "family": "droidkungfu",
+    "k_any": 17,
+    "k_benign": 82,
+    "attack_benign": 98,
+    "attack_any": 18,
+    "lands": "adwo"
+   },
+   {
+    "family": "ginmaster",
+    "k_any": 12,
+    "k_benign": 54,
+    "attack_benign": 126,
+    "attack_any": 13,
+    "lands": "deng"
+   },
+   {
+    "family": "ginmaster",
+    "k_any": 27,
+    "k_benign": 37,
+    "attack_benign": 78,
+    "attack_any": 29,
+    "lands": "gingermaster"
+   },
+   {
+    "family": "gingermaster",
+    "k_any": 53,
+    "k_benign": 53,
+    "attack_benign": 62,
+    "attack_any": 62,
+    "lands": "benign"
+   },
+   {
+    "family": "gingermaster",
+    "k_any": 87,
+    "k_benign": 115,
+    "attack_benign": 294,
+    "attack_any": 115,
+    "lands": "dowgin"
+   },
+   {
+    "family": "gingermaster",
+    "k_any": 35,
+    "k_benign": 49,
+    "attack_benign": 104,
+    "attack_any": 60,
+    "lands": "youmi"
+   },
+   {
+    "family": "smspay",
+    "k_any": 34,
+    "k_benign": 81,
+    "attack_benign": 85,
+    "attack_any": 35,
+    "lands": "dowgin"
+   },
+   {
+    "family": "dowgin",
+    "k_any": 1,
+    "k_benign": 18,
+    "attack_benign": 26,
+    "attack_any": 2,
+    "lands": "kyview"
+   },
+   {
+    "family": "dowgin",
+    "k_any": 6,
+    "k_benign": 15,
+    "attack_benign": 17,
+    "attack_any": 7,
+    "lands": "ginmaster"
+   },
+   {
+    "family": "dowgin",
+    "k_any": 18,
+    "k_benign": 18,
+    "attack_benign": 20,
+    "attack_any": 20,
+    "lands": "benign"
+   },
+   {
+    "family": "dowgin",
+    "k_any": 6,
+    "k_benign": 40,
+    "attack_benign": 57,
+    "attack_any": 7,
+    "lands": "ginmaster"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 3,
+    "k_benign": 3,
+    "attack_benign": 4,
+    "attack_any": 4,
+    "lands": "benign"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 3,
+    "k_benign": 3,
+    "attack_benign": 4,
+    "attack_any": 4,
+    "lands": "benign"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 4,
+    "k_benign": 4,
+    "attack_benign": 7,
+    "attack_any": 6,
+    "lands": "benign"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 3,
+    "k_benign": 3,
+    "attack_benign": 4,
+    "attack_any": 4,
+    "lands": "benign"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 4,
+    "k_benign": 4,
+    "attack_benign": 7,
+    "attack_any": 6,
+    "lands": "benign"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 3,
+    "k_benign": 3,
+    "attack_benign": 4,
+    "attack_any": 4,
+    "lands": "benign"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 4,
+    "k_benign": 4,
+    "attack_benign": 7,
+    "attack_any": 6,
+    "lands": "benign"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 4,
+    "k_benign": 4,
+    "attack_benign": 7,
+    "attack_any": 6,
+    "lands": "benign"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 4,
+    "k_benign": 4,
+    "attack_benign": 7,
+    "attack_any": 6,
+    "lands": "benign"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 3,
+    "k_benign": 3,
+    "attack_benign": 4,
+    "attack_any": 4,
+    "lands": "benign"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 4,
+    "k_benign": 4,
+    "attack_benign": 7,
+    "attack_any": 6,
+    "lands": "benign"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 3,
+    "k_benign": 3,
+    "attack_benign": 4,
+    "attack_any": 4,
+    "lands": "benign"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 3,
+    "k_benign": 3,
+    "attack_benign": 4,
+    "attack_any": 4,
+    "lands": "benign"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 3,
+    "k_benign": 3,
+    "attack_benign": 4,
+    "attack_any": 4,
+    "lands": "benign"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 4,
+    "k_benign": 4,
+    "attack_benign": 7,
+    "attack_any": 6,
+    "lands": "benign"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 4,
+    "k_benign": 4,
+    "attack_benign": 7,
+    "attack_any": 6,
+    "lands": "benign"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 3,
+    "k_benign": 3,
+    "attack_benign": 4,
+    "attack_any": 4,
+    "lands": "benign"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 4,
+    "k_benign": 4,
+    "attack_benign": 7,
+    "attack_any": 6,
+    "lands": "benign"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 3,
+    "k_benign": 3,
+    "attack_benign": 4,
+    "attack_any": 4,
+    "lands": "benign"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 4,
+    "k_benign": 4,
+    "attack_benign": 7,
+    "attack_any": 6,
+    "lands": "benign"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 4,
+    "k_benign": 4,
+    "attack_benign": 7,
+    "attack_any": 6,
+    "lands": "benign"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 4,
+    "k_benign": 4,
+    "attack_benign": 7,
+    "attack_any": 6,
+    "lands": "benign"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 4,
+    "k_benign": 4,
+    "attack_benign": 7,
+    "attack_any": 6,
+    "lands": "benign"
+   },
+   {
+    "family": "revmob",
+    "k_any": 187,
+    "k_benign": 221,
+    "attack_benign": 341,
+    "attack_any": 243,
+    "lands": "artemis"
+   },
+   {
+    "family": "revmob",
+    "k_any": 27,
+    "k_benign": 81,
+    "attack_benign": 126,
+    "attack_any": 29,
+    "lands": "youmi"
+   },
+   {
+    "family": "revmob",
+    "k_any": 187,
+    "k_benign": 221,
+    "attack_benign": 341,
+    "attack_any": 243,
+    "lands": "artemis"
+   },
+   {
+    "family": "revmob",
+    "k_any": 152,
+    "k_benign": 198,
+    "attack_benign": 286,
+    "attack_any": 182,
+    "lands": "artemis"
+   },
+   {
+    "family": "revmob",
+    "k_any": 36,
+    "k_benign": 50,
+    "attack_benign": 80,
+    "attack_any": 47,
+    "lands": "viser"
+   },
+   {
+    "family": "igexin",
+    "k_any": 141,
+    "k_benign": 191,
+    "attack_benign": 221,
+    "attack_any": 154,
+    "lands": "umeng"
+   },
+   {
+    "family": "igexin",
+    "k_any": 109,
+    "k_benign": 157,
+    "attack_benign": 188,
+    "attack_any": 120,
+    "lands": "airpush"
+   },
+   {
+    "family": "igexin",
+    "k_any": 162,
+    "k_benign": 233,
+    "attack_benign": 324,
+    "attack_any": 189,
+    "lands": "genbl"
+   },
+   {
+    "family": "igexin",
+    "k_any": 137,
+    "k_benign": 164,
+    "attack_benign": 224,
+    "attack_any": 170,
+    "lands": "kyview"
+   },
+   {
+    "family": "cauly",
+    "k_any": 137,
+    "k_benign": 169,
+    "attack_benign": 224,
+    "attack_any": 188,
+    "lands": "genpua"
+   },
+   {
+    "family": "cauly",
+    "k_any": 43,
+    "k_benign": 55,
+    "attack_benign": 81,
+    "attack_any": 74,
+    "lands": "genpua"
+   },
+   {
+    "family": "cauly",
+    "k_any": 36,
+    "k_benign": 144,
+    "attack_benign": 281,
+    "attack_any": 37,
+    "lands": "airpush"
+   },
+   {
+    "family": "cauly",
+    "k_any": 98,
+    "k_benign": 102,
+    "attack_benign": 116,
+    "attack_any": 107,
+    "lands": "airpush"
+   },
+   {
+    "family": "cauly",
+    "k_any": 18,
+    "k_benign": 67,
+    "attack_benign": 168,
+    "attack_any": 23,
+    "lands": "genpua"
+   },
+   {
+    "family": "cauly",
+    "k_any": 46,
+    "k_benign": 60,
+    "attack_benign": 145,
+    "attack_any": 58,
+    "lands": "genpua"
+   },
+   {
+    "family": "cauly",
+    "k_any": 100,
+    "k_benign": 119,
+    "attack_benign": 224,
+    "attack_any": 181,
+    "lands": "waps"
+   },
+   {
+    "family": "cauly",
+    "k_any": 116,
+    "k_benign": 116,
+    "attack_benign": 146,
+    "attack_any": 146,
+    "lands": "benign"
+   },
+   {
+    "family": "cauly",
+    "k_any": 24,
+    "k_benign": 29,
+    "attack_benign": 44,
+    "attack_any": 36,
+    "lands": "genpua"
+   },
+   {
+    "family": "plankton",
+    "k_any": 45,
+    "k_benign": 61,
+    "attack_benign": 88,
+    "attack_any": 55,
+    "lands": "appsgeyser"
+   },
+   {
+    "family": "plankton",
+    "k_any": 86,
+    "k_benign": 104,
+    "attack_benign": 147,
+    "attack_any": 110,
+    "lands": "airpush"
+   },
+   {
+    "family": "plankton",
+    "k_any": 90,
+    "k_benign": 101,
+    "attack_benign": 144,
+    "attack_any": 119,
+    "lands": "airpush"
+   },
+   {
+    "family": "plankton",
+    "k_any": 48,
+    "k_benign": 96,
+    "attack_benign": 125,
+    "attack_any": 51,
+    "lands": "admogo"
+   },
+   {
+    "family": "plankton",
+    "k_any": 51,
+    "k_benign": 80,
+    "attack_benign": 115,
+    "attack_any": 76,
+    "lands": "gingermaster"
+   },
+   {
+    "family": "plankton",
+    "k_any": 53,
+    "k_benign": 72,
+    "attack_benign": 110,
+    "attack_any": 67,
+    "lands": "leadbolt"
+   },
+   {
+    "family": "plankton",
+    "k_any": 78,
+    "k_benign": 92,
+    "attack_benign": 116,
+    "attack_any": 127,
+    "lands": "droidkungfu"
+   },
+   {
+    "family": "plankton",
+    "k_any": 42,
+    "k_benign": 54,
+    "attack_benign": 84,
+    "attack_any": 54,
+    "lands": "gingermaster"
+   },
+   {
+    "family": "plankton",
+    "k_any": 98,
+    "k_benign": 111,
+    "attack_benign": 161,
+    "attack_any": 168,
+    "lands": "droidkungfu"
+   },
+   {
+    "family": "plankton",
+    "k_any": 126,
+    "k_benign": 199,
+    "attack_benign": 259,
+    "attack_any": 139,
+    "lands": "millennialmediaads"
+   },
+   {
+    "family": "plankton",
+    "k_any": 20,
+    "k_benign": 97,
+    "attack_benign": 247,
+    "attack_any": 21,
+    "lands": "airpush"
+   },
+   {
+    "family": "viser",
+    "k_any": 95,
+    "k_benign": 96,
+    "attack_benign": 124,
+    "attack_any": 140,
+    "lands": "deng"
+   },
+   {
+    "family": "viser",
+    "k_any": 37,
+    "k_benign": 43,
+    "attack_benign": 60,
+    "attack_any": 48,
+    "lands": "airpush"
+   },
+   {
+    "family": "kyview",
+    "k_any": 24,
+    "k_benign": 33,
+    "attack_benign": 36,
+    "attack_any": 26,
+    "lands": "artemis"
+   },
+   {
+    "family": "kyview",
+    "k_any": 66,
+    "k_benign": 109,
+    "attack_benign": 275,
+    "attack_any": 75,
+    "lands": "domob"
+   },
+   {
+    "family": "droidkungfu",
+    "k_any": 24,
+    "k_benign": 53,
+    "attack_benign": 73,
+    "attack_any": 26,
+    "lands": "domob"
+   },
+   {
+    "family": "droidkungfu",
+    "k_any": 53,
+    "k_benign": 53,
+    "attack_benign": 58,
+    "attack_any": 65,
+    "lands": "igexin"
+   },
+   {
+    "family": "droidkungfu",
+    "k_any": 82,
+    "k_benign": 89,
+    "attack_benign": 112,
+    "attack_any": 99,
+    "lands": "airpush"
+   },
+   {
+    "family": "droidkungfu",
+    "k_any": 32,
+    "k_benign": 47,
+    "attack_benign": 57,
+    "attack_any": 36,
+    "lands": "domob"
+   },
+   {
+    "family": "ginmaster",
+    "k_any": 23,
+    "k_benign": 53,
+    "attack_benign": 89,
+    "attack_any": 25,
+    "lands": "admobads"
+   },
+   {
+    "family": "gingermaster",
+    "k_any": 10,
+    "k_benign": 68,
+    "attack_benign": 228,
+    "attack_any": 11,
+    "lands": "ginmaster"
+   },
+   {
+    "family": "gingermaster",
+    "k_any": 18,
+    "k_benign": 38,
+    "attack_benign": 48,
+    "attack_any": 20,
+    "lands": "genbl"
+   },
+   {
+    "family": "smspay",
+    "k_any": 59,
+    "k_benign": 59,
+    "attack_benign": 64,
+    "attack_any": 64,
+    "lands": "benign"
+   },
+   {
+    "family": "smspay",
+    "k_any": 4,
+    "k_benign": 13,
+    "attack_benign": 17,
+    "attack_any": 5,
+    "lands": "ginmaster"
+   },
+   {
+    "family": "smspay",
+    "k_any": 55,
+    "k_benign": 116,
+    "attack_benign": 131,
+    "attack_any": 57,
+    "lands": "genbl"
+   },
+   {
+    "family": "smspay",
+    "k_any": 65,
+    "k_benign": 65,
+    "attack_benign": 72,
+    "attack_any": 72,
+    "lands": "benign"
+   },
+   {
+    "family": "smspay",
+    "k_any": 125,
+    "k_benign": 151,
+    "attack_benign": 240,
+    "attack_any": 189,
+    "lands": "ginmaster"
+   },
+   {
+    "family": "dowgin",
+    "k_any": 48,
+    "k_benign": 77,
+    "attack_benign": 203,
+    "attack_any": 54,
+    "lands": "kuguo"
+   },
+   {
+    "family": "dowgin",
+    "k_any": 1,
+    "k_benign": 14,
+    "attack_benign": 53,
+    "attack_any": 2,
+    "lands": "utchi"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 37,
+    "k_benign": 113,
+    "attack_benign": 343,
+    "attack_any": 39,
+    "lands": "genbl"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 2,
+    "k_benign": 3,
+    "attack_benign": 5,
+    "attack_any": 3,
+    "lands": "appsgeyser"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 1,
+    "k_benign": 2,
+    "attack_benign": 10,
+    "attack_any": 3,
+    "lands": "artemis"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 2,
+    "k_benign": 3,
+    "attack_benign": 5,
+    "attack_any": 3,
+    "lands": "kuguo"
+   },
+   {
+    "family": "revmob",
+    "k_any": 177,
+    "k_benign": 177,
+    "attack_benign": 230,
+    "attack_any": 263,
+    "lands": "artemis"
+   },
+   {
+    "family": "revmob",
+    "k_any": 54,
+    "k_benign": 58,
+    "attack_benign": 73,
+    "attack_any": 67,
+    "lands": "cve"
+   },
+   {
+    "family": "revmob",
+    "k_any": 180,
+    "k_benign": 180,
+    "attack_benign": 234,
+    "attack_any": 247,
+    "lands": "artemis"
+   },
+   {
+    "family": "revmob",
+    "k_any": 31,
+    "k_benign": 68,
+    "attack_benign": 154,
+    "attack_any": 34,
+    "lands": "youmi"
+   },
+   {
+    "family": "revmob",
+    "k_any": 46,
+    "k_benign": 64,
+    "attack_benign": 170,
+    "attack_any": 53,
+    "lands": "leadbolt"
+   },
+   {
+    "family": "revmob",
+    "k_any": 140,
+    "k_benign": 164,
+    "attack_benign": 232,
+    "attack_any": 164,
+    "lands": "artemis"
+   },
+   {
+    "family": "revmob",
+    "k_any": 170,
+    "k_benign": 184,
+    "attack_benign": 238,
+    "attack_any": 208,
+    "lands": "artemis"
+   },
+   {
+    "family": "revmob",
+    "k_any": 36,
+    "k_benign": 43,
+    "attack_benign": 49,
+    "attack_any": 40,
+    "lands": "airpush"
+   },
+   {
+    "family": "igexin",
+    "k_any": 47,
+    "k_benign": 119,
+    "attack_benign": 203,
+    "attack_any": 49,
+    "lands": "airpush"
+   },
+   {
+    "family": "igexin",
+    "k_any": 5,
+    "k_benign": 33,
+    "attack_benign": 43,
+    "attack_any": 6,
+    "lands": "waps"
+   },
+   {
+    "family": "igexin",
+    "k_any": 41,
+    "k_benign": 126,
+    "attack_benign": 254,
+    "attack_any": 43,
+    "lands": "adpush"
+   },
+   {
+    "family": "igexin",
+    "k_any": 115,
+    "k_benign": 184,
+    "attack_benign": 233,
+    "attack_any": 123,
+    "lands": "gingermaster"
+   },
+   {
+    "family": "igexin",
+    "k_any": 99,
+    "k_benign": 179,
+    "attack_benign": 587,
+    "attack_any": 110,
+    "lands": "feiwo"
+   },
+   {
+    "family": "cauly",
+    "k_any": 77,
+    "k_benign": 77,
+    "attack_benign": 81,
+    "attack_any": 81,
+    "lands": "benign"
+   },
+   {
+    "family": "cauly",
+    "k_any": 59,
+    "k_benign": 100,
+    "attack_benign": 142,
+    "attack_any": 73,
+    "lands": "plankton"
+   },
+   {
+    "family": "cauly",
+    "k_any": 21,
+    "k_benign": 36,
+    "attack_benign": 45,
+    "attack_any": 23,
+    "lands": "genpua"
+   },
+   {
+    "family": "cauly",
+    "k_any": 96,
+    "k_benign": 110,
+    "attack_benign": 187,
+    "attack_any": 136,
+    "lands": "kuguo"
+   },
+   {
+    "family": "cauly",
+    "k_any": 34,
+    "k_benign": 70,
+    "attack_benign": 218,
+    "attack_any": 37,
+    "lands": "leadbolt"
+   },
+   {
+    "family": "cauly",
+    "k_any": 66,
+    "k_benign": 80,
+    "attack_benign": 139,
+    "attack_any": 136,
+    "lands": "startapp"
+   },
+   {
+    "family": "cauly",
+    "k_any": 134,
+    "k_benign": 145,
+    "attack_benign": 207,
+    "attack_any": 207,
+    "lands": "benign"
+   },
+   {
+    "family": "cauly",
+    "k_any": 109,
+    "k_benign": 134,
+    "attack_benign": 307,
+    "attack_any": 193,
+    "lands": "utchi"
+   },
+   {
+    "family": "cauly",
+    "k_any": 17,
+    "k_benign": 103,
+    "attack_benign": 186,
+    "attack_any": 18,
+    "lands": "inmobiads"
+   },
+   {
+    "family": "plankton",
+    "k_any": 96,
+    "k_benign": 96,
+    "attack_benign": 128,
+    "attack_any": 149,
+    "lands": "admobads"
+   },
+   {
+    "family": "plankton",
+    "k_any": 114,
+    "k_benign": 133,
+    "attack_benign": 160,
+    "attack_any": 160,
+    "lands": "inmobiads"
+   },
+   {
+    "family": "plankton",
+    "k_any": 37,
+    "k_benign": 53,
+    "attack_benign": 68,
+    "attack_any": 43,
+    "lands": "waps"
+   },
+   {
+    "family": "plankton",
+    "k_any": 51,
+    "k_benign": 56,
+    "attack_benign": 78,
+    "attack_any": 75,
+    "lands": "youmi"
+   },
+   {
+    "family": "plankton",
+    "k_any": 56,
+    "k_benign": 168,
+    "attack_benign": 208,
+    "attack_any": 58,
+    "lands": "millennialmediaads"
+   },
+   {
+    "family": "plankton",
+    "k_any": 37,
+    "k_benign": 46,
+    "attack_benign": 66,
+    "attack_any": 58,
+    "lands": "airpush"
+   },
+   {
+    "family": "plankton",
+    "k_any": 26,
+    "k_benign": 33,
+    "attack_benign": 60,
+    "attack_any": 30,
+    "lands": "adpush"
+   },
+   {
+    "family": "plankton",
+    "k_any": 13,
+    "k_benign": 104,
+    "attack_benign": 462,
+    "attack_any": 14,
+    "lands": "airpush"
+   },
+   {
+    "family": "plankton",
+    "k_any": 58,
+    "k_benign": 64,
+    "attack_benign": 91,
+    "attack_any": 85,
+    "lands": "appsgeyser"
+   },
+   {
+    "family": "viser",
+    "k_any": 77,
+    "k_benign": 77,
+    "attack_benign": 91,
+    "attack_any": 91,
+    "lands": "benign"
+   },
+   {
+    "family": "viser",
+    "k_any": 34,
+    "k_benign": 45,
+    "attack_benign": 56,
+    "attack_any": 39,
+    "lands": "utchi"
+   },
+   {
+    "family": "viser",
+    "k_any": 0,
+    "k_benign": 17,
+    "attack_benign": 25,
+    "attack_any": 1,
+    "lands": "genpua"
+   },
+   {
+    "family": "viser",
+    "k_any": 72,
+    "k_benign": 83,
+    "attack_benign": 129,
+    "attack_any": 118,
+    "lands": "appsgeyser"
+   },
+   {
+    "family": "viser",
+    "k_any": 77,
+    "k_benign": 77,
+    "attack_benign": 86,
+    "attack_any": 86,
+    "lands": "benign"
+   },
+   {
+    "family": "viser",
+    "k_any": 10,
+    "k_benign": 31,
+    "attack_benign": 58,
+    "attack_any": 11,
+    "lands": "dowgin"
+   },
+   {
+    "family": "kyview",
+    "k_any": 129,
+    "k_benign": 163,
+    "attack_benign": 490,
+    "attack_any": 182,
+    "lands": "appsgeyser"
+   },
+   {
+    "family": "kyview",
+    "k_any": 135,
+    "k_benign": 158,
+    "attack_benign": 363,
+    "attack_any": 185,
+    "lands": "artemis"
+   },
+   {
+    "family": "kyview",
+    "k_any": 10,
+    "k_benign": 36,
+    "attack_benign": 173,
+    "attack_any": 11,
+    "lands": "leadbolt"
+   },
+   {
+    "family": "kyview",
+    "k_any": 57,
+    "k_benign": 82,
+    "attack_benign": 102,
+    "attack_any": 75,
+    "lands": "domob"
+   },
+   {
+    "family": "kyview",
+    "k_any": 59,
+    "k_benign": 117,
+    "attack_benign": 144,
+    "attack_any": 64,
+    "lands": "adwo"
+   },
+   {
+    "family": "droidkungfu",
+    "k_any": 19,
+    "k_benign": 58,
+    "attack_benign": 127,
+    "attack_any": 20,
+    "lands": "domob"
+   },
+   {
+    "family": "droidkungfu",
+    "k_any": 27,
+    "k_benign": 59,
+    "attack_benign": 119,
+    "attack_any": 30,
+    "lands": "domob"
+   },
+   {
+    "family": "droidkungfu",
+    "k_any": 32,
+    "k_benign": 112,
+    "attack_benign": 364,
+    "attack_any": 33,
+    "lands": "kyview"
+   },
+   {
+    "family": "droidkungfu",
+    "k_any": 28,
+    "k_benign": 84,
+    "attack_benign": 134,
+    "attack_any": 29,
+    "lands": "adwo"
+   },
+   {
+    "family": "ginmaster",
+    "k_any": 23,
+    "k_benign": 76,
+    "attack_benign": 243,
+    "attack_any": 24,
+    "lands": "wapsx"
+   },
+   {
+    "family": "gingermaster",
+    "k_any": 34,
+    "k_benign": 45,
+    "attack_benign": 68,
+    "attack_any": 37,
+    "lands": "dowgin"
+   },
+   {
+    "family": "gingermaster",
+    "k_any": 44,
+    "k_benign": 51,
+    "attack_benign": 58,
+    "attack_any": 49,
+    "lands": "dowgin"
+   },
+   {
+    "family": "gingermaster",
+    "k_any": 4,
+    "k_benign": 25,
+    "attack_benign": 69,
+    "attack_any": 5,
+    "lands": "deng"
+   },
+   {
+    "family": "gingermaster",
+    "k_any": 32,
+    "k_benign": 53,
+    "attack_benign": 79,
+    "attack_any": 34,
+    "lands": "waps"
+   },
+   {
+    "family": "gingermaster",
+    "k_any": 9,
+    "k_benign": 36,
+    "attack_benign": 107,
+    "attack_any": 10,
+    "lands": "dowgin"
+   },
+   {
+    "family": "smspay",
+    "k_any": 75,
+    "k_benign": 75,
+    "attack_benign": 84,
+    "attack_any": 84,
+    "lands": "benign"
+   },
+   {
+    "family": "smspay",
+    "k_any": 138,
+    "k_benign": 165,
+    "attack_benign": 254,
+    "attack_any": 169,
+    "lands": "viser"
+   },
+   {
+    "family": "smspay",
+    "k_any": 32,
+    "k_benign": 102,
+    "attack_benign": 207,
+    "attack_any": 34,
+    "lands": "waps"
+   },
+   {
+    "family": "smspay",
+    "k_any": 70,
+    "k_benign": 70,
+    "attack_benign": 78,
+    "attack_any": 78,
+    "lands": "benign"
+   },
+   {
+    "family": "dowgin",
+    "k_any": 61,
+    "k_benign": 88,
+    "attack_benign": 119,
+    "attack_any": 73,
+    "lands": "kyview"
+   },
+   {
+    "family": "dowgin",
+    "k_any": 6,
+    "k_benign": 119,
+    "attack_benign": 324,
+    "attack_any": 7,
+    "lands": "smspay"
+   },
+   {
+    "family": "dowgin",
+    "k_any": 3,
+    "k_benign": 6,
+    "attack_benign": 8,
+    "attack_any": 4,
+    "lands": "droidkungfu"
+   },
+   {
+    "family": "dowgin",
+    "k_any": 0,
+    "k_benign": 5,
+    "attack_benign": 7,
+    "attack_any": 1,
+    "lands": "droidkungfu"
+   },
+   {
+    "family": "dowgin",
+    "k_any": 13,
+    "k_benign": 22,
+    "attack_benign": 29,
+    "attack_any": 16,
+    "lands": "ginmaster"
+   },
+   {
+    "family": "dowgin",
+    "k_any": 4,
+    "k_benign": 4,
+    "attack_benign": 5,
+    "attack_any": 5,
+    "lands": "benign"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 2,
+    "k_benign": 4,
+    "attack_benign": 8,
+    "attack_any": 3,
+    "lands": "gingermaster"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 1,
+    "k_benign": 3,
+    "attack_benign": 5,
+    "attack_any": 2,
+    "lands": "utchi"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 2,
+    "k_benign": 3,
+    "attack_benign": 6,
+    "attack_any": 3,
+    "lands": "appsgeyser"
+   },
+   {
+    "family": "revmob",
+    "k_any": 131,
+    "k_benign": 192,
+    "attack_benign": 254,
+    "attack_any": 149,
+    "lands": "artemis"
+   },
+   {
+    "family": "revmob",
+    "k_any": 130,
+    "k_benign": 192,
+    "attack_benign": 254,
+    "attack_any": 148,
+    "lands": "artemis"
+   },
+   {
+    "family": "revmob",
+    "k_any": 26,
+    "k_benign": 32,
+    "attack_benign": 100,
+    "attack_any": 36,
+    "lands": "ginmaster"
+   },
+   {
+    "family": "revmob",
+    "k_any": 131,
+    "k_benign": 192,
+    "attack_benign": 254,
+    "attack_any": 149,
+    "lands": "artemis"
+   },
+   {
+    "family": "revmob",
+    "k_any": 131,
+    "k_benign": 192,
+    "attack_benign": 254,
+    "attack_any": 149,
+    "lands": "artemis"
+   },
+   {
+    "family": "igexin",
+    "k_any": 135,
+    "k_benign": 135,
+    "attack_benign": 184,
+    "attack_any": 215,
+    "lands": "genbl"
+   },
+   {
+    "family": "igexin",
+    "k_any": 91,
+    "k_benign": 116,
+    "attack_benign": 372,
+    "attack_any": 112,
+    "lands": "mobwin"
+   },
+   {
+    "family": "igexin",
+    "k_any": 67,
+    "k_benign": 193,
+    "attack_benign": 460,
+    "attack_any": 71,
+    "lands": "smspay"
+   },
+   {
+    "family": "igexin",
+    "k_any": 82,
+    "k_benign": 101,
+    "attack_benign": 145,
+    "attack_any": 105,
+    "lands": "genbl"
+   },
+   {
+    "family": "igexin",
+    "k_any": 25,
+    "k_benign": 147,
+    "attack_benign": 243,
+    "attack_any": 26,
+    "lands": "deng"
+   },
+   {
+    "family": "cauly",
+    "k_any": 40,
+    "k_benign": 109,
+    "attack_benign": 142,
+    "attack_any": 42,
+    "lands": "gingermaster"
+   },
+   {
+    "family": "cauly",
+    "k_any": 62,
+    "k_benign": 97,
+    "attack_benign": 159,
+    "attack_any": 86,
+    "lands": "nandrobox"
+   },
+   {
+    "family": "cauly",
+    "k_any": 88,
+    "k_benign": 123,
+    "attack_benign": 144,
+    "attack_any": 115,
+    "lands": "adwo"
+   },
+   {
+    "family": "cauly",
+    "k_any": 25,
+    "k_benign": 42,
+    "attack_benign": 59,
+    "attack_any": 35,
+    "lands": "utchi"
+   },
+   {
+    "family": "cauly",
+    "k_any": 84,
+    "k_benign": 101,
+    "attack_benign": 178,
+    "attack_any": 121,
+    "lands": "gingermaster"
+   },
+   {
+    "family": "cauly",
+    "k_any": 44,
+    "k_benign": 61,
+    "attack_benign": 90,
+    "attack_any": 54,
+    "lands": "gingermaster"
+   },
+   {
+    "family": "cauly",
+    "k_any": 62,
+    "k_benign": 102,
+    "attack_benign": 125,
+    "attack_any": 67,
+    "lands": "leadbolt"
+   },
+   {
+    "family": "cauly",
+    "k_any": 73,
+    "k_benign": 107,
+    "attack_benign": 154,
+    "attack_any": 86,
+    "lands": "leadbolt"
+   },
+   {
+    "family": "cauly",
+    "k_any": 84,
+    "k_benign": 101,
+    "attack_benign": 178,
+    "attack_any": 121,
+    "lands": "gingermaster"
+   },
+   {
+    "family": "plankton",
+    "k_any": 42,
+    "k_benign": 42,
+    "attack_benign": 66,
+    "attack_any": 82,
+    "lands": "deng"
+   },
+   {
+    "family": "plankton",
+    "k_any": 49,
+    "k_benign": 49,
+    "attack_benign": 66,
+    "attack_any": 73,
+    "lands": "waps"
+   },
+   {
+    "family": "plankton",
+    "k_any": 99,
+    "k_benign": 99,
+    "attack_benign": 121,
+    "attack_any": 176,
+    "lands": "revmob"
+   },
+   {
+    "family": "plankton",
+    "k_any": 40,
+    "k_benign": 44,
+    "attack_benign": 60,
+    "attack_any": 59,
+    "lands": "waps"
+   },
+   {
+    "family": "viser",
+    "k_any": 67,
+    "k_benign": 71,
+    "attack_benign": 97,
+    "attack_any": 94,
+    "lands": "kuguo"
+   },
+   {
+    "family": "viser",
+    "k_any": 20,
+    "k_benign": 42,
+    "attack_benign": 54,
+    "attack_any": 22,
+    "lands": "youmi"
+   },
+   {
+    "family": "viser",
+    "k_any": 47,
+    "k_benign": 48,
+    "attack_benign": 78,
+    "attack_any": 64,
+    "lands": "artemis"
+   },
+   {
+    "family": "viser",
+    "k_any": 96,
+    "k_benign": 98,
+    "attack_benign": 123,
+    "attack_any": 123,
+    "lands": "benign"
+   },
+   {
+    "family": "viser",
+    "k_any": 27,
+    "k_benign": 89,
+    "attack_benign": 112,
+    "attack_any": 29,
+    "lands": "millennialmediaads"
+   },
+   {
+    "family": "viser",
+    "k_any": 40,
+    "k_benign": 52,
+    "attack_benign": 153,
+    "attack_any": 52,
+    "lands": "artemis"
+   },
+   {
+    "family": "viser",
+    "k_any": 66,
+    "k_benign": 71,
+    "attack_benign": 96,
+    "attack_any": 94,
+    "lands": "kuguo"
+   },
+   {
+    "family": "viser",
+    "k_any": 95,
+    "k_benign": 136,
+    "attack_benign": 314,
+    "attack_any": 110,
+    "lands": "leadbolt"
+   },
+   {
+    "family": "viser",
+    "k_any": 32,
+    "k_benign": 46,
+    "attack_benign": 101,
+    "attack_any": 39,
+    "lands": "youmi"
+   },
+   {
+    "family": "viser",
+    "k_any": 95,
+    "k_benign": 135,
+    "attack_benign": 311,
+    "attack_any": 144,
+    "lands": "genpua"
+   },
+   {
+    "family": "kyview",
+    "k_any": 64,
+    "k_benign": 70,
+    "attack_benign": 88,
+    "attack_any": 79,
+    "lands": "adwo"
+   },
+   {
+    "family": "kyview",
+    "k_any": 147,
+    "k_benign": 202,
+    "attack_benign": 460,
+    "attack_any": 183,
+    "lands": "domob"
+   },
+   {
+    "family": "kyview",
+    "k_any": 28,
+    "k_benign": 64,
+    "attack_benign": 102,
+    "attack_any": 31,
+    "lands": "domob"
+   },
+   {
+    "family": "kyview",
+    "k_any": 23,
+    "k_benign": 67,
+    "attack_benign": 84,
+    "attack_any": 24,
+    "lands": "deng"
+   },
+   {
+    "family": "kyview",
+    "k_any": 62,
+    "k_benign": 71,
+    "attack_benign": 84,
+    "attack_any": 70,
+    "lands": "ginmaster"
+   },
+   {
+    "family": "kyview",
+    "k_any": 94,
+    "k_benign": 127,
+    "attack_benign": 169,
+    "attack_any": 110,
+    "lands": "artemis"
+   },
+   {
+    "family": "kyview",
+    "k_any": 11,
+    "k_benign": 118,
+    "attack_benign": 228,
+    "attack_any": 12,
+    "lands": "umeng"
+   },
+   {
+    "family": "kyview",
+    "k_any": 36,
+    "k_benign": 36,
+    "attack_benign": 39,
+    "attack_any": 39,
+    "lands": "benign"
+   },
+   {
+    "family": "kyview",
+    "k_any": 128,
+    "k_benign": 173,
+    "attack_benign": 349,
+    "attack_any": 157,
+    "lands": "dowgin"
+   },
+   {
+    "family": "kyview",
+    "k_any": 137,
+    "k_benign": 162,
+    "attack_benign": 384,
+    "attack_any": 210,
+    "lands": "adwo"
+   },
+   {
+    "family": "kyview",
+    "k_any": 64,
+    "k_benign": 111,
+    "attack_benign": 134,
+    "attack_any": 69,
+    "lands": "adwo"
+   },
+   {
+    "family": "kyview",
+    "k_any": 130,
+    "k_benign": 166,
+    "attack_benign": 332,
+    "attack_any": 165,
+    "lands": "dowgin"
+   },
+   {
+    "family": "ginmaster",
+    "k_any": 13,
+    "k_benign": 43,
+    "attack_benign": 99,
+    "attack_any": 14,
+    "lands": "smspay"
+   },
+   {
+    "family": "ginmaster",
+    "k_any": 14,
+    "k_benign": 75,
+    "attack_benign": 130,
+    "attack_any": 15,
+    "lands": "deng"
+   },
+   {
+    "family": "smspay",
+    "k_any": 17,
+    "k_benign": 60,
+    "attack_benign": 73,
+    "attack_any": 18,
+    "lands": "airpush"
+   },
+   {
+    "family": "smspay",
+    "k_any": 25,
+    "k_benign": 38,
+    "attack_benign": 40,
+    "attack_any": 26,
+    "lands": "genbl"
+   },
+   {
+    "family": "smspay",
+    "k_any": 28,
+    "k_benign": 125,
+    "attack_benign": 147,
+    "attack_any": 29,
+    "lands": "umeng"
+   },
+   {
+    "family": "smspay",
+    "k_any": 3,
+    "k_benign": 26,
+    "attack_benign": 58,
+    "attack_any": 4,
+    "lands": "gingermaster"
+   },
+   {
+    "family": "smspay",
+    "k_any": 142,
+    "k_benign": 194,
+    "attack_benign": 555,
+    "attack_any": 153,
+    "lands": "waps"
+   },
+   {
+    "family": "smspay",
+    "k_any": 40,
+    "k_benign": 66,
+    "attack_benign": 250,
+    "attack_any": 47,
+    "lands": "deng"
+   },
+   {
+    "family": "dowgin",
+    "k_any": 8,
+    "k_benign": 8,
+    "attack_benign": 9,
+    "attack_any": 9,
+    "lands": "benign"
+   },
+   {
+    "family": "dowgin",
+    "k_any": 7,
+    "k_benign": 26,
+    "attack_benign": 86,
+    "attack_any": 8,
+    "lands": "ginmaster"
+   },
+   {
+    "family": "dowgin",
+    "k_any": 2,
+    "k_benign": 29,
+    "attack_benign": 83,
+    "attack_any": 3,
+    "lands": "appsgeyser"
+   },
+   {
+    "family": "dowgin",
+    "k_any": 21,
+    "k_benign": 22,
+    "attack_benign": 25,
+    "attack_any": 25,
+    "lands": "benign"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 1,
+    "k_benign": 3,
+    "attack_benign": 10,
+    "attack_any": 2,
+    "lands": "feiwo"
+   },
+   {
+    "family": "eldorado",
+    "k_any": 3,
+    "k_benign": 3,
+    "attack_benign": 6,
+    "attack_any": 5,
+    "lands": "artemis"
+   }
+  ]
+ }
+}

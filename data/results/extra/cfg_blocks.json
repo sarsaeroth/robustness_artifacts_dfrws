@@ -1,0 +1,22 @@
+{
+ "proxy_v3": {
+  "apps": 270,
+  "median_nonlibrary_blocks": 125981.5,
+  "median_mean_blocks_per_method": 3.228
+ },
+ "malnet": {
+  "apps": 480,
+  "median_nonlibrary_blocks": 16069.0,
+  "median_mean_blocks_per_method": 3.558
+ },
+ "piggyback": {
+  "apps": 80,
+  "median_nonlibrary_blocks": 10625.5,
+  "median_mean_blocks_per_method": 3.646
+ },
+ "cic_andmal": {
+  "apps": 160,
+  "median_nonlibrary_blocks": 12197.0,
+  "median_mean_blocks_per_method": 3.584
+ }
+}

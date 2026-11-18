@@ -1,0 +1,22 @@
+{
+ "D18": {},
+ "D19": {
+  "median_spearman_across_seeds": 1.0,
+  "p10": 0.9999999999999999,
+  "n": 151
+ },
+ "D16": {
+  "adware": {
+   "collision_free_ceiling": null
+  },
+  "pua": {
+   "collision_free_ceiling": null
+  },
+  "riskware": {
+   "collision_free_ceiling": null
+  },
+  "trojan": {
+   "collision_free_ceiling": null
+  }
+ }
+}

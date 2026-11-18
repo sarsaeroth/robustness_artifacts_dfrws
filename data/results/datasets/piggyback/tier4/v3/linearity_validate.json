@@ -1,0 +1,116 @@
+{
+ "B6": {
+  "additive": {
+   "naive_bayes": 0.9895733731050236,
+   "logistic": 0.9895788102475033,
+   "forest": 0.987494572297004
+  },
+  "xor": {
+   "naive_bayes": 0.4833409691983512,
+   "logistic": 0.4876166034624407,
+   "forest": 0.6467019821634795
+  }
+ },
+ "B7": {
+  "labeled": {
+   "cka": 0.017376647003884242
+  },
+  "combined": {
+   "cka": 0.048763485322246745
+  },
+  "fuzzy": {
+   "cka": 0.03483010884010623
+  },
+  "api": {
+   "cka": 0.014392522422167486
+  },
+  "structure": {
+   "cka": 0.005800978948690339
+  },
+  "node2vec": {
+   "error": "KeyError('fcg_n2v_1024: no packed vectors for dataset piggyb"
+  },
+  "dex": {
+   "error": "KeyError('dex_bytecode_1024: no packed vectors for dataset p"
+  }
+ },
+ "B8": {
+  "labeled": {
+   "margin_median": 0.43464829000047317,
+   "margin_p10": 0.08742622148887016,
+   "within_margin_frac": 0.9935140228013886
+  },
+  "combined": {
+   "margin_median": 0.43977276278989275,
+   "margin_p10": 0.0846729197735748,
+   "within_margin_frac": 0.9543121682207468
+  },
+  "fuzzy": {
+   "margin_median": 0.29669822115043,
+   "margin_p10": 0.05989613403342954,
+   "within_margin_frac": 0.9914082289233738
+  },
+  "api": {
+   "margin_median": 0.1432478008573589,
+   "margin_p10": 0.025266805015192496,
+   "within_margin_frac": 1.0
+  },
+  "structure": {
+   "margin_median": 0.15939748455274727,
+   "margin_p10": 0.02986568719532672,
+   "within_margin_frac": 1.0
+  },
+  "node2vec": {
+   "error": "KeyError('fcg_n2v_1024: no packed vectors for dataset piggyb"
+  },
+  "dex": {
+   "error": "KeyError('dex_bytecode_1024: no packed vectors for dataset p"
+  }
+ },
+ "B9": {
+  "identifier": {
+   "256": {
+    "linear": 0.5299509803921569,
+    "forest": 0.49935836007817436
+   },
+   "1024": {
+    "linear": 0.5096057210763092,
+    "forest": 0.5149714028661397
+   },
+   "4096": {
+    "linear": 0.519350917400453,
+    "forest": 0.5551914098972922
+   },
+   "16384": {
+    "linear": 0.5753444362654888,
+    "forest": 0.5580905695611578
+   },
+   "65536": {
+    "linear": 0.5425696594427244,
+    "forest": 0.4207196185457055
+   }
+  },
+  "degree": {
+   "256": {
+    "linear": 0.5951447245564893,
+    "forest": 0.6496328490910536
+   },
+   "1024": {
+    "linear": 0.5745121381886087,
+    "forest": 0.5839721664644265
+   },
+   "4096": {
+    "linear": 0.5734665661136249,
+    "forest": 0.697922502334267
+   },
+   "16384": {
+    "linear": 0.5744281045751634,
+    "forest": 0.6780523707458691
+   },
+   "65536": {
+    "linear": 0.5502310924369748,
+    "forest": 0.6903624445729709
+   }
+  }
+ }
+}

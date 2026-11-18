@@ -1,0 +1,19 @@
+{
+ "dataset": "piggyback",
+ "groups": "neardup",
+ "graphs": [
+  "fcg"
+ ],
+ "lofo": {
+  "skipped": "fewer than two non-benign classes"
+ },
+ "novelty": {
+  "skipped": "fewer than two non-benign classes"
+ },
+ "temporal": {
+  "split_date": "2013-07-18",
+  "n_train": 1354,
+  "n_test": 1358,
+  "f1_temporal": 0.40745294299159146
+ }
+}

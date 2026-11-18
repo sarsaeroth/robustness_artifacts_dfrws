@@ -1,0 +1,150 @@
+{
+  "dim": 1024,
+  "iters": 2,
+  "apps": 30,
+  "k_sweep": [
+    0,
+    25,
+    50,
+    100,
+    200,
+    400,
+    800,
+    1600,
+    3200
+  ],
+  "iso_dims": [
+    1024,
+    16384,
+    262144,
+    1048576
+  ],
+  "rows": {
+    "0": {
+      "isolation_measured": 0.10291,
+      "isolation_predicted": 0.10291,
+      "margin_mean": 3.41502,
+      "margin_ratio": 1.0,
+      "still_correct_frac": 1.0,
+      "isolation_by_dim": {
+        "1024": 0.10291,
+        "16384": 0.56114,
+        "262144": 0.95466,
+        "1048576": 0.98811
+      },
+      "n": 30
+    },
+    "25": {
+      "isolation_measured": 0.09573,
+      "isolation_predicted": 0.09564,
+      "margin_mean": 3.35962,
+      "margin_ratio": 0.98378,
+      "still_correct_frac": 1.0,
+      "isolation_by_dim": {
+        "1024": 0.09573,
+        "16384": 0.55843,
+        "262144": 0.95421,
+        "1048576": 0.98799
+      },
+      "n": 30
+    },
+    "50": {
+      "isolation_measured": 0.09116,
+      "isolation_predicted": 0.08889,
+      "margin_mean": 3.35225,
+      "margin_ratio": 0.98162,
+      "still_correct_frac": 1.0,
+      "isolation_by_dim": {
+        "1024": 0.09116,
+        "16384": 0.55591,
+        "262144": 0.95418,
+        "1048576": 0.98795
+      },
+      "n": 30
+    },
+    "100": {
+      "isolation_measured": 0.07581,
+      "isolation_predicted": 0.07678,
+      "margin_mean": 3.2098,
+      "margin_ratio": 0.93991,
+      "still_correct_frac": 1.0,
+      "isolation_by_dim": {
+        "1024": 0.07581,
+        "16384": 0.55147,
+        "262144": 0.95371,
+        "1048576": 0.98785
+      },
+      "n": 30
+    },
+    "200": {
+      "isolation_measured": 0.05466,
+      "isolation_predicted": 0.05728,
+      "margin_mean": 3.21522,
+      "margin_ratio": 0.94149,
+      "still_correct_frac": 1.0,
+      "isolation_by_dim": {
+        "1024": 0.05466,
+        "16384": 0.53927,
+        "262144": 0.95224,
+        "1048576": 0.98772
+      },
+      "n": 30
+    },
+    "400": {
+      "isolation_measured": 0.03375,
+      "isolation_predicted": 0.03188,
+      "margin_mean": 3.14949,
+      "margin_ratio": 0.92225,
+      "still_correct_frac": 1.0,
+      "isolation_by_dim": {
+        "1024": 0.03375,
+        "16384": 0.51858,
+        "262144": 0.94966,
+        "1048576": 0.98675
+      },
+      "n": 30
+    },
+    "800": {
+      "isolation_measured": 0.01027,
+      "isolation_predicted": 0.00988,
+      "margin_mean": 2.90341,
+      "margin_ratio": 0.85019,
+      "still_correct_frac": 1.0,
+      "isolation_by_dim": {
+        "1024": 0.01027,
+        "16384": 0.48747,
+        "262144": 0.94516,
+        "1048576": 0.986
+      },
+      "n": 30
+    },
+    "1600": {
+      "isolation_measured": 0.00089,
+      "isolation_predicted": 0.00095,
+      "margin_mean": 2.64467,
+      "margin_ratio": 0.77442,
+      "still_correct_frac": 1.0,
+      "isolation_by_dim": {
+        "1024": 0.00089,
+        "16384": 0.41775,
+        "262144": 0.93771,
+        "1048576": 0.98411
+      },
+      "n": 30
+    },
+    "3200": {
+      "isolation_measured": 0.0,
+      "isolation_predicted": 1e-05,
+      "margin_mean": 2.32156,
+      "margin_ratio": 0.67981,
+      "still_correct_frac": 0.9667,
+      "isolation_by_dim": {
+        "1024": 0.0,
+        "16384": 0.30985,
+        "262144": 0.92216,
+        "1048576": 0.97948
+      },
+      "n": 30
+    }
+  }
+}

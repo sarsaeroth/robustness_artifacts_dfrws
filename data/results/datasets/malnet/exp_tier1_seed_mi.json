@@ -1,0 +1,96 @@
+{
+  "families": [
+    "benign",
+    "cauly",
+    "dowgin",
+    "droidkungfu",
+    "eldorado",
+    "gingermaster",
+    "ginmaster",
+    "igexin",
+    "kyview",
+    "plankton",
+    "revmob",
+    "smspay",
+    "viser"
+  ],
+  "apps": 517,
+  "n_permutations": 5,
+  "modes": {
+    "labeled": {
+      "identity": {
+        "I_bits": 2.8546,
+        "I_null_bits": 2.1003,
+        "I_signal_bits": 0.7543,
+        "distinct_colours": 2176708
+      },
+      "rename": {
+        "I_bits": 3.4388,
+        "I_null_bits": 3.6765,
+        "I_signal_bits": -0.2377,
+        "distinct_colours": 4698417
+      },
+      "J_maximin_bits": -0.2377
+    },
+    "fuzzy": {
+      "identity": {
+        "I_bits": 0.309,
+        "I_null_bits": 0.1483,
+        "I_signal_bits": 0.1607,
+        "distinct_colours": 54439
+      },
+      "rename": {
+        "I_bits": 0.309,
+        "I_null_bits": 0.1494,
+        "I_signal_bits": 0.1596,
+        "distinct_colours": 54439
+      },
+      "J_maximin_bits": 0.1596
+    },
+    "api": {
+      "identity": {
+        "I_bits": 0.0059,
+        "I_null_bits": 0.0039,
+        "I_signal_bits": 0.002,
+        "distinct_colours": 2438
+      },
+      "rename": {
+        "I_bits": 0.0059,
+        "I_null_bits": 0.0041,
+        "I_signal_bits": 0.0018,
+        "distinct_colours": 2438
+      },
+      "J_maximin_bits": 0.0018
+    },
+    "opcode": {
+      "identity": {
+        "I_bits": 1.044,
+        "I_null_bits": 0.6847,
+        "I_signal_bits": 0.3593,
+        "distinct_colours": 521134
+      },
+      "rename": {
+        "I_bits": 1.044,
+        "I_null_bits": 0.6817,
+        "I_signal_bits": 0.3623,
+        "distinct_colours": 521134
+      },
+      "J_maximin_bits": 0.3593
+    },
+    "combined": {
+      "identity": {
+        "I_bits": 1.3541,
+        "I_null_bits": 0.8745,
+        "I_signal_bits": 0.4796,
+        "distinct_colours": 628362
+      },
+      "rename": {
+        "I_bits": 1.3541,
+        "I_null_bits": 0.8587,
+        "I_signal_bits": 0.4954,
+        "distinct_colours": 628362
+      },
+      "J_maximin_bits": 0.4796
+    }
+  }
+}

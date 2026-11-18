@@ -1,0 +1,156 @@
+{
+ "cfg": {
+  "f1": 0.6244122460134791,
+  "n": 24,
+  "k_cert_median": 0.0,
+  "zero_frac": 0.9583333333333334,
+  "k_attack_median": 657.5,
+  "attack_never": 2,
+  "rows": [
+   {
+    "family": "original",
+    "k_cert": 0,
+    "k_attack": 796,
+    "attacked": true
+   },
+   {
+    "family": "original",
+    "k_cert": 0,
+    "k_attack": 1294,
+    "attacked": true
+   },
+   {
+    "family": "original",
+    "k_cert": 0,
+    "k_attack": 194,
+    "attacked": true
+   },
+   {
+    "family": "original",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "original",
+    "k_cert": 0,
+    "k_attack": 519,
+    "attacked": true
+   },
+   {
+    "family": "original",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "original",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "original",
+    "k_cert": 2,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "original",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "original",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "original",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "original",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "piggybacked",
+    "k_cert": 0,
+    "k_attack": 104,
+    "attacked": true
+   },
+   {
+    "family": "piggybacked",
+    "k_cert": 0,
+    "k_attack": 1025,
+    "attacked": true
+   },
+   {
+    "family": "piggybacked",
+    "k_cert": 0,
+    "k_attack": 1981,
+    "attacked": true
+   },
+   {
+    "family": "piggybacked",
+    "k_cert": 0,
+    "k_attack": 1131,
+    "attacked": true
+   },
+   {
+    "family": "piggybacked",
+    "k_cert": 0,
+    "k_attack": 226,
+    "attacked": true
+   },
+   {
+    "family": "piggybacked",
+    "k_cert": 0,
+    "k_attack": 61,
+    "attacked": true
+   },
+   {
+    "family": "piggybacked",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "piggybacked",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "piggybacked",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "piggybacked",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "piggybacked",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "piggybacked",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,248 @@
+{
+ "n": 391,
+ "datasets": [
+  "malnet",
+  "piggyback",
+  "proxy_v3"
+ ],
+ "apps": {
+  "rho": {
+   "spearman_with_k_norm": -0.12516159117322068,
+   "p": 0.013259104256500903,
+   "n": 391
+  },
+  "min_cut": {
+   "spearman_with_k_norm": 0.13279519984887939,
+   "p": 0.008561080838322983,
+   "n": 391
+  },
+  "boundary": {
+   "spearman_with_k_norm": 0.08387716720164304,
+   "p": 0.09768677747412964,
+   "n": 391
+  }
+ },
+ "family_medians": {
+  "rho": {
+   "spearman_with_k_norm": -0.13928571428571426,
+   "p": 0.6205460876279013,
+   "n": 15
+  },
+  "min_cut": {
+   "spearman_with_k_norm": 0.22102863024098282,
+   "p": 0.42857016996521086,
+   "n": 15
+  },
+  "boundary": {
+   "spearman_with_k_norm": 0.25,
+   "p": 0.3688462917839305,
+   "n": 15
+  }
+ },
+ "within_family": {
+  "rho": {
+   "median_spearman": 0.2405148515315406,
+   "n_families": 14,
+   "n_positive": 11
+  },
+  "min_cut": {
+   "median_spearman": 0.010864024324790736,
+   "n_families": 14,
+   "n_positive": 7
+  },
+  "boundary": {
+   "median_spearman": -0.31053641119591596,
+   "n_families": 13,
+   "n_positive": 3
+  }
+ },
+ "localization_family": {
+  "rho": {
+   "spearman_with_lift": -0.18928571428571428,
+   "p": 0.4992630332385453,
+   "n": 15
+  },
+  "min_cut": {
+   "spearman_with_lift": 0.2336074953766485,
+   "p": 0.40205703952763844,
+   "n": 15
+  },
+  "boundary": {
+   "spearman_with_lift": -0.05714285714285713,
+   "p": 0.8396998687415759,
+   "n": 15
+  },
+  "k_norm": {
+   "spearman_with_lift": -0.5071428571428571,
+   "p": 0.05366366378080595,
+   "n": 15
+  }
+ },
+ "families": [
+  {
+   "dataset": "malnet",
+   "family": "cauly",
+   "rho": 0.11035789740349364,
+   "min_cut": 19.0,
+   "boundary": 0.03788982472114728,
+   "k_norm": 0.030288406519680507,
+   "loc_precision": 0.2352677071206884,
+   "loc_base_rate": 0.1799827997612974,
+   "loc_lift": 1.3071677262089083
+  },
+  {
+   "dataset": "malnet",
+   "family": "igexin",
+   "rho": 0.06335864133205657,
+   "min_cut": 7.5,
+   "boundary": 0.005083884087442806,
+   "k_norm": 0.013365687003992675,
+   "loc_precision": 0.10677679550853877,
+   "loc_base_rate": 0.07361514702294052,
+   "loc_lift": 1.4504731679101879
+  },
+  {
+   "dataset": "malnet",
+   "family": "kyview",
+   "rho": 0.06180502443984676,
+   "min_cut": 2.0,
+   "boundary": 0.11706349206349206,
+   "k_norm": 0.017679991500245074,
+   "loc_precision": 0.13301784395052602,
+   "loc_base_rate": 0.0998484572202667,
+   "loc_lift": 1.332197288307493
+  },
+  {
+   "dataset": "malnet",
+   "family": "plankton",
+   "rho": 0.2539459838653104,
+   "min_cut": 1.0,
+   "boundary": 0.0013812154696132596,
+   "k_norm": 0.027906976744186046,
+   "loc_precision": 0.3044618080945208,
+   "loc_base_rate": 0.24529430204241268,
+   "loc_lift": 1.241210275002139
+  },
+  {
+   "dataset": "malnet",
+   "family": "revmob",
+   "rho": 0.025799434413748098,
+   "min_cut": 2.0,
+   "boundary": 0.006568144499178982,
+   "k_norm": 0.018311138014527845,
+   "loc_precision": 0.23757629167771052,
+   "loc_base_rate": 0.16093924369275675,
+   "loc_lift": 1.4761862068350387
+  },
+  {
+   "dataset": "malnet",
+   "family": "viser",
+   "rho": 0.25805188448360256,
+   "min_cut": 4.0,
+   "boundary": 0.008719916288803628,
+   "k_norm": 0.022788203753351208,
+   "loc_precision": 0.2693916323405561,
+   "loc_base_rate": 0.25129269162468804,
+   "loc_lift": 1.0720233469539149
+  },
+  {
+   "dataset": "piggyback",
+   "family": "piggybacked",
+   "rho": 0.2789698542288105,
+   "min_cut": 1.0,
+   "boundary": 0.0045351473922902496,
+   "k_norm": 0.011044371499884641,
+   "loc_precision": 0.33444824730436346,
+   "loc_base_rate": 0.3261591437246711,
+   "loc_lift": 1.0254142915787443
+  },
+  {
+   "dataset": "proxy_v3",
+   "family": "cashraven",
+   "rho": 0.0037880254028308143,
+   "min_cut": 10.5,
+   "boundary": 0.09629516227801592,
+   "k_norm": 0.007874449926615049,
+   "loc_precision": 0.013206536273536153,
+   "loc_base_rate": 0.005779451073909846,
+   "loc_lift": 2.2850848817034493
+  },
+  {
+   "dataset": "proxy_v3",
+   "family": "ipidea",
+   "rho": 6.472561732057519e-05,
+   "min_cut": 4.0,
+   "boundary": 4.0,
+   "k_norm": 0.04109685605526576,
+   "loc_precision": 0.0,
+   "loc_base_rate": 6.867982930896479e-05,
+   "loc_lift": 0.0
+  },
+  {
+   "dataset": "proxy_v3",
+   "family": "ipninja",
+   "rho": 0.03619324608175796,
+   "min_cut": 3.0,
+   "boundary": 0.0635593220338983,
+   "k_norm": 0.029805730506520002,
+   "loc_precision": 0.08389304159967712,
+   "loc_base_rate": 0.07508058088216456,
+   "loc_lift": 1.1173733689053804
+  },
+  {
+   "dataset": "proxy_v3",
+   "family": "luminati",
+   "rho": 0.15451965403022436,
+   "min_cut": 1.0,
+   "boundary": 0.023652439024390244,
+   "k_norm": 0.018643777796098358,
+   "loc_precision": 0.3368864508656933,
+   "loc_base_rate": 0.33034635102374804,
+   "loc_lift": 1.0197977057160685
+  },
+  {
+   "dataset": "proxy_v3",
+   "family": "monkeysocks",
+   "rho": 0.0052567092209794075,
+   "min_cut": 10.0,
+   "boundary": 0.09774436090225563,
+   "k_norm": 0.05424188490550046,
+   "loc_precision": 0.006358982562789953,
+   "loc_base_rate": 0.004833031259150029,
+   "loc_lift": 1.3157337955865587
+  },
+  {
+   "dataset": "proxy_v3",
+   "family": "oxylabs",
+   "rho": 0.04314868804664723,
+   "min_cut": 6.0,
+   "boundary": 0.10135135135135136,
+   "k_norm": 0.032809484422387646,
+   "loc_precision": 0.05130693596724077,
+   "loc_base_rate": 0.04287324498224021,
+   "loc_lift": 1.1967122150071479
+  },
+  {
+   "dataset": "proxy_v3",
+   "family": "popa",
+   "rho": 0.0012071463061323032,
+   "min_cut": 11.0,
+   "boundary": 0.7558139534883721,
+   "k_norm": 0.02796516619649209,
+   "loc_precision": 0.001964336056398909,
+   "loc_base_rate": 0.002601836638495236,
+   "loc_lift": 0.7549805500221477
+  },
+  {
+   "dataset": "proxy_v3",
+   "family": "traffmonetizer",
+   "rho": 0.0008659674786113381,
+   "min_cut": 6.0,
+   "boundary": 1.1944444444444444,
+   "k_norm": 0.006053158491674676,
+   "loc_precision": 0.005375528804280204,
+   "loc_base_rate": 0.001675304868832737,
+   "loc_lift": 3.2086869108340776
+  }
+ ]
+}

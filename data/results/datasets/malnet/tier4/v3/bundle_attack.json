@@ -1,0 +1,2463 @@
+{
+ "n": 296,
+ "n_donors": 40,
+ "n_packages": 3717,
+ "token": {
+  "success": 1.0,
+  "median_tokens_when_successful": 123.5
+ },
+ "greedy": {
+  "success": 0.9966216216216216,
+  "median_tokens_when_successful": 7400.0
+ },
+ "random": {
+  "success": 0.5236486486486487,
+  "median_tokens_when_successful": 9760.0
+ },
+ "greedy_packages_median": 1.0,
+ "whole_app_flip_rate_mean": 0.33547297297297296,
+ "per_family": {
+  "cauly": {
+   "n": 37,
+   "greedy_success": 1.0,
+   "random_success": 0.5135135135135135,
+   "whole_app_flip_rate": 0.26689189189189194
+  },
+  "dowgin": {
+   "n": 16,
+   "greedy_success": 1.0,
+   "random_success": 0.875,
+   "whole_app_flip_rate": 0.5625
+  },
+  "droidkungfu": {
+   "n": 13,
+   "greedy_success": 1.0,
+   "random_success": 0.7692307692307693,
+   "whole_app_flip_rate": 0.35384615384615387
+  },
+  "eldorado": {
+   "n": 35,
+   "greedy_success": 1.0,
+   "random_success": 0.9142857142857143,
+   "whole_app_flip_rate": 0.742857142857143
+  },
+  "gingermaster": {
+   "n": 10,
+   "greedy_success": 1.0,
+   "random_success": 0.6,
+   "whole_app_flip_rate": 0.3725
+  },
+  "ginmaster": {
+   "n": 9,
+   "greedy_success": 1.0,
+   "random_success": 0.6666666666666666,
+   "whole_app_flip_rate": 0.35555555555555557
+  },
+  "igexin": {
+   "n": 32,
+   "greedy_success": 0.96875,
+   "random_success": 0.1875,
+   "whole_app_flip_rate": 0.13359375
+  },
+  "kyview": {
+   "n": 32,
+   "greedy_success": 1.0,
+   "random_success": 0.3125,
+   "whole_app_flip_rate": 0.2234375
+  },
+  "plankton": {
+   "n": 36,
+   "greedy_success": 1.0,
+   "random_success": 0.5,
+   "whole_app_flip_rate": 0.3097222222222223
+  },
+  "revmob": {
+   "n": 33,
+   "greedy_success": 1.0,
+   "random_success": 0.3333333333333333,
+   "whole_app_flip_rate": 0.18939393939393942
+  },
+  "smspay": {
+   "n": 19,
+   "greedy_success": 1.0,
+   "random_success": 0.5263157894736842,
+   "whole_app_flip_rate": 0.30131578947368415
+  },
+  "viser": {
+   "n": 24,
+   "greedy_success": 1.0,
+   "random_success": 0.5416666666666666,
+   "whole_app_flip_rate": 0.34791666666666665
+  }
+ },
+ "rows": [
+  {
+   "family": "revmob",
+   "token": 68,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 7834.0,
+   "whole_app_flip_rate": 0.525
+  },
+  {
+   "family": "revmob",
+   "token": 245,
+   "greedy": 15462.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.025
+  },
+  {
+   "family": "revmob",
+   "token": 463,
+   "greedy": 15462.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "revmob",
+   "token": 159,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 11574.0,
+   "whole_app_flip_rate": 0.375
+  },
+  {
+   "family": "revmob",
+   "token": 463,
+   "greedy": 15462.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "igexin",
+   "token": 179,
+   "greedy": 8062.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "igexin",
+   "token": 457,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.15
+  },
+  {
+   "family": "igexin",
+   "token": 235,
+   "greedy": 15462.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.075
+  },
+  {
+   "family": "igexin",
+   "token": 215,
+   "greedy": 15462.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.075
+  },
+  {
+   "family": "igexin",
+   "token": 408,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.125
+  },
+  {
+   "family": "igexin",
+   "token": 286,
+   "greedy": 15462.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.1
+  },
+  {
+   "family": "igexin",
+   "token": 374,
+   "greedy": 17841.0,
+   "greedy_packages": 4,
+   "random": null,
+   "whole_app_flip_rate": 0.025
+  },
+  {
+   "family": "igexin",
+   "token": 485,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.1
+  },
+  {
+   "family": "igexin",
+   "token": 105,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 6290.0,
+   "whole_app_flip_rate": 0.275
+  },
+  {
+   "family": "cauly",
+   "token": 298,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.1
+  },
+  {
+   "family": "cauly",
+   "token": 8,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 4152.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "cauly",
+   "token": 667,
+   "greedy": 16193.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.025
+  },
+  {
+   "family": "plankton",
+   "token": 79,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 13679.0,
+   "whole_app_flip_rate": 0.425
+  },
+  {
+   "family": "plankton",
+   "token": 119,
+   "greedy": 10741.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.25
+  },
+  {
+   "family": "viser",
+   "token": 116,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.3
+  },
+  {
+   "family": "viser",
+   "token": 143,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.275
+  },
+  {
+   "family": "viser",
+   "token": 47,
+   "greedy": 3069.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.475
+  },
+  {
+   "family": "kyview",
+   "token": 96,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 13551.0,
+   "whole_app_flip_rate": 0.4
+  },
+  {
+   "family": "kyview",
+   "token": 284,
+   "greedy": 18531.0,
+   "greedy_packages": 4,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "kyview",
+   "token": 153,
+   "greedy": 8062.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.325
+  },
+  {
+   "family": "kyview",
+   "token": 151,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.15
+  },
+  {
+   "family": "kyview",
+   "token": 156,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": 2627.0,
+   "whole_app_flip_rate": 0.425
+  },
+  {
+   "family": "kyview",
+   "token": 175,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 5144.0,
+   "whole_app_flip_rate": 0.35
+  },
+  {
+   "family": "kyview",
+   "token": 644,
+   "greedy": 18531.0,
+   "greedy_packages": 4,
+   "random": null,
+   "whole_app_flip_rate": 0.025
+  },
+  {
+   "family": "ginmaster",
+   "token": 123,
+   "greedy": 11172.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.25
+  },
+  {
+   "family": "ginmaster",
+   "token": 147,
+   "greedy": 11172.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.225
+  },
+  {
+   "family": "ginmaster",
+   "token": 141,
+   "greedy": 11172.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "smspay",
+   "token": 151,
+   "greedy": 10741.0,
+   "greedy_packages": 2,
+   "random": 7317.0,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "smspay",
+   "token": 186,
+   "greedy": 10741.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.125
+  },
+  {
+   "family": "smspay",
+   "token": 277,
+   "greedy": 13333.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.1
+  },
+  {
+   "family": "eldorado",
+   "token": 637,
+   "greedy": 10741.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.1
+  },
+  {
+   "family": "eldorado",
+   "token": 7,
+   "greedy": 924.0,
+   "greedy_packages": 1,
+   "random": 318.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "eldorado",
+   "token": 593,
+   "greedy": 10741.0,
+   "greedy_packages": 2,
+   "random": 18422.0,
+   "whole_app_flip_rate": 0.125
+  },
+  {
+   "family": "revmob",
+   "token": 38,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 7342.0,
+   "whole_app_flip_rate": 0.6
+  },
+  {
+   "family": "revmob",
+   "token": 88,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 7734.0,
+   "whole_app_flip_rate": 0.5
+  },
+  {
+   "family": "revmob",
+   "token": 92,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 7287.0,
+   "whole_app_flip_rate": 0.475
+  },
+  {
+   "family": "revmob",
+   "token": 370,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": 18557.0,
+   "whole_app_flip_rate": 0.075
+  },
+  {
+   "family": "revmob",
+   "token": 335,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.05
+  },
+  {
+   "family": "revmob",
+   "token": 344,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.1
+  },
+  {
+   "family": "revmob",
+   "token": 363,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.075
+  },
+  {
+   "family": "revmob",
+   "token": 333,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.05
+  },
+  {
+   "family": "revmob",
+   "token": 335,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.1
+  },
+  {
+   "family": "revmob",
+   "token": 335,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.05
+  },
+  {
+   "family": "igexin",
+   "token": 200,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 9212.0,
+   "whole_app_flip_rate": 0.425
+  },
+  {
+   "family": "igexin",
+   "token": 572,
+   "greedy": 14779.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.05
+  },
+  {
+   "family": "igexin",
+   "token": 368,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.075
+  },
+  {
+   "family": "igexin",
+   "token": 874,
+   "greedy": 14779.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.05
+  },
+  {
+   "family": "igexin",
+   "token": 249,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.125
+  },
+  {
+   "family": "igexin",
+   "token": 557,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.125
+  },
+  {
+   "family": "igexin",
+   "token": 913,
+   "greedy": 14779.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.025
+  },
+  {
+   "family": "igexin",
+   "token": 1504,
+   "greedy": null,
+   "greedy_packages": 10,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "igexin",
+   "token": 203,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.15
+  },
+  {
+   "family": "cauly",
+   "token": 281,
+   "greedy": 11472.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.075
+  },
+  {
+   "family": "cauly",
+   "token": 178,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 17115.0,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "cauly",
+   "token": 234,
+   "greedy": 11472.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.125
+  },
+  {
+   "family": "cauly",
+   "token": 60,
+   "greedy": 4072.0,
+   "greedy_packages": 1,
+   "random": 6994.0,
+   "whole_app_flip_rate": 0.55
+  },
+  {
+   "family": "cauly",
+   "token": 167,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 12424.0,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "cauly",
+   "token": 221,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 19578.0,
+   "whole_app_flip_rate": 0.225
+  },
+  {
+   "family": "cauly",
+   "token": 125,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 10012.0,
+   "whole_app_flip_rate": 0.275
+  },
+  {
+   "family": "plankton",
+   "token": 114,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "plankton",
+   "token": 73,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.4
+  },
+  {
+   "family": "plankton",
+   "token": 74,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 15387.0,
+   "whole_app_flip_rate": 0.375
+  },
+  {
+   "family": "plankton",
+   "token": 99,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.3
+  },
+  {
+   "family": "plankton",
+   "token": 108,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 17655.0,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "plankton",
+   "token": 95,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 14167.0,
+   "whole_app_flip_rate": 0.275
+  },
+  {
+   "family": "plankton",
+   "token": 94,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.275
+  },
+  {
+   "family": "plankton",
+   "token": 66,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.425
+  },
+  {
+   "family": "plankton",
+   "token": 73,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.4
+  },
+  {
+   "family": "plankton",
+   "token": 60,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 7099.0,
+   "whole_app_flip_rate": 0.45
+  },
+  {
+   "family": "viser",
+   "token": 8,
+   "greedy": 3069.0,
+   "greedy_packages": 1,
+   "random": 9929.0,
+   "whole_app_flip_rate": 0.725
+  },
+  {
+   "family": "viser",
+   "token": 74,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 10434.0,
+   "whole_app_flip_rate": 0.45
+  },
+  {
+   "family": "viser",
+   "token": 136,
+   "greedy": 10741.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "kyview",
+   "token": 48,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.5
+  },
+  {
+   "family": "kyview",
+   "token": 50,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 11112.0,
+   "whole_app_flip_rate": 0.475
+  },
+  {
+   "family": "kyview",
+   "token": 190,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.05
+  },
+  {
+   "family": "kyview",
+   "token": 96,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "kyview",
+   "token": 152,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.1
+  },
+  {
+   "family": "kyview",
+   "token": 110,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.225
+  },
+  {
+   "family": "droidkungfu",
+   "token": 132,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 19253.0,
+   "whole_app_flip_rate": 0.275
+  },
+  {
+   "family": "droidkungfu",
+   "token": 94,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": 6455.0,
+   "whole_app_flip_rate": 0.575
+  },
+  {
+   "family": "droidkungfu",
+   "token": 154,
+   "greedy": 8062.0,
+   "greedy_packages": 2,
+   "random": 15866.0,
+   "whole_app_flip_rate": 0.325
+  },
+  {
+   "family": "droidkungfu",
+   "token": 177,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.275
+  },
+  {
+   "family": "droidkungfu",
+   "token": 98,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 12263.0,
+   "whole_app_flip_rate": 0.35
+  },
+  {
+   "family": "ginmaster",
+   "token": 126,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 5293.0,
+   "whole_app_flip_rate": 0.45
+  },
+  {
+   "family": "ginmaster",
+   "token": 78,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 1405.0,
+   "whole_app_flip_rate": 0.55
+  },
+  {
+   "family": "gingermaster",
+   "token": 62,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 15416.0,
+   "whole_app_flip_rate": 0.425
+  },
+  {
+   "family": "gingermaster",
+   "token": 294,
+   "greedy": 10741.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.1
+  },
+  {
+   "family": "gingermaster",
+   "token": 105,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 15070.0,
+   "whole_app_flip_rate": 0.4
+  },
+  {
+   "family": "smspay",
+   "token": 85,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": 13857.0,
+   "whole_app_flip_rate": 0.325
+  },
+  {
+   "family": "dowgin",
+   "token": 26,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.6
+  },
+  {
+   "family": "dowgin",
+   "token": 17,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 8711.0,
+   "whole_app_flip_rate": 0.625
+  },
+  {
+   "family": "dowgin",
+   "token": 20,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 1092.0,
+   "whole_app_flip_rate": 0.65
+  },
+  {
+   "family": "dowgin",
+   "token": 57,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 9760.0,
+   "whole_app_flip_rate": 0.45
+  },
+  {
+   "family": "eldorado",
+   "token": 4,
+   "greedy": 924.0,
+   "greedy_packages": 1,
+   "random": 226.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "eldorado",
+   "token": 4,
+   "greedy": 924.0,
+   "greedy_packages": 1,
+   "random": 7883.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "eldorado",
+   "token": 7,
+   "greedy": 2132.0,
+   "greedy_packages": 1,
+   "random": 719.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "eldorado",
+   "token": 4,
+   "greedy": 924.0,
+   "greedy_packages": 1,
+   "random": 322.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "eldorado",
+   "token": 7,
+   "greedy": 2132.0,
+   "greedy_packages": 1,
+   "random": 1502.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "eldorado",
+   "token": 4,
+   "greedy": 924.0,
+   "greedy_packages": 1,
+   "random": 15339.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "eldorado",
+   "token": 7,
+   "greedy": 2132.0,
+   "greedy_packages": 1,
+   "random": 231.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "eldorado",
+   "token": 7,
+   "greedy": 2132.0,
+   "greedy_packages": 1,
+   "random": 1274.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "eldorado",
+   "token": 7,
+   "greedy": 2132.0,
+   "greedy_packages": 1,
+   "random": 3424.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "eldorado",
+   "token": 4,
+   "greedy": 924.0,
+   "greedy_packages": 1,
+   "random": 43.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "eldorado",
+   "token": 7,
+   "greedy": 2132.0,
+   "greedy_packages": 1,
+   "random": 10791.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "eldorado",
+   "token": 4,
+   "greedy": 924.0,
+   "greedy_packages": 1,
+   "random": 63.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "eldorado",
+   "token": 4,
+   "greedy": 924.0,
+   "greedy_packages": 1,
+   "random": 312.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "eldorado",
+   "token": 4,
+   "greedy": 924.0,
+   "greedy_packages": 1,
+   "random": 2619.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "eldorado",
+   "token": 7,
+   "greedy": 2132.0,
+   "greedy_packages": 1,
+   "random": 1158.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "eldorado",
+   "token": 7,
+   "greedy": 2132.0,
+   "greedy_packages": 1,
+   "random": 290.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "eldorado",
+   "token": 4,
+   "greedy": 924.0,
+   "greedy_packages": 1,
+   "random": 121.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "eldorado",
+   "token": 7,
+   "greedy": 2132.0,
+   "greedy_packages": 1,
+   "random": 2214.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "eldorado",
+   "token": 4,
+   "greedy": 924.0,
+   "greedy_packages": 1,
+   "random": 468.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "eldorado",
+   "token": 7,
+   "greedy": 2132.0,
+   "greedy_packages": 1,
+   "random": 3277.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "eldorado",
+   "token": 7,
+   "greedy": 2132.0,
+   "greedy_packages": 1,
+   "random": 1751.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "eldorado",
+   "token": 7,
+   "greedy": 2132.0,
+   "greedy_packages": 1,
+   "random": 3493.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "eldorado",
+   "token": 7,
+   "greedy": 2132.0,
+   "greedy_packages": 1,
+   "random": 1129.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "revmob",
+   "token": 341,
+   "greedy": 15462.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.025
+  },
+  {
+   "family": "revmob",
+   "token": 126,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.25
+  },
+  {
+   "family": "revmob",
+   "token": 341,
+   "greedy": 15462.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.025
+  },
+  {
+   "family": "revmob",
+   "token": 286,
+   "greedy": 15462.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.05
+  },
+  {
+   "family": "revmob",
+   "token": 80,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 19942.0,
+   "whole_app_flip_rate": 0.475
+  },
+  {
+   "family": "igexin",
+   "token": 221,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.075
+  },
+  {
+   "family": "igexin",
+   "token": 188,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.1
+  },
+  {
+   "family": "igexin",
+   "token": 324,
+   "greedy": 14110.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.025
+  },
+  {
+   "family": "igexin",
+   "token": 224,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.1
+  },
+  {
+   "family": "cauly",
+   "token": 224,
+   "greedy": 10058.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.1
+  },
+  {
+   "family": "cauly",
+   "token": 81,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 8305.0,
+   "whole_app_flip_rate": 0.4
+  },
+  {
+   "family": "cauly",
+   "token": 281,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.15
+  },
+  {
+   "family": "cauly",
+   "token": 116,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 15560.0,
+   "whole_app_flip_rate": 0.3
+  },
+  {
+   "family": "cauly",
+   "token": 168,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 10737.0,
+   "whole_app_flip_rate": 0.3
+  },
+  {
+   "family": "cauly",
+   "token": 145,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 14419.0,
+   "whole_app_flip_rate": 0.4
+  },
+  {
+   "family": "cauly",
+   "token": 224,
+   "greedy": 10058.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.1
+  },
+  {
+   "family": "cauly",
+   "token": 146,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 10506.0,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "cauly",
+   "token": 44,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 5526.0,
+   "whole_app_flip_rate": 0.525
+  },
+  {
+   "family": "plankton",
+   "token": 88,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": 11061.0,
+   "whole_app_flip_rate": 0.4
+  },
+  {
+   "family": "plankton",
+   "token": 147,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 19545.0,
+   "whole_app_flip_rate": 0.15
+  },
+  {
+   "family": "plankton",
+   "token": 144,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 12139.0,
+   "whole_app_flip_rate": 0.15
+  },
+  {
+   "family": "plankton",
+   "token": 125,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 16319.0,
+   "whole_app_flip_rate": 0.225
+  },
+  {
+   "family": "plankton",
+   "token": 115,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 14824.0,
+   "whole_app_flip_rate": 0.275
+  },
+  {
+   "family": "plankton",
+   "token": 110,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.325
+  },
+  {
+   "family": "plankton",
+   "token": 116,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.3
+  },
+  {
+   "family": "plankton",
+   "token": 84,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": 17128.0,
+   "whole_app_flip_rate": 0.425
+  },
+  {
+   "family": "plankton",
+   "token": 161,
+   "greedy": 10741.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.125
+  },
+  {
+   "family": "plankton",
+   "token": 259,
+   "greedy": 10741.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.05
+  },
+  {
+   "family": "plankton",
+   "token": 247,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 14130.0,
+   "whole_app_flip_rate": 0.25
+  },
+  {
+   "family": "viser",
+   "token": 124,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "viser",
+   "token": 60,
+   "greedy": 4072.0,
+   "greedy_packages": 1,
+   "random": 17675.0,
+   "whole_app_flip_rate": 0.425
+  },
+  {
+   "family": "kyview",
+   "token": 36,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 3710.0,
+   "whole_app_flip_rate": 0.55
+  },
+  {
+   "family": "kyview",
+   "token": 275,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.15
+  },
+  {
+   "family": "droidkungfu",
+   "token": 73,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 12029.0,
+   "whole_app_flip_rate": 0.425
+  },
+  {
+   "family": "droidkungfu",
+   "token": 58,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 9811.0,
+   "whole_app_flip_rate": 0.45
+  },
+  {
+   "family": "droidkungfu",
+   "token": 112,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 16695.0,
+   "whole_app_flip_rate": 0.275
+  },
+  {
+   "family": "droidkungfu",
+   "token": 57,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 5809.0,
+   "whole_app_flip_rate": 0.5
+  },
+  {
+   "family": "ginmaster",
+   "token": 89,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 15675.0,
+   "whole_app_flip_rate": 0.45
+  },
+  {
+   "family": "gingermaster",
+   "token": 228,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.275
+  },
+  {
+   "family": "gingermaster",
+   "token": 48,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.5
+  },
+  {
+   "family": "smspay",
+   "token": 64,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": 5292.0,
+   "whole_app_flip_rate": 0.45
+  },
+  {
+   "family": "smspay",
+   "token": 17,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": 5408.0,
+   "whole_app_flip_rate": 0.65
+  },
+  {
+   "family": "smspay",
+   "token": 131,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 15349.0,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "smspay",
+   "token": 72,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": 11059.0,
+   "whole_app_flip_rate": 0.425
+  },
+  {
+   "family": "smspay",
+   "token": 240,
+   "greedy": 10741.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.1
+  },
+  {
+   "family": "dowgin",
+   "token": 203,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 5966.0,
+   "whole_app_flip_rate": 0.275
+  },
+  {
+   "family": "dowgin",
+   "token": 53,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 7338.0,
+   "whole_app_flip_rate": 0.65
+  },
+  {
+   "family": "eldorado",
+   "token": 343,
+   "greedy": 10741.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.125
+  },
+  {
+   "family": "eldorado",
+   "token": 5,
+   "greedy": 924.0,
+   "greedy_packages": 1,
+   "random": 7312.0,
+   "whole_app_flip_rate": 0.85
+  },
+  {
+   "family": "eldorado",
+   "token": 10,
+   "greedy": 924.0,
+   "greedy_packages": 1,
+   "random": 3038.0,
+   "whole_app_flip_rate": 0.825
+  },
+  {
+   "family": "eldorado",
+   "token": 5,
+   "greedy": 924.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "revmob",
+   "token": 230,
+   "greedy": 14500.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.025
+  },
+  {
+   "family": "revmob",
+   "token": 73,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 12271.0,
+   "whole_app_flip_rate": 0.4
+  },
+  {
+   "family": "revmob",
+   "token": 234,
+   "greedy": 14500.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.025
+  },
+  {
+   "family": "revmob",
+   "token": 154,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 16904.0,
+   "whole_app_flip_rate": 0.25
+  },
+  {
+   "family": "revmob",
+   "token": 170,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.325
+  },
+  {
+   "family": "revmob",
+   "token": 232,
+   "greedy": 14500.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.025
+  },
+  {
+   "family": "revmob",
+   "token": 239,
+   "greedy": 14500.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.025
+  },
+  {
+   "family": "revmob",
+   "token": 49,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 7192.0,
+   "whole_app_flip_rate": 0.5
+  },
+  {
+   "family": "igexin",
+   "token": 204,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "igexin",
+   "token": 44,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 2407.0,
+   "whole_app_flip_rate": 0.55
+  },
+  {
+   "family": "igexin",
+   "token": 255,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "igexin",
+   "token": 233,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.125
+  },
+  {
+   "family": "igexin",
+   "token": 589,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.075
+  },
+  {
+   "family": "cauly",
+   "token": 81,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.45
+  },
+  {
+   "family": "cauly",
+   "token": 142,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 19210.0,
+   "whole_app_flip_rate": 0.25
+  },
+  {
+   "family": "cauly",
+   "token": 45,
+   "greedy": 2658.0,
+   "greedy_packages": 1,
+   "random": 7272.0,
+   "whole_app_flip_rate": 0.525
+  },
+  {
+   "family": "cauly",
+   "token": 187,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 16521.0,
+   "whole_app_flip_rate": 0.175
+  },
+  {
+   "family": "cauly",
+   "token": 218,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 7966.0,
+   "whole_app_flip_rate": 0.325
+  },
+  {
+   "family": "cauly",
+   "token": 139,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 10944.0,
+   "whole_app_flip_rate": 0.275
+  },
+  {
+   "family": "cauly",
+   "token": 207,
+   "greedy": 11472.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.125
+  },
+  {
+   "family": "cauly",
+   "token": 309,
+   "greedy": 11472.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.125
+  },
+  {
+   "family": "cauly",
+   "token": 187,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.275
+  },
+  {
+   "family": "plankton",
+   "token": 128,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.225
+  },
+  {
+   "family": "plankton",
+   "token": 160,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.125
+  },
+  {
+   "family": "plankton",
+   "token": 68,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 14835.0,
+   "whole_app_flip_rate": 0.525
+  },
+  {
+   "family": "plankton",
+   "token": 78,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.5
+  },
+  {
+   "family": "plankton",
+   "token": 208,
+   "greedy": 10741.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.1
+  },
+  {
+   "family": "plankton",
+   "token": 66,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 13222.0,
+   "whole_app_flip_rate": 0.525
+  },
+  {
+   "family": "plankton",
+   "token": 61,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": 16130.0,
+   "whole_app_flip_rate": 0.55
+  },
+  {
+   "family": "plankton",
+   "token": 464,
+   "greedy": 10741.0,
+   "greedy_packages": 2,
+   "random": 14201.0,
+   "whole_app_flip_rate": 0.125
+  },
+  {
+   "family": "plankton",
+   "token": 91,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.375
+  },
+  {
+   "family": "viser",
+   "token": 91,
+   "greedy": 4072.0,
+   "greedy_packages": 1,
+   "random": 13431.0,
+   "whole_app_flip_rate": 0.35
+  },
+  {
+   "family": "viser",
+   "token": 56,
+   "greedy": 4072.0,
+   "greedy_packages": 1,
+   "random": 4616.0,
+   "whole_app_flip_rate": 0.45
+  },
+  {
+   "family": "viser",
+   "token": 25,
+   "greedy": 4072.0,
+   "greedy_packages": 1,
+   "random": 1851.0,
+   "whole_app_flip_rate": 0.7
+  },
+  {
+   "family": "viser",
+   "token": 129,
+   "greedy": 4072.0,
+   "greedy_packages": 1,
+   "random": 14442.0,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "viser",
+   "token": 86,
+   "greedy": 4072.0,
+   "greedy_packages": 1,
+   "random": 9549.0,
+   "whole_app_flip_rate": 0.35
+  },
+  {
+   "family": "viser",
+   "token": 58,
+   "greedy": 4072.0,
+   "greedy_packages": 1,
+   "random": 12658.0,
+   "whole_app_flip_rate": 0.55
+  },
+  {
+   "family": "kyview",
+   "token": 490,
+   "greedy": 14500.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.025
+  },
+  {
+   "family": "kyview",
+   "token": 364,
+   "greedy": 14500.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.075
+  },
+  {
+   "family": "kyview",
+   "token": 174,
+   "greedy": 2379.0,
+   "greedy_packages": 1,
+   "random": 12903.0,
+   "whole_app_flip_rate": 0.45
+  },
+  {
+   "family": "kyview",
+   "token": 102,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.25
+  },
+  {
+   "family": "kyview",
+   "token": 144,
+   "greedy": 7100.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.125
+  },
+  {
+   "family": "droidkungfu",
+   "token": 127,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 19338.0,
+   "whole_app_flip_rate": 0.375
+  },
+  {
+   "family": "droidkungfu",
+   "token": 119,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 16908.0,
+   "whole_app_flip_rate": 0.375
+  },
+  {
+   "family": "droidkungfu",
+   "token": 364,
+   "greedy": 8793.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.125
+  },
+  {
+   "family": "droidkungfu",
+   "token": 135,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.275
+  },
+  {
+   "family": "ginmaster",
+   "token": 243,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 8174.0,
+   "whole_app_flip_rate": 0.275
+  },
+  {
+   "family": "gingermaster",
+   "token": 68,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": 6525.0,
+   "whole_app_flip_rate": 0.45
+  },
+  {
+   "family": "gingermaster",
+   "token": 58,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": 15812.0,
+   "whole_app_flip_rate": 0.375
+  },
+  {
+   "family": "gingermaster",
+   "token": 69,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": 9574.0,
+   "whole_app_flip_rate": 0.475
+  },
+  {
+   "family": "gingermaster",
+   "token": 79,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.325
+  },
+  {
+   "family": "gingermaster",
+   "token": 107,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": 11070.0,
+   "whole_app_flip_rate": 0.4
+  },
+  {
+   "family": "smspay",
+   "token": 84,
+   "greedy": 5037.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.35
+  },
+  {
+   "family": "smspay",
+   "token": 255,
+   "greedy": 12650.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.05
+  },
+  {
+   "family": "smspay",
+   "token": 207,
+   "greedy": 10058.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.15
+  },
+  {
+   "family": "smspay",
+   "token": 78,
+   "greedy": 2658.0,
+   "greedy_packages": 1,
+   "random": 8494.0,
+   "whole_app_flip_rate": 0.35
+  },
+  {
+   "family": "dowgin",
+   "token": 119,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": 19062.0,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "dowgin",
+   "token": 324,
+   "greedy": 14773.0,
+   "greedy_packages": 3,
+   "random": 19710.0,
+   "whole_app_flip_rate": 0.1
+  },
+  {
+   "family": "dowgin",
+   "token": 8,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 9748.0,
+   "whole_app_flip_rate": 0.725
+  },
+  {
+   "family": "dowgin",
+   "token": 7,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 7671.0,
+   "whole_app_flip_rate": 0.675
+  },
+  {
+   "family": "dowgin",
+   "token": 29,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 1519.0,
+   "whole_app_flip_rate": 0.575
+  },
+  {
+   "family": "dowgin",
+   "token": 5,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 238.0,
+   "whole_app_flip_rate": 0.925
+  },
+  {
+   "family": "eldorado",
+   "token": 8,
+   "greedy": 2132.0,
+   "greedy_packages": 1,
+   "random": 1514.0,
+   "whole_app_flip_rate": 0.7
+  },
+  {
+   "family": "eldorado",
+   "token": 5,
+   "greedy": 2132.0,
+   "greedy_packages": 1,
+   "random": 15504.0,
+   "whole_app_flip_rate": 0.75
+  },
+  {
+   "family": "eldorado",
+   "token": 6,
+   "greedy": 2132.0,
+   "greedy_packages": 1,
+   "random": 2707.0,
+   "whole_app_flip_rate": 0.8
+  },
+  {
+   "family": "revmob",
+   "token": 254,
+   "greedy": 15462.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.075
+  },
+  {
+   "family": "revmob",
+   "token": 254,
+   "greedy": 15462.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.075
+  },
+  {
+   "family": "revmob",
+   "token": 100,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 4536.0,
+   "whole_app_flip_rate": 0.55
+  },
+  {
+   "family": "revmob",
+   "token": 254,
+   "greedy": 15462.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.075
+  },
+  {
+   "family": "revmob",
+   "token": 254,
+   "greedy": 15462.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.075
+  },
+  {
+   "family": "igexin",
+   "token": 184,
+   "greedy": 8062.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.15
+  },
+  {
+   "family": "igexin",
+   "token": 372,
+   "greedy": 8062.0,
+   "greedy_packages": 2,
+   "random": 14428.0,
+   "whole_app_flip_rate": 0.175
+  },
+  {
+   "family": "igexin",
+   "token": 460,
+   "greedy": 15462.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.05
+  },
+  {
+   "family": "igexin",
+   "token": 145,
+   "greedy": 8062.0,
+   "greedy_packages": 2,
+   "random": 15495.0,
+   "whole_app_flip_rate": 0.175
+  },
+  {
+   "family": "igexin",
+   "token": 243,
+   "greedy": 8062.0,
+   "greedy_packages": 2,
+   "random": 16364.0,
+   "whole_app_flip_rate": 0.125
+  },
+  {
+   "family": "cauly",
+   "token": 142,
+   "greedy": 10058.0,
+   "greedy_packages": 2,
+   "random": 12723.0,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "cauly",
+   "token": 159,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.225
+  },
+  {
+   "family": "cauly",
+   "token": 143,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": 19551.0,
+   "whole_app_flip_rate": 0.225
+  },
+  {
+   "family": "cauly",
+   "token": 59,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.5
+  },
+  {
+   "family": "cauly",
+   "token": 178,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.15
+  },
+  {
+   "family": "cauly",
+   "token": 90,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.375
+  },
+  {
+   "family": "cauly",
+   "token": 125,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.25
+  },
+  {
+   "family": "cauly",
+   "token": 154,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.225
+  },
+  {
+   "family": "cauly",
+   "token": 178,
+   "greedy": 7400.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.15
+  },
+  {
+   "family": "plankton",
+   "token": 66,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": 9160.0,
+   "whole_app_flip_rate": 0.425
+  },
+  {
+   "family": "plankton",
+   "token": 66,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.4
+  },
+  {
+   "family": "plankton",
+   "token": 121,
+   "greedy": 10741.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.15
+  },
+  {
+   "family": "plankton",
+   "token": 60,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": 6107.0,
+   "whole_app_flip_rate": 0.475
+  },
+  {
+   "family": "viser",
+   "token": 97,
+   "greedy": 4072.0,
+   "greedy_packages": 1,
+   "random": 16989.0,
+   "whole_app_flip_rate": 0.275
+  },
+  {
+   "family": "viser",
+   "token": 54,
+   "greedy": 7141.0,
+   "greedy_packages": 2,
+   "random": 10913.0,
+   "whole_app_flip_rate": 0.4
+  },
+  {
+   "family": "viser",
+   "token": 78,
+   "greedy": 4072.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.375
+  },
+  {
+   "family": "viser",
+   "token": 123,
+   "greedy": 4072.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.225
+  },
+  {
+   "family": "viser",
+   "token": 112,
+   "greedy": 7141.0,
+   "greedy_packages": 2,
+   "random": 10505.0,
+   "whole_app_flip_rate": 0.25
+  },
+  {
+   "family": "viser",
+   "token": 153,
+   "greedy": 4072.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.275
+  },
+  {
+   "family": "viser",
+   "token": 96,
+   "greedy": 4072.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.275
+  },
+  {
+   "family": "viser",
+   "token": 314,
+   "greedy": 11472.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.125
+  },
+  {
+   "family": "viser",
+   "token": 101,
+   "greedy": 7141.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.375
+  },
+  {
+   "family": "viser",
+   "token": 311,
+   "greedy": 11472.0,
+   "greedy_packages": 2,
+   "random": 17843.0,
+   "whole_app_flip_rate": 0.125
+  },
+  {
+   "family": "kyview",
+   "token": 88,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.35
+  },
+  {
+   "family": "kyview",
+   "token": 459,
+   "greedy": 17841.0,
+   "greedy_packages": 4,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "kyview",
+   "token": 102,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 14405.0,
+   "whole_app_flip_rate": 0.3
+  },
+  {
+   "family": "kyview",
+   "token": 83,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 12758.0,
+   "whole_app_flip_rate": 0.325
+  },
+  {
+   "family": "kyview",
+   "token": 84,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 19936.0,
+   "whole_app_flip_rate": 0.35
+  },
+  {
+   "family": "kyview",
+   "token": 169,
+   "greedy": 12121.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.1
+  },
+  {
+   "family": "kyview",
+   "token": 228,
+   "greedy": 10441.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.1
+  },
+  {
+   "family": "kyview",
+   "token": 39,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 9807.0,
+   "whole_app_flip_rate": 0.5
+  },
+  {
+   "family": "kyview",
+   "token": 349,
+   "greedy": 14500.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.05
+  },
+  {
+   "family": "kyview",
+   "token": 383,
+   "greedy": 14500.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.025
+  },
+  {
+   "family": "kyview",
+   "token": 134,
+   "greedy": 7100.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.15
+  },
+  {
+   "family": "kyview",
+   "token": 332,
+   "greedy": 14500.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.05
+  },
+  {
+   "family": "ginmaster",
+   "token": 99,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": 14621.0,
+   "whole_app_flip_rate": 0.425
+  },
+  {
+   "family": "ginmaster",
+   "token": 130,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": 16807.0,
+   "whole_app_flip_rate": 0.375
+  },
+  {
+   "family": "smspay",
+   "token": 73,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": 7846.0,
+   "whole_app_flip_rate": 0.45
+  },
+  {
+   "family": "smspay",
+   "token": 40,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": 9114.0,
+   "whole_app_flip_rate": 0.625
+  },
+  {
+   "family": "smspay",
+   "token": 147,
+   "greedy": 10741.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.15
+  },
+  {
+   "family": "smspay",
+   "token": 58,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": 6989.0,
+   "whole_app_flip_rate": 0.625
+  },
+  {
+   "family": "smspay",
+   "token": 555,
+   "greedy": 10741.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.1
+  },
+  {
+   "family": "smspay",
+   "token": 250,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.3
+  },
+  {
+   "family": "dowgin",
+   "token": 9,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": 1927.0,
+   "whole_app_flip_rate": 0.85
+  },
+  {
+   "family": "dowgin",
+   "token": 86,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.575
+  },
+  {
+   "family": "dowgin",
+   "token": 83,
+   "greedy": 4721.0,
+   "greedy_packages": 1,
+   "random": 5966.0,
+   "whole_app_flip_rate": 0.45
+  },
+  {
+   "family": "dowgin",
+   "token": 24,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": 2243.0,
+   "whole_app_flip_rate": 0.675
+  },
+  {
+   "family": "eldorado",
+   "token": 10,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": 5061.0,
+   "whole_app_flip_rate": 0.85
+  },
+  {
+   "family": "eldorado",
+   "token": 6,
+   "greedy": 3341.0,
+   "greedy_packages": 1,
+   "random": 8111.0,
+   "whole_app_flip_rate": 0.875
+  }
+ ]
+}

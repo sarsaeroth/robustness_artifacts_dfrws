@@ -1,0 +1,85 @@
+{
+  "families": [
+    "original",
+    "piggybacked"
+  ],
+  "apps": 80,
+  "n_permutations": 5,
+  "modes": {
+    "labeled": {
+      "identity": {
+        "I_bits": 0.5691,
+        "I_null_bits": 0.6148,
+        "I_signal_bits": -0.0457,
+        "distinct_colours": 229856
+      },
+      "rename": {
+        "I_bits": 0.9643,
+        "I_null_bits": 0.9964,
+        "I_signal_bits": -0.0321,
+        "distinct_colours": 354754
+      },
+      "J_maximin_bits": -0.0457
+    },
+    "fuzzy": {
+      "identity": {
+        "I_bits": 0.0773,
+        "I_null_bits": 0.0669,
+        "I_signal_bits": 0.0105,
+        "distinct_colours": 11922
+      },
+      "rename": {
+        "I_bits": 0.0773,
+        "I_null_bits": 0.0695,
+        "I_signal_bits": 0.0078,
+        "distinct_colours": 11922
+      },
+      "J_maximin_bits": 0.0078
+    },
+    "api": {
+      "identity": {
+        "I_bits": 0.0012,
+        "I_null_bits": 0.0013,
+        "I_signal_bits": -0.0001,
+        "distinct_colours": 339
+      },
+      "rename": {
+        "I_bits": 0.0012,
+        "I_null_bits": 0.0013,
+        "I_signal_bits": -0.0002,
+        "distinct_colours": 339
+      },
+      "J_maximin_bits": -0.0002
+    },
+    "opcode": {
+      "identity": {
+        "I_bits": 0.239,
+        "I_null_bits": 0.2391,
+        "I_signal_bits": -0.0001,
+        "distinct_colours": 70231
+      },
+      "rename": {
+        "I_bits": 0.239,
+        "I_null_bits": 0.2394,
+        "I_signal_bits": -0.0004,
+        "distinct_colours": 70231
+      },
+      "J_maximin_bits": -0.0004
+    },
+    "combined": {
+      "identity": {
+        "I_bits": 0.3072,
+        "I_null_bits": 0.3135,
+        "I_signal_bits": -0.0063,
+        "distinct_colours": 88392
+      },
+      "rename": {
+        "I_bits": 0.3072,
+        "I_null_bits": 0.2959,
+        "I_signal_bits": 0.0113,
+        "distinct_colours": 88392
+      },
+      "J_maximin_bits": -0.0063
+    }
+  }
+}

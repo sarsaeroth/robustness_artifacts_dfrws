@@ -1,0 +1,142 @@
+{
+ "drebin": {
+  "dataset": "cic_andmal",
+  "groups": "neardup",
+  "n": 1349,
+  "dim": 97546,
+  "device": "cuda",
+  "rf": {
+   "f1": 0.7521175002419375
+  },
+  "linear_sgd": {
+   "f1": 0.7509381901605419,
+   "n_certified": 1070,
+   "unconditional": 0.0,
+   "k_median": 9.0,
+   "k_q10_q90": [
+    2.0,
+    24.0
+   ],
+   "attack_flips_rate": 1.0,
+   "one_fewer_flips_rate": 0.0,
+   "per_family": {
+    "adware": {
+     "n": 330,
+     "k_median": 9.0
+    },
+    "pua": {
+     "n": 348,
+     "k_median": 12.0
+    },
+    "riskware": {
+     "n": 314,
+     "k_median": 5.0
+    },
+    "trojan": {
+     "n": 78,
+     "k_median": 6.5
+    }
+   }
+  },
+  "linear_svm": {
+   "f1": 0.7461904020405973,
+   "n_certified": 1062,
+   "unconditional": 0.0,
+   "k_median": 6.0,
+   "k_q10_q90": [
+    2.0,
+    14.0
+   ],
+   "attack_flips_rate": 1.0,
+   "one_fewer_flips_rate": 0.0,
+   "per_family": {
+    "adware": {
+     "n": 324,
+     "k_median": 6.0
+    },
+    "pua": {
+     "n": 348,
+     "k_median": 7.0
+    },
+    "riskware": {
+     "n": 312,
+     "k_median": 3.0
+    },
+    "trojan": {
+     "n": 78,
+     "k_median": 5.0
+    }
+   }
+  }
+ },
+ "drebin_code": {
+  "dataset": "cic_andmal",
+  "groups": "neardup",
+  "n": 1349,
+  "dim": 95889,
+  "device": "cuda",
+  "rf": {
+   "f1": 0.7455225702068089
+  },
+  "linear_sgd": {
+   "f1": 0.7351622632194355,
+   "n_certified": 1047,
+   "unconditional": 0.0,
+   "k_median": 19.0,
+   "k_q10_q90": [
+    4.0,
+    68.0
+   ],
+   "attack_flips_rate": 0.9923591212989494,
+   "one_fewer_flips_rate": 0.0,
+   "per_family": {
+    "adware": {
+     "n": 323,
+     "k_median": 26.0
+    },
+    "pua": {
+     "n": 332,
+     "k_median": 18.0
+    },
+    "riskware": {
+     "n": 313,
+     "k_median": 14.0
+    },
+    "trojan": {
+     "n": 79,
+     "k_median": 20.0
+    }
+   }
+  },
+  "linear_svm": {
+   "f1": 0.7151423680267734,
+   "n_certified": 1024,
+   "unconditional": 0.0,
+   "k_median": 7.0,
+   "k_q10_q90": [
+    2.0,
+    56.700000000000045
+   ],
+   "attack_flips_rate": 1.0,
+   "one_fewer_flips_rate": 0.0,
+   "per_family": {
+    "adware": {
+     "n": 315,
+     "k_median": 10.0
+    },
+    "pua": {
+     "n": 331,
+     "k_median": 6.0
+    },
+    "riskware": {
+     "n": 304,
+     "k_median": 8.0
+    },
+    "trojan": {
+     "n": 74,
+     "k_median": 9.5
+    }
+   }
+  }
+ }
+}

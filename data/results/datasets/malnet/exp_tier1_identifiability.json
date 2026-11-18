@@ -1,0 +1,405 @@
+{
+  "dims": [
+    1024,
+    2048,
+    4096,
+    8192,
+    16384,
+    32768,
+    65536,
+    131072,
+    262144,
+    524288,
+    1048576,
+    2097152
+  ],
+  "iters": 2,
+  "colourings": [
+    "labeled",
+    "fuzzy",
+    "api"
+  ],
+  "E1_isolation_vs_prediction": {
+    "1024": {
+      "n": 1496,
+      "mean_signed_error": -0.00017,
+      "median_signed_error": 0.0,
+      "max_abs_error": 0.11013
+    },
+    "2048": {
+      "n": 1496,
+      "mean_signed_error": -3e-05,
+      "median_signed_error": 0.0,
+      "max_abs_error": 0.16211
+    },
+    "4096": {
+      "n": 1496,
+      "mean_signed_error": -0.00023,
+      "median_signed_error": 0.0,
+      "max_abs_error": 0.25687
+    },
+    "8192": {
+      "n": 1496,
+      "mean_signed_error": 0.00069,
+      "median_signed_error": -6e-05,
+      "max_abs_error": 0.23484
+    },
+    "16384": {
+      "n": 1496,
+      "mean_signed_error": -0.00236,
+      "median_signed_error": -0.0006,
+      "max_abs_error": 0.28329
+    },
+    "32768": {
+      "n": 1496,
+      "mean_signed_error": -0.00302,
+      "median_signed_error": -0.00058,
+      "max_abs_error": 0.33404
+    },
+    "65536": {
+      "n": 1496,
+      "mean_signed_error": -0.00326,
+      "median_signed_error": -0.00079,
+      "max_abs_error": 0.28092
+    },
+    "131072": {
+      "n": 1496,
+      "mean_signed_error": -0.00158,
+      "median_signed_error": -0.00016,
+      "max_abs_error": 0.31068
+    },
+    "262144": {
+      "n": 1496,
+      "mean_signed_error": -0.00058,
+      "median_signed_error": 0.00059,
+      "max_abs_error": 0.23172
+    },
+    "524288": {
+      "n": 1496,
+      "mean_signed_error": -0.00017,
+      "median_signed_error": 0.00058,
+      "max_abs_error": 0.16924
+    },
+    "1048576": {
+      "n": 1496,
+      "mean_signed_error": -0.00069,
+      "median_signed_error": 0.00052,
+      "max_abs_error": 0.12841
+    },
+    "2097152": {
+      "n": 1496,
+      "mean_signed_error": -0.00052,
+      "median_signed_error": 0.00077,
+      "max_abs_error": 0.09006
+    }
+  },
+  "E2_occupancy_ratio": {
+    "n": 1496,
+    "rho_median": 0.01436,
+    "rho_p95": 0.35932,
+    "rho_max": 0.97492,
+    "max_dstar_spread_factor": 39.8661
+  },
+  "E4_colouring_vs_M_distinct": {
+    "labeled": {
+      "n": 1496,
+      "M_distinct_median": 36915,
+      "d_star_90_median": 350368,
+      "ratio_to_labeled": 1.0
+    },
+    "fuzzy": {
+      "n": 1496,
+      "M_distinct_median": 14830,
+      "d_star_90_median": 140754,
+      "ratio_to_labeled": 0.4017
+    },
+    "api": {
+      "n": 1496,
+      "M_distinct_median": 4234,
+      "d_star_90_median": 40185,
+      "ratio_to_labeled": 0.1147
+    }
+  },
+  "E6_recurrence_by_target": {
+    "Lorg/joda/": {
+      "apps": 32,
+      "distinct_sigs": 4866,
+      "recurrence": 0.9747
+    },
+    "Lorg/greenrobot/": {
+      "apps": 3,
+      "distinct_sigs": 359,
+      "recurrence": 0.117
+    },
+    "Lorg/xmlpull/": {
+      "apps": 275,
+      "distinct_sigs": 91,
+      "recurrence": 0.9451
+    },
+    "Lcom/startapp/": {
+      "apps": 18,
+      "distinct_sigs": 15923,
+      "recurrence": 0.6486
+    },
+    "Lorg/w3c/": {
+      "apps": 216,
+      "distinct_sigs": 1199,
+      "recurrence": 0.9867
+    },
+    "Lcom/facebook/": {
+      "apps": 79,
+      "distinct_sigs": 35324,
+      "recurrence": 0.3025
+    },
+    "Lcom/inmobi/": {
+      "apps": 66,
+      "distinct_sigs": 14696,
+      "recurrence": 0.6172
+    },
+    "Lorg/slf4j/": {
+      "apps": 40,
+      "distinct_sigs": 555,
+      "recurrence": 0.6036
+    },
+    "Lorg/jsoup/": {
+      "apps": 36,
+      "distinct_sigs": 3624,
+      "recurrence": 0.5397
+    },
+    "Lcom/fasterxml/": {
+      "apps": 8,
+      "distinct_sigs": 8941,
+      "recurrence": 0.8794
+    },
+    "Lcom/bumptech/": {
+      "apps": 13,
+      "distinct_sigs": 10212,
+      "recurrence": 0.5498
+    },
+    "Lcom/nostra13/": {
+      "apps": 28,
+      "distinct_sigs": 2539,
+      "recurrence": 0.6384
+    },
+    "Lio/fabric/": {
+      "apps": 6,
+      "distinct_sigs": 2042,
+      "recurrence": 0.6136
+    },
+    "Lcom/crashlytics/": {
+      "apps": 5,
+      "distinct_sigs": 2838,
+      "recurrence": 0.4087
+    },
+    "Lcom/squareup/": {
+      "apps": 61,
+      "distinct_sigs": 6917,
+      "recurrence": 0.6804
+    },
+    "Lcom/tapjoy/": {
+      "apps": 9,
+      "distinct_sigs": 2155,
+      "recurrence": 0.5661
+    },
+    "Lrx/": {
+      "apps": 7,
+      "distinct_sigs": 6170,
+      "recurrence": 0.5857
+    },
+    "Lcom/applovin/": {
+      "apps": 7,
+      "distinct_sigs": 3930,
+      "recurrence": 0.2165
+    },
+    "Lcom/appnext/": {
+      "apps": 1,
+      "distinct_sigs": 3191,
+      "recurrence": 0.0
+    },
+    "Lcom/appsflyer/": {
+      "apps": 2,
+      "distinct_sigs": 528,
+      "recurrence": 0.0568
+    },
+    "Lretrofit2/": {
+      "apps": 5,
+      "distinct_sigs": 637,
+      "recurrence": 0.5243
+    },
+    "Lcom/android/installreferrer/": {
+      "apps": 2,
+      "distinct_sigs": 32,
+      "recurrence": 0.2188
+    },
+    "Lio/reactivex/": {
+      "apps": 1,
+      "distinct_sigs": 14,
+      "recurrence": 0.0
+    },
+    "Lcom/unity3d/": {
+      "apps": 20,
+      "distinct_sigs": 4949,
+      "recurrence": 0.4104
+    },
+    "Lcom/moat/": {
+      "apps": 1,
+      "distinct_sigs": 485,
+      "recurrence": 0.0
+    },
+    "Lcom/flurry/": {
+      "apps": 28,
+      "distinct_sigs": 16474,
+      "recurrence": 0.7761
+    },
+    "Lcom/integralads/": {
+      "apps": 1,
+      "distinct_sigs": 548,
+      "recurrence": 0.0
+    },
+    "SDK:cauly": {
+      "apps": 40,
+      "distinct_sigs": 6140,
+      "recurrence": 0.7239
+    },
+    "Lcom/loopj/": {
+      "apps": 21,
+      "distinct_sigs": 951,
+      "recurrence": 0.5731
+    },
+    "Lorg/acra/": {
+      "apps": 10,
+      "distinct_sigs": 1022,
+      "recurrence": 0.5411
+    },
+    "Lcom/vungle/": {
+      "apps": 5,
+      "distinct_sigs": 6255,
+      "recurrence": 0.5971
+    },
+    "Lcom/koushikdutta/": {
+      "apps": 2,
+      "distinct_sigs": 154,
+      "recurrence": 1.0
+    },
+    "Lcom/mopub/": {
+      "apps": 9,
+      "distinct_sigs": 8776,
+      "recurrence": 0.5459
+    },
+    "Lcom/amazon/device/ads/": {
+      "apps": 3,
+      "distinct_sigs": 3405,
+      "recurrence": 0.1166
+    },
+    "Lde/greenrobot/": {
+      "apps": 13,
+      "distinct_sigs": 1209,
+      "recurrence": 0.9727
+    },
+    "Lorg/bouncycastle/": {
+      "apps": 3,
+      "distinct_sigs": 18996,
+      "recurrence": 0.6131
+    },
+    "Lcom/umeng/": {
+      "apps": 87,
+      "distinct_sigs": 35818,
+      "recurrence": 0.4973
+    },
+    "Lcom/chartboost/": {
+      "apps": 14,
+      "distinct_sigs": 9333,
+      "recurrence": 0.5258
+    },
+    "Lcom/smaato/": {
+      "apps": 40,
+      "distinct_sigs": 4156,
+      "recurrence": 0.9165
+    },
+    "Lcom/j256/": {
+      "apps": 3,
+      "distinct_sigs": 2418,
+      "recurrence": 0.6046
+    },
+    "Lorg/codehaus/": {
+      "apps": 28,
+      "distinct_sigs": 7451,
+      "recurrence": 0.9823
+    },
+    "Lcom/baidu/mobads/": {
+      "apps": 31,
+      "distinct_sigs": 563,
+      "recurrence": 0.4085
+    },
+    "Lcz/msebera/": {
+      "apps": 3,
+      "distinct_sigs": 8222,
+      "recurrence": 0.1438
+    },
+    "SDK:igexin": {
+      "apps": 39,
+      "distinct_sigs": 6821,
+      "recurrence": 0.7754
+    },
+    "Lorg/apmem/": {
+      "apps": 1,
+      "distinct_sigs": 94,
+      "recurrence": 0.0
+    },
+    "SDK:kyview": {
+      "apps": 40,
+      "distinct_sigs": 4090,
+      "recurrence": 0.7694
+    },
+    "Lcom/qq/e/": {
+      "apps": 5,
+      "distinct_sigs": 1355,
+      "recurrence": 0.5122
+    },
+    "SDK:plankton": {
+      "apps": 39,
+      "distinct_sigs": 1697,
+      "recurrence": 0.8645
+    },
+    "Lcom/ironsource/": {
+      "apps": 4,
+      "distinct_sigs": 3760,
+      "recurrence": 0.359
+    },
+    "SDK:revmob": {
+      "apps": 40,
+      "distinct_sigs": 2015,
+      "recurrence": 0.6521
+    },
+    "Lorg/altbeacon/": {
+      "apps": 1,
+      "distinct_sigs": 602,
+      "recurrence": 0.0
+    },
+    "Lcom/appodeal/": {
+      "apps": 1,
+      "distinct_sigs": 3001,
+      "recurrence": 0.0
+    },
+    "Lcom/yandex/": {
+      "apps": 1,
+      "distinct_sigs": 1907,
+      "recurrence": 0.0
+    },
+    "SDK:viser": {
+      "apps": 40,
+      "distinct_sigs": 6376,
+      "recurrence": 0.7688
+    },
+    "Lcom/tappx/": {
+      "apps": 1,
+      "distinct_sigs": 874,
+      "recurrence": 0.0
+    },
+    "Lcom/localytics/": {
+      "apps": 2,
+      "distinct_sigs": 126,
+      "recurrence": 0.8175
+    }
+  }
+}

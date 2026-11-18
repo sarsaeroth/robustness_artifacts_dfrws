@@ -1,0 +1,135 @@
+{
+ "budget": 200,
+ "results": {
+  "labeled": {
+   "cashraven": {
+    "white_box": 1.0,
+    "transfer_reseed": 0.0,
+    "transfer_bootstrap": 0.5,
+    "greybox_disjoint": 0.5,
+    "random": 0.0
+   },
+   "ipidea": {
+    "white_box": 0.5277777777777778,
+    "transfer_reseed": 0.25,
+    "transfer_bootstrap": 0.2222222222222222,
+    "greybox_disjoint": 0.16666666666666666,
+    "random": 0.0
+   },
+   "ipninja": {
+    "white_box": 0.7272727272727273,
+    "transfer_reseed": 0.30303030303030304,
+    "transfer_bootstrap": 0.06060606060606061,
+    "greybox_disjoint": 0.3939393939393939,
+    "random": 0.0
+   },
+   "luminati": {
+    "white_box": 0.5,
+    "transfer_reseed": 0.3055555555555556,
+    "transfer_bootstrap": 0.2222222222222222,
+    "greybox_disjoint": 0.3055555555555556,
+    "random": 0.05555555555555555
+   },
+   "monkeysocks": {
+    "white_box": 0.025,
+    "transfer_reseed": 0.025,
+    "transfer_bootstrap": 0.025,
+    "greybox_disjoint": 0.025,
+    "random": 0.0
+   },
+   "oxylabs": {
+    "white_box": 0.8235294117647058,
+    "transfer_reseed": 0.8235294117647058,
+    "transfer_bootstrap": 0.0,
+    "greybox_disjoint": 0.0,
+    "random": 0.0
+   },
+   "popa": {
+    "white_box": 0.3142857142857143,
+    "transfer_reseed": 0.05714285714285714,
+    "transfer_bootstrap": 0.05714285714285714,
+    "greybox_disjoint": 0.0,
+    "random": 0.0
+   },
+   "traffmonetizer": {
+    "white_box": 0.75,
+    "transfer_reseed": 0.0,
+    "transfer_bootstrap": 0.0,
+    "greybox_disjoint": 0.0,
+    "random": 0.0
+   },
+   "_overall": {
+    "white_box": 0.46411483253588515,
+    "transfer_reseed": 0.22488038277511962,
+    "transfer_bootstrap": 0.11004784688995216,
+    "greybox_disjoint": 0.15789473684210525,
+    "random": 0.009569377990430622
+   }
+  },
+  "structure": {
+   "cashraven": {
+    "white_box": 0.0,
+    "transfer_reseed": 0.0,
+    "transfer_bootstrap": 0.0,
+    "greybox_disjoint": 0.0,
+    "random": 0.0
+   },
+   "ipidea": {
+    "white_box": 0.5454545454545454,
+    "transfer_reseed": 0.09090909090909091,
+    "transfer_bootstrap": 0.0,
+    "greybox_disjoint": 0.0,
+    "random": 0.0
+   },
+   "ipninja": {
+    "white_box": 0.13333333333333333,
+    "transfer_reseed": 0.0,
+    "transfer_bootstrap": 0.0,
+    "greybox_disjoint": 0.0,
+    "random": 0.0
+   },
+   "luminati": {
+    "white_box": 0.034482758620689655,
+    "transfer_reseed": 0.0,
+    "transfer_bootstrap": 0.0,
+    "greybox_disjoint": 0.0,
+    "random": 0.0
+   },
+   "monkeysocks": {
+    "white_box": 0.0,
+    "transfer_reseed": 0.0,
+    "transfer_bootstrap": 0.0,
+    "greybox_disjoint": 0.0,
+    "random": 0.0
+   },
+   "oxylabs": {
+    "white_box": 0.0,
+    "transfer_reseed": 0.0,
+    "transfer_bootstrap": 0.0,
+    "greybox_disjoint": 0.0,
+    "random": 0.0
+   },
+   "popa": {
+    "white_box": 0.15384615384615385,
+    "transfer_reseed": 0.0,
+    "transfer_bootstrap": 0.0,
+    "greybox_disjoint": 0.0,
+    "random": 0.0
+   },
+   "traffmonetizer": {
+    "white_box": 0.0,
+    "transfer_reseed": 0.0,
+    "transfer_bootstrap": 0.0,
+    "greybox_disjoint": 0.0,
+    "random": 0.0
+   },
+   "_overall": {
+    "white_box": 0.08904109589041095,
+    "transfer_reseed": 0.00684931506849315,
+    "transfer_bootstrap": 0.0,
+    "greybox_disjoint": 0.0,
+    "random": 0.0
+   }
+  }
+ }
+}

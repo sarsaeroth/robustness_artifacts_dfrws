@@ -1,0 +1,267 @@
+{
+ "granularity": {
+  "identifier": {},
+  "fuzzy": {},
+  "api": {},
+  "structure": {},
+  "combined": {}
+ },
+ "cfg|identifier|clean": {
+  "1024": {
+   "accuracy": 0.55,
+   "explainers": {
+    "lin_zero": {},
+    "rf_path": {},
+    "xgb_path": {}
+   }
+  },
+  "65536": {
+   "accuracy": 0.55,
+   "explainers": {
+    "lin_zero": {},
+    "rf_path": {},
+    "xgb_path": {}
+   }
+  },
+  "1048576": {
+   "accuracy": 0.5375
+  }
+ },
+ "cfg|identifier|renamed": {
+  "1024": {
+   "accuracy": 0.35
+  },
+  "65536": {
+   "accuracy": 0.1875
+  },
+  "1048576": {
+   "accuracy": 0.20625
+  }
+ },
+ "cfg|fuzzy|clean": {
+  "1024": {
+   "accuracy": 0.59375
+  },
+  "65536": {
+   "accuracy": 0.5875
+  },
+  "1048576": {
+   "accuracy": 0.5875
+  }
+ },
+ "cfg|fuzzy|renamed": {
+  "1024": {
+   "accuracy": 0.59375
+  },
+  "65536": {
+   "accuracy": 0.5875
+  },
+  "1048576": {
+   "accuracy": 0.5875
+  }
+ },
+ "cfg|api|clean": {
+  "1024": {
+   "accuracy": 0.53125
+  },
+  "65536": {
+   "accuracy": 0.53125
+  },
+  "1048576": {
+   "accuracy": 0.5375
+  }
+ },
+ "cfg|api|renamed": {
+  "1024": {
+   "accuracy": 0.53125
+  },
+  "65536": {
+   "accuracy": 0.53125
+  },
+  "1048576": {
+   "accuracy": 0.5375
+  }
+ },
+ "cfg|structure|clean": {
+  "1024": {
+   "accuracy": 0.55625
+  },
+  "65536": {
+   "accuracy": 0.55625
+  },
+  "1048576": {
+   "accuracy": 0.55625
+  }
+ },
+ "cfg|structure|renamed": {
+  "1024": {
+   "accuracy": 0.55625
+  },
+  "65536": {
+   "accuracy": 0.55625
+  },
+  "1048576": {
+   "accuracy": 0.55625
+  }
+ },
+ "cfg|combined|clean": {
+  "1024": {
+   "accuracy": 0.5375
+  },
+  "65536": {
+   "accuracy": 0.575
+  },
+  "1048576": {
+   "accuracy": 0.59375
+  }
+ },
+ "cfg|combined|renamed": {
+  "1024": {
+   "accuracy": 0.5375
+  },
+  "65536": {
+   "accuracy": 0.575
+  },
+  "1048576": {
+   "accuracy": 0.59375
+  }
+ },
+ "concat|identifier|clean": {
+  "1024": {
+   "accuracy": 0.53125,
+   "explainers": {
+    "lin_zero": {},
+    "rf_path": {},
+    "xgb_path": {}
+   }
+  },
+  "65536": {
+   "accuracy": 0.575,
+   "explainers": {
+    "lin_zero": {},
+    "rf_path": {},
+    "xgb_path": {}
+   }
+  },
+  "1048576": {
+   "accuracy": 0.55625
+  }
+ },
+ "concat|identifier|renamed": {
+  "1024": {
+   "accuracy": 0.29375
+  },
+  "65536": {
+   "accuracy": 0.275
+  },
+  "1048576": {
+   "accuracy": 0.275
+  }
+ },
+ "concat|fuzzy|clean": {
+  "1024": {
+   "accuracy": 0.5625
+  },
+  "65536": {
+   "accuracy": 0.58125
+  },
+  "1048576": {
+   "accuracy": 0.575
+  }
+ },
+ "concat|fuzzy|renamed": {
+  "1024": {
+   "accuracy": 0.5625
+  },
+  "65536": {
+   "accuracy": 0.58125
+  },
+  "1048576": {
+   "accuracy": 0.575
+  }
+ },
+ "concat|api|clean": {
+  "1024": {
+   "accuracy": 0.575
+  },
+  "65536": {
+   "accuracy": 0.56875
+  },
+  "1048576": {
+   "accuracy": 0.56875
+  }
+ },
+ "concat|api|renamed": {
+  "1024": {
+   "accuracy": 0.575
+  },
+  "65536": {
+   "accuracy": 0.56875
+  },
+  "1048576": {
+   "accuracy": 0.56875
+  }
+ },
+ "concat|structure|clean": {
+  "1024": {
+   "accuracy": 0.49375
+  },
+  "65536": {
+   "accuracy": 0.53125
+  },
+  "1048576": {
+   "accuracy": 0.525
+  }
+ },
+ "concat|structure|renamed": {
+  "1024": {
+   "accuracy": 0.49375
+  },
+  "65536": {
+   "accuracy": 0.53125
+  },
+  "1048576": {
+   "accuracy": 0.525
+  }
+ },
+ "concat|combined|clean": {
+  "1024": {
+   "accuracy": 0.5375
+  },
+  "65536": {
+   "accuracy": 0.5625
+  },
+  "1048576": {
+   "accuracy": 0.56875
+  }
+ },
+ "concat|combined|renamed": {
+  "1024": {
+   "accuracy": 0.5375
+  },
+  "65536": {
+   "accuracy": 0.5625
+  },
+  "1048576": {
+   "accuracy": 0.56875
+  }
+ },
+ "monotone_cfg_65536": {
+  "adware": {
+   "auc_monotone": 0.5771875,
+   "auc_unconstrained": 0.743125
+  },
+  "pua": {
+   "auc_monotone": 0.5580208333333333,
+   "auc_unconstrained": 0.7841666666666667
+  },
+  "riskware": {
+   "auc_monotone": 0.5868749999999999,
+   "auc_unconstrained": 0.669375
+  },
+  "trojan": {
+   "auc_monotone": 0.6604166666666667,
+   "auc_unconstrained": 0.703125
+  }
+ }
+}

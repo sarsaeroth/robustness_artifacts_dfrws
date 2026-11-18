@@ -1,0 +1,395 @@
+{
+  "dims": [
+    1024,
+    2048,
+    4096,
+    8192,
+    16384,
+    32768,
+    65536,
+    131072,
+    262144,
+    524288,
+    1048576,
+    2097152
+  ],
+  "iters": 2,
+  "colourings": [
+    "labeled",
+    "fuzzy",
+    "api"
+  ],
+  "E1_isolation_vs_prediction": {
+    "1024": {
+      "n": 620,
+      "mean_signed_error": -0.00021,
+      "median_signed_error": 0.0,
+      "max_abs_error": 0.02167
+    },
+    "2048": {
+      "n": 620,
+      "mean_signed_error": 0.00036,
+      "median_signed_error": 0.0,
+      "max_abs_error": 0.13033
+    },
+    "4096": {
+      "n": 620,
+      "mean_signed_error": 0.00179,
+      "median_signed_error": 0.0,
+      "max_abs_error": 0.11849
+    },
+    "8192": {
+      "n": 620,
+      "mean_signed_error": 0.00319,
+      "median_signed_error": -0.0,
+      "max_abs_error": 0.24179
+    },
+    "16384": {
+      "n": 620,
+      "mean_signed_error": 0.00136,
+      "median_signed_error": -0.00017,
+      "max_abs_error": 0.18041
+    },
+    "32768": {
+      "n": 620,
+      "mean_signed_error": 0.00219,
+      "median_signed_error": 0.00018,
+      "max_abs_error": 0.16741
+    },
+    "65536": {
+      "n": 620,
+      "mean_signed_error": 0.0048,
+      "median_signed_error": 0.00149,
+      "max_abs_error": 0.19423
+    },
+    "131072": {
+      "n": 620,
+      "mean_signed_error": 0.0032,
+      "median_signed_error": 0.0013,
+      "max_abs_error": 0.26498
+    },
+    "262144": {
+      "n": 620,
+      "mean_signed_error": -0.00181,
+      "median_signed_error": -0.00014,
+      "max_abs_error": 0.26825
+    },
+    "524288": {
+      "n": 620,
+      "mean_signed_error": -0.00179,
+      "median_signed_error": 0.00034,
+      "max_abs_error": 0.23247
+    },
+    "1048576": {
+      "n": 620,
+      "mean_signed_error": -0.00229,
+      "median_signed_error": -0.00011,
+      "max_abs_error": 0.15292
+    },
+    "2097152": {
+      "n": 620,
+      "mean_signed_error": -0.00066,
+      "median_signed_error": -4e-05,
+      "max_abs_error": 0.23784
+    }
+  },
+  "E2_occupancy_ratio": {
+    "n": 620,
+    "rho_median": 0.02158,
+    "rho_p95": 0.40616,
+    "rho_max": 0.99057,
+    "max_dstar_spread_factor": 106.0783
+  },
+  "E4_colouring_vs_M_distinct": {
+    "labeled": {
+      "n": 620,
+      "M_distinct_median": 52128,
+      "d_star_90_median": 494758,
+      "ratio_to_labeled": 1.0
+    },
+    "fuzzy": {
+      "n": 620,
+      "M_distinct_median": 26033,
+      "d_star_90_median": 247084,
+      "ratio_to_labeled": 0.4994
+    },
+    "api": {
+      "n": 620,
+      "M_distinct_median": 6131,
+      "d_star_90_median": 58190,
+      "ratio_to_labeled": 0.1176
+    }
+  },
+  "E6_recurrence_by_target": {
+    "SDK:cashraven": {
+      "apps": 4,
+      "distinct_sigs": 223,
+      "recurrence": 0.5247
+    },
+    "Lcom/facebook/": {
+      "apps": 30,
+      "distinct_sigs": 30701,
+      "recurrence": 0.5378
+    },
+    "Lcom/bumptech/": {
+      "apps": 21,
+      "distinct_sigs": 9232,
+      "recurrence": 0.4885
+    },
+    "Lorg/xmlpull/": {
+      "apps": 114,
+      "distinct_sigs": 59,
+      "recurrence": 0.6441
+    },
+    "Lorg/bouncycastle/": {
+      "apps": 19,
+      "distinct_sigs": 17,
+      "recurrence": 1.0
+    },
+    "Lretrofit2/": {
+      "apps": 8,
+      "distinct_sigs": 1171,
+      "recurrence": 0.4475
+    },
+    "Lorg/greenrobot/": {
+      "apps": 12,
+      "distinct_sigs": 1294,
+      "recurrence": 0.9212
+    },
+    "Lorg/jsoup/": {
+      "apps": 4,
+      "distinct_sigs": 5262,
+      "recurrence": 0.1564
+    },
+    "Lorg/w3c/": {
+      "apps": 43,
+      "distinct_sigs": 77,
+      "recurrence": 0.5584
+    },
+    "Lcom/appsflyer/": {
+      "apps": 12,
+      "distinct_sigs": 2588,
+      "recurrence": 0.3872
+    },
+    "Lcom/android/installreferrer/": {
+      "apps": 13,
+      "distinct_sigs": 46,
+      "recurrence": 0.9565
+    },
+    "Lcom/adjust/": {
+      "apps": 1,
+      "distinct_sigs": 1242,
+      "recurrence": 0.0008
+    },
+    "Lcom/airbnb/": {
+      "apps": 3,
+      "distinct_sigs": 2003,
+      "recurrence": 0.029
+    },
+    "SDK:ipninja": {
+      "apps": 24,
+      "distinct_sigs": 680,
+      "recurrence": 0.9941
+    },
+    "Lcom/applovin/": {
+      "apps": 16,
+      "distinct_sigs": 13764,
+      "recurrence": 0.3566
+    },
+    "Lcom/yandex/": {
+      "apps": 6,
+      "distinct_sigs": 31954,
+      "recurrence": 0.1936
+    },
+    "Lcom/tapjoy/": {
+      "apps": 9,
+      "distinct_sigs": 12054,
+      "recurrence": 0.6084
+    },
+    "Lcom/squareup/": {
+      "apps": 22,
+      "distinct_sigs": 2893,
+      "recurrence": 0.6879
+    },
+    "Lrx/": {
+      "apps": 8,
+      "distinct_sigs": 5798,
+      "recurrence": 0.9452
+    },
+    "Lorg/slf4j/": {
+      "apps": 10,
+      "distinct_sigs": 613,
+      "recurrence": 0.7977
+    },
+    "Lorg/acra/": {
+      "apps": 10,
+      "distinct_sigs": 1028,
+      "recurrence": 1.0
+    },
+    "Lio/fabric/": {
+      "apps": 8,
+      "distinct_sigs": 1227,
+      "recurrence": 0.9992
+    },
+    "Lcom/crashlytics/": {
+      "apps": 8,
+      "distinct_sigs": 1372,
+      "recurrence": 0.9767
+    },
+    "Lcom/startapp/": {
+      "apps": 8,
+      "distinct_sigs": 15066,
+      "recurrence": 0.2898
+    },
+    "Lcom/nostra13/": {
+      "apps": 3,
+      "distinct_sigs": 924,
+      "recurrence": 0.9361
+    },
+    "SDK:luminati": {
+      "apps": 33,
+      "distinct_sigs": 34827,
+      "recurrence": 0.4146
+    },
+    "Lcom/vungle/": {
+      "apps": 10,
+      "distinct_sigs": 11277,
+      "recurrence": 0.632
+    },
+    "Lcom/adcolony/": {
+      "apps": 5,
+      "distinct_sigs": 4090,
+      "recurrence": 0.345
+    },
+    "Lcom/moat/": {
+      "apps": 10,
+      "distinct_sigs": 3266,
+      "recurrence": 0.8484
+    },
+    "Lcom/unity3d/": {
+      "apps": 31,
+      "distinct_sigs": 13303,
+      "recurrence": 0.4307
+    },
+    "Lcom/chartboost/": {
+      "apps": 14,
+      "distinct_sigs": 6184,
+      "recurrence": 0.9505
+    },
+    "Lcom/fyber/": {
+      "apps": 2,
+      "distinct_sigs": 2885,
+      "recurrence": 0.0
+    },
+    "Lcom/flurry/": {
+      "apps": 5,
+      "distinct_sigs": 7182,
+      "recurrence": 0.0383
+    },
+    "Lcom/oneaudience/": {
+      "apps": 1,
+      "distinct_sigs": 527,
+      "recurrence": 0.0
+    },
+    "Lcom/tutelatechnologies/": {
+      "apps": 1,
+      "distinct_sigs": 2515,
+      "recurrence": 0.0
+    },
+    "Lde/greenrobot/": {
+      "apps": 1,
+      "distinct_sigs": 175,
+      "recurrence": 0.0
+    },
+    "Lcom/my/target/": {
+      "apps": 4,
+      "distinct_sigs": 7686,
+      "recurrence": 0.5328
+    },
+    "Lcom/inmobi/": {
+      "apps": 11,
+      "distinct_sigs": 7298,
+      "recurrence": 0.9889
+    },
+    "Lcom/mopub/": {
+      "apps": 7,
+      "distinct_sigs": 3709,
+      "recurrence": 0.9779
+    },
+    "Lcom/amazon/device/ads/": {
+      "apps": 8,
+      "distinct_sigs": 2592,
+      "recurrence": 0.9904
+    },
+    "Lcom/ironsource/": {
+      "apps": 3,
+      "distinct_sigs": 25114,
+      "recurrence": 0.0347
+    },
+    "Lcom/mintegral/": {
+      "apps": 2,
+      "distinct_sigs": 37,
+      "recurrence": 0.027
+    },
+    "SDK:monkeysocks": {
+      "apps": 1,
+      "distinct_sigs": 47,
+      "recurrence": 0.0
+    },
+    "Lcz/msebera/": {
+      "apps": 1,
+      "distinct_sigs": 5673,
+      "recurrence": 0.0
+    },
+    "Lcom/onesignal/": {
+      "apps": 6,
+      "distinct_sigs": 8330,
+      "recurrence": 0.2083
+    },
+    "Lcom/qq/e/": {
+      "apps": 2,
+      "distinct_sigs": 249,
+      "recurrence": 0.0
+    },
+    "Lcom/loopj/": {
+      "apps": 1,
+      "distinct_sigs": 213,
+      "recurrence": 0.0
+    },
+    "SDK:oxylabs": {
+      "apps": 17,
+      "distinct_sigs": 300,
+      "recurrence": 0.9867
+    },
+    "Lcom/koushikdutta/": {
+      "apps": 17,
+      "distinct_sigs": 2828,
+      "recurrence": 1.0
+    },
+    "SDK:popa": {
+      "apps": 6,
+      "distinct_sigs": 570,
+      "recurrence": 0.2088
+    },
+    "Lcom/smaato/": {
+      "apps": 1,
+      "distinct_sigs": 24,
+      "recurrence": 0.0
+    },
+    "Lcom/mbridge/": {
+      "apps": 1,
+      "distinct_sigs": 26,
+      "recurrence": 0.0
+    },
+    "Lcom/bytedance/": {
+      "apps": 1,
+      "distinct_sigs": 11,
+      "recurrence": 0.0
+    },
+    "SDK:traffmonetizer": {
+      "apps": 2,
+      "distinct_sigs": 35,
+      "recurrence": 0.0
+    }
+  }
+}

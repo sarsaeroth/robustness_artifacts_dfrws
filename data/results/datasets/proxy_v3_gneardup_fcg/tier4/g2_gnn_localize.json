@@ -1,0 +1,37 @@
+{
+ "n": 232,
+ "epochs": 40,
+ "reps": 1,
+ "macro_f1": 0.4434752528173581,
+ "device": "cuda",
+ "base_rate": {
+  "cashraven": 0.001030614947104312,
+  "ipidea": 2.606622313619733e-05,
+  "ipninja": 0.0061318593633558245,
+  "luminati": 0.07947844697043319,
+  "monkeysocks": 0.002695816917675079,
+  "oxylabs": 0.005291844054973156,
+  "popa": 0.0009753691681621791,
+  "traffmonetizer": 0.0002842293145655391
+ },
+ "localize_p_at_target": {
+  "cashraven": 0.0005294939123935406,
+  "ipidea": 0.0,
+  "ipninja": 0.007573831989163446,
+  "luminati": 0.10417911486527656,
+  "monkeysocks": 0.0,
+  "oxylabs": 0.011530274042736655,
+  "popa": 0.0,
+  "traffmonetizer": 0.0
+ },
+ "localize_n": {
+  "cashraven": 35,
+  "ipidea": 17,
+  "ipninja": 37,
+  "luminati": 40,
+  "monkeysocks": 40,
+  "oxylabs": 17,
+  "popa": 30,
+  "traffmonetizer": 16
+ }
+}

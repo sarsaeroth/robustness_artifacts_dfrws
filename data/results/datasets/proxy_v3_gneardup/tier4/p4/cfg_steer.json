@@ -1,0 +1,470 @@
+{
+ "concat|b1": {
+  "n": 23,
+  "flipped": 2,
+  "k_median_flipped": 14.0,
+  "never_frac": 0.9130434782608695,
+  "per_family": {
+   "cashraven": [
+    null
+   ],
+   "ipidea": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "ipninja": [
+    null
+   ],
+   "luminati": [
+    10,
+    null,
+    null,
+    18
+   ],
+   "monkeysocks": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "oxylabs": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "popa": [
+    null,
+    null,
+    null
+   ],
+   "traffmonetizer": [
+    null,
+    null
+   ]
+  },
+  "rows": [
+   {
+    "family": "cashraven",
+    "sha": "d9bdeafb19e492b951831565acf09e4b7fdaa6b58eb9371f0d2af58a2fc241ce",
+    "k_stubs": null
+   },
+   {
+    "family": "ipidea",
+    "sha": "5fd4537aba5d9436d0425a91fbb30315a955c6e085421d3ae411e4268ccc90ea",
+    "k_stubs": null
+   },
+   {
+    "family": "ipidea",
+    "sha": "05fc3f1a1a3fd9e04477a2a295cfa158a12925c604de276d6bd4bc6f4b74a8a2",
+    "k_stubs": null
+   },
+   {
+    "family": "ipidea",
+    "sha": "bb9aaba43113c549c18d8a0f17bfe06ae33b58a381f957f731886a601b40a8ae",
+    "k_stubs": null
+   },
+   {
+    "family": "ipidea",
+    "sha": "2c82c0959a080db1186fe9367c830aa7d0fba42404bf7b0c9fd598ca9003157f",
+    "k_stubs": null
+   },
+   {
+    "family": "ipninja",
+    "sha": "f67dcb86c5d3e75af2ad85daed950322126500293f66f0e8037de6b1f37c0b04",
+    "k_stubs": null
+   },
+   {
+    "family": "luminati",
+    "sha": "d5adbe14f14b7eeeadc2360c9de2800d3ec4e4c0bb8e5c77217d9f6301329eb0",
+    "k_stubs": 10
+   },
+   {
+    "family": "luminati",
+    "sha": "6c075bbec50514ecd70c4e86f0049b6bea70a6dc65792c55f678e192c3a9ef53",
+    "k_stubs": null
+   },
+   {
+    "family": "luminati",
+    "sha": "a18fc7745fdb7a72401dcca1db755a1313811f82e73e11ba6fe1b2cc6027cbd0",
+    "k_stubs": null
+   },
+   {
+    "family": "luminati",
+    "sha": "bb4d460f2ed818be633f4b9ab827a6f6b67f5e709bb212e008071571161feff3",
+    "k_stubs": 18
+   },
+   {
+    "family": "monkeysocks",
+    "sha": "cde08b4037ee3684316d81cd15b1cb4b70bad1146f25d6ceda260c604a0d88c8",
+    "k_stubs": null
+   },
+   {
+    "family": "monkeysocks",
+    "sha": "c281a0c166f28e8501fd53f690bc669a549020e0628879f264912268d608ce9a",
+    "k_stubs": null
+   },
+   {
+    "family": "monkeysocks",
+    "sha": "ce8b57b9a568f966f3ff82dca0f1102dae58fc4dfa7aaef5d43e9e2543d2ed59",
+    "k_stubs": null
+   },
+   {
+    "family": "monkeysocks",
+    "sha": "06e64d87ad8de55d0414f01c74f4c3a6a696c1283888ff4594f703885b884e69",
+    "k_stubs": null
+   },
+   {
+    "family": "oxylabs",
+    "sha": "51f10bfe857ca0d8eee27a443d750e7d91538a6c06bc3ccdf60ccbcbd35cee67",
+    "k_stubs": null
+   },
+   {
+    "family": "oxylabs",
+    "sha": "8b35e71d3f59066715785b53be54ac0053817b2f45b286f814cee2e84c66f2c0",
+    "k_stubs": null
+   },
+   {
+    "family": "oxylabs",
+    "sha": "9c34730a03e6bd45e7f30ba3f5f48c1ed647bfba7b9023f0042eb928f7b6253a",
+    "k_stubs": null
+   },
+   {
+    "family": "oxylabs",
+    "sha": "db21833fd971e18bf741837cfd45c8bd0219c52f4a02acaee5f5a5b66f01250b",
+    "k_stubs": null
+   },
+   {
+    "family": "popa",
+    "sha": "d2aec969b04ff1e33e4741b74458e41573c707bc377ed9c8787d31c366ccd1e0",
+    "k_stubs": null
+   },
+   {
+    "family": "popa",
+    "sha": "6e394fa99199afe3d5b43575352192a84a0c3254161df718d92d2e58346d448d",
+    "k_stubs": null
+   },
+   {
+    "family": "popa",
+    "sha": "78e65dc70d87f8e4d122144246e0c19c20f93c9ea84062dc29602b876c0200a7",
+    "k_stubs": null
+   },
+   {
+    "family": "traffmonetizer",
+    "sha": "87b43ae49a1e6d6bb4ba5cd1c0b5b8abbdfd3fa053797f56bfc0f685dfb36077",
+    "k_stubs": null
+   },
+   {
+    "family": "traffmonetizer",
+    "sha": "6ded928efeea7213182f92020ebbab17fe36b640b0df8ee44dff4ec2f95d620f",
+    "k_stubs": null
+   }
+  ]
+ },
+ "concat|b16": {
+  "n": 23,
+  "flipped": 6,
+  "k_median_flipped": 11.0,
+  "never_frac": 0.7391304347826086,
+  "per_family": {
+   "cashraven": [
+    null
+   ],
+   "ipidea": [
+    null,
+    17,
+    13,
+    null
+   ],
+   "ipninja": [
+    null
+   ],
+   "luminati": [
+    2,
+    9,
+    null,
+    2
+   ],
+   "monkeysocks": [
+    15,
+    null,
+    null,
+    null
+   ],
+   "oxylabs": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "popa": [
+    null,
+    null,
+    null
+   ],
+   "traffmonetizer": [
+    null,
+    null
+   ]
+  },
+  "rows": [
+   {
+    "family": "cashraven",
+    "sha": "d9bdeafb19e492b951831565acf09e4b7fdaa6b58eb9371f0d2af58a2fc241ce",
+    "k_stubs": null
+   },
+   {
+    "family": "ipidea",
+    "sha": "5fd4537aba5d9436d0425a91fbb30315a955c6e085421d3ae411e4268ccc90ea",
+    "k_stubs": null
+   },
+   {
+    "family": "ipidea",
+    "sha": "05fc3f1a1a3fd9e04477a2a295cfa158a12925c604de276d6bd4bc6f4b74a8a2",
+    "k_stubs": 17
+   },
+   {
+    "family": "ipidea",
+    "sha": "bb9aaba43113c549c18d8a0f17bfe06ae33b58a381f957f731886a601b40a8ae",
+    "k_stubs": 13
+   },
+   {
+    "family": "ipidea",
+    "sha": "2c82c0959a080db1186fe9367c830aa7d0fba42404bf7b0c9fd598ca9003157f",
+    "k_stubs": null
+   },
+   {
+    "family": "ipninja",
+    "sha": "f67dcb86c5d3e75af2ad85daed950322126500293f66f0e8037de6b1f37c0b04",
+    "k_stubs": null
+   },
+   {
+    "family": "luminati",
+    "sha": "d5adbe14f14b7eeeadc2360c9de2800d3ec4e4c0bb8e5c77217d9f6301329eb0",
+    "k_stubs": 2
+   },
+   {
+    "family": "luminati",
+    "sha": "6c075bbec50514ecd70c4e86f0049b6bea70a6dc65792c55f678e192c3a9ef53",
+    "k_stubs": 9
+   },
+   {
+    "family": "luminati",
+    "sha": "a18fc7745fdb7a72401dcca1db755a1313811f82e73e11ba6fe1b2cc6027cbd0",
+    "k_stubs": null
+   },
+   {
+    "family": "luminati",
+    "sha": "bb4d460f2ed818be633f4b9ab827a6f6b67f5e709bb212e008071571161feff3",
+    "k_stubs": 2
+   },
+   {
+    "family": "monkeysocks",
+    "sha": "cde08b4037ee3684316d81cd15b1cb4b70bad1146f25d6ceda260c604a0d88c8",
+    "k_stubs": 15
+   },
+   {
+    "family": "monkeysocks",
+    "sha": "c281a0c166f28e8501fd53f690bc669a549020e0628879f264912268d608ce9a",
+    "k_stubs": null
+   },
+   {
+    "family": "monkeysocks",
+    "sha": "ce8b57b9a568f966f3ff82dca0f1102dae58fc4dfa7aaef5d43e9e2543d2ed59",
+    "k_stubs": null
+   },
+   {
+    "family": "monkeysocks",
+    "sha": "06e64d87ad8de55d0414f01c74f4c3a6a696c1283888ff4594f703885b884e69",
+    "k_stubs": null
+   },
+   {
+    "family": "oxylabs",
+    "sha": "51f10bfe857ca0d8eee27a443d750e7d91538a6c06bc3ccdf60ccbcbd35cee67",
+    "k_stubs": null
+   },
+   {
+    "family": "oxylabs",
+    "sha": "8b35e71d3f59066715785b53be54ac0053817b2f45b286f814cee2e84c66f2c0",
+    "k_stubs": null
+   },
+   {
+    "family": "oxylabs",
+    "sha": "9c34730a03e6bd45e7f30ba3f5f48c1ed647bfba7b9023f0042eb928f7b6253a",
+    "k_stubs": null
+   },
+   {
+    "family": "oxylabs",
+    "sha": "db21833fd971e18bf741837cfd45c8bd0219c52f4a02acaee5f5a5b66f01250b",
+    "k_stubs": null
+   },
+   {
+    "family": "popa",
+    "sha": "d2aec969b04ff1e33e4741b74458e41573c707bc377ed9c8787d31c366ccd1e0",
+    "k_stubs": null
+   },
+   {
+    "family": "popa",
+    "sha": "6e394fa99199afe3d5b43575352192a84a0c3254161df718d92d2e58346d448d",
+    "k_stubs": null
+   },
+   {
+    "family": "popa",
+    "sha": "78e65dc70d87f8e4d122144246e0c19c20f93c9ea84062dc29602b876c0200a7",
+    "k_stubs": null
+   },
+   {
+    "family": "traffmonetizer",
+    "sha": "87b43ae49a1e6d6bb4ba5cd1c0b5b8abbdfd3fa053797f56bfc0f685dfb36077",
+    "k_stubs": null
+   },
+   {
+    "family": "traffmonetizer",
+    "sha": "6ded928efeea7213182f92020ebbab17fe36b640b0df8ee44dff4ec2f95d620f",
+    "k_stubs": null
+   }
+  ]
+ },
+ "cfg|b16": {
+  "n": 19,
+  "flipped": 9,
+  "k_median_flipped": 35.0,
+  "never_frac": 0.5263157894736842,
+  "per_family": {
+   "cashraven": [
+    31
+   ],
+   "ipidea": [
+    null,
+    3,
+    null
+   ],
+   "ipninja": [
+    null
+   ],
+   "luminati": [
+    null
+   ],
+   "monkeysocks": [
+    1,
+    null,
+    null,
+    null
+   ],
+   "oxylabs": [
+    44,
+    44,
+    44,
+    44
+   ],
+   "popa": [
+    null,
+    25,
+    35
+   ],
+   "traffmonetizer": [
+    null,
+    null
+   ]
+  },
+  "rows": [
+   {
+    "family": "cashraven",
+    "sha": "d9bdeafb19e492b951831565acf09e4b7fdaa6b58eb9371f0d2af58a2fc241ce",
+    "k_stubs": 31
+   },
+   {
+    "family": "ipidea",
+    "sha": "5fd4537aba5d9436d0425a91fbb30315a955c6e085421d3ae411e4268ccc90ea",
+    "k_stubs": null
+   },
+   {
+    "family": "ipidea",
+    "sha": "bb9aaba43113c549c18d8a0f17bfe06ae33b58a381f957f731886a601b40a8ae",
+    "k_stubs": 3
+   },
+   {
+    "family": "ipidea",
+    "sha": "2c82c0959a080db1186fe9367c830aa7d0fba42404bf7b0c9fd598ca9003157f",
+    "k_stubs": null
+   },
+   {
+    "family": "ipninja",
+    "sha": "f67dcb86c5d3e75af2ad85daed950322126500293f66f0e8037de6b1f37c0b04",
+    "k_stubs": null
+   },
+   {
+    "family": "luminati",
+    "sha": "a18fc7745fdb7a72401dcca1db755a1313811f82e73e11ba6fe1b2cc6027cbd0",
+    "k_stubs": null
+   },
+   {
+    "family": "monkeysocks",
+    "sha": "cde08b4037ee3684316d81cd15b1cb4b70bad1146f25d6ceda260c604a0d88c8",
+    "k_stubs": 1
+   },
+   {
+    "family": "monkeysocks",
+    "sha": "c281a0c166f28e8501fd53f690bc669a549020e0628879f264912268d608ce9a",
+    "k_stubs": null
+   },
+   {
+    "family": "monkeysocks",
+    "sha": "ce8b57b9a568f966f3ff82dca0f1102dae58fc4dfa7aaef5d43e9e2543d2ed59",
+    "k_stubs": null
+   },
+   {
+    "family": "monkeysocks",
+    "sha": "06e64d87ad8de55d0414f01c74f4c3a6a696c1283888ff4594f703885b884e69",
+    "k_stubs": null
+   },
+   {
+    "family": "oxylabs",
+    "sha": "51f10bfe857ca0d8eee27a443d750e7d91538a6c06bc3ccdf60ccbcbd35cee67",
+    "k_stubs": 44
+   },
+   {
+    "family": "oxylabs",
+    "sha": "8b35e71d3f59066715785b53be54ac0053817b2f45b286f814cee2e84c66f2c0",
+    "k_stubs": 44
+   },
+   {
+    "family": "oxylabs",
+    "sha": "9c34730a03e6bd45e7f30ba3f5f48c1ed647bfba7b9023f0042eb928f7b6253a",
+    "k_stubs": 44
+   },
+   {
+    "family": "oxylabs",
+    "sha": "db21833fd971e18bf741837cfd45c8bd0219c52f4a02acaee5f5a5b66f01250b",
+    "k_stubs": 44
+   },
+   {
+    "family": "popa",
+    "sha": "d2aec969b04ff1e33e4741b74458e41573c707bc377ed9c8787d31c366ccd1e0",
+    "k_stubs": null
+   },
+   {
+    "family": "popa",
+    "sha": "6e394fa99199afe3d5b43575352192a84a0c3254161df718d92d2e58346d448d",
+    "k_stubs": 25
+   },
+   {
+    "family": "popa",
+    "sha": "78e65dc70d87f8e4d122144246e0c19c20f93c9ea84062dc29602b876c0200a7",
+    "k_stubs": 35
+   },
+   {
+    "family": "traffmonetizer",
+    "sha": "87b43ae49a1e6d6bb4ba5cd1c0b5b8abbdfd3fa053797f56bfc0f685dfb36077",
+    "k_stubs": null
+   },
+   {
+    "family": "traffmonetizer",
+    "sha": "6ded928efeea7213182f92020ebbab17fe36b640b0df8ee44dff4ec2f95d620f",
+    "k_stubs": null
+   }
+  ]
+ }
+}

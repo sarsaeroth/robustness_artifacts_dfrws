@@ -1,0 +1,796 @@
+{
+ "cfg": {
+  "f1": 0.41564952253884,
+  "n": 64,
+  "k_cert_median": 0.0,
+  "zero_frac": 0.703125,
+  "k_attack_median": 968.0,
+  "attack_never": 24,
+  "rows": [
+   {
+    "family": "cashraven",
+    "k_cert": 0,
+    "k_attack": 251,
+    "attacked": true
+   },
+   {
+    "family": "ipidea",
+    "k_cert": 0,
+    "k_attack": 221,
+    "attacked": true
+   },
+   {
+    "family": "ipidea",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "ipidea",
+    "k_cert": 15,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "ipidea",
+    "k_cert": 12,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "ipidea",
+    "k_cert": 13,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "ipidea",
+    "k_cert": 15,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "ipidea",
+    "k_cert": 15,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "ipidea",
+    "k_cert": 14,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "ipidea",
+    "k_cert": 2,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "ipidea",
+    "k_cert": 19,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "ipidea",
+    "k_cert": 2,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "ipidea",
+    "k_cert": 22,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "ipninja",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "ipninja",
+    "k_cert": 0,
+    "k_attack": 1713,
+    "attacked": true
+   },
+   {
+    "family": "ipninja",
+    "k_cert": 0,
+    "k_attack": 1713,
+    "attacked": true
+   },
+   {
+    "family": "ipninja",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "ipninja",
+    "k_cert": 0,
+    "k_attack": 1652,
+    "attacked": true
+   },
+   {
+    "family": "ipninja",
+    "k_cert": 0,
+    "k_attack": 1713,
+    "attacked": true
+   },
+   {
+    "family": "ipninja",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "ipninja",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "ipninja",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "ipninja",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "ipninja",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "ipninja",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "luminati",
+    "k_cert": 1,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "luminati",
+    "k_cert": 3,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "luminati",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "luminati",
+    "k_cert": 3,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "luminati",
+    "k_cert": 3,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "luminati",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "luminati",
+    "k_cert": 11,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "luminati",
+    "k_cert": 1,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "luminati",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "luminati",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "luminati",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "luminati",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "monkeysocks",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "oxylabs",
+    "k_cert": 0,
+    "k_attack": 261,
+    "attacked": true
+   },
+   {
+    "family": "oxylabs",
+    "k_cert": 0,
+    "k_attack": 261,
+    "attacked": true
+   },
+   {
+    "family": "oxylabs",
+    "k_cert": 0,
+    "k_attack": 968,
+    "attacked": true
+   },
+   {
+    "family": "oxylabs",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "oxylabs",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "oxylabs",
+    "k_cert": 0,
+    "k_attack": 968,
+    "attacked": true
+   },
+   {
+    "family": "oxylabs",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "oxylabs",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "oxylabs",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "oxylabs",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "oxylabs",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "oxylabs",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "popa",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "popa",
+    "k_cert": 6,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "popa",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "popa",
+    "k_cert": 5,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "popa",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "popa",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "popa",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "popa",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "popa",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "popa",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "popa",
+    "k_cert": 10,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "popa",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "traffmonetizer",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "traffmonetizer",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   }
+  ]
+ },
+ "concat": {
+  "f1": 0.39390453035823314,
+  "n": 65,
+  "k_cert_median": 0.0,
+  "zero_frac": 0.676923076923077,
+  "k_attack_median": 571.0,
+  "attack_never": 21,
+  "rows": [
+   {
+    "family": "ipidea",
+    "k_cert": 2,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "ipidea",
+    "k_cert": 6,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "ipidea",
+    "k_cert": 5,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "ipidea",
+    "k_cert": 6,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "ipidea",
+    "k_cert": 4,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "ipidea",
+    "k_cert": 5,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "ipidea",
+    "k_cert": 4,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "ipidea",
+    "k_cert": 2,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "ipidea",
+    "k_cert": 6,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "ipidea",
+    "k_cert": 1,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "ipidea",
+    "k_cert": 4,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "ipidea",
+    "k_cert": 5,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "ipninja",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "ipninja",
+    "k_cert": 0,
+    "k_attack": 621,
+    "attacked": true
+   },
+   {
+    "family": "ipninja",
+    "k_cert": 0,
+    "k_attack": 621,
+    "attacked": true
+   },
+   {
+    "family": "ipninja",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "ipninja",
+    "k_cert": 0,
+    "k_attack": 641,
+    "attacked": true
+   },
+   {
+    "family": "ipninja",
+    "k_cert": 0,
+    "k_attack": 621,
+    "attacked": true
+   },
+   {
+    "family": "ipninja",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "ipninja",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "ipninja",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "ipninja",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "ipninja",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "ipninja",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "luminati",
+    "k_cert": 1,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "luminati",
+    "k_cert": 2,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "luminati",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "luminati",
+    "k_cert": 3,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "luminati",
+    "k_cert": 2,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "luminati",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "luminati",
+    "k_cert": 2,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "luminati",
+    "k_cert": 1,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "luminati",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "luminati",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "luminati",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "luminati",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "monkeysocks",
+    "k_cert": 0,
+    "k_attack": 10,
+    "attacked": true
+   },
+   {
+    "family": "monkeysocks",
+    "k_cert": 0,
+    "k_attack": 10,
+    "attacked": true
+   },
+   {
+    "family": "monkeysocks",
+    "k_cert": 0,
+    "k_attack": 10,
+    "attacked": true
+   },
+   {
+    "family": "monkeysocks",
+    "k_cert": 0,
+    "k_attack": 10,
+    "attacked": true
+   },
+   {
+    "family": "monkeysocks",
+    "k_cert": 0,
+    "k_attack": 10,
+    "attacked": true
+   },
+   {
+    "family": "monkeysocks",
+    "k_cert": 0,
+    "k_attack": 10,
+    "attacked": true
+   },
+   {
+    "family": "monkeysocks",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "monkeysocks",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "monkeysocks",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "monkeysocks",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "monkeysocks",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "monkeysocks",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "oxylabs",
+    "k_cert": 0,
+    "k_attack": 521,
+    "attacked": true
+   },
+   {
+    "family": "oxylabs",
+    "k_cert": 0,
+    "k_attack": 1782,
+    "attacked": true
+   },
+   {
+    "family": "oxylabs",
+    "k_cert": 0,
+    "k_attack": 1782,
+    "attacked": true
+   },
+   {
+    "family": "popa",
+    "k_cert": 1,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "popa",
+    "k_cert": 1,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "popa",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "popa",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "popa",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "popa",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   },
+   {
+    "family": "popa",
+    "k_cert": 1,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "popa",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "popa",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "popa",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "popa",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "popa",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": false
+   },
+   {
+    "family": "traffmonetizer",
+    "k_cert": 0,
+    "k_attack": 821,
+    "attacked": true
+   },
+   {
+    "family": "traffmonetizer",
+    "k_cert": 0,
+    "k_attack": null,
+    "attacked": true
+   }
+  ]
+ }
+}

@@ -1,0 +1,91 @@
+{
+  "families": [
+    "cashraven",
+    "ipidea",
+    "ipninja",
+    "luminati",
+    "monkeysocks",
+    "oxylabs",
+    "popa",
+    "traffmonetizer"
+  ],
+  "apps": 100,
+  "n_permutations": 5,
+  "modes": {
+    "labeled": {
+      "identity": {
+        "I_bits": 2.2558,
+        "I_null_bits": 1.1974,
+        "I_signal_bits": 1.0584,
+        "distinct_colours": 658399
+      },
+      "rename": {
+        "I_bits": 2.3963,
+        "I_null_bits": 2.3948,
+        "I_signal_bits": 0.0014,
+        "distinct_colours": 1496964
+      },
+      "J_maximin_bits": 0.0014
+    },
+    "fuzzy": {
+      "identity": {
+        "I_bits": 0.358,
+        "I_null_bits": 0.1372,
+        "I_signal_bits": 0.2208,
+        "distinct_colours": 28459
+      },
+      "rename": {
+        "I_bits": 0.358,
+        "I_null_bits": 0.1409,
+        "I_signal_bits": 0.2171,
+        "distinct_colours": 28459
+      },
+      "J_maximin_bits": 0.2171
+    },
+    "api": {
+      "identity": {
+        "I_bits": 0.0012,
+        "I_null_bits": 0.0004,
+        "I_signal_bits": 0.0007,
+        "distinct_colours": 163
+      },
+      "rename": {
+        "I_bits": 0.0012,
+        "I_null_bits": 0.0004,
+        "I_signal_bits": 0.0007,
+        "distinct_colours": 163
+      },
+      "J_maximin_bits": 0.0007
+    },
+    "opcode": {
+      "identity": {
+        "I_bits": 0.908,
+        "I_null_bits": 0.4835,
+        "I_signal_bits": 0.4245,
+        "distinct_colours": 170632
+      },
+      "rename": {
+        "I_bits": 0.908,
+        "I_null_bits": 0.4395,
+        "I_signal_bits": 0.4685,
+        "distinct_colours": 170632
+      },
+      "J_maximin_bits": 0.4245
+    },
+    "combined": {
+      "identity": {
+        "I_bits": 1.2152,
+        "I_null_bits": 0.5876,
+        "I_signal_bits": 0.6275,
+        "distinct_colours": 216727
+      },
+      "rename": {
+        "I_bits": 1.2152,
+        "I_null_bits": 0.608,
+        "I_signal_bits": 0.6071,
+        "distinct_colours": 216727
+      },
+      "J_maximin_bits": 0.6071
+    }
+  }
+}

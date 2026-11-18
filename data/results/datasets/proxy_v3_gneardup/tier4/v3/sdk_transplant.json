@@ -1,0 +1,415 @@
+{
+ "families": [
+  "cashraven",
+  "ipidea",
+  "ipninja",
+  "luminati",
+  "monkeysocks",
+  "oxylabs",
+  "popa",
+  "traffmonetizer"
+ ],
+ "n_by_family": {
+  "cashraven": 35,
+  "ipidea": 17,
+  "ipninja": 37,
+  "luminati": 40,
+  "monkeysocks": 40,
+  "oxylabs": 17,
+  "popa": 30,
+  "traffmonetizer": 16
+ },
+ "median_sdk_token_frac": {
+  "cashraven": 0.0013387980870902538,
+  "ipidea": 6.472561653936282e-05,
+  "ipninja": 0.03619324788451195,
+  "luminati": 0.2126373052597046,
+  "monkeysocks": 0.005256709177047014,
+  "oxylabs": 0.04314868897199631,
+  "popa": 0.0012075838167220354,
+  "traffmonetizer": 0.0009899615542963147
+ },
+ "vocab": 5698702,
+ "repeats": 2,
+ "A2a": {
+  "full": {
+   "macro_f1": 0.7992264835034872,
+   "sd": 0.09942400908209992
+  },
+  "sdk": {
+   "macro_f1": 0.9059285985472169,
+   "sd": 0.08563049128935211
+  },
+  "host": {
+   "macro_f1": 0.7622789334106809,
+   "sd": 0.11609362049748567
+  },
+  "sdk_minus_host": {
+   "mean_gap": 0.14364966513653585,
+   "t": 2.6130327378827243,
+   "p": 0.028130503042320423
+  },
+  "full_minus_sdk": {
+   "mean_gap": -0.10670211504372946,
+   "t": -2.0858431015802332,
+   "p": 0.06663099629840129
+  },
+  "full_minus_host": {
+   "mean_gap": 0.03694755009280639,
+   "t": 1.6263630269143843,
+   "p": 0.13831639323991793
+  }
+ },
+ "A2b": {
+  "0.3": {
+   "full": {
+    "macro_f1": 0.6329475036715071,
+    "sd": 0.11562500486542816
+   },
+   "sdk": {
+    "macro_f1": 0.7888348865868371,
+    "sd": 0.12563318179264218
+   },
+   "host": {
+    "macro_f1": 0.5407195225993247,
+    "sd": 0.16040897747686936
+   },
+   "sdk_minus_host": {
+    "mean_gap": 0.24811536398751252,
+    "t": 2.498757186371544,
+    "p": 0.03393094909587881
+   },
+   "full_minus_sdk": {
+    "mean_gap": -0.15588738291533005,
+    "t": -2.5810230133436742,
+    "p": 0.02964682788622738
+   },
+   "full_minus_host": {
+    "mean_gap": 0.09222798107218248,
+    "t": 1.1176587360141594,
+    "p": 0.29265834468428314
+   },
+   "n_clusters": 63
+  },
+  "0.5": {
+   "full": {
+    "macro_f1": 0.6721686384078025,
+    "sd": 0.13433016109066137
+   },
+   "sdk": {
+    "macro_f1": 0.8069819574612703,
+    "sd": 0.1391431621767531
+   },
+   "host": {
+    "macro_f1": 0.6220966574764215,
+    "sd": 0.16541430792762404
+   },
+   "sdk_minus_host": {
+    "mean_gap": 0.18488529998484873,
+    "t": 2.6552404821558295,
+    "p": 0.026249758788261652
+   },
+   "full_minus_sdk": {
+    "mean_gap": -0.13481331905346777,
+    "t": -2.9847024243335825,
+    "p": 0.01533213343320438
+   },
+   "full_minus_host": {
+    "mean_gap": 0.05007198093138097,
+    "t": 0.9908872157442254,
+    "p": 0.34763147298855307
+   },
+   "n_clusters": 86
+  },
+  "0.7": {
+   "full": {
+    "macro_f1": 0.8404414534090046,
+    "sd": 0.08008639590185634
+   },
+   "sdk": {
+    "macro_f1": 0.9299703688046005,
+    "sd": 0.061714363768339546
+   },
+   "host": {
+    "macro_f1": 0.8047851258399449,
+    "sd": 0.05775846776799859
+   },
+   "sdk_minus_host": {
+    "mean_gap": 0.12518524296465583,
+    "t": 2.634061709613311,
+    "p": 0.027177070754441677
+   },
+   "full_minus_sdk": {
+    "mean_gap": -0.08952891539559604,
+    "t": -1.0927668185043211,
+    "p": 0.30288195509683147
+   },
+   "full_minus_host": {
+    "mean_gap": 0.03565632756905977,
+    "t": 0.8689472361593646,
+    "p": 0.4074511289204212
+   },
+   "n_clusters": 100
+  }
+ },
+ "A2c": {
+  "dex_grouped": {
+   "clean_accuracy": 0.853448275862069,
+   "all": {
+    "unseen": {
+     "n": 2320,
+     "follows_sdk": 0.061206896551724135,
+     "follows_host": 0.7870689655172414,
+     "neither": 0.15172413793103448
+    },
+    "seen": {
+     "n": 2320,
+     "follows_sdk": 0.001293103448275862,
+     "follows_host": 0.9987068965517242,
+     "neither": 0.0
+    }
+   },
+   "cashraven": {
+    "unseen": {
+     "n": 350,
+     "follows_sdk": 0.04285714285714286,
+     "follows_host": 0.8828571428571429,
+     "neither": 0.07428571428571429
+    },
+    "seen": {
+     "n": 350,
+     "follows_sdk": 0.002857142857142857,
+     "follows_host": 0.9971428571428571,
+     "neither": 0.0
+    }
+   },
+   "ipidea": {
+    "unseen": {
+     "n": 170,
+     "follows_sdk": 0.0,
+     "follows_host": 0.7647058823529411,
+     "neither": 0.23529411764705882
+    },
+    "seen": {
+     "n": 170,
+     "follows_sdk": 0.0,
+     "follows_host": 1.0,
+     "neither": 0.0
+    }
+   },
+   "ipninja": {
+    "unseen": {
+     "n": 370,
+     "follows_sdk": 0.05945945945945946,
+     "follows_host": 0.7648648648648648,
+     "neither": 0.17567567567567569
+    },
+    "seen": {
+     "n": 370,
+     "follows_sdk": 0.005405405405405406,
+     "follows_host": 0.9945945945945946,
+     "neither": 0.0
+    }
+   },
+   "luminati": {
+    "unseen": {
+     "n": 400,
+     "follows_sdk": 0.195,
+     "follows_host": 0.7125,
+     "neither": 0.0925
+    },
+    "seen": {
+     "n": 400,
+     "follows_sdk": 0.0,
+     "follows_host": 1.0,
+     "neither": 0.0
+    }
+   },
+   "monkeysocks": {
+    "unseen": {
+     "n": 400,
+     "follows_sdk": 0.0,
+     "follows_host": 0.77,
+     "neither": 0.23
+    },
+    "seen": {
+     "n": 400,
+     "follows_sdk": 0.0,
+     "follows_host": 1.0,
+     "neither": 0.0
+    }
+   },
+   "oxylabs": {
+    "unseen": {
+     "n": 170,
+     "follows_sdk": 0.0058823529411764705,
+     "follows_host": 0.788235294117647,
+     "neither": 0.20588235294117646
+    },
+    "seen": {
+     "n": 170,
+     "follows_sdk": 0.0,
+     "follows_host": 1.0,
+     "neither": 0.0
+    }
+   },
+   "popa": {
+    "unseen": {
+     "n": 300,
+     "follows_sdk": 0.04,
+     "follows_host": 0.81,
+     "neither": 0.15
+    },
+    "seen": {
+     "n": 300,
+     "follows_sdk": 0.0,
+     "follows_host": 1.0,
+     "neither": 0.0
+    }
+   },
+   "traffmonetizer": {
+    "unseen": {
+     "n": 160,
+     "follows_sdk": 0.0875,
+     "follows_host": 0.8375,
+     "neither": 0.075
+    },
+    "seen": {
+     "n": 160,
+     "follows_sdk": 0.0,
+     "follows_host": 1.0,
+     "neither": 0.0
+    }
+   }
+  },
+  "host_cluster_0.3": {
+   "clean_accuracy": 0.6918103448275862,
+   "all": {
+    "unseen": {
+     "n": 2320,
+     "follows_sdk": 0.125,
+     "follows_host": 0.6228448275862069,
+     "neither": 0.2521551724137931
+    },
+    "seen": {
+     "n": 2320,
+     "follows_sdk": 0.002586206896551724,
+     "follows_host": 0.9974137931034482,
+     "neither": 0.0
+    }
+   },
+   "cashraven": {
+    "unseen": {
+     "n": 350,
+     "follows_sdk": 0.19142857142857142,
+     "follows_host": 0.48857142857142855,
+     "neither": 0.32
+    },
+    "seen": {
+     "n": 350,
+     "follows_sdk": 0.005714285714285714,
+     "follows_host": 0.9942857142857143,
+     "neither": 0.0
+    }
+   },
+   "ipidea": {
+    "unseen": {
+     "n": 170,
+     "follows_sdk": 0.0,
+     "follows_host": 0.6352941176470588,
+     "neither": 0.36470588235294116
+    },
+    "seen": {
+     "n": 170,
+     "follows_sdk": 0.0,
+     "follows_host": 1.0,
+     "neither": 0.0
+    }
+   },
+   "ipninja": {
+    "unseen": {
+     "n": 370,
+     "follows_sdk": 0.07837837837837838,
+     "follows_host": 0.5972972972972973,
+     "neither": 0.32432432432432434
+    },
+    "seen": {
+     "n": 370,
+     "follows_sdk": 0.010810810810810811,
+     "follows_host": 0.9891891891891892,
+     "neither": 0.0
+    }
+   },
+   "luminati": {
+    "unseen": {
+     "n": 400,
+     "follows_sdk": 0.33,
+     "follows_host": 0.4875,
+     "neither": 0.1825
+    },
+    "seen": {
+     "n": 400,
+     "follows_sdk": 0.0,
+     "follows_host": 1.0,
+     "neither": 0.0
+    }
+   },
+   "monkeysocks": {
+    "unseen": {
+     "n": 400,
+     "follows_sdk": 0.0,
+     "follows_host": 0.8925,
+     "neither": 0.1075
+    },
+    "seen": {
+     "n": 400,
+     "follows_sdk": 0.0,
+     "follows_host": 1.0,
+     "neither": 0.0
+    }
+   },
+   "oxylabs": {
+    "unseen": {
+     "n": 170,
+     "follows_sdk": 0.0,
+     "follows_host": 0.6823529411764706,
+     "neither": 0.3176470588235294
+    },
+    "seen": {
+     "n": 170,
+     "follows_sdk": 0.0,
+     "follows_host": 1.0,
+     "neither": 0.0
+    }
+   },
+   "popa": {
+    "unseen": {
+     "n": 300,
+     "follows_sdk": 0.12,
+     "follows_host": 0.5866666666666667,
+     "neither": 0.29333333333333333
+    },
+    "seen": {
+     "n": 300,
+     "follows_sdk": 0.0,
+     "follows_host": 1.0,
+     "neither": 0.0
+    }
+   },
+   "traffmonetizer": {
+    "unseen": {
+     "n": 160,
+     "follows_sdk": 0.1625,
+     "follows_host": 0.63125,
+     "neither": 0.20625
+    },
+    "seen": {
+     "n": 160,
+     "follows_sdk": 0.0,
+     "follows_host": 1.0,
+     "neither": 0.0
+    }
+   }
+  }
+ }
+}

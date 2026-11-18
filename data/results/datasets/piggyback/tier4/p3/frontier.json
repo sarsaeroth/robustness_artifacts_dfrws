@@ -1,0 +1,6563 @@
+{
+ "revectorization_cos": {
+  "labeled": {
+   "cos_median": 1.000000017779615,
+   "cos_min": 0.9999998811345296
+  },
+  "fuzzy": {
+   "cos_median": 1.000000025232526,
+   "cos_min": 0.9999999559656594
+  },
+  "api": {
+   "cos_median": 1.0000000180154571,
+   "cos_min": 0.999999879700744
+  },
+  "structure": {
+   "cos_median": 1.0000000199910692,
+   "cos_min": 0.9999998803898252
+  },
+  "combined": {
+   "cos_median": 1.000000024173631,
+   "cos_min": 0.9999999344738644
+  }
+ },
+ "sgd_labeled": {
+  "f1": 0.6842518058920141,
+  "f1_sd": 0.013840634752003454,
+  "n_cert": 63,
+  "k_cert_median": 17.0,
+  "k_cert_q": [
+   7.0,
+   39.0
+  ],
+  "k_steer_median": 25.0,
+  "k_steer_methods_median": 9.0,
+  "steer_over_cert_median": 1.255813953488372,
+  "steer_never_frac": 0.0,
+  "rand_never_frac": 0.5714285714285714,
+  "per_family": {
+   "original": {
+    "n": 32,
+    "k_cert_median": 11.5,
+    "k_steer_median": 18.0
+   },
+   "piggybacked": {
+    "n": 31,
+    "k_cert_median": 38.0,
+    "k_steer_median": 42.0
+   }
+  },
+  "rows": [
+   {
+    "family": "original",
+    "sha": "22bba0fb0f2b9f106162311a63f9d62e147742833f0343a8bbace90b1461fd84",
+    "k_cert": 12,
+    "k_steer": 15,
+    "k_steer_methods": 5,
+    "k_rand": 6793.0,
+    "rand_never": false,
+    "norm": 38.57460304397182
+   },
+   {
+    "family": "original",
+    "sha": "27930615e34a1a100b85e0b7e89f538042d97f365f85c02051bff0562ce19e6e",
+    "k_cert": 10,
+    "k_steer": 18,
+    "k_steer_methods": 6,
+    "k_rand": 7248.0,
+    "rand_never": false,
+    "norm": 133.7235955244997
+   },
+   {
+    "family": "original",
+    "sha": "8f2aa0aeeeab21133627e02e7b11995f7a9d1216a6e1373d6795089f46a46da8",
+    "k_cert": 11,
+    "k_steer": 16,
+    "k_steer_methods": 6,
+    "k_rand": 6792.0,
+    "rand_never": false,
+    "norm": 84.72897969408106
+   },
+   {
+    "family": "original",
+    "sha": "c41e995f2d48c79baa8409d39ab0be142db853903ea41cdf62f26d65d75167e8",
+    "k_cert": 5,
+    "k_steer": 10,
+    "k_steer_methods": 4,
+    "k_rand": 6306.0,
+    "rand_never": false,
+    "norm": 74.04728219185361
+   },
+   {
+    "family": "original",
+    "sha": "e1aac1e236e9300ffdc81f9a34fc28d40a544d9b7ca83a949bee26fac3040af0",
+    "k_cert": 0,
+    "k_steer": 2,
+    "k_steer_methods": 1,
+    "k_rand": 991.0,
+    "rand_never": false,
+    "norm": 25.495097567963924
+   },
+   {
+    "family": "original",
+    "sha": "e32b355a45b168f340a51e33af1639823f584d2e5b4e84cbd8a756e8f1c75914",
+    "k_cert": 21,
+    "k_steer": 24,
+    "k_steer_methods": 8,
+    "k_rand": 3552.0,
+    "rand_never": true,
+    "norm": 26.229754097208
+   },
+   {
+    "family": "original",
+    "sha": "fe2d564730e6110c64e9e49b55d6a1ae323b36fba64217774900c3fa8c78baab",
+    "k_cert": 0,
+    "k_steer": 2,
+    "k_steer_methods": 1,
+    "k_rand": 795.0,
+    "rand_never": false,
+    "norm": 68.24954212300622
+   },
+   {
+    "family": "piggybacked",
+    "sha": "155ed91e51ec57af1d71f1914b5817833860652d20cc68c1bc5479aeb6848d0c",
+    "k_cert": 43,
+    "k_steer": 46,
+    "k_steer_methods": 16,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 219.4379183277129
+   },
+   {
+    "family": "piggybacked",
+    "sha": "477a557906c52e3035a10db61ab8bce888c56dd716398c1e02157d989b664f7d",
+    "k_cert": 37,
+    "k_steer": 39,
+    "k_steer_methods": 13,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 92.44457799135652
+   },
+   {
+    "family": "piggybacked",
+    "sha": "52aeb980bc5da8adca4dcd382e721ad41b2d6eaa68f59607e799f900a68b9366",
+    "k_cert": 0,
+    "k_steer": 2,
+    "k_steer_methods": 1,
+    "k_rand": 27.0,
+    "rand_never": false,
+    "norm": 14.933184523068078
+   },
+   {
+    "family": "piggybacked",
+    "sha": "63757c15f48631836a0e0f3f545a769b23133fc23e09e3339b1612809e7e51b3",
+    "k_cert": 26,
+    "k_steer": 29,
+    "k_steer_methods": 10,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 197.92675412889486
+   },
+   {
+    "family": "piggybacked",
+    "sha": "865f51ef497596cb09ca822733a3bb12269e14a99e7bb61846961f0f99343bea",
+    "k_cert": 50,
+    "k_steer": 53,
+    "k_steer_methods": 18,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 126.38433447227548
+   },
+   {
+    "family": "piggybacked",
+    "sha": "bf7a873af10b09b8ed7272facac6507c2bf8088f3cc1222f8b336ba3d97717aa",
+    "k_cert": 38,
+    "k_steer": 41,
+    "k_steer_methods": 14,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 123.57184145265458
+   },
+   {
+    "family": "piggybacked",
+    "sha": "d35bafaae380dab4d27d49781aa0ca37d0cf30eb35f32c2ef6bbb3567d63db4c",
+    "k_cert": 39,
+    "k_steer": 42,
+    "k_steer_methods": 14,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 110.70682002478438
+   },
+   {
+    "family": "piggybacked",
+    "sha": "dcefd61602d0f36f0ee79a75ae7a00a7b4f0d7b7d2d997774a1132150cbb761f",
+    "k_cert": 7,
+    "k_steer": 8,
+    "k_steer_methods": 3,
+    "k_rand": 510.0,
+    "rand_never": false,
+    "norm": 128.42507543311004
+   },
+   {
+    "family": "piggybacked",
+    "sha": "f522bf9317d59d14d4a1f29e8325471973042216c54881edaeb6d51c48e613cb",
+    "k_cert": 102,
+    "k_steer": 107,
+    "k_steer_methods": 36,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 202.3660050502554
+   },
+   {
+    "family": "original",
+    "sha": "032b3ab75a6d39dd52e0a2e87e6b0611a9395dddae828b554f029a658d7ed18d",
+    "k_cert": 11,
+    "k_steer": 15,
+    "k_steer_methods": 5,
+    "k_rand": 10776.0,
+    "rand_never": false,
+    "norm": 46.54030511288038
+   },
+   {
+    "family": "original",
+    "sha": "4bee6ae3e08f2d8d84b94b59cfb9757bdb0466b22ac431658bf917a757877bdd",
+    "k_cert": 13,
+    "k_steer": 19,
+    "k_steer_methods": 7,
+    "k_rand": 2279.0,
+    "rand_never": true,
+    "norm": 72.83543093852057
+   },
+   {
+    "family": "original",
+    "sha": "5178fe58c70a170943399d2c60f4c239bbf7466b85b1c3bdf7ededcf749e7104",
+    "k_cert": 7,
+    "k_steer": 11,
+    "k_steer_methods": 4,
+    "k_rand": 10471.5,
+    "rand_never": false,
+    "norm": 48.877397639399746
+   },
+   {
+    "family": "original",
+    "sha": "8f4887cf5521f8db871e3531f501eb24c500bcd485583d83b59ec419e5ac8b4b",
+    "k_cert": 12,
+    "k_steer": 21,
+    "k_steer_methods": 7,
+    "k_rand": 3182.0,
+    "rand_never": true,
+    "norm": 125.7179382586272
+   },
+   {
+    "family": "original",
+    "sha": "d98c063a77dd5886b0b7e6fd80368835df48fcfb2e2447d05628a71fede71687",
+    "k_cert": 20,
+    "k_steer": 30,
+    "k_steer_methods": 10,
+    "k_rand": 3567.0,
+    "rand_never": true,
+    "norm": 140.6947049465615
+   },
+   {
+    "family": "piggybacked",
+    "sha": "2bd2ccc32b87b8a6173d8efff96c682c86a0c7979cd5f9ba21b56e651a142bdb",
+    "k_cert": 3,
+    "k_steer": 5,
+    "k_steer_methods": 2,
+    "k_rand": 182.5,
+    "rand_never": false,
+    "norm": 14.66287829861518
+   },
+   {
+    "family": "piggybacked",
+    "sha": "37b4cf755480f1b55e6140db3a2cdb11ccb3771fee1d001f79ee32b70fb28120",
+    "k_cert": 0,
+    "k_steer": 1,
+    "k_steer_methods": 1,
+    "k_rand": 21.5,
+    "rand_never": false,
+    "norm": 86.89073598491383
+   },
+   {
+    "family": "piggybacked",
+    "sha": "4d44ca1f9e65203e43e4c78166842be8d62abe977fe5951295b1ea925064216b",
+    "k_cert": 41,
+    "k_steer": 43,
+    "k_steer_methods": 15,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 84.33860326090301
+   },
+   {
+    "family": "piggybacked",
+    "sha": "6ae5da04345e5d0a9d2906b622654ace8b95cb801fe4a720ba233a62ba78d048",
+    "k_cert": 39,
+    "k_steer": 42,
+    "k_steer_methods": 14,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 106.98598038995577
+   },
+   {
+    "family": "piggybacked",
+    "sha": "960be87f67a5a52db3136088eaaf0e91c7f92920d0e8b37f26a5a66bca9f434b",
+    "k_cert": 20,
+    "k_steer": 22,
+    "k_steer_methods": 8,
+    "k_rand": 890.0,
+    "rand_never": true,
+    "norm": 77.82030583337487
+   },
+   {
+    "family": "piggybacked",
+    "sha": "b644edd30af9e69e8aeb5f4d37bf16f1b6522bcd0b35c6d119c177eead824b61",
+    "k_cert": 45,
+    "k_steer": 49,
+    "k_steer_methods": 17,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 162.87418457201866
+   },
+   {
+    "family": "piggybacked",
+    "sha": "fc95b0805eee08dad660c4567c75cb9d34930fa3a3d684e3899c9e7634276294",
+    "k_cert": 88,
+    "k_steer": 93,
+    "k_steer_methods": 31,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 181.43318329346482
+   },
+   {
+    "family": "original",
+    "sha": "054e1e67998aa305b1d4a9cd3f638a9e9cad964ddf8f052b24b2c37e0c552d6e",
+    "k_cert": 12,
+    "k_steer": 18,
+    "k_steer_methods": 6,
+    "k_rand": 8142.0,
+    "rand_never": false,
+    "norm": 46.119410230400824
+   },
+   {
+    "family": "original",
+    "sha": "564c55f2ef45b5cba749110b5d1890b37654bb29546c7f45ec85d95b9a8f7231",
+    "k_cert": 68,
+    "k_steer": 90,
+    "k_steer_methods": 30,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 207.69930187653497
+   },
+   {
+    "family": "original",
+    "sha": "7b438d11becbbc8affe35dd60e1e1a9b176560bf16e1e8ee0a5c361a0bc56440",
+    "k_cert": 14,
+    "k_steer": 33,
+    "k_steer_methods": 11,
+    "k_rand": 12295.5,
+    "rand_never": false,
+    "norm": 194.14942698859556
+   },
+   {
+    "family": "original",
+    "sha": "cd71771c4db7eb0ac8f5350b80801c201476ad1a3ea9e6d93e366da0dc925b90",
+    "k_cert": 0,
+    "k_steer": 3,
+    "k_steer_methods": 1,
+    "k_rand": 788.0,
+    "rand_never": false,
+    "norm": 107.37318100903968
+   },
+   {
+    "family": "original",
+    "sha": "e3a146501c025a43ab0353e5116923569754b50f25f7ecf60d861c3107ddb5af",
+    "k_cert": 7,
+    "k_steer": 12,
+    "k_steer_methods": 4,
+    "k_rand": 6515.0,
+    "rand_never": false,
+    "norm": 46.73328578219169
+   },
+   {
+    "family": "piggybacked",
+    "sha": "4ec33c05d3cc3b6541fc5f5e1195aa5398d67a0a2a741210dc1444b53eb7ebad",
+    "k_cert": 47,
+    "k_steer": 51,
+    "k_steer_methods": 17,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 84.4630096551147
+   },
+   {
+    "family": "piggybacked",
+    "sha": "5cb836e46579c7ac52552cc8d895a4ab15f0ea2fa013e74a15e197cb4056dbd6",
+    "k_cert": 51,
+    "k_steer": 56,
+    "k_steer_methods": 19,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 117.47765745025733
+   },
+   {
+    "family": "piggybacked",
+    "sha": "74c3195a82ca55239576420dc74211577c6ad30cb8442b3b2186061eac05a4c0",
+    "k_cert": 25,
+    "k_steer": 28,
+    "k_steer_methods": 10,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 146.20191517213445
+   },
+   {
+    "family": "piggybacked",
+    "sha": "86a34754d9a80b8483067df420e107ac8bc4bee0e2b2bc7b29a287730f5a153c",
+    "k_cert": 25,
+    "k_steer": 28,
+    "k_steer_methods": 10,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 139.80343343423294
+   },
+   {
+    "family": "piggybacked",
+    "sha": "9e44db7298ad3f9b2e0b052f37d0ec21fa5d28e2b35803e412f7c8371cdc1439",
+    "k_cert": 47,
+    "k_steer": 52,
+    "k_steer_methods": 18,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 88.18163074019441
+   },
+   {
+    "family": "original",
+    "sha": "0de67440b8ac6a4bdb2de12502b7576a51b88172ae17f7da6a4f52c5efbeeefb",
+    "k_cert": 0,
+    "k_steer": 5,
+    "k_steer_methods": 2,
+    "k_rand": 6521.5,
+    "rand_never": false,
+    "norm": 125.09996003196804
+   },
+   {
+    "family": "original",
+    "sha": "262cbb493239d6b6466f739d4e6bd8e6b1001bc526aa2a8153e64b84b90fd44a",
+    "k_cert": 18,
+    "k_steer": 35,
+    "k_steer_methods": 12,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 186.40010729610646
+   },
+   {
+    "family": "original",
+    "sha": "268acdfdab9f6f187640789d5849ce53e810ad9a30ec67e1033403e198c4b7f5",
+    "k_cert": 0,
+    "k_steer": 1,
+    "k_steer_methods": 1,
+    "k_rand": 5545.5,
+    "rand_never": false,
+    "norm": 19.6468827043885
+   },
+   {
+    "family": "original",
+    "sha": "4f3373d5a119a84f516d4c7b45669aa3a2d76811d34c60aeca4258fbcdd87967",
+    "k_cert": 17,
+    "k_steer": 26,
+    "k_steer_methods": 9,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 87.84645695758026
+   },
+   {
+    "family": "original",
+    "sha": "727c8fa502b346a5718d254564694076f74a96b0763887cadfb96be077edf0ff",
+    "k_cert": 1,
+    "k_steer": 7,
+    "k_steer_methods": 3,
+    "k_rand": 6764.5,
+    "rand_never": false,
+    "norm": 59.07622195096772
+   },
+   {
+    "family": "original",
+    "sha": "9374a9ea721dd8c3f2c80a66d73a2bf093d126a18b4f011d10e888b5d30cbe11",
+    "k_cert": 43,
+    "k_steer": 54,
+    "k_steer_methods": 18,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 108.816359064251
+   },
+   {
+    "family": "original",
+    "sha": "a52db6a608676e7a39cfb3e19e477b7a25c9c141715930c2a79624b93139f46f",
+    "k_cert": 37,
+    "k_steer": 48,
+    "k_steer_methods": 16,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 105.9103394386025
+   },
+   {
+    "family": "original",
+    "sha": "b939cc300deb3f21f26aa05e523d67f5e625deedace410a97656ece8bf4efff1",
+    "k_cert": 4,
+    "k_steer": 21,
+    "k_steer_methods": 7,
+    "k_rand": 6222.0,
+    "rand_never": true,
+    "norm": 174.6682569902156
+   },
+   {
+    "family": "piggybacked",
+    "sha": "034b72de43ae0389f25151d1f991c95a11f40aa0ab6d3fcb1e5263f4798541d4",
+    "k_cert": 50,
+    "k_steer": 54,
+    "k_steer_methods": 18,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 114.3153532995459
+   },
+   {
+    "family": "piggybacked",
+    "sha": "11f8ba4bdd77d3059e25198c446cbfaadf132b39b8cd9adf3b94220f8f144eae",
+    "k_cert": 38,
+    "k_steer": 42,
+    "k_steer_methods": 14,
+    "k_rand": 5444.0,
+    "rand_never": true,
+    "norm": 160.8819442945665
+   },
+   {
+    "family": "piggybacked",
+    "sha": "1bec3ec4b07e41f99b8d62cb4c7323b0702adc6f5d0f576e1dd32b035d1636fe",
+    "k_cert": 25,
+    "k_steer": 28,
+    "k_steer_methods": 10,
+    "k_rand": 3031.0,
+    "rand_never": true,
+    "norm": 80.44874144447506
+   },
+   {
+    "family": "piggybacked",
+    "sha": "46c7824f4eb24a4642dc6ee4e1402eae60b3ea4a4712c55f3052a05205db9ff3",
+    "k_cert": 23,
+    "k_steer": 26,
+    "k_steer_methods": 9,
+    "k_rand": 2854.0,
+    "rand_never": true,
+    "norm": 106.82228231974825
+   },
+   {
+    "family": "piggybacked",
+    "sha": "a8833669ce4f1f78d8eb3d799748a5489dbeeb2be435dc7c99f1f31ebc35a3ab",
+    "k_cert": 5,
+    "k_steer": 7,
+    "k_steer_methods": 3,
+    "k_rand": 245.0,
+    "rand_never": false,
+    "norm": 105.33280590585252
+   },
+   {
+    "family": "piggybacked",
+    "sha": "e142d3881f905ce1598aeab6c8ebdf5717146d944e1310553c3280dbd15157ba",
+    "k_cert": 52,
+    "k_steer": 57,
+    "k_steer_methods": 19,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 190.4520937138786
+   },
+   {
+    "family": "piggybacked",
+    "sha": "ec422d028011b4a0ff45c762e6f5e91f4b807c5ba0fed513c652bd6dd5d6bbc0",
+    "k_cert": 46,
+    "k_steer": 49,
+    "k_steer_methods": 17,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 82.13403679352427
+   },
+   {
+    "family": "original",
+    "sha": "3f70a9c6ee7f32b87fe7c26a0b9ab3e969a36c8a0ed3b4b54be54f32c8cc6fe3",
+    "k_cert": 14,
+    "k_steer": 16,
+    "k_steer_methods": 6,
+    "k_rand": 7833.0,
+    "rand_never": false,
+    "norm": 22.956480566497994
+   },
+   {
+    "family": "original",
+    "sha": "762c68fc46ec15b81812c2adc52da09dcd5bcd923ed52b402a76dfa291f45bb2",
+    "k_cert": 15,
+    "k_steer": 24,
+    "k_steer_methods": 8,
+    "k_rand": 14385.5,
+    "rand_never": false,
+    "norm": 123.25177483509111
+   },
+   {
+    "family": "original",
+    "sha": "770f16736825e55ebdff678923ffb14b1585cd5b047ada990f9a97d04edb03ca",
+    "k_cert": 0,
+    "k_steer": 2,
+    "k_steer_methods": 1,
+    "k_rand": 989.5,
+    "rand_never": false,
+    "norm": 46.32493928760188
+   },
+   {
+    "family": "original",
+    "sha": "81bef3408e9036e4cad808bdf2d522c8ad50f8c6cac2e0fe3edea2d590d66a76",
+    "k_cert": 9,
+    "k_steer": 18,
+    "k_steer_methods": 6,
+    "k_rand": 7671.5,
+    "rand_never": false,
+    "norm": 112.90261290156221
+   },
+   {
+    "family": "original",
+    "sha": "b86b9b8f44b955cdd6ebae5c17413029c7c2e340228d0dbe92d27349d4d0fd67",
+    "k_cert": 17,
+    "k_steer": 25,
+    "k_steer_methods": 9,
+    "k_rand": 9730.0,
+    "rand_never": true,
+    "norm": 107.09808588392231
+   },
+   {
+    "family": "original",
+    "sha": "ceac3b089ee8f5438bb4c15772fa9f9efd4d57290919c772f3bf9440c86421c1",
+    "k_cert": 0,
+    "k_steer": 3,
+    "k_steer_methods": 1,
+    "k_rand": 993.0,
+    "rand_never": false,
+    "norm": 77.78817390837762
+   },
+   {
+    "family": "original",
+    "sha": "d037128438689130900ca2130b88a667fea769f04b920ff4811f9dcf94e1a141",
+    "k_cert": 13,
+    "k_steer": 22,
+    "k_steer_methods": 8,
+    "k_rand": 11638.5,
+    "rand_never": false,
+    "norm": 112.4144118874444
+   },
+   {
+    "family": "piggybacked",
+    "sha": "0431d8a0c512bf163baa2e35c62083a65b4965cc6b32b924e237380b24588d8e",
+    "k_cert": 6,
+    "k_steer": 8,
+    "k_steer_methods": 3,
+    "k_rand": 1125.5,
+    "rand_never": false,
+    "norm": 130.91982279242512
+   },
+   {
+    "family": "piggybacked",
+    "sha": "ba4f7e22505b8780b15943bb02ff1352ca09618bfcc8a6a079fb100abd1169c6",
+    "k_cert": 39,
+    "k_steer": 42,
+    "k_steer_methods": 14,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 199.71229306179427
+   },
+   {
+    "family": "piggybacked",
+    "sha": "e15546679f3664b0b9149e14337d3ae5c2b8cb9ba519f39ce4447049fb90080d",
+    "k_cert": 31,
+    "k_steer": 34,
+    "k_steer_methods": 12,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 109.04127658827184
+   }
+  ]
+ },
+ "sgd_fuzzy": {
+  "f1": 0.7482662799524713,
+  "f1_sd": 0.011448828549897634,
+  "n_cert": 63,
+  "k_cert_median": 7.0,
+  "k_cert_q": [
+   0.0,
+   130.0
+  ],
+  "k_steer_median": 74.0,
+  "k_steer_methods_median": 25.0,
+  "steer_over_cert_median": 1.4285714285714286,
+  "steer_never_frac": 0.0,
+  "rand_never_frac": 0.9047619047619048,
+  "per_family": {
+   "original": {
+    "n": 31,
+    "k_cert_median": 0.0,
+    "k_steer_median": 45.0
+   },
+   "piggybacked": {
+    "n": 32,
+    "k_cert_median": 130.0,
+    "k_steer_median": 161.5
+   }
+  },
+  "rows": [
+   {
+    "family": "original",
+    "sha": "22bba0fb0f2b9f106162311a63f9d62e147742833f0343a8bbace90b1461fd84",
+    "k_cert": 0,
+    "k_steer": 2,
+    "k_steer_methods": 1,
+    "k_rand": 390.5,
+    "rand_never": false,
+    "norm": 150.14992507490638
+   },
+   {
+    "family": "original",
+    "sha": "27930615e34a1a100b85e0b7e89f538042d97f365f85c02051bff0562ce19e6e",
+    "k_cert": 0,
+    "k_steer": 56,
+    "k_steer_methods": 19,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1419.5432363968348
+   },
+   {
+    "family": "original",
+    "sha": "8f2aa0aeeeab21133627e02e7b11995f7a9d1216a6e1373d6795089f46a46da8",
+    "k_cert": 0,
+    "k_steer": 21,
+    "k_steer_methods": 7,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 541.1155144698773
+   },
+   {
+    "family": "original",
+    "sha": "ae8e9ead394b985bf7188ec15474c7fbf4e9bd8f5b775b23f61c97844e55fa26",
+    "k_cert": 0,
+    "k_steer": 9,
+    "k_steer_methods": 3,
+    "k_rand": 8148.0,
+    "rand_never": false,
+    "norm": 860.5736458897635
+   },
+   {
+    "family": "original",
+    "sha": "c41e995f2d48c79baa8409d39ab0be142db853903ea41cdf62f26d65d75167e8",
+    "k_cert": 0,
+    "k_steer": 35,
+    "k_steer_methods": 12,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 376.083767264688
+   },
+   {
+    "family": "original",
+    "sha": "d78baeb86b03d4596db654202084b929f55a4434d75dabad1ba1c9dd6df26921",
+    "k_cert": 0,
+    "k_steer": 72,
+    "k_steer_methods": 24,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 338.604489042895
+   },
+   {
+    "family": "original",
+    "sha": "e32b355a45b168f340a51e33af1639823f584d2e5b4e84cbd8a756e8f1c75914",
+    "k_cert": 0,
+    "k_steer": 20,
+    "k_steer_methods": 7,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 82.35289915965315
+   },
+   {
+    "family": "original",
+    "sha": "fe2d564730e6110c64e9e49b55d6a1ae323b36fba64217774900c3fa8c78baab",
+    "k_cert": 0,
+    "k_steer": 45,
+    "k_steer_methods": 15,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 349.2721002313239
+   },
+   {
+    "family": "piggybacked",
+    "sha": "155ed91e51ec57af1d71f1914b5817833860652d20cc68c1bc5479aeb6848d0c",
+    "k_cert": 137,
+    "k_steer": 168,
+    "k_steer_methods": 56,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 3952.9956994664185
+   },
+   {
+    "family": "piggybacked",
+    "sha": "477a557906c52e3035a10db61ab8bce888c56dd716398c1e02157d989b664f7d",
+    "k_cert": 169,
+    "k_steer": 203,
+    "k_steer_methods": 68,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 602.2250409938132
+   },
+   {
+    "family": "piggybacked",
+    "sha": "52aeb980bc5da8adca4dcd382e721ad41b2d6eaa68f59607e799f900a68b9366",
+    "k_cert": 7,
+    "k_steer": 10,
+    "k_steer_methods": 4,
+    "k_rand": 2258.0,
+    "rand_never": false,
+    "norm": 31.32091952673165
+   },
+   {
+    "family": "piggybacked",
+    "sha": "63757c15f48631836a0e0f3f545a769b23133fc23e09e3339b1612809e7e51b3",
+    "k_cert": 94,
+    "k_steer": 116,
+    "k_steer_methods": 39,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 2272.070861571003
+   },
+   {
+    "family": "piggybacked",
+    "sha": "865f51ef497596cb09ca822733a3bb12269e14a99e7bb61846961f0f99343bea",
+    "k_cert": 133,
+    "k_steer": 162,
+    "k_steer_methods": 54,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 862.8800611904298
+   },
+   {
+    "family": "piggybacked",
+    "sha": "b13b7b8a5c24926065c5a5a54ea095cbe92bdd201da7e90196ed6daf16a3716c",
+    "k_cert": 47,
+    "k_steer": 59,
+    "k_steer_methods": 20,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 983.9476612096804
+   },
+   {
+    "family": "piggybacked",
+    "sha": "bf7a873af10b09b8ed7272facac6507c2bf8088f3cc1222f8b336ba3d97717aa",
+    "k_cert": 89,
+    "k_steer": 109,
+    "k_steer_methods": 37,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1200.9338033380525
+   },
+   {
+    "family": "piggybacked",
+    "sha": "d35bafaae380dab4d27d49781aa0ca37d0cf30eb35f32c2ef6bbb3567d63db4c",
+    "k_cert": 117,
+    "k_steer": 143,
+    "k_steer_methods": 48,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1018.033889416261
+   },
+   {
+    "family": "piggybacked",
+    "sha": "dcefd61602d0f36f0ee79a75ae7a00a7b4f0d7b7d2d997774a1132150cbb761f",
+    "k_cert": 14,
+    "k_steer": 19,
+    "k_steer_methods": 7,
+    "k_rand": 4571.5,
+    "rand_never": false,
+    "norm": 1048.7230330263562
+   },
+   {
+    "family": "piggybacked",
+    "sha": "f522bf9317d59d14d4a1f29e8325471973042216c54881edaeb6d51c48e613cb",
+    "k_cert": 195,
+    "k_steer": 240,
+    "k_steer_methods": 80,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 2652.3159691107694
+   },
+   {
+    "family": "original",
+    "sha": "032b3ab75a6d39dd52e0a2e87e6b0611a9395dddae828b554f029a658d7ed18d",
+    "k_cert": 0,
+    "k_steer": 58,
+    "k_steer_methods": 20,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 197.9595918363139
+   },
+   {
+    "family": "original",
+    "sha": "4bee6ae3e08f2d8d84b94b59cfb9757bdb0466b22ac431658bf917a757877bdd",
+    "k_cert": 0,
+    "k_steer": 69,
+    "k_steer_methods": 23,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 397.4946540521017
+   },
+   {
+    "family": "original",
+    "sha": "5178fe58c70a170943399d2c60f4c239bbf7466b85b1c3bdf7ededcf749e7104",
+    "k_cert": 14,
+    "k_steer": 87,
+    "k_steer_methods": 29,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 217.95412361320444
+   },
+   {
+    "family": "original",
+    "sha": "81cf425f564ecbd17c1593dfab3d1456254ce9e5ce65064bf16914aedcd9959f",
+    "k_cert": 0,
+    "k_steer": 39,
+    "k_steer_methods": 13,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 871.0005740526237
+   },
+   {
+    "family": "original",
+    "sha": "8f4887cf5521f8db871e3531f501eb24c500bcd485583d83b59ec419e5ac8b4b",
+    "k_cert": 0,
+    "k_steer": 146,
+    "k_steer_methods": 49,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1212.6017483081575
+   },
+   {
+    "family": "original",
+    "sha": "d98c063a77dd5886b0b7e6fd80368835df48fcfb2e2447d05628a71fede71687",
+    "k_cert": 0,
+    "k_steer": 13,
+    "k_steer_methods": 5,
+    "k_rand": 1881.0,
+    "rand_never": true,
+    "norm": 1548.2557928197782
+   },
+   {
+    "family": "piggybacked",
+    "sha": "2bd2ccc32b87b8a6173d8efff96c682c86a0c7979cd5f9ba21b56e651a142bdb",
+    "k_cert": 7,
+    "k_steer": 10,
+    "k_steer_methods": 4,
+    "k_rand": 1894.0,
+    "rand_never": false,
+    "norm": 27.85677655436824
+   },
+   {
+    "family": "piggybacked",
+    "sha": "37b4cf755480f1b55e6140db3a2cdb11ccb3771fee1d001f79ee32b70fb28120",
+    "k_cert": 241,
+    "k_steer": 298,
+    "k_steer_methods": 100,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 647.9729932643799
+   },
+   {
+    "family": "piggybacked",
+    "sha": "4d44ca1f9e65203e43e4c78166842be8d62abe977fe5951295b1ea925064216b",
+    "k_cert": 99,
+    "k_steer": 127,
+    "k_steer_methods": 43,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 574.1280345010161
+   },
+   {
+    "family": "piggybacked",
+    "sha": "6ae5da04345e5d0a9d2906b622654ace8b95cb801fe4a720ba233a62ba78d048",
+    "k_cert": 420,
+    "k_steer": 509,
+    "k_steer_methods": 170,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 802.337210903246
+   },
+   {
+    "family": "piggybacked",
+    "sha": "7fe546fa5740904fd51b596c877d6157066d98da138692c7ac3d2b5e2bc64d65",
+    "k_cert": 183,
+    "k_steer": 239,
+    "k_steer_methods": 80,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 2977.6425238769007
+   },
+   {
+    "family": "piggybacked",
+    "sha": "960be87f67a5a52db3136088eaaf0e91c7f92920d0e8b37f26a5a66bca9f434b",
+    "k_cert": 15,
+    "k_steer": 21,
+    "k_steer_methods": 7,
+    "k_rand": 4350.0,
+    "rand_never": true,
+    "norm": 506.4829710858994
+   },
+   {
+    "family": "piggybacked",
+    "sha": "b644edd30af9e69e8aeb5f4d37bf16f1b6522bcd0b35c6d119c177eead824b61",
+    "k_cert": 59,
+    "k_steer": 78,
+    "k_steer_methods": 26,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1952.432841354601
+   },
+   {
+    "family": "piggybacked",
+    "sha": "fc95b0805eee08dad660c4567c75cb9d34930fa3a3d684e3899c9e7634276294",
+    "k_cert": 133,
+    "k_steer": 175,
+    "k_steer_methods": 59,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 2454.601189602906
+   },
+   {
+    "family": "original",
+    "sha": "564c55f2ef45b5cba749110b5d1890b37654bb29546c7f45ec85d95b9a8f7231",
+    "k_cert": 0,
+    "k_steer": 102,
+    "k_steer_methods": 34,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 3151.7060459376603
+   },
+   {
+    "family": "original",
+    "sha": "7b438d11becbbc8affe35dd60e1e1a9b176560bf16e1e8ee0a5c361a0bc56440",
+    "k_cert": 0,
+    "k_steer": 101,
+    "k_steer_methods": 34,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 2408.2821678532605
+   },
+   {
+    "family": "original",
+    "sha": "cccbb65373132daeab66c8b9541ba5fc47dfe99eb7377b3d1b222f3ce3fa537c",
+    "k_cert": 0,
+    "k_steer": 26,
+    "k_steer_methods": 9,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 374.0761954468635
+   },
+   {
+    "family": "original",
+    "sha": "fe6bfd75b4649423119904a008d6938b535a22b284a4a73f4d346aadb3363d9d",
+    "k_cert": 0,
+    "k_steer": 20,
+    "k_steer_methods": 7,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1616.2032669191087
+   },
+   {
+    "family": "piggybacked",
+    "sha": "4ec33c05d3cc3b6541fc5f5e1195aa5398d67a0a2a741210dc1444b53eb7ebad",
+    "k_cert": 129,
+    "k_steer": 161,
+    "k_steer_methods": 54,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 586.027303118208
+   },
+   {
+    "family": "piggybacked",
+    "sha": "5cb836e46579c7ac52552cc8d895a4ab15f0ea2fa013e74a15e197cb4056dbd6",
+    "k_cert": 131,
+    "k_steer": 165,
+    "k_steer_methods": 55,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1377.7423561754933
+   },
+   {
+    "family": "piggybacked",
+    "sha": "74c3195a82ca55239576420dc74211577c6ad30cb8442b3b2186061eac05a4c0",
+    "k_cert": 244,
+    "k_steer": 306,
+    "k_steer_methods": 102,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1654.0816183006207
+   },
+   {
+    "family": "piggybacked",
+    "sha": "9e44db7298ad3f9b2e0b052f37d0ec21fa5d28e2b35803e412f7c8371cdc1439",
+    "k_cert": 202,
+    "k_steer": 246,
+    "k_steer_methods": 82,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 531.1158065808247
+   },
+   {
+    "family": "original",
+    "sha": "0de67440b8ac6a4bdb2de12502b7576a51b88172ae17f7da6a4f52c5efbeeefb",
+    "k_cert": 0,
+    "k_steer": 58,
+    "k_steer_methods": 20,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1356.281681657612
+   },
+   {
+    "family": "original",
+    "sha": "262cbb493239d6b6466f739d4e6bd8e6b1001bc526aa2a8153e64b84b90fd44a",
+    "k_cert": 0,
+    "k_steer": 72,
+    "k_steer_methods": 24,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1992.0715348601316
+   },
+   {
+    "family": "original",
+    "sha": "268acdfdab9f6f187640789d5849ce53e810ad9a30ec67e1033403e198c4b7f5",
+    "k_cert": 0,
+    "k_steer": 9,
+    "k_steer_methods": 3,
+    "k_rand": 6460.0,
+    "rand_never": true,
+    "norm": 47.853944456021594
+   },
+   {
+    "family": "original",
+    "sha": "3813a4e4907b8cecaf58df3f6b8743ca2f74cfcd8b1ce83ae0da9a9e6dde22ce",
+    "k_cert": 0,
+    "k_steer": 3,
+    "k_steer_methods": 1,
+    "k_rand": 256.0,
+    "rand_never": true,
+    "norm": 217.78200109283594
+   },
+   {
+    "family": "original",
+    "sha": "9374a9ea721dd8c3f2c80a66d73a2bf093d126a18b4f011d10e888b5d30cbe11",
+    "k_cert": 0,
+    "k_steer": 18,
+    "k_steer_methods": 6,
+    "k_rand": 13852.0,
+    "rand_never": true,
+    "norm": 766.7398515793998
+   },
+   {
+    "family": "original",
+    "sha": "a52db6a608676e7a39cfb3e19e477b7a25c9c141715930c2a79624b93139f46f",
+    "k_cert": 0,
+    "k_steer": 60,
+    "k_steer_methods": 20,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 831.0415152084762
+   },
+   {
+    "family": "original",
+    "sha": "b939cc300deb3f21f26aa05e523d67f5e625deedace410a97656ece8bf4efff1",
+    "k_cert": 0,
+    "k_steer": 144,
+    "k_steer_methods": 48,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1889.2040652084147
+   },
+   {
+    "family": "piggybacked",
+    "sha": "034b72de43ae0389f25151d1f991c95a11f40aa0ab6d3fcb1e5263f4798541d4",
+    "k_cert": 357,
+    "k_steer": 417,
+    "k_steer_methods": 139,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 879.6817606384709
+   },
+   {
+    "family": "piggybacked",
+    "sha": "11f8ba4bdd77d3059e25198c446cbfaadf132b39b8cd9adf3b94220f8f144eae",
+    "k_cert": 187,
+    "k_steer": 226,
+    "k_steer_methods": 76,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1893.7964515755118
+   },
+   {
+    "family": "piggybacked",
+    "sha": "1bec3ec4b07e41f99b8d62cb4c7323b0702adc6f5d0f576e1dd32b035d1636fe",
+    "k_cert": 11,
+    "k_steer": 14,
+    "k_steer_methods": 5,
+    "k_rand": 7130.5,
+    "rand_never": false,
+    "norm": 497.45954609395125
+   },
+   {
+    "family": "piggybacked",
+    "sha": "46c7824f4eb24a4642dc6ee4e1402eae60b3ea4a4712c55f3052a05205db9ff3",
+    "k_cert": 45,
+    "k_steer": 56,
+    "k_steer_methods": 19,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 769.5908003608151
+   },
+   {
+    "family": "piggybacked",
+    "sha": "a8833669ce4f1f78d8eb3d799748a5489dbeeb2be435dc7c99f1f31ebc35a3ab",
+    "k_cert": 127,
+    "k_steer": 152,
+    "k_steer_methods": 51,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 754.7264405067574
+   },
+   {
+    "family": "piggybacked",
+    "sha": "c7b7d56da140e17f57ea1812df21a89e8ec74b7818aba03149e62e60d91e1045",
+    "k_cert": 102,
+    "k_steer": 124,
+    "k_steer_methods": 42,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1373.7823699552998
+   },
+   {
+    "family": "piggybacked",
+    "sha": "ec422d028011b4a0ff45c762e6f5e91f4b807c5ba0fed513c652bd6dd5d6bbc0",
+    "k_cert": 189,
+    "k_steer": 221,
+    "k_steer_methods": 74,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 457.6756493413212
+   },
+   {
+    "family": "original",
+    "sha": "3f70a9c6ee7f32b87fe7c26a0b9ab3e969a36c8a0ed3b4b54be54f32c8cc6fe3",
+    "k_cert": 0,
+    "k_steer": 20,
+    "k_steer_methods": 7,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 84.13679337840253
+   },
+   {
+    "family": "original",
+    "sha": "762c68fc46ec15b81812c2adc52da09dcd5bcd923ed52b402a76dfa291f45bb2",
+    "k_cert": 0,
+    "k_steer": 28,
+    "k_steer_methods": 10,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1120.1057985744026
+   },
+   {
+    "family": "original",
+    "sha": "81bef3408e9036e4cad808bdf2d522c8ad50f8c6cac2e0fe3edea2d590d66a76",
+    "k_cert": 0,
+    "k_steer": 74,
+    "k_steer_methods": 25,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 885.1643915115429
+   },
+   {
+    "family": "original",
+    "sha": "b86b9b8f44b955cdd6ebae5c17413029c7c2e340228d0dbe92d27349d4d0fd67",
+    "k_cert": 0,
+    "k_steer": 9,
+    "k_steer_methods": 3,
+    "k_rand": 6469.0,
+    "rand_never": true,
+    "norm": 905.5086968108037
+   },
+   {
+    "family": "original",
+    "sha": "ceac3b089ee8f5438bb4c15772fa9f9efd4d57290919c772f3bf9440c86421c1",
+    "k_cert": 0,
+    "k_steer": 109,
+    "k_steer_methods": 37,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 471.5007953333695
+   },
+   {
+    "family": "original",
+    "sha": "d037128438689130900ca2130b88a667fea769f04b920ff4811f9dcf94e1a141",
+    "k_cert": 0,
+    "k_steer": 127,
+    "k_steer_methods": 43,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 869.3871404616012
+   },
+   {
+    "family": "piggybacked",
+    "sha": "0431d8a0c512bf163baa2e35c62083a65b4965cc6b32b924e237380b24588d8e",
+    "k_cert": 245,
+    "k_steer": 297,
+    "k_steer_methods": 99,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1086.9857404768472
+   },
+   {
+    "family": "piggybacked",
+    "sha": "63daf6ce0d3f7a078b92311c697334d43980e1f9885dbeaeb9304f0be6020175",
+    "k_cert": 25,
+    "k_steer": 32,
+    "k_steer_methods": 11,
+    "k_rand": 6706.0,
+    "rand_never": true,
+    "norm": 1144.3478492136908
+   },
+   {
+    "family": "piggybacked",
+    "sha": "e15546679f3664b0b9149e14337d3ae5c2b8cb9ba519f39ce4447049fb90080d",
+    "k_cert": 213,
+    "k_steer": 258,
+    "k_steer_methods": 86,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 832.9525796826612
+   }
+  ]
+ },
+ "sgd_api": {
+  "f1": 0.7182484062232124,
+  "f1_sd": 0.014643993740150234,
+  "n_cert": 56,
+  "k_cert_median": 47.0,
+  "k_cert_q": [
+   3.75,
+   139.5
+  ],
+  "k_steer_median": 91.5,
+  "k_steer_methods_median": 31.0,
+  "steer_over_cert_median": 1.2491830065359477,
+  "steer_never_frac": 0.0,
+  "rand_never_frac": 0.875,
+  "per_family": {
+   "original": {
+    "n": 28,
+    "k_cert_median": 26.5,
+    "k_steer_median": 60.5
+   },
+   "piggybacked": {
+    "n": 28,
+    "k_cert_median": 92.0,
+    "k_steer_median": 148.0
+   }
+  },
+  "rows": [
+   {
+    "family": "original",
+    "sha": "22bba0fb0f2b9f106162311a63f9d62e147742833f0343a8bbace90b1461fd84",
+    "k_cert": 20,
+    "k_steer": 64,
+    "k_steer_methods": 22,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 237.05062750391528
+   },
+   {
+    "family": "original",
+    "sha": "27930615e34a1a100b85e0b7e89f538042d97f365f85c02051bff0562ce19e6e",
+    "k_cert": 0,
+    "k_steer": 222,
+    "k_steer_methods": 74,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 4307.162523053896
+   },
+   {
+    "family": "original",
+    "sha": "38546b8eca220efcb91c47823d31a24c92f70c8877b4c3e9bf126fc2eb2718e0",
+    "k_cert": 0,
+    "k_steer": 2,
+    "k_steer_methods": 1,
+    "k_rand": 14.0,
+    "rand_never": false,
+    "norm": 166.16257099599778
+   },
+   {
+    "family": "original",
+    "sha": "38e67f2c6b4a4a8ee43d2418c229c19dac225cb204d60cc55a2a6270abdf3e4c",
+    "k_cert": 0,
+    "k_steer": 10,
+    "k_steer_methods": 4,
+    "k_rand": 5989.0,
+    "rand_never": true,
+    "norm": 67.46109990209172
+   },
+   {
+    "family": "original",
+    "sha": "ae8e9ead394b985bf7188ec15474c7fbf4e9bd8f5b775b23f61c97844e55fa26",
+    "k_cert": 0,
+    "k_steer": 74,
+    "k_steer_methods": 25,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 2364.551331648353
+   },
+   {
+    "family": "original",
+    "sha": "c41e995f2d48c79baa8409d39ab0be142db853903ea41cdf62f26d65d75167e8",
+    "k_cert": 0,
+    "k_steer": 69,
+    "k_steer_methods": 23,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 971.3552388287202
+   },
+   {
+    "family": "original",
+    "sha": "e32b355a45b168f340a51e33af1639823f584d2e5b4e84cbd8a756e8f1c75914",
+    "k_cert": 0,
+    "k_steer": 6,
+    "k_steer_methods": 2,
+    "k_rand": 2097.0,
+    "rand_never": false,
+    "norm": 135.35878250043476
+   },
+   {
+    "family": "original",
+    "sha": "fe2d564730e6110c64e9e49b55d6a1ae323b36fba64217774900c3fa8c78baab",
+    "k_cert": 0,
+    "k_steer": 86,
+    "k_steer_methods": 29,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 888.7041127394426
+   },
+   {
+    "family": "piggybacked",
+    "sha": "1120fe334263efb18d62f008daa916f0ebb4643682d621b0a94b8beb0a2fb089",
+    "k_cert": 127,
+    "k_steer": 150,
+    "k_steer_methods": 50,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 3036.401817941756
+   },
+   {
+    "family": "piggybacked",
+    "sha": "155ed91e51ec57af1d71f1914b5817833860652d20cc68c1bc5479aeb6848d0c",
+    "k_cert": 270,
+    "k_steer": 319,
+    "k_steer_methods": 107,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 9598.084548491954
+   },
+   {
+    "family": "piggybacked",
+    "sha": "477a557906c52e3035a10db61ab8bce888c56dd716398c1e02157d989b664f7d",
+    "k_cert": 300,
+    "k_steer": 348,
+    "k_steer_methods": 116,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1417.504497347363
+   },
+   {
+    "family": "piggybacked",
+    "sha": "52aeb980bc5da8adca4dcd382e721ad41b2d6eaa68f59607e799f900a68b9366",
+    "k_cert": 11,
+    "k_steer": 13,
+    "k_steer_methods": 5,
+    "k_rand": 1228.0,
+    "rand_never": false,
+    "norm": 35.651086939951774
+   },
+   {
+    "family": "piggybacked",
+    "sha": "63757c15f48631836a0e0f3f545a769b23133fc23e09e3339b1612809e7e51b3",
+    "k_cert": 211,
+    "k_steer": 249,
+    "k_steer_methods": 83,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 8299.294427841442
+   },
+   {
+    "family": "piggybacked",
+    "sha": "865f51ef497596cb09ca822733a3bb12269e14a99e7bb61846961f0f99343bea",
+    "k_cert": 6,
+    "k_steer": 9,
+    "k_steer_methods": 3,
+    "k_rand": 692.5,
+    "rand_never": false,
+    "norm": 3159.4334935237994
+   },
+   {
+    "family": "piggybacked",
+    "sha": "bf7a873af10b09b8ed7272facac6507c2bf8088f3cc1222f8b336ba3d97717aa",
+    "k_cert": 7,
+    "k_steer": 9,
+    "k_steer_methods": 3,
+    "k_rand": 1198.0,
+    "rand_never": false,
+    "norm": 3036.7568226646003
+   },
+   {
+    "family": "piggybacked",
+    "sha": "d35bafaae380dab4d27d49781aa0ca37d0cf30eb35f32c2ef6bbb3567d63db4c",
+    "k_cert": 207,
+    "k_steer": 242,
+    "k_steer_methods": 81,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 2287.1823276686973
+   },
+   {
+    "family": "original",
+    "sha": "032b3ab75a6d39dd52e0a2e87e6b0611a9395dddae828b554f029a658d7ed18d",
+    "k_cert": 51,
+    "k_steer": 53,
+    "k_steer_methods": 18,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 386.3573475424015
+   },
+   {
+    "family": "original",
+    "sha": "4bee6ae3e08f2d8d84b94b59cfb9757bdb0466b22ac431658bf917a757877bdd",
+    "k_cert": 50,
+    "k_steer": 52,
+    "k_steer_methods": 18,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 987.8542402601712
+   },
+   {
+    "family": "original",
+    "sha": "5178fe58c70a170943399d2c60f4c239bbf7466b85b1c3bdf7ededcf749e7104",
+    "k_cert": 69,
+    "k_steer": 71,
+    "k_steer_methods": 24,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 471.75205351964286
+   },
+   {
+    "family": "original",
+    "sha": "81cf425f564ecbd17c1593dfab3d1456254ce9e5ce65064bf16914aedcd9959f",
+    "k_cert": 97,
+    "k_steer": 100,
+    "k_steer_methods": 34,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 2923.663455324501
+   },
+   {
+    "family": "original",
+    "sha": "8f4887cf5521f8db871e3531f501eb24c500bcd485583d83b59ec419e5ac8b4b",
+    "k_cert": 94,
+    "k_steer": 97,
+    "k_steer_methods": 33,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 3551.48546385875
+   },
+   {
+    "family": "original",
+    "sha": "d98c063a77dd5886b0b7e6fd80368835df48fcfb2e2447d05628a71fede71687",
+    "k_cert": 223,
+    "k_steer": 228,
+    "k_steer_methods": 76,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 4314.718067266968
+   },
+   {
+    "family": "piggybacked",
+    "sha": "2bd2ccc32b87b8a6173d8efff96c682c86a0c7979cd5f9ba21b56e651a142bdb",
+    "k_cert": 6,
+    "k_steer": 8,
+    "k_steer_methods": 3,
+    "k_rand": 966.0,
+    "rand_never": false,
+    "norm": 34.02939905434711
+   },
+   {
+    "family": "piggybacked",
+    "sha": "37b4cf755480f1b55e6140db3a2cdb11ccb3771fee1d001f79ee32b70fb28120",
+    "k_cert": 171,
+    "k_steer": 197,
+    "k_steer_methods": 66,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1255.2159176810976
+   },
+   {
+    "family": "piggybacked",
+    "sha": "4d44ca1f9e65203e43e4c78166842be8d62abe977fe5951295b1ea925064216b",
+    "k_cert": 155,
+    "k_steer": 182,
+    "k_steer_methods": 61,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1291.1680758135246
+   },
+   {
+    "family": "piggybacked",
+    "sha": "6ae5da04345e5d0a9d2906b622654ace8b95cb801fe4a720ba233a62ba78d048",
+    "k_cert": 296,
+    "k_steer": 333,
+    "k_steer_methods": 111,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1757.8666047228953
+   },
+   {
+    "family": "piggybacked",
+    "sha": "960be87f67a5a52db3136088eaaf0e91c7f92920d0e8b37f26a5a66bca9f434b",
+    "k_cert": 0,
+    "k_steer": 3,
+    "k_steer_methods": 1,
+    "k_rand": 167.5,
+    "rand_never": false,
+    "norm": 1184.930799667221
+   },
+   {
+    "family": "piggybacked",
+    "sha": "b644edd30af9e69e8aeb5f4d37bf16f1b6522bcd0b35c6d119c177eead824b61",
+    "k_cert": 36,
+    "k_steer": 139,
+    "k_steer_methods": 47,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 5117.852088523075
+   },
+   {
+    "family": "piggybacked",
+    "sha": "fc95b0805eee08dad660c4567c75cb9d34930fa3a3d684e3899c9e7634276294",
+    "k_cert": 0,
+    "k_steer": 29,
+    "k_steer_methods": 10,
+    "k_rand": 16063.0,
+    "rand_never": true,
+    "norm": 6616.691242607592
+   },
+   {
+    "family": "original",
+    "sha": "564c55f2ef45b5cba749110b5d1890b37654bb29546c7f45ec85d95b9a8f7231",
+    "k_cert": 129,
+    "k_steer": 134,
+    "k_steer_methods": 45,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 11708.865743529559
+   },
+   {
+    "family": "original",
+    "sha": "7b438d11becbbc8affe35dd60e1e1a9b176560bf16e1e8ee0a5c361a0bc56440",
+    "k_cert": 145,
+    "k_steer": 151,
+    "k_steer_methods": 51,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 9055.559563052964
+   },
+   {
+    "family": "original",
+    "sha": "e3a146501c025a43ab0353e5116923569754b50f25f7ecf60d861c3107ddb5af",
+    "k_cert": 8,
+    "k_steer": 9,
+    "k_steer_methods": 3,
+    "k_rand": 6424.0,
+    "rand_never": true,
+    "norm": 393.3319209014188
+   },
+   {
+    "family": "piggybacked",
+    "sha": "4ec33c05d3cc3b6541fc5f5e1195aa5398d67a0a2a741210dc1444b53eb7ebad",
+    "k_cert": 98,
+    "k_steer": 139,
+    "k_steer_methods": 47,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1323.6238136268175
+   },
+   {
+    "family": "piggybacked",
+    "sha": "5cb836e46579c7ac52552cc8d895a4ab15f0ea2fa013e74a15e197cb4056dbd6",
+    "k_cert": 138,
+    "k_steer": 227,
+    "k_steer_methods": 76,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 2959.8175619453305
+   },
+   {
+    "family": "piggybacked",
+    "sha": "74c3195a82ca55239576420dc74211577c6ad30cb8442b3b2186061eac05a4c0",
+    "k_cert": 32,
+    "k_steer": 173,
+    "k_steer_methods": 58,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 4718.5949179814115
+   },
+   {
+    "family": "piggybacked",
+    "sha": "9e44db7298ad3f9b2e0b052f37d0ec21fa5d28e2b35803e412f7c8371cdc1439",
+    "k_cert": 86,
+    "k_steer": 121,
+    "k_steer_methods": 41,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1143.2541274799755
+   },
+   {
+    "family": "original",
+    "sha": "0de67440b8ac6a4bdb2de12502b7576a51b88172ae17f7da6a4f52c5efbeeefb",
+    "k_cert": 4,
+    "k_steer": 5,
+    "k_steer_methods": 2,
+    "k_rand": 6391.0,
+    "rand_never": true,
+    "norm": 3469.3276005589323
+   },
+   {
+    "family": "original",
+    "sha": "262cbb493239d6b6466f739d4e6bd8e6b1001bc526aa2a8153e64b84b90fd44a",
+    "k_cert": 33,
+    "k_steer": 36,
+    "k_steer_methods": 12,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 7589.3852847249755
+   },
+   {
+    "family": "original",
+    "sha": "3813a4e4907b8cecaf58df3f6b8743ca2f74cfcd8b1ce83ae0da9a9e6dde22ce",
+    "k_cert": 7,
+    "k_steer": 8,
+    "k_steer_methods": 3,
+    "k_rand": 6765.0,
+    "rand_never": true,
+    "norm": 269.51994360343724
+   },
+   {
+    "family": "original",
+    "sha": "a52db6a608676e7a39cfb3e19e477b7a25c9c141715930c2a79624b93139f46f",
+    "k_cert": 54,
+    "k_steer": 57,
+    "k_steer_methods": 19,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1960.7937168401984
+   },
+   {
+    "family": "original",
+    "sha": "b939cc300deb3f21f26aa05e523d67f5e625deedace410a97656ece8bf4efff1",
+    "k_cert": 346,
+    "k_steer": 358,
+    "k_steer_methods": 120,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 7615.3551460191275
+   },
+   {
+    "family": "piggybacked",
+    "sha": "034b72de43ae0389f25151d1f991c95a11f40aa0ab6d3fcb1e5263f4798541d4",
+    "k_cert": 308,
+    "k_steer": 382,
+    "k_steer_methods": 128,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 2132.892871196301
+   },
+   {
+    "family": "piggybacked",
+    "sha": "11f8ba4bdd77d3059e25198c446cbfaadf132b39b8cd9adf3b94220f8f144eae",
+    "k_cert": 0,
+    "k_steer": 146,
+    "k_steer_methods": 49,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 4733.2995890815955
+   },
+   {
+    "family": "piggybacked",
+    "sha": "1bec3ec4b07e41f99b8d62cb4c7323b0702adc6f5d0f576e1dd32b035d1636fe",
+    "k_cert": 0,
+    "k_steer": 40,
+    "k_steer_methods": 14,
+    "k_rand": 14912.0,
+    "rand_never": true,
+    "norm": 1180.621023021359
+   },
+   {
+    "family": "piggybacked",
+    "sha": "a8833669ce4f1f78d8eb3d799748a5489dbeeb2be435dc7c99f1f31ebc35a3ab",
+    "k_cert": 73,
+    "k_steer": 142,
+    "k_steer_methods": 48,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 2005.4361121711158
+   },
+   {
+    "family": "piggybacked",
+    "sha": "c7b7d56da140e17f57ea1812df21a89e8ec74b7818aba03149e62e60d91e1045",
+    "k_cert": 0,
+    "k_steer": 54,
+    "k_steer_methods": 18,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 3830.1963396149813
+   },
+   {
+    "family": "piggybacked",
+    "sha": "ec422d028011b4a0ff45c762e6f5e91f4b807c5ba0fed513c652bd6dd5d6bbc0",
+    "k_cert": 153,
+    "k_steer": 191,
+    "k_steer_methods": 64,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1085.7186560062419
+   },
+   {
+    "family": "original",
+    "sha": "3f70a9c6ee7f32b87fe7c26a0b9ab3e969a36c8a0ed3b4b54be54f32c8cc6fe3",
+    "k_cert": 13,
+    "k_steer": 15,
+    "k_steer_methods": 5,
+    "k_rand": 6839.0,
+    "rand_never": true,
+    "norm": 118.23282116231516
+   },
+   {
+    "family": "original",
+    "sha": "770f16736825e55ebdff678923ffb14b1585cd5b047ada990f9a97d04edb03ca",
+    "k_cert": 4,
+    "k_steer": 5,
+    "k_steer_methods": 2,
+    "k_rand": 6057.0,
+    "rand_never": true,
+    "norm": 375.1919508731497
+   },
+   {
+    "family": "original",
+    "sha": "81bef3408e9036e4cad808bdf2d522c8ad50f8c6cac2e0fe3edea2d590d66a76",
+    "k_cert": 116,
+    "k_steer": 120,
+    "k_steer_methods": 40,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 2548.4222570053025
+   },
+   {
+    "family": "original",
+    "sha": "b86b9b8f44b955cdd6ebae5c17413029c7c2e340228d0dbe92d27349d4d0fd67",
+    "k_cert": 3,
+    "k_steer": 4,
+    "k_steer_methods": 2,
+    "k_rand": 5993.0,
+    "rand_never": true,
+    "norm": 2630.7253752529928
+   },
+   {
+    "family": "original",
+    "sha": "ceac3b089ee8f5438bb4c15772fa9f9efd4d57290919c772f3bf9440c86421c1",
+    "k_cert": 44,
+    "k_steer": 46,
+    "k_steer_methods": 16,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1395.517466748446
+   },
+   {
+    "family": "original",
+    "sha": "d037128438689130900ca2130b88a667fea769f04b920ff4811f9dcf94e1a141",
+    "k_cert": 108,
+    "k_steer": 112,
+    "k_steer_methods": 38,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 2434.1027094188116
+   },
+   {
+    "family": "piggybacked",
+    "sha": "0431d8a0c512bf163baa2e35c62083a65b4965cc6b32b924e237380b24588d8e",
+    "k_cert": 144,
+    "k_steer": 238,
+    "k_steer_methods": 80,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 3584.561339968951
+   },
+   {
+    "family": "piggybacked",
+    "sha": "63daf6ce0d3f7a078b92311c697334d43980e1f9885dbeaeb9304f0be6020175",
+    "k_cert": 0,
+    "k_steer": 27,
+    "k_steer_methods": 9,
+    "k_rand": 16258.0,
+    "rand_never": true,
+    "norm": 3703.3843980877814
+   },
+   {
+    "family": "piggybacked",
+    "sha": "e15546679f3664b0b9149e14337d3ae5c2b8cb9ba519f39ce4447049fb90080d",
+    "k_cert": 185,
+    "k_steer": 239,
+    "k_steer_methods": 80,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 2052.2987112016613
+   }
+  ]
+ },
+ "sgd_structure": {
+  "f1": 0.7133096531941402,
+  "f1_sd": 0.01362561765421081,
+  "n_cert": 59,
+  "k_cert_median": 8.0,
+  "k_cert_q": [
+   0.0,
+   101.5
+  ],
+  "k_steer_median": 89.0,
+  "k_steer_methods_median": 30.0,
+  "steer_over_cert_median": 1.875,
+  "steer_never_frac": 0.0,
+  "rand_never_frac": 0.8813559322033898,
+  "per_family": {
+   "original": {
+    "n": 29,
+    "k_cert_median": 0.0,
+    "k_steer_median": 47.0
+   },
+   "piggybacked": {
+    "n": 30,
+    "k_cert_median": 101.5,
+    "k_steer_median": 162.0
+   }
+  },
+  "rows": [
+   {
+    "family": "original",
+    "sha": "22bba0fb0f2b9f106162311a63f9d62e147742833f0343a8bbace90b1461fd84",
+    "k_cert": 0,
+    "k_steer": 7,
+    "k_steer_methods": 3,
+    "k_rand": 4538.0,
+    "rand_never": false,
+    "norm": 306.07025337330646
+   },
+   {
+    "family": "original",
+    "sha": "27930615e34a1a100b85e0b7e89f538042d97f365f85c02051bff0562ce19e6e",
+    "k_cert": 0,
+    "k_steer": 47,
+    "k_steer_methods": 16,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 2981.959590604809
+   },
+   {
+    "family": "original",
+    "sha": "38546b8eca220efcb91c47823d31a24c92f70c8877b4c3e9bf126fc2eb2718e0",
+    "k_cert": 0,
+    "k_steer": 5,
+    "k_steer_methods": 2,
+    "k_rand": 4419.0,
+    "rand_never": false,
+    "norm": 164.74829285913708
+   },
+   {
+    "family": "original",
+    "sha": "38e67f2c6b4a4a8ee43d2418c229c19dac225cb204d60cc55a2a6270abdf3e4c",
+    "k_cert": 0,
+    "k_steer": 38,
+    "k_steer_methods": 13,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 352.54361432310753
+   },
+   {
+    "family": "original",
+    "sha": "ae8e9ead394b985bf7188ec15474c7fbf4e9bd8f5b775b23f61c97844e55fa26",
+    "k_cert": 0,
+    "k_steer": 76,
+    "k_steer_methods": 26,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 8046.907791195324
+   },
+   {
+    "family": "original",
+    "sha": "c41e995f2d48c79baa8409d39ab0be142db853903ea41cdf62f26d65d75167e8",
+    "k_cert": 0,
+    "k_steer": 79,
+    "k_steer_methods": 27,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1180.8975400092932
+   },
+   {
+    "family": "original",
+    "sha": "d78baeb86b03d4596db654202084b929f55a4434d75dabad1ba1c9dd6df26921",
+    "k_cert": 0,
+    "k_steer": 35,
+    "k_steer_methods": 12,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 933.6739259505965
+   },
+   {
+    "family": "original",
+    "sha": "e1aac1e236e9300ffdc81f9a34fc28d40a544d9b7ca83a949bee26fac3040af0",
+    "k_cert": 0,
+    "k_steer": 11,
+    "k_steer_methods": 4,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 115.95688854052612
+   },
+   {
+    "family": "original",
+    "sha": "e32b355a45b168f340a51e33af1639823f584d2e5b4e84cbd8a756e8f1c75914",
+    "k_cert": 0,
+    "k_steer": 15,
+    "k_steer_methods": 5,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 172.45869070591948
+   },
+   {
+    "family": "original",
+    "sha": "fe2d564730e6110c64e9e49b55d6a1ae323b36fba64217774900c3fa8c78baab",
+    "k_cert": 0,
+    "k_steer": 47,
+    "k_steer_methods": 16,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 964.3666315255832
+   },
+   {
+    "family": "piggybacked",
+    "sha": "155ed91e51ec57af1d71f1914b5817833860652d20cc68c1bc5479aeb6848d0c",
+    "k_cert": 326,
+    "k_steer": 512,
+    "k_steer_methods": 171,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 7015.170489731522
+   },
+   {
+    "family": "piggybacked",
+    "sha": "477a557906c52e3035a10db61ab8bce888c56dd716398c1e02157d989b664f7d",
+    "k_cert": 21,
+    "k_steer": 35,
+    "k_steer_methods": 12,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 3742.820994918138
+   },
+   {
+    "family": "piggybacked",
+    "sha": "52aeb980bc5da8adca4dcd382e721ad41b2d6eaa68f59607e799f900a68b9366",
+    "k_cert": 8,
+    "k_steer": 14,
+    "k_steer_methods": 5,
+    "k_rand": 13939.0,
+    "rand_never": true,
+    "norm": 103.06793875885944
+   },
+   {
+    "family": "piggybacked",
+    "sha": "63757c15f48631836a0e0f3f545a769b23133fc23e09e3339b1612809e7e51b3",
+    "k_cert": 136,
+    "k_steer": 215,
+    "k_steer_methods": 72,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 7744.309911154124
+   },
+   {
+    "family": "piggybacked",
+    "sha": "865f51ef497596cb09ca822733a3bb12269e14a99e7bb61846961f0f99343bea",
+    "k_cert": 87,
+    "k_steer": 138,
+    "k_steer_methods": 46,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 2234.0841523989197
+   },
+   {
+    "family": "piggybacked",
+    "sha": "b13b7b8a5c24926065c5a5a54ea095cbe92bdd201da7e90196ed6daf16a3716c",
+    "k_cert": 78,
+    "k_steer": 125,
+    "k_steer_methods": 42,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1939.5146300041151
+   },
+   {
+    "family": "piggybacked",
+    "sha": "d35bafaae380dab4d27d49781aa0ca37d0cf30eb35f32c2ef6bbb3567d63db4c",
+    "k_cert": 158,
+    "k_steer": 248,
+    "k_steer_methods": 83,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1707.4293543218705
+   },
+   {
+    "family": "piggybacked",
+    "sha": "f522bf9317d59d14d4a1f29e8325471973042216c54881edaeb6d51c48e613cb",
+    "k_cert": 35,
+    "k_steer": 56,
+    "k_steer_methods": 19,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 6970.613746292359
+   },
+   {
+    "family": "original",
+    "sha": "032b3ab75a6d39dd52e0a2e87e6b0611a9395dddae828b554f029a658d7ed18d",
+    "k_cert": 0,
+    "k_steer": 75,
+    "k_steer_methods": 25,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1114.9636765383884
+   },
+   {
+    "family": "original",
+    "sha": "4bee6ae3e08f2d8d84b94b59cfb9757bdb0466b22ac431658bf917a757877bdd",
+    "k_cert": 0,
+    "k_steer": 119,
+    "k_steer_methods": 40,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1350.8760120751274
+   },
+   {
+    "family": "original",
+    "sha": "5178fe58c70a170943399d2c60f4c239bbf7466b85b1c3bdf7ededcf749e7104",
+    "k_cert": 0,
+    "k_steer": 121,
+    "k_steer_methods": 41,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1160.1543000825363
+   },
+   {
+    "family": "original",
+    "sha": "81cf425f564ecbd17c1593dfab3d1456254ce9e5ce65064bf16914aedcd9959f",
+    "k_cert": 0,
+    "k_steer": 136,
+    "k_steer_methods": 46,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1975.7332815944565
+   },
+   {
+    "family": "original",
+    "sha": "8f4887cf5521f8db871e3531f501eb24c500bcd485583d83b59ec419e5ac8b4b",
+    "k_cert": 0,
+    "k_steer": 89,
+    "k_steer_methods": 30,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 3623.951848465981
+   },
+   {
+    "family": "original",
+    "sha": "d98c063a77dd5886b0b7e6fd80368835df48fcfb2e2447d05628a71fede71687",
+    "k_cert": 0,
+    "k_steer": 74,
+    "k_steer_methods": 25,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 4400.899226294554
+   },
+   {
+    "family": "piggybacked",
+    "sha": "2bd2ccc32b87b8a6173d8efff96c682c86a0c7979cd5f9ba21b56e651a142bdb",
+    "k_cert": 8,
+    "k_steer": 15,
+    "k_steer_methods": 5,
+    "k_rand": 15648.5,
+    "rand_never": false,
+    "norm": 107.45231500530828
+   },
+   {
+    "family": "piggybacked",
+    "sha": "37b4cf755480f1b55e6140db3a2cdb11ccb3771fee1d001f79ee32b70fb28120",
+    "k_cert": 186,
+    "k_steer": 309,
+    "k_steer_methods": 103,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1041.5118818333278
+   },
+   {
+    "family": "piggybacked",
+    "sha": "4d44ca1f9e65203e43e4c78166842be8d62abe977fe5951295b1ea925064216b",
+    "k_cert": 37,
+    "k_steer": 63,
+    "k_steer_methods": 21,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1181.7237409817915
+   },
+   {
+    "family": "piggybacked",
+    "sha": "6ae5da04345e5d0a9d2906b622654ace8b95cb801fe4a720ba233a62ba78d048",
+    "k_cert": 172,
+    "k_steer": 291,
+    "k_steer_methods": 97,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 3941.6964621847787
+   },
+   {
+    "family": "piggybacked",
+    "sha": "7fe546fa5740904fd51b596c877d6157066d98da138692c7ac3d2b5e2bc64d65",
+    "k_cert": 81,
+    "k_steer": 138,
+    "k_steer_methods": 46,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 5594.251960718251
+   },
+   {
+    "family": "piggybacked",
+    "sha": "b644edd30af9e69e8aeb5f4d37bf16f1b6522bcd0b35c6d119c177eead824b61",
+    "k_cert": 134,
+    "k_steer": 227,
+    "k_steer_methods": 76,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 3544.0555864715216
+   },
+   {
+    "family": "piggybacked",
+    "sha": "fc95b0805eee08dad660c4567c75cb9d34930fa3a3d684e3899c9e7634276294",
+    "k_cert": 111,
+    "k_steer": 188,
+    "k_steer_methods": 63,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 4547.088189160179
+   },
+   {
+    "family": "original",
+    "sha": "564c55f2ef45b5cba749110b5d1890b37654bb29546c7f45ec85d95b9a8f7231",
+    "k_cert": 0,
+    "k_steer": 168,
+    "k_steer_methods": 56,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 7869.326082962886
+   },
+   {
+    "family": "original",
+    "sha": "cd71771c4db7eb0ac8f5350b80801c201476ad1a3ea9e6d93e366da0dc925b90",
+    "k_cert": 0,
+    "k_steer": 18,
+    "k_steer_methods": 6,
+    "k_rand": 9922.5,
+    "rand_never": false,
+    "norm": 2045.5478483770553
+   },
+   {
+    "family": "piggybacked",
+    "sha": "4ec33c05d3cc3b6541fc5f5e1195aa5398d67a0a2a741210dc1444b53eb7ebad",
+    "k_cert": 62,
+    "k_steer": 99,
+    "k_steer_methods": 33,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1207.1801853907311
+   },
+   {
+    "family": "piggybacked",
+    "sha": "5cb836e46579c7ac52552cc8d895a4ab15f0ea2fa013e74a15e197cb4056dbd6",
+    "k_cert": 161,
+    "k_steer": 257,
+    "k_steer_methods": 86,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1943.5796870722847
+   },
+   {
+    "family": "piggybacked",
+    "sha": "74c3195a82ca55239576420dc74211577c6ad30cb8442b3b2186061eac05a4c0",
+    "k_cert": 105,
+    "k_steer": 170,
+    "k_steer_methods": 57,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 6515.609411252335
+   },
+   {
+    "family": "piggybacked",
+    "sha": "86a34754d9a80b8483067df420e107ac8bc4bee0e2b2bc7b29a287730f5a153c",
+    "k_cert": 25,
+    "k_steer": 41,
+    "k_steer_methods": 14,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 4385.60543140853
+   },
+   {
+    "family": "piggybacked",
+    "sha": "9e44db7298ad3f9b2e0b052f37d0ec21fa5d28e2b35803e412f7c8371cdc1439",
+    "k_cert": 96,
+    "k_steer": 154,
+    "k_steer_methods": 52,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1176.9621914063341
+   },
+   {
+    "family": "original",
+    "sha": "262cbb493239d6b6466f739d4e6bd8e6b1001bc526aa2a8153e64b84b90fd44a",
+    "k_cert": 0,
+    "k_steer": 77,
+    "k_steer_methods": 26,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 5307.599928404551
+   },
+   {
+    "family": "original",
+    "sha": "268acdfdab9f6f187640789d5849ce53e810ad9a30ec67e1033403e198c4b7f5",
+    "k_cert": 0,
+    "k_steer": 6,
+    "k_steer_methods": 2,
+    "k_rand": 5088.5,
+    "rand_never": false,
+    "norm": 89.36442245099556
+   },
+   {
+    "family": "original",
+    "sha": "3813a4e4907b8cecaf58df3f6b8743ca2f74cfcd8b1ce83ae0da9a9e6dde22ce",
+    "k_cert": 0,
+    "k_steer": 197,
+    "k_steer_methods": 66,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 2680.576990127312
+   },
+   {
+    "family": "original",
+    "sha": "9374a9ea721dd8c3f2c80a66d73a2bf093d126a18b4f011d10e888b5d30cbe11",
+    "k_cert": 0,
+    "k_steer": 10,
+    "k_steer_methods": 4,
+    "k_rand": 4545.5,
+    "rand_never": false,
+    "norm": 3875.568603443887
+   },
+   {
+    "family": "original",
+    "sha": "a52db6a608676e7a39cfb3e19e477b7a25c9c141715930c2a79624b93139f46f",
+    "k_cert": 0,
+    "k_steer": 82,
+    "k_steer_methods": 28,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 2119.151717079266
+   },
+   {
+    "family": "original",
+    "sha": "b939cc300deb3f21f26aa05e523d67f5e625deedace410a97656ece8bf4efff1",
+    "k_cert": 0,
+    "k_steer": 233,
+    "k_steer_methods": 78,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 6432.058146503341
+   },
+   {
+    "family": "piggybacked",
+    "sha": "034b72de43ae0389f25151d1f991c95a11f40aa0ab6d3fcb1e5263f4798541d4",
+    "k_cert": 307,
+    "k_steer": 473,
+    "k_steer_methods": 158,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1764.027210674484
+   },
+   {
+    "family": "piggybacked",
+    "sha": "11f8ba4bdd77d3059e25198c446cbfaadf132b39b8cd9adf3b94220f8f144eae",
+    "k_cert": 268,
+    "k_steer": 414,
+    "k_steer_methods": 138,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 3694.018543537647
+   },
+   {
+    "family": "piggybacked",
+    "sha": "1bec3ec4b07e41f99b8d62cb4c7323b0702adc6f5d0f576e1dd32b035d1636fe",
+    "k_cert": 98,
+    "k_steer": 153,
+    "k_steer_methods": 51,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1842.4651964148468
+   },
+   {
+    "family": "piggybacked",
+    "sha": "46c7824f4eb24a4642dc6ee4e1402eae60b3ea4a4712c55f3052a05205db9ff3",
+    "k_cert": 94,
+    "k_steer": 147,
+    "k_steer_methods": 49,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 6649.914736295496
+   },
+   {
+    "family": "piggybacked",
+    "sha": "a8833669ce4f1f78d8eb3d799748a5489dbeeb2be435dc7c99f1f31ebc35a3ab",
+    "k_cert": 166,
+    "k_steer": 257,
+    "k_steer_methods": 86,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1937.5417414858448
+   },
+   {
+    "family": "piggybacked",
+    "sha": "c7b7d56da140e17f57ea1812df21a89e8ec74b7818aba03149e62e60d91e1045",
+    "k_cert": 70,
+    "k_steer": 110,
+    "k_steer_methods": 37,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 4557.390261981082
+   },
+   {
+    "family": "piggybacked",
+    "sha": "ec422d028011b4a0ff45c762e6f5e91f4b807c5ba0fed513c652bd6dd5d6bbc0",
+    "k_cert": 126,
+    "k_steer": 195,
+    "k_steer_methods": 65,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 961.7291718566096
+   },
+   {
+    "family": "original",
+    "sha": "3f70a9c6ee7f32b87fe7c26a0b9ab3e969a36c8a0ed3b4b54be54f32c8cc6fe3",
+    "k_cert": 0,
+    "k_steer": 42,
+    "k_steer_methods": 14,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 600.0358322633741
+   },
+   {
+    "family": "original",
+    "sha": "762c68fc46ec15b81812c2adc52da09dcd5bcd923ed52b402a76dfa291f45bb2",
+    "k_cert": 0,
+    "k_steer": 68,
+    "k_steer_methods": 23,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 2749.609608653563
+   },
+   {
+    "family": "original",
+    "sha": "770f16736825e55ebdff678923ffb14b1585cd5b047ada990f9a97d04edb03ca",
+    "k_cert": 0,
+    "k_steer": 26,
+    "k_steer_methods": 9,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 565.4511473151327
+   },
+   {
+    "family": "original",
+    "sha": "81bef3408e9036e4cad808bdf2d522c8ad50f8c6cac2e0fe3edea2d590d66a76",
+    "k_cert": 0,
+    "k_steer": 31,
+    "k_steer_methods": 11,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 2220.9524983664105
+   },
+   {
+    "family": "original",
+    "sha": "ceac3b089ee8f5438bb4c15772fa9f9efd4d57290919c772f3bf9440c86421c1",
+    "k_cert": 0,
+    "k_steer": 11,
+    "k_steer_methods": 4,
+    "k_rand": 7477.5,
+    "rand_never": false,
+    "norm": 1017.836430866964
+   },
+   {
+    "family": "piggybacked",
+    "sha": "0431d8a0c512bf163baa2e35c62083a65b4965cc6b32b924e237380b24588d8e",
+    "k_cert": 126,
+    "k_steer": 190,
+    "k_steer_methods": 64,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 4309.2781298031805
+   },
+   {
+    "family": "piggybacked",
+    "sha": "ba4f7e22505b8780b15943bb02ff1352ca09618bfcc8a6a079fb100abd1169c6",
+    "k_cert": 39,
+    "k_steer": 60,
+    "k_steer_methods": 20,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 4596.256846608988
+   },
+   {
+    "family": "piggybacked",
+    "sha": "e15546679f3664b0b9149e14337d3ae5c2b8cb9ba519f39ce4447049fb90080d",
+    "k_cert": 185,
+    "k_steer": 277,
+    "k_steer_methods": 93,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1404.4265733743434
+   }
+  ]
+ },
+ "sgd_combined": {
+  "f1": 0.7428379007907948,
+  "f1_sd": 0.0161876660652729,
+  "n_cert": 63,
+  "k_cert_median": 13.0,
+  "k_cert_q": [
+   0.0,
+   96.0
+  ],
+  "k_steer_median": 62.0,
+  "k_steer_methods_median": 21.0,
+  "steer_over_cert_median": 1.5,
+  "steer_never_frac": 0.0,
+  "rand_never_frac": 0.8888888888888888,
+  "per_family": {
+   "original": {
+    "n": 32,
+    "k_cert_median": 0.0,
+    "k_steer_median": 30.5
+   },
+   "piggybacked": {
+    "n": 31,
+    "k_cert_median": 100.0,
+    "k_steer_median": 120.0
+   }
+  },
+  "rows": [
+   {
+    "family": "original",
+    "sha": "22bba0fb0f2b9f106162311a63f9d62e147742833f0343a8bbace90b1461fd84",
+    "k_cert": 0,
+    "k_steer": 22,
+    "k_steer_methods": 8,
+    "k_rand": 6075.0,
+    "rand_never": true,
+    "norm": 85.76129663198896
+   },
+   {
+    "family": "original",
+    "sha": "38546b8eca220efcb91c47823d31a24c92f70c8877b4c3e9bf126fc2eb2718e0",
+    "k_cert": 7,
+    "k_steer": 21,
+    "k_steer_methods": 7,
+    "k_rand": 8846.0,
+    "rand_never": true,
+    "norm": 37.416573867739416
+   },
+   {
+    "family": "original",
+    "sha": "8f2aa0aeeeab21133627e02e7b11995f7a9d1216a6e1373d6795089f46a46da8",
+    "k_cert": 0,
+    "k_steer": 32,
+    "k_steer_methods": 11,
+    "k_rand": 8022.0,
+    "rand_never": true,
+    "norm": 230.39965277751614
+   },
+   {
+    "family": "original",
+    "sha": "ae8e9ead394b985bf7188ec15474c7fbf4e9bd8f5b775b23f61c97844e55fa26",
+    "k_cert": 8,
+    "k_steer": 128,
+    "k_steer_methods": 43,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 359.93471630283176
+   },
+   {
+    "family": "original",
+    "sha": "c41e995f2d48c79baa8409d39ab0be142db853903ea41cdf62f26d65d75167e8",
+    "k_cert": 0,
+    "k_steer": 29,
+    "k_steer_methods": 10,
+    "k_rand": 8022.0,
+    "rand_never": true,
+    "norm": 142.8600713985542
+   },
+   {
+    "family": "original",
+    "sha": "d78baeb86b03d4596db654202084b929f55a4434d75dabad1ba1c9dd6df26921",
+    "k_cert": 1,
+    "k_steer": 56,
+    "k_steer_methods": 19,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 166.0511969243221
+   },
+   {
+    "family": "original",
+    "sha": "e1aac1e236e9300ffdc81f9a34fc28d40a544d9b7ca83a949bee26fac3040af0",
+    "k_cert": 6,
+    "k_steer": 26,
+    "k_steer_methods": 9,
+    "k_rand": 8849.0,
+    "rand_never": true,
+    "norm": 57.0087712549569
+   },
+   {
+    "family": "original",
+    "sha": "e32b355a45b168f340a51e33af1639823f584d2e5b4e84cbd8a756e8f1c75914",
+    "k_cert": 0,
+    "k_steer": 14,
+    "k_steer_methods": 5,
+    "k_rand": 847.0,
+    "rand_never": true,
+    "norm": 48.31148931672465
+   },
+   {
+    "family": "original",
+    "sha": "fe2d564730e6110c64e9e49b55d6a1ae323b36fba64217774900c3fa8c78baab",
+    "k_cert": 5,
+    "k_steer": 49,
+    "k_steer_methods": 17,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 130.70960178961604
+   },
+   {
+    "family": "piggybacked",
+    "sha": "1120fe334263efb18d62f008daa916f0ebb4643682d621b0a94b8beb0a2fb089",
+    "k_cert": 100,
+    "k_steer": 127,
+    "k_steer_methods": 43,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 352.9079200018044
+   },
+   {
+    "family": "piggybacked",
+    "sha": "155ed91e51ec57af1d71f1914b5817833860652d20cc68c1bc5479aeb6848d0c",
+    "k_cert": 144,
+    "k_steer": 186,
+    "k_steer_methods": 62,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 1073.0130474509617
+   },
+   {
+    "family": "piggybacked",
+    "sha": "477a557906c52e3035a10db61ab8bce888c56dd716398c1e02157d989b664f7d",
+    "k_cert": 149,
+    "k_steer": 180,
+    "k_steer_methods": 60,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 237.69097584889502
+   },
+   {
+    "family": "piggybacked",
+    "sha": "52aeb980bc5da8adca4dcd382e721ad41b2d6eaa68f59607e799f900a68b9366",
+    "k_cert": 7,
+    "k_steer": 9,
+    "k_steer_methods": 3,
+    "k_rand": 2758.5,
+    "rand_never": false,
+    "norm": 26.589471600616662
+   },
+   {
+    "family": "piggybacked",
+    "sha": "63757c15f48631836a0e0f3f545a769b23133fc23e09e3339b1612809e7e51b3",
+    "k_cert": 92,
+    "k_steer": 118,
+    "k_steer_methods": 40,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 620.4885172184897
+   },
+   {
+    "family": "piggybacked",
+    "sha": "865f51ef497596cb09ca822733a3bb12269e14a99e7bb61846961f0f99343bea",
+    "k_cert": 90,
+    "k_steer": 114,
+    "k_steer_methods": 38,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 344.81879299133334
+   },
+   {
+    "family": "piggybacked",
+    "sha": "bf7a873af10b09b8ed7272facac6507c2bf8088f3cc1222f8b336ba3d97717aa",
+    "k_cert": 13,
+    "k_steer": 18,
+    "k_steer_methods": 6,
+    "k_rand": 3493.0,
+    "rand_never": true,
+    "norm": 386.0725320454694
+   },
+   {
+    "family": "piggybacked",
+    "sha": "d35bafaae380dab4d27d49781aa0ca37d0cf30eb35f32c2ef6bbb3567d63db4c",
+    "k_cert": 56,
+    "k_steer": 73,
+    "k_steer_methods": 25,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 342.94751785076386
+   },
+   {
+    "family": "piggybacked",
+    "sha": "dcefd61602d0f36f0ee79a75ae7a00a7b4f0d7b7d2d997774a1132150cbb761f",
+    "k_cert": 12,
+    "k_steer": 17,
+    "k_steer_methods": 6,
+    "k_rand": 3483.0,
+    "rand_never": true,
+    "norm": 376.342928723259
+   },
+   {
+    "family": "piggybacked",
+    "sha": "f522bf9317d59d14d4a1f29e8325471973042216c54881edaeb6d51c48e613cb",
+    "k_cert": 31,
+    "k_steer": 42,
+    "k_steer_methods": 14,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 838.6059861460566
+   },
+   {
+    "family": "original",
+    "sha": "032b3ab75a6d39dd52e0a2e87e6b0611a9395dddae828b554f029a658d7ed18d",
+    "k_cert": 23,
+    "k_steer": 63,
+    "k_steer_methods": 21,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 110.67971810589327
+   },
+   {
+    "family": "original",
+    "sha": "4bee6ae3e08f2d8d84b94b59cfb9757bdb0466b22ac431658bf917a757877bdd",
+    "k_cert": 0,
+    "k_steer": 31,
+    "k_steer_methods": 11,
+    "k_rand": 12313.0,
+    "rand_never": true,
+    "norm": 153.04901175767193
+   },
+   {
+    "family": "original",
+    "sha": "5178fe58c70a170943399d2c60f4c239bbf7466b85b1c3bdf7ededcf749e7104",
+    "k_cert": 23,
+    "k_steer": 62,
+    "k_steer_methods": 21,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 107.56393447619885
+   },
+   {
+    "family": "original",
+    "sha": "8f4887cf5521f8db871e3531f501eb24c500bcd485583d83b59ec419e5ac8b4b",
+    "k_cert": 0,
+    "k_steer": 101,
+    "k_steer_methods": 34,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 389.61391145594376
+   },
+   {
+    "family": "original",
+    "sha": "d98c063a77dd5886b0b7e6fd80368835df48fcfb2e2447d05628a71fede71687",
+    "k_cert": 17,
+    "k_steer": 179,
+    "k_steer_methods": 60,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 484.23341479084235
+   },
+   {
+    "family": "piggybacked",
+    "sha": "2bd2ccc32b87b8a6173d8efff96c682c86a0c7979cd5f9ba21b56e651a142bdb",
+    "k_cert": 8,
+    "k_steer": 12,
+    "k_steer_methods": 4,
+    "k_rand": 9164.5,
+    "rand_never": false,
+    "norm": 24.20743687382041
+   },
+   {
+    "family": "piggybacked",
+    "sha": "37b4cf755480f1b55e6140db3a2cdb11ccb3771fee1d001f79ee32b70fb28120",
+    "k_cert": 134,
+    "k_steer": 162,
+    "k_steer_methods": 54,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 211.58213535173522
+   },
+   {
+    "family": "piggybacked",
+    "sha": "4d44ca1f9e65203e43e4c78166842be8d62abe977fe5951295b1ea925064216b",
+    "k_cert": 83,
+    "k_steer": 102,
+    "k_steer_methods": 34,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 182.48561587149823
+   },
+   {
+    "family": "piggybacked",
+    "sha": "6ae5da04345e5d0a9d2906b622654ace8b95cb801fe4a720ba233a62ba78d048",
+    "k_cert": 214,
+    "k_steer": 257,
+    "k_steer_methods": 86,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 278.5444309261989
+   },
+   {
+    "family": "piggybacked",
+    "sha": "7fe546fa5740904fd51b596c877d6157066d98da138692c7ac3d2b5e2bc64d65",
+    "k_cert": 112,
+    "k_steer": 144,
+    "k_steer_methods": 48,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 923.2697330682946
+   },
+   {
+    "family": "piggybacked",
+    "sha": "960be87f67a5a52db3136088eaaf0e91c7f92920d0e8b37f26a5a66bca9f434b",
+    "k_cert": 12,
+    "k_steer": 17,
+    "k_steer_methods": 6,
+    "k_rand": 3067.0,
+    "rand_never": true,
+    "norm": 234.4546864534808
+   },
+   {
+    "family": "piggybacked",
+    "sha": "b644edd30af9e69e8aeb5f4d37bf16f1b6522bcd0b35c6d119c177eead824b61",
+    "k_cert": 57,
+    "k_steer": 75,
+    "k_steer_methods": 25,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 631.4681306289336
+   },
+   {
+    "family": "piggybacked",
+    "sha": "fc95b0805eee08dad660c4567c75cb9d34930fa3a3d684e3899c9e7634276294",
+    "k_cert": 21,
+    "k_steer": 29,
+    "k_steer_methods": 10,
+    "k_rand": 6373.0,
+    "rand_never": true,
+    "norm": 915.5823283572046
+   },
+   {
+    "family": "original",
+    "sha": "564c55f2ef45b5cba749110b5d1890b37654bb29546c7f45ec85d95b9a8f7231",
+    "k_cert": 0,
+    "k_steer": 30,
+    "k_steer_methods": 10,
+    "k_rand": 5776.0,
+    "rand_never": true,
+    "norm": 971.9830245431244
+   },
+   {
+    "family": "original",
+    "sha": "7b438d11becbbc8affe35dd60e1e1a9b176560bf16e1e8ee0a5c361a0bc56440",
+    "k_cert": 0,
+    "k_steer": 71,
+    "k_steer_methods": 24,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 646.1973382798787
+   },
+   {
+    "family": "original",
+    "sha": "cccbb65373132daeab66c8b9541ba5fc47dfe99eb7377b3d1b222f3ce3fa537c",
+    "k_cert": 0,
+    "k_steer": 24,
+    "k_steer_methods": 8,
+    "k_rand": 5507.0,
+    "rand_never": true,
+    "norm": 127.96483892069728
+   },
+   {
+    "family": "original",
+    "sha": "fe6bfd75b4649423119904a008d6938b535a22b284a4a73f4d346aadb3363d9d",
+    "k_cert": 0,
+    "k_steer": 10,
+    "k_steer_methods": 4,
+    "k_rand": 847.0,
+    "rand_never": true,
+    "norm": 485.5254885173383
+   },
+   {
+    "family": "piggybacked",
+    "sha": "4ec33c05d3cc3b6541fc5f5e1195aa5398d67a0a2a741210dc1444b53eb7ebad",
+    "k_cert": 121,
+    "k_steer": 143,
+    "k_steer_methods": 48,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 191.24852940611072
+   },
+   {
+    "family": "piggybacked",
+    "sha": "5cb836e46579c7ac52552cc8d895a4ab15f0ea2fa013e74a15e197cb4056dbd6",
+    "k_cert": 105,
+    "k_steer": 131,
+    "k_steer_methods": 44,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 363.59042891693394
+   },
+   {
+    "family": "piggybacked",
+    "sha": "74c3195a82ca55239576420dc74211577c6ad30cb8442b3b2186061eac05a4c0",
+    "k_cert": 183,
+    "k_steer": 223,
+    "k_steer_methods": 75,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 498.32118156867466
+   },
+   {
+    "family": "piggybacked",
+    "sha": "9e44db7298ad3f9b2e0b052f37d0ec21fa5d28e2b35803e412f7c8371cdc1439",
+    "k_cert": 71,
+    "k_steer": 88,
+    "k_steer_methods": 30,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 198.48929442163876
+   },
+   {
+    "family": "original",
+    "sha": "0de67440b8ac6a4bdb2de12502b7576a51b88172ae17f7da6a4f52c5efbeeefb",
+    "k_cert": 0,
+    "k_steer": 6,
+    "k_steer_methods": 2,
+    "k_rand": 419.5,
+    "rand_never": false,
+    "norm": 469.0650274748694
+   },
+   {
+    "family": "original",
+    "sha": "262cbb493239d6b6466f739d4e6bd8e6b1001bc526aa2a8153e64b84b90fd44a",
+    "k_cert": 0,
+    "k_steer": 95,
+    "k_steer_methods": 32,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 559.556074044416
+   },
+   {
+    "family": "original",
+    "sha": "268acdfdab9f6f187640789d5849ce53e810ad9a30ec67e1033403e198c4b7f5",
+    "k_cert": 0,
+    "k_steer": 3,
+    "k_steer_methods": 1,
+    "k_rand": 52.5,
+    "rand_never": false,
+    "norm": 32.218007387174026
+   },
+   {
+    "family": "original",
+    "sha": "3813a4e4907b8cecaf58df3f6b8743ca2f74cfcd8b1ce83ae0da9a9e6dde22ce",
+    "k_cert": 36,
+    "k_steer": 79,
+    "k_steer_methods": 27,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 160.50856674956637
+   },
+   {
+    "family": "original",
+    "sha": "9374a9ea721dd8c3f2c80a66d73a2bf093d126a18b4f011d10e888b5d30cbe11",
+    "k_cert": 0,
+    "k_steer": 52,
+    "k_steer_methods": 18,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 320.0562450570212
+   },
+   {
+    "family": "original",
+    "sha": "a52db6a608676e7a39cfb3e19e477b7a25c9c141715930c2a79624b93139f46f",
+    "k_cert": 0,
+    "k_steer": 28,
+    "k_steer_methods": 10,
+    "k_rand": 15548.0,
+    "rand_never": true,
+    "norm": 256.2186566196927
+   },
+   {
+    "family": "original",
+    "sha": "b939cc300deb3f21f26aa05e523d67f5e625deedace410a97656ece8bf4efff1",
+    "k_cert": 0,
+    "k_steer": 147,
+    "k_steer_methods": 49,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 727.6468923866851
+   },
+   {
+    "family": "piggybacked",
+    "sha": "034b72de43ae0389f25151d1f991c95a11f40aa0ab6d3fcb1e5263f4798541d4",
+    "k_cert": 263,
+    "k_steer": 297,
+    "k_steer_methods": 99,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 276.92959394040935
+   },
+   {
+    "family": "piggybacked",
+    "sha": "11f8ba4bdd77d3059e25198c446cbfaadf132b39b8cd9adf3b94220f8f144eae",
+    "k_cert": 136,
+    "k_steer": 164,
+    "k_steer_methods": 55,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 519.8240086798608
+   },
+   {
+    "family": "piggybacked",
+    "sha": "1bec3ec4b07e41f99b8d62cb4c7323b0702adc6f5d0f576e1dd32b035d1636fe",
+    "k_cert": 44,
+    "k_steer": 54,
+    "k_steer_methods": 18,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 187.0080212183424
+   },
+   {
+    "family": "piggybacked",
+    "sha": "a8833669ce4f1f78d8eb3d799748a5489dbeeb2be435dc7c99f1f31ebc35a3ab",
+    "k_cert": 101,
+    "k_steer": 120,
+    "k_steer_methods": 40,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 242.47474095253716
+   },
+   {
+    "family": "piggybacked",
+    "sha": "c7b7d56da140e17f57ea1812df21a89e8ec74b7818aba03149e62e60d91e1045",
+    "k_cert": 174,
+    "k_steer": 207,
+    "k_steer_methods": 69,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 402.21635968717135
+   },
+   {
+    "family": "piggybacked",
+    "sha": "ec422d028011b4a0ff45c762e6f5e91f4b807c5ba0fed513c652bd6dd5d6bbc0",
+    "k_cert": 149,
+    "k_steer": 169,
+    "k_steer_methods": 57,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 158.71672879693557
+   },
+   {
+    "family": "original",
+    "sha": "3f70a9c6ee7f32b87fe7c26a0b9ab3e969a36c8a0ed3b4b54be54f32c8cc6fe3",
+    "k_cert": 24,
+    "k_steer": 47,
+    "k_steer_methods": 16,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 72.5741000633146
+   },
+   {
+    "family": "original",
+    "sha": "762c68fc46ec15b81812c2adc52da09dcd5bcd923ed52b402a76dfa291f45bb2",
+    "k_cert": 0,
+    "k_steer": 25,
+    "k_steer_methods": 9,
+    "k_rand": 6059.0,
+    "rand_never": true,
+    "norm": 529.0963995341492
+   },
+   {
+    "family": "original",
+    "sha": "770f16736825e55ebdff678923ffb14b1585cd5b047ada990f9a97d04edb03ca",
+    "k_cert": 0,
+    "k_steer": 1,
+    "k_steer_methods": 1,
+    "k_rand": 5.5,
+    "rand_never": false,
+    "norm": 83.62415918859813
+   },
+   {
+    "family": "original",
+    "sha": "81bef3408e9036e4cad808bdf2d522c8ad50f8c6cac2e0fe3edea2d590d66a76",
+    "k_cert": 0,
+    "k_steer": 28,
+    "k_steer_methods": 10,
+    "k_rand": 6150.0,
+    "rand_never": true,
+    "norm": 294.5640847082346
+   },
+   {
+    "family": "original",
+    "sha": "b86b9b8f44b955cdd6ebae5c17413029c7c2e340228d0dbe92d27349d4d0fd67",
+    "k_cert": 0,
+    "k_steer": 13,
+    "k_steer_methods": 5,
+    "k_rand": 854.5,
+    "rand_never": false,
+    "norm": 287.0470344734465
+   },
+   {
+    "family": "original",
+    "sha": "ceac3b089ee8f5438bb4c15772fa9f9efd4d57290919c772f3bf9440c86421c1",
+    "k_cert": 0,
+    "k_steer": 2,
+    "k_steer_methods": 1,
+    "k_rand": 77.5,
+    "rand_never": false,
+    "norm": 162.03394706048482
+   },
+   {
+    "family": "original",
+    "sha": "d037128438689130900ca2130b88a667fea769f04b920ff4811f9dcf94e1a141",
+    "k_cert": 0,
+    "k_steer": 68,
+    "k_steer_methods": 23,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 310.28051824115545
+   },
+   {
+    "family": "piggybacked",
+    "sha": "0431d8a0c512bf163baa2e35c62083a65b4965cc6b32b924e237380b24588d8e",
+    "k_cert": 134,
+    "k_steer": 162,
+    "k_steer_methods": 54,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 385.66565831040754
+   },
+   {
+    "family": "piggybacked",
+    "sha": "ba4f7e22505b8780b15943bb02ff1352ca09618bfcc8a6a079fb100abd1169c6",
+    "k_cert": 49,
+    "k_steer": 62,
+    "k_steer_methods": 21,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 658.8300236024463
+   },
+   {
+    "family": "piggybacked",
+    "sha": "e15546679f3664b0b9149e14337d3ae5c2b8cb9ba519f39ce4447049fb90080d",
+    "k_cert": 154,
+    "k_steer": 179,
+    "k_steer_methods": 60,
+    "k_rand": null,
+    "rand_never": true,
+    "norm": 238.3610706470333
+   }
+  ]
+ },
+ "linf": {
+  "wmax_unconstrained": 2.5657605516994724,
+  "1.0": {
+   "f1": 0.6886985821648496,
+   "f1_sd": 0.01710329100141156,
+   "n_cert": 63,
+   "k_cert_median": 21.0,
+   "k_cert_q": [
+    10.5,
+    47.0
+   ],
+   "k_steer_median": 30.0,
+   "k_steer_methods_median": 10.0,
+   "steer_over_cert_median": 1.2,
+   "steer_never_frac": 0.0,
+   "rand_never_frac": null,
+   "per_family": {
+    "original": {
+     "n": 33,
+     "k_cert_median": 15.0,
+     "k_steer_median": 21.0
+    },
+    "piggybacked": {
+     "n": 30,
+     "k_cert_median": 47.0,
+     "k_steer_median": 50.5
+    }
+   },
+   "rows": [
+    {
+     "family": "original",
+     "sha": "22bba0fb0f2b9f106162311a63f9d62e147742833f0343a8bbace90b1461fd84",
+     "k_cert": 16,
+     "k_steer": 20,
+     "k_steer_methods": 7,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 38.57460304397182
+    },
+    {
+     "family": "original",
+     "sha": "27930615e34a1a100b85e0b7e89f538042d97f365f85c02051bff0562ce19e6e",
+     "k_cert": 20,
+     "k_steer": 29,
+     "k_steer_methods": 10,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 133.7235955244997
+    },
+    {
+     "family": "original",
+     "sha": "8f2aa0aeeeab21133627e02e7b11995f7a9d1216a6e1373d6795089f46a46da8",
+     "k_cert": 24,
+     "k_steer": 31,
+     "k_steer_methods": 11,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 84.72897969408106
+    },
+    {
+     "family": "original",
+     "sha": "ae8e9ead394b985bf7188ec15474c7fbf4e9bd8f5b775b23f61c97844e55fa26",
+     "k_cert": 0,
+     "k_steer": 8,
+     "k_steer_methods": 3,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 112.17842929904127
+    },
+    {
+     "family": "original",
+     "sha": "c41e995f2d48c79baa8409d39ab0be142db853903ea41cdf62f26d65d75167e8",
+     "k_cert": 10,
+     "k_steer": 16,
+     "k_steer_methods": 6,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 74.04728219185361
+    },
+    {
+     "family": "original",
+     "sha": "e1aac1e236e9300ffdc81f9a34fc28d40a544d9b7ca83a949bee26fac3040af0",
+     "k_cert": 0,
+     "k_steer": 2,
+     "k_steer_methods": 1,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 25.495097567963924
+    },
+    {
+     "family": "original",
+     "sha": "e32b355a45b168f340a51e33af1639823f584d2e5b4e84cbd8a756e8f1c75914",
+     "k_cert": 21,
+     "k_steer": 25,
+     "k_steer_methods": 9,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 26.229754097208
+    },
+    {
+     "family": "original",
+     "sha": "fe2d564730e6110c64e9e49b55d6a1ae323b36fba64217774900c3fa8c78baab",
+     "k_cert": 5,
+     "k_steer": 10,
+     "k_steer_methods": 4,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 68.24954212300622
+    },
+    {
+     "family": "piggybacked",
+     "sha": "155ed91e51ec57af1d71f1914b5817833860652d20cc68c1bc5479aeb6848d0c",
+     "k_cert": 59,
+     "k_steer": 63,
+     "k_steer_methods": 21,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 219.4379183277129
+    },
+    {
+     "family": "piggybacked",
+     "sha": "477a557906c52e3035a10db61ab8bce888c56dd716398c1e02157d989b664f7d",
+     "k_cert": 50,
+     "k_steer": 53,
+     "k_steer_methods": 18,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 92.44457799135652
+    },
+    {
+     "family": "piggybacked",
+     "sha": "52aeb980bc5da8adca4dcd382e721ad41b2d6eaa68f59607e799f900a68b9366",
+     "k_cert": 2,
+     "k_steer": 3,
+     "k_steer_methods": 1,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 14.933184523068078
+    },
+    {
+     "family": "piggybacked",
+     "sha": "63757c15f48631836a0e0f3f545a769b23133fc23e09e3339b1612809e7e51b3",
+     "k_cert": 29,
+     "k_steer": 32,
+     "k_steer_methods": 11,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 197.92675412889486
+    },
+    {
+     "family": "piggybacked",
+     "sha": "865f51ef497596cb09ca822733a3bb12269e14a99e7bb61846961f0f99343bea",
+     "k_cert": 69,
+     "k_steer": 73,
+     "k_steer_methods": 25,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 126.38433447227548
+    },
+    {
+     "family": "piggybacked",
+     "sha": "bf7a873af10b09b8ed7272facac6507c2bf8088f3cc1222f8b336ba3d97717aa",
+     "k_cert": 53,
+     "k_steer": 56,
+     "k_steer_methods": 19,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 123.57184145265458
+    },
+    {
+     "family": "piggybacked",
+     "sha": "d35bafaae380dab4d27d49781aa0ca37d0cf30eb35f32c2ef6bbb3567d63db4c",
+     "k_cert": 73,
+     "k_steer": 77,
+     "k_steer_methods": 26,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 110.70682002478438
+    },
+    {
+     "family": "piggybacked",
+     "sha": "dcefd61602d0f36f0ee79a75ae7a00a7b4f0d7b7d2d997774a1132150cbb761f",
+     "k_cert": 9,
+     "k_steer": 10,
+     "k_steer_methods": 4,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 128.42507543311004
+    },
+    {
+     "family": "piggybacked",
+     "sha": "f522bf9317d59d14d4a1f29e8325471973042216c54881edaeb6d51c48e613cb",
+     "k_cert": 111,
+     "k_steer": 117,
+     "k_steer_methods": 39,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 202.3660050502554
+    },
+    {
+     "family": "original",
+     "sha": "032b3ab75a6d39dd52e0a2e87e6b0611a9395dddae828b554f029a658d7ed18d",
+     "k_cert": 19,
+     "k_steer": 24,
+     "k_steer_methods": 8,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 46.54030511288038
+    },
+    {
+     "family": "original",
+     "sha": "4bee6ae3e08f2d8d84b94b59cfb9757bdb0466b22ac431658bf917a757877bdd",
+     "k_cert": 21,
+     "k_steer": 28,
+     "k_steer_methods": 10,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 72.83543093852057
+    },
+    {
+     "family": "original",
+     "sha": "5178fe58c70a170943399d2c60f4c239bbf7466b85b1c3bdf7ededcf749e7104",
+     "k_cert": 15,
+     "k_steer": 20,
+     "k_steer_methods": 7,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 48.877397639399746
+    },
+    {
+     "family": "original",
+     "sha": "8f4887cf5521f8db871e3531f501eb24c500bcd485583d83b59ec419e5ac8b4b",
+     "k_cert": 18,
+     "k_steer": 29,
+     "k_steer_methods": 10,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 125.7179382586272
+    },
+    {
+     "family": "original",
+     "sha": "d98c063a77dd5886b0b7e6fd80368835df48fcfb2e2447d05628a71fede71687",
+     "k_cert": 35,
+     "k_steer": 48,
+     "k_steer_methods": 16,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 140.6947049465615
+    },
+    {
+     "family": "piggybacked",
+     "sha": "2bd2ccc32b87b8a6173d8efff96c682c86a0c7979cd5f9ba21b56e651a142bdb",
+     "k_cert": 7,
+     "k_steer": 8,
+     "k_steer_methods": 3,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 14.66287829861518
+    },
+    {
+     "family": "piggybacked",
+     "sha": "37b4cf755480f1b55e6140db3a2cdb11ccb3771fee1d001f79ee32b70fb28120",
+     "k_cert": 16,
+     "k_steer": 19,
+     "k_steer_methods": 7,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 86.89073598491383
+    },
+    {
+     "family": "piggybacked",
+     "sha": "4d44ca1f9e65203e43e4c78166842be8d62abe977fe5951295b1ea925064216b",
+     "k_cert": 48,
+     "k_steer": 52,
+     "k_steer_methods": 18,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 84.33860326090301
+    },
+    {
+     "family": "piggybacked",
+     "sha": "6ae5da04345e5d0a9d2906b622654ace8b95cb801fe4a720ba233a62ba78d048",
+     "k_cert": 63,
+     "k_steer": 67,
+     "k_steer_methods": 23,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 106.98598038995577
+    },
+    {
+     "family": "piggybacked",
+     "sha": "960be87f67a5a52db3136088eaaf0e91c7f92920d0e8b37f26a5a66bca9f434b",
+     "k_cert": 20,
+     "k_steer": 22,
+     "k_steer_methods": 8,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 77.82030583337487
+    },
+    {
+     "family": "piggybacked",
+     "sha": "b644edd30af9e69e8aeb5f4d37bf16f1b6522bcd0b35c6d119c177eead824b61",
+     "k_cert": 60,
+     "k_steer": 65,
+     "k_steer_methods": 22,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 162.87418457201866
+    },
+    {
+     "family": "piggybacked",
+     "sha": "fc95b0805eee08dad660c4567c75cb9d34930fa3a3d684e3899c9e7634276294",
+     "k_cert": 103,
+     "k_steer": 110,
+     "k_steer_methods": 37,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 181.43318329346482
+    },
+    {
+     "family": "original",
+     "sha": "054e1e67998aa305b1d4a9cd3f638a9e9cad964ddf8f052b24b2c37e0c552d6e",
+     "k_cert": 14,
+     "k_steer": 19,
+     "k_steer_methods": 7,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 46.119410230400824
+    },
+    {
+     "family": "original",
+     "sha": "564c55f2ef45b5cba749110b5d1890b37654bb29546c7f45ec85d95b9a8f7231",
+     "k_cert": 65,
+     "k_steer": 88,
+     "k_steer_methods": 30,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 207.69930187653497
+    },
+    {
+     "family": "original",
+     "sha": "7b438d11becbbc8affe35dd60e1e1a9b176560bf16e1e8ee0a5c361a0bc56440",
+     "k_cert": 33,
+     "k_steer": 54,
+     "k_steer_methods": 18,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 194.14942698859556
+    },
+    {
+     "family": "original",
+     "sha": "cccbb65373132daeab66c8b9541ba5fc47dfe99eb7377b3d1b222f3ce3fa537c",
+     "k_cert": 0,
+     "k_steer": 2,
+     "k_steer_methods": 1,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 64.6297145282261
+    },
+    {
+     "family": "original",
+     "sha": "cd71771c4db7eb0ac8f5350b80801c201476ad1a3ea9e6d93e366da0dc925b90",
+     "k_cert": 0,
+     "k_steer": 1,
+     "k_steer_methods": 1,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 107.37318100903968
+    },
+    {
+     "family": "original",
+     "sha": "e3a146501c025a43ab0353e5116923569754b50f25f7ecf60d861c3107ddb5af",
+     "k_cert": 2,
+     "k_steer": 8,
+     "k_steer_methods": 3,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 46.73328578219169
+    },
+    {
+     "family": "piggybacked",
+     "sha": "4ec33c05d3cc3b6541fc5f5e1195aa5398d67a0a2a741210dc1444b53eb7ebad",
+     "k_cert": 69,
+     "k_steer": 75,
+     "k_steer_methods": 25,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 84.4630096551147
+    },
+    {
+     "family": "piggybacked",
+     "sha": "5cb836e46579c7ac52552cc8d895a4ab15f0ea2fa013e74a15e197cb4056dbd6",
+     "k_cert": 82,
+     "k_steer": 89,
+     "k_steer_methods": 30,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 117.47765745025733
+    },
+    {
+     "family": "piggybacked",
+     "sha": "74c3195a82ca55239576420dc74211577c6ad30cb8442b3b2186061eac05a4c0",
+     "k_cert": 26,
+     "k_steer": 30,
+     "k_steer_methods": 10,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 146.20191517213445
+    },
+    {
+     "family": "piggybacked",
+     "sha": "86a34754d9a80b8483067df420e107ac8bc4bee0e2b2bc7b29a287730f5a153c",
+     "k_cert": 6,
+     "k_steer": 8,
+     "k_steer_methods": 3,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 139.80343343423294
+    },
+    {
+     "family": "piggybacked",
+     "sha": "9e44db7298ad3f9b2e0b052f37d0ec21fa5d28e2b35803e412f7c8371cdc1439",
+     "k_cert": 65,
+     "k_steer": 70,
+     "k_steer_methods": 24,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 88.18163074019441
+    },
+    {
+     "family": "original",
+     "sha": "262cbb493239d6b6466f739d4e6bd8e6b1001bc526aa2a8153e64b84b90fd44a",
+     "k_cert": 17,
+     "k_steer": 38,
+     "k_steer_methods": 13,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 186.40010729610646
+    },
+    {
+     "family": "original",
+     "sha": "268acdfdab9f6f187640789d5849ce53e810ad9a30ec67e1033403e198c4b7f5",
+     "k_cert": 0,
+     "k_steer": 2,
+     "k_steer_methods": 1,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 19.6468827043885
+    },
+    {
+     "family": "original",
+     "sha": "4f3373d5a119a84f516d4c7b45669aa3a2d76811d34c60aeca4258fbcdd87967",
+     "k_cert": 19,
+     "k_steer": 30,
+     "k_steer_methods": 10,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 87.84645695758026
+    },
+    {
+     "family": "original",
+     "sha": "727c8fa502b346a5718d254564694076f74a96b0763887cadfb96be077edf0ff",
+     "k_cert": 0,
+     "k_steer": 7,
+     "k_steer_methods": 3,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 59.07622195096772
+    },
+    {
+     "family": "original",
+     "sha": "9374a9ea721dd8c3f2c80a66d73a2bf093d126a18b4f011d10e888b5d30cbe11",
+     "k_cert": 36,
+     "k_steer": 50,
+     "k_steer_methods": 17,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 108.816359064251
+    },
+    {
+     "family": "original",
+     "sha": "a52db6a608676e7a39cfb3e19e477b7a25c9c141715930c2a79624b93139f46f",
+     "k_cert": 46,
+     "k_steer": 59,
+     "k_steer_methods": 20,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 105.9103394386025
+    },
+    {
+     "family": "original",
+     "sha": "b939cc300deb3f21f26aa05e523d67f5e625deedace410a97656ece8bf4efff1",
+     "k_cert": 15,
+     "k_steer": 35,
+     "k_steer_methods": 12,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 174.6682569902156
+    },
+    {
+     "family": "piggybacked",
+     "sha": "034b72de43ae0389f25151d1f991c95a11f40aa0ab6d3fcb1e5263f4798541d4",
+     "k_cert": 61,
+     "k_steer": 67,
+     "k_steer_methods": 23,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 114.3153532995459
+    },
+    {
+     "family": "piggybacked",
+     "sha": "11f8ba4bdd77d3059e25198c446cbfaadf132b39b8cd9adf3b94220f8f144eae",
+     "k_cert": 44,
+     "k_steer": 49,
+     "k_steer_methods": 17,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 160.8819442945665
+    },
+    {
+     "family": "piggybacked",
+     "sha": "1bec3ec4b07e41f99b8d62cb4c7323b0702adc6f5d0f576e1dd32b035d1636fe",
+     "k_cert": 35,
+     "k_steer": 39,
+     "k_steer_methods": 13,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 80.44874144447506
+    },
+    {
+     "family": "piggybacked",
+     "sha": "46c7824f4eb24a4642dc6ee4e1402eae60b3ea4a4712c55f3052a05205db9ff3",
+     "k_cert": 24,
+     "k_steer": 27,
+     "k_steer_methods": 9,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 106.82228231974825
+    },
+    {
+     "family": "piggybacked",
+     "sha": "a8833669ce4f1f78d8eb3d799748a5489dbeeb2be435dc7c99f1f31ebc35a3ab",
+     "k_cert": 17,
+     "k_steer": 20,
+     "k_steer_methods": 7,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 105.33280590585252
+    },
+    {
+     "family": "piggybacked",
+     "sha": "e142d3881f905ce1598aeab6c8ebdf5717146d944e1310553c3280dbd15157ba",
+     "k_cert": 35,
+     "k_steer": 39,
+     "k_steer_methods": 13,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 190.4520937138786
+    },
+    {
+     "family": "piggybacked",
+     "sha": "ec422d028011b4a0ff45c762e6f5e91f4b807c5ba0fed513c652bd6dd5d6bbc0",
+     "k_cert": 59,
+     "k_steer": 63,
+     "k_steer_methods": 21,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 82.13403679352427
+    },
+    {
+     "family": "original",
+     "sha": "3f70a9c6ee7f32b87fe7c26a0b9ab3e969a36c8a0ed3b4b54be54f32c8cc6fe3",
+     "k_cert": 15,
+     "k_steer": 18,
+     "k_steer_methods": 6,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 22.956480566497994
+    },
+    {
+     "family": "original",
+     "sha": "762c68fc46ec15b81812c2adc52da09dcd5bcd923ed52b402a76dfa291f45bb2",
+     "k_cert": 0,
+     "k_steer": 10,
+     "k_steer_methods": 4,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 123.25177483509111
+    },
+    {
+     "family": "original",
+     "sha": "770f16736825e55ebdff678923ffb14b1585cd5b047ada990f9a97d04edb03ca",
+     "k_cert": 0,
+     "k_steer": 4,
+     "k_steer_methods": 2,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 46.32493928760188
+    },
+    {
+     "family": "original",
+     "sha": "81bef3408e9036e4cad808bdf2d522c8ad50f8c6cac2e0fe3edea2d590d66a76",
+     "k_cert": 11,
+     "k_steer": 21,
+     "k_steer_methods": 7,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 112.90261290156221
+    },
+    {
+     "family": "original",
+     "sha": "b86b9b8f44b955cdd6ebae5c17413029c7c2e340228d0dbe92d27349d4d0fd67",
+     "k_cert": 24,
+     "k_steer": 33,
+     "k_steer_methods": 11,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 107.09808588392231
+    },
+    {
+     "family": "original",
+     "sha": "ceac3b089ee8f5438bb4c15772fa9f9efd4d57290919c772f3bf9440c86421c1",
+     "k_cert": 0,
+     "k_steer": 1,
+     "k_steer_methods": 1,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 77.78817390837762
+    },
+    {
+     "family": "original",
+     "sha": "d037128438689130900ca2130b88a667fea769f04b920ff4811f9dcf94e1a141",
+     "k_cert": 19,
+     "k_steer": 28,
+     "k_steer_methods": 10,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 112.4144118874444
+    },
+    {
+     "family": "piggybacked",
+     "sha": "ba4f7e22505b8780b15943bb02ff1352ca09618bfcc8a6a079fb100abd1169c6",
+     "k_cert": 29,
+     "k_steer": 32,
+     "k_steer_methods": 11,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 199.71229306179427
+    },
+    {
+     "family": "piggybacked",
+     "sha": "e15546679f3664b0b9149e14337d3ae5c2b8cb9ba519f39ce4447049fb90080d",
+     "k_cert": 46,
+     "k_steer": 49,
+     "k_steer_methods": 17,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 109.04127658827184
+    }
+   ]
+  },
+  "0.5": {
+   "f1": 0.6839403542106238,
+   "f1_sd": 0.016697811571431558,
+   "n_cert": 64,
+   "k_cert_median": 35.5,
+   "k_cert_q": [
+    18.75,
+    85.5
+   ],
+   "k_steer_median": 50.0,
+   "k_steer_methods_median": 17.0,
+   "steer_over_cert_median": 1.1925925925925926,
+   "steer_never_frac": 0.0,
+   "rand_never_frac": null,
+   "per_family": {
+    "original": {
+     "n": 33,
+     "k_cert_median": 30.0,
+     "k_steer_median": 39.0
+    },
+    "piggybacked": {
+     "n": 31,
+     "k_cert_median": 75.0,
+     "k_steer_median": 81.0
+    }
+   },
+   "rows": [
+    {
+     "family": "original",
+     "sha": "22bba0fb0f2b9f106162311a63f9d62e147742833f0343a8bbace90b1461fd84",
+     "k_cert": 28,
+     "k_steer": 33,
+     "k_steer_methods": 11,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 38.57460304397182
+    },
+    {
+     "family": "original",
+     "sha": "27930615e34a1a100b85e0b7e89f538042d97f365f85c02051bff0562ce19e6e",
+     "k_cert": 50,
+     "k_steer": 65,
+     "k_steer_methods": 22,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 133.7235955244997
+    },
+    {
+     "family": "original",
+     "sha": "8f2aa0aeeeab21133627e02e7b11995f7a9d1216a6e1373d6795089f46a46da8",
+     "k_cert": 54,
+     "k_steer": 64,
+     "k_steer_methods": 22,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 84.72897969408106
+    },
+    {
+     "family": "original",
+     "sha": "ae8e9ead394b985bf7188ec15474c7fbf4e9bd8f5b775b23f61c97844e55fa26",
+     "k_cert": 1,
+     "k_steer": 14,
+     "k_steer_methods": 5,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 112.17842929904127
+    },
+    {
+     "family": "original",
+     "sha": "c41e995f2d48c79baa8409d39ab0be142db853903ea41cdf62f26d65d75167e8",
+     "k_cert": 21,
+     "k_steer": 30,
+     "k_steer_methods": 10,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 74.04728219185361
+    },
+    {
+     "family": "original",
+     "sha": "e1aac1e236e9300ffdc81f9a34fc28d40a544d9b7ca83a949bee26fac3040af0",
+     "k_cert": 2,
+     "k_steer": 5,
+     "k_steer_methods": 2,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 25.495097567963924
+    },
+    {
+     "family": "original",
+     "sha": "e32b355a45b168f340a51e33af1639823f584d2e5b4e84cbd8a756e8f1c75914",
+     "k_cert": 35,
+     "k_steer": 39,
+     "k_steer_methods": 13,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 26.229754097208
+    },
+    {
+     "family": "original",
+     "sha": "fe2d564730e6110c64e9e49b55d6a1ae323b36fba64217774900c3fa8c78baab",
+     "k_cert": 10,
+     "k_steer": 18,
+     "k_steer_methods": 6,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 68.24954212300622
+    },
+    {
+     "family": "piggybacked",
+     "sha": "155ed91e51ec57af1d71f1914b5817833860652d20cc68c1bc5479aeb6848d0c",
+     "k_cert": 118,
+     "k_steer": 128,
+     "k_steer_methods": 43,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 219.4379183277129
+    },
+    {
+     "family": "piggybacked",
+     "sha": "477a557906c52e3035a10db61ab8bce888c56dd716398c1e02157d989b664f7d",
+     "k_cert": 92,
+     "k_steer": 98,
+     "k_steer_methods": 33,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 92.44457799135652
+    },
+    {
+     "family": "piggybacked",
+     "sha": "52aeb980bc5da8adca4dcd382e721ad41b2d6eaa68f59607e799f900a68b9366",
+     "k_cert": 2,
+     "k_steer": 3,
+     "k_steer_methods": 1,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 14.933184523068078
+    },
+    {
+     "family": "piggybacked",
+     "sha": "63757c15f48631836a0e0f3f545a769b23133fc23e09e3339b1612809e7e51b3",
+     "k_cert": 52,
+     "k_steer": 58,
+     "k_steer_methods": 20,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 197.92675412889486
+    },
+    {
+     "family": "piggybacked",
+     "sha": "865f51ef497596cb09ca822733a3bb12269e14a99e7bb61846961f0f99343bea",
+     "k_cert": 122,
+     "k_steer": 130,
+     "k_steer_methods": 44,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 126.38433447227548
+    },
+    {
+     "family": "piggybacked",
+     "sha": "bf7a873af10b09b8ed7272facac6507c2bf8088f3cc1222f8b336ba3d97717aa",
+     "k_cert": 91,
+     "k_steer": 98,
+     "k_steer_methods": 33,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 123.57184145265458
+    },
+    {
+     "family": "piggybacked",
+     "sha": "d35bafaae380dab4d27d49781aa0ca37d0cf30eb35f32c2ef6bbb3567d63db4c",
+     "k_cert": 138,
+     "k_steer": 145,
+     "k_steer_methods": 49,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 110.70682002478438
+    },
+    {
+     "family": "piggybacked",
+     "sha": "dcefd61602d0f36f0ee79a75ae7a00a7b4f0d7b7d2d997774a1132150cbb761f",
+     "k_cert": 10,
+     "k_steer": 12,
+     "k_steer_methods": 4,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 128.42507543311004
+    },
+    {
+     "family": "piggybacked",
+     "sha": "f522bf9317d59d14d4a1f29e8325471973042216c54881edaeb6d51c48e613cb",
+     "k_cert": 191,
+     "k_steer": 202,
+     "k_steer_methods": 68,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 202.3660050502554
+    },
+    {
+     "family": "original",
+     "sha": "032b3ab75a6d39dd52e0a2e87e6b0611a9395dddae828b554f029a658d7ed18d",
+     "k_cert": 34,
+     "k_steer": 40,
+     "k_steer_methods": 14,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 46.54030511288038
+    },
+    {
+     "family": "original",
+     "sha": "4bee6ae3e08f2d8d84b94b59cfb9757bdb0466b22ac431658bf917a757877bdd",
+     "k_cert": 36,
+     "k_steer": 46,
+     "k_steer_methods": 16,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 72.83543093852057
+    },
+    {
+     "family": "original",
+     "sha": "5178fe58c70a170943399d2c60f4c239bbf7466b85b1c3bdf7ededcf749e7104",
+     "k_cert": 26,
+     "k_steer": 33,
+     "k_steer_methods": 11,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 48.877397639399746
+    },
+    {
+     "family": "original",
+     "sha": "81cf425f564ecbd17c1593dfab3d1456254ce9e5ce65064bf16914aedcd9959f",
+     "k_cert": 0,
+     "k_steer": 7,
+     "k_steer_methods": 3,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 110.20435563080073
+    },
+    {
+     "family": "original",
+     "sha": "8f4887cf5521f8db871e3531f501eb24c500bcd485583d83b59ec419e5ac8b4b",
+     "k_cert": 33,
+     "k_steer": 49,
+     "k_steer_methods": 17,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 125.7179382586272
+    },
+    {
+     "family": "original",
+     "sha": "d98c063a77dd5886b0b7e6fd80368835df48fcfb2e2447d05628a71fede71687",
+     "k_cert": 72,
+     "k_steer": 90,
+     "k_steer_methods": 30,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 140.6947049465615
+    },
+    {
+     "family": "piggybacked",
+     "sha": "2bd2ccc32b87b8a6173d8efff96c682c86a0c7979cd5f9ba21b56e651a142bdb",
+     "k_cert": 12,
+     "k_steer": 13,
+     "k_steer_methods": 5,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 14.66287829861518
+    },
+    {
+     "family": "piggybacked",
+     "sha": "37b4cf755480f1b55e6140db3a2cdb11ccb3771fee1d001f79ee32b70fb28120",
+     "k_cert": 31,
+     "k_steer": 35,
+     "k_steer_methods": 12,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 86.89073598491383
+    },
+    {
+     "family": "piggybacked",
+     "sha": "4d44ca1f9e65203e43e4c78166842be8d62abe977fe5951295b1ea925064216b",
+     "k_cert": 75,
+     "k_steer": 81,
+     "k_steer_methods": 27,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 84.33860326090301
+    },
+    {
+     "family": "piggybacked",
+     "sha": "6ae5da04345e5d0a9d2906b622654ace8b95cb801fe4a720ba233a62ba78d048",
+     "k_cert": 104,
+     "k_steer": 111,
+     "k_steer_methods": 37,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 106.98598038995577
+    },
+    {
+     "family": "piggybacked",
+     "sha": "960be87f67a5a52db3136088eaaf0e91c7f92920d0e8b37f26a5a66bca9f434b",
+     "k_cert": 34,
+     "k_steer": 37,
+     "k_steer_methods": 13,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 77.82030583337487
+    },
+    {
+     "family": "piggybacked",
+     "sha": "b644edd30af9e69e8aeb5f4d37bf16f1b6522bcd0b35c6d119c177eead824b61",
+     "k_cert": 92,
+     "k_steer": 100,
+     "k_steer_methods": 34,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 162.87418457201866
+    },
+    {
+     "family": "piggybacked",
+     "sha": "fc95b0805eee08dad660c4567c75cb9d34930fa3a3d684e3899c9e7634276294",
+     "k_cert": 169,
+     "k_steer": 180,
+     "k_steer_methods": 60,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 181.43318329346482
+    },
+    {
+     "family": "original",
+     "sha": "054e1e67998aa305b1d4a9cd3f638a9e9cad964ddf8f052b24b2c37e0c552d6e",
+     "k_cert": 21,
+     "k_steer": 29,
+     "k_steer_methods": 10,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 46.119410230400824
+    },
+    {
+     "family": "original",
+     "sha": "564c55f2ef45b5cba749110b5d1890b37654bb29546c7f45ec85d95b9a8f7231",
+     "k_cert": 119,
+     "k_steer": 153,
+     "k_steer_methods": 51,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 207.69930187653497
+    },
+    {
+     "family": "original",
+     "sha": "7b438d11becbbc8affe35dd60e1e1a9b176560bf16e1e8ee0a5c361a0bc56440",
+     "k_cert": 56,
+     "k_steer": 88,
+     "k_steer_methods": 30,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 194.14942698859556
+    },
+    {
+     "family": "original",
+     "sha": "cccbb65373132daeab66c8b9541ba5fc47dfe99eb7377b3d1b222f3ce3fa537c",
+     "k_cert": 0,
+     "k_steer": 3,
+     "k_steer_methods": 1,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 64.6297145282261
+    },
+    {
+     "family": "original",
+     "sha": "cd71771c4db7eb0ac8f5350b80801c201476ad1a3ea9e6d93e366da0dc925b90",
+     "k_cert": 0,
+     "k_steer": 8,
+     "k_steer_methods": 3,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 107.37318100903968
+    },
+    {
+     "family": "original",
+     "sha": "e3a146501c025a43ab0353e5116923569754b50f25f7ecf60d861c3107ddb5af",
+     "k_cert": 5,
+     "k_steer": 13,
+     "k_steer_methods": 5,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 46.73328578219169
+    },
+    {
+     "family": "piggybacked",
+     "sha": "4ec33c05d3cc3b6541fc5f5e1195aa5398d67a0a2a741210dc1444b53eb7ebad",
+     "k_cert": 112,
+     "k_steer": 120,
+     "k_steer_methods": 40,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 84.4630096551147
+    },
+    {
+     "family": "piggybacked",
+     "sha": "5cb836e46579c7ac52552cc8d895a4ab15f0ea2fa013e74a15e197cb4056dbd6",
+     "k_cert": 134,
+     "k_steer": 145,
+     "k_steer_methods": 49,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 117.47765745025733
+    },
+    {
+     "family": "piggybacked",
+     "sha": "74c3195a82ca55239576420dc74211577c6ad30cb8442b3b2186061eac05a4c0",
+     "k_cert": 42,
+     "k_steer": 49,
+     "k_steer_methods": 17,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 146.20191517213445
+    },
+    {
+     "family": "piggybacked",
+     "sha": "86a34754d9a80b8483067df420e107ac8bc4bee0e2b2bc7b29a287730f5a153c",
+     "k_cert": 0,
+     "k_steer": 2,
+     "k_steer_methods": 1,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 139.80343343423294
+    },
+    {
+     "family": "piggybacked",
+     "sha": "9e44db7298ad3f9b2e0b052f37d0ec21fa5d28e2b35803e412f7c8371cdc1439",
+     "k_cert": 104,
+     "k_steer": 112,
+     "k_steer_methods": 38,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 88.18163074019441
+    },
+    {
+     "family": "original",
+     "sha": "262cbb493239d6b6466f739d4e6bd8e6b1001bc526aa2a8153e64b84b90fd44a",
+     "k_cert": 38,
+     "k_steer": 72,
+     "k_steer_methods": 24,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 186.40010729610646
+    },
+    {
+     "family": "original",
+     "sha": "268acdfdab9f6f187640789d5849ce53e810ad9a30ec67e1033403e198c4b7f5",
+     "k_cert": 0,
+     "k_steer": 3,
+     "k_steer_methods": 1,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 19.6468827043885
+    },
+    {
+     "family": "original",
+     "sha": "4f3373d5a119a84f516d4c7b45669aa3a2d76811d34c60aeca4258fbcdd87967",
+     "k_cert": 35,
+     "k_steer": 52,
+     "k_steer_methods": 18,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 87.84645695758026
+    },
+    {
+     "family": "original",
+     "sha": "727c8fa502b346a5718d254564694076f74a96b0763887cadfb96be077edf0ff",
+     "k_cert": 7,
+     "k_steer": 19,
+     "k_steer_methods": 7,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 59.07622195096772
+    },
+    {
+     "family": "original",
+     "sha": "9374a9ea721dd8c3f2c80a66d73a2bf093d126a18b4f011d10e888b5d30cbe11",
+     "k_cert": 59,
+     "k_steer": 79,
+     "k_steer_methods": 27,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 108.816359064251
+    },
+    {
+     "family": "original",
+     "sha": "a52db6a608676e7a39cfb3e19e477b7a25c9c141715930c2a79624b93139f46f",
+     "k_cert": 85,
+     "k_steer": 105,
+     "k_steer_methods": 35,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 105.9103394386025
+    },
+    {
+     "family": "original",
+     "sha": "b939cc300deb3f21f26aa05e523d67f5e625deedace410a97656ece8bf4efff1",
+     "k_cert": 46,
+     "k_steer": 78,
+     "k_steer_methods": 26,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 174.6682569902156
+    },
+    {
+     "family": "piggybacked",
+     "sha": "034b72de43ae0389f25151d1f991c95a11f40aa0ab6d3fcb1e5263f4798541d4",
+     "k_cert": 101,
+     "k_steer": 111,
+     "k_steer_methods": 37,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 114.3153532995459
+    },
+    {
+     "family": "piggybacked",
+     "sha": "11f8ba4bdd77d3059e25198c446cbfaadf132b39b8cd9adf3b94220f8f144eae",
+     "k_cert": 69,
+     "k_steer": 78,
+     "k_steer_methods": 26,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 160.8819442945665
+    },
+    {
+     "family": "piggybacked",
+     "sha": "1bec3ec4b07e41f99b8d62cb4c7323b0702adc6f5d0f576e1dd32b035d1636fe",
+     "k_cert": 55,
+     "k_steer": 62,
+     "k_steer_methods": 21,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 80.44874144447506
+    },
+    {
+     "family": "piggybacked",
+     "sha": "46c7824f4eb24a4642dc6ee4e1402eae60b3ea4a4712c55f3052a05205db9ff3",
+     "k_cert": 34,
+     "k_steer": 40,
+     "k_steer_methods": 14,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 106.82228231974825
+    },
+    {
+     "family": "piggybacked",
+     "sha": "a8833669ce4f1f78d8eb3d799748a5489dbeeb2be435dc7c99f1f31ebc35a3ab",
+     "k_cert": 32,
+     "k_steer": 37,
+     "k_steer_methods": 13,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 105.33280590585252
+    },
+    {
+     "family": "piggybacked",
+     "sha": "e142d3881f905ce1598aeab6c8ebdf5717146d944e1310553c3280dbd15157ba",
+     "k_cert": 49,
+     "k_steer": 57,
+     "k_steer_methods": 19,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 190.4520937138786
+    },
+    {
+     "family": "piggybacked",
+     "sha": "ec422d028011b4a0ff45c762e6f5e91f4b807c5ba0fed513c652bd6dd5d6bbc0",
+     "k_cert": 96,
+     "k_steer": 105,
+     "k_steer_methods": 35,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 82.13403679352427
+    },
+    {
+     "family": "original",
+     "sha": "3f70a9c6ee7f32b87fe7c26a0b9ab3e969a36c8a0ed3b4b54be54f32c8cc6fe3",
+     "k_cert": 30,
+     "k_steer": 34,
+     "k_steer_methods": 12,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 22.956480566497994
+    },
+    {
+     "family": "original",
+     "sha": "762c68fc46ec15b81812c2adc52da09dcd5bcd923ed52b402a76dfa291f45bb2",
+     "k_cert": 3,
+     "k_steer": 21,
+     "k_steer_methods": 7,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 123.25177483509111
+    },
+    {
+     "family": "original",
+     "sha": "770f16736825e55ebdff678923ffb14b1585cd5b047ada990f9a97d04edb03ca",
+     "k_cert": 0,
+     "k_steer": 6,
+     "k_steer_methods": 2,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 46.32493928760188
+    },
+    {
+     "family": "original",
+     "sha": "81bef3408e9036e4cad808bdf2d522c8ad50f8c6cac2e0fe3edea2d590d66a76",
+     "k_cert": 26,
+     "k_steer": 42,
+     "k_steer_methods": 14,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 112.90261290156221
+    },
+    {
+     "family": "original",
+     "sha": "b86b9b8f44b955cdd6ebae5c17413029c7c2e340228d0dbe92d27349d4d0fd67",
+     "k_cert": 40,
+     "k_steer": 55,
+     "k_steer_methods": 19,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 107.09808588392231
+    },
+    {
+     "family": "original",
+     "sha": "d037128438689130900ca2130b88a667fea769f04b920ff4811f9dcf94e1a141",
+     "k_cert": 35,
+     "k_steer": 51,
+     "k_steer_methods": 17,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 112.4144118874444
+    },
+    {
+     "family": "piggybacked",
+     "sha": "0431d8a0c512bf163baa2e35c62083a65b4965cc6b32b924e237380b24588d8e",
+     "k_cert": 6,
+     "k_steer": 8,
+     "k_steer_methods": 3,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 130.91982279242512
+    },
+    {
+     "family": "piggybacked",
+     "sha": "ba4f7e22505b8780b15943bb02ff1352ca09618bfcc8a6a079fb100abd1169c6",
+     "k_cert": 32,
+     "k_steer": 37,
+     "k_steer_methods": 13,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 199.71229306179427
+    },
+    {
+     "family": "piggybacked",
+     "sha": "e15546679f3664b0b9149e14337d3ae5c2b8cb9ba519f39ce4447049fb90080d",
+     "k_cert": 87,
+     "k_steer": 95,
+     "k_steer_methods": 32,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 109.04127658827184
+    }
+   ]
+  },
+  "0.25": {
+   "f1": 0.6808852375371245,
+   "f1_sd": 0.016034976119221094,
+   "n_cert": 65,
+   "k_cert_median": 57.0,
+   "k_cert_q": [
+    20.0,
+    127.0
+   ],
+   "k_steer_median": 76.0,
+   "k_steer_methods_median": 26.0,
+   "steer_over_cert_median": 1.2109375,
+   "steer_never_frac": 0.0,
+   "rand_never_frac": null,
+   "per_family": {
+    "original": {
+     "n": 33,
+     "k_cert_median": 42.0,
+     "k_steer_median": 52.0
+    },
+    "piggybacked": {
+     "n": 32,
+     "k_cert_median": 86.5,
+     "k_steer_median": 97.5
+    }
+   },
+   "rows": [
+    {
+     "family": "original",
+     "sha": "22bba0fb0f2b9f106162311a63f9d62e147742833f0343a8bbace90b1461fd84",
+     "k_cert": 29,
+     "k_steer": 35,
+     "k_steer_methods": 12,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 38.57460304397182
+    },
+    {
+     "family": "original",
+     "sha": "27930615e34a1a100b85e0b7e89f538042d97f365f85c02051bff0562ce19e6e",
+     "k_cert": 66,
+     "k_steer": 86,
+     "k_steer_methods": 29,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 133.7235955244997
+    },
+    {
+     "family": "original",
+     "sha": "38546b8eca220efcb91c47823d31a24c92f70c8877b4c3e9bf126fc2eb2718e0",
+     "k_cert": 0,
+     "k_steer": 4,
+     "k_steer_methods": 2,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 28.24889378365107
+    },
+    {
+     "family": "original",
+     "sha": "8f2aa0aeeeab21133627e02e7b11995f7a9d1216a6e1373d6795089f46a46da8",
+     "k_cert": 122,
+     "k_steer": 134,
+     "k_steer_methods": 45,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 84.72897969408106
+    },
+    {
+     "family": "original",
+     "sha": "ae8e9ead394b985bf7188ec15474c7fbf4e9bd8f5b775b23f61c97844e55fa26",
+     "k_cert": 16,
+     "k_steer": 32,
+     "k_steer_methods": 11,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 112.17842929904127
+    },
+    {
+     "family": "original",
+     "sha": "c41e995f2d48c79baa8409d39ab0be142db853903ea41cdf62f26d65d75167e8",
+     "k_cert": 32,
+     "k_steer": 44,
+     "k_steer_methods": 15,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 74.04728219185361
+    },
+    {
+     "family": "original",
+     "sha": "e1aac1e236e9300ffdc81f9a34fc28d40a544d9b7ca83a949bee26fac3040af0",
+     "k_cert": 0,
+     "k_steer": 5,
+     "k_steer_methods": 2,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 25.495097567963924
+    },
+    {
+     "family": "original",
+     "sha": "e32b355a45b168f340a51e33af1639823f584d2e5b4e84cbd8a756e8f1c75914",
+     "k_cert": 29,
+     "k_steer": 34,
+     "k_steer_methods": 12,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 26.229754097208
+    },
+    {
+     "family": "original",
+     "sha": "fe2d564730e6110c64e9e49b55d6a1ae323b36fba64217774900c3fa8c78baab",
+     "k_cert": 28,
+     "k_steer": 38,
+     "k_steer_methods": 13,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 68.24954212300622
+    },
+    {
+     "family": "piggybacked",
+     "sha": "1120fe334263efb18d62f008daa916f0ebb4643682d621b0a94b8beb0a2fb089",
+     "k_cert": 6,
+     "k_steer": 8,
+     "k_steer_methods": 3,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 112.60106571431729
+    },
+    {
+     "family": "piggybacked",
+     "sha": "155ed91e51ec57af1d71f1914b5817833860652d20cc68c1bc5479aeb6848d0c",
+     "k_cert": 186,
+     "k_steer": 201,
+     "k_steer_methods": 67,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 219.4379183277129
+    },
+    {
+     "family": "piggybacked",
+     "sha": "477a557906c52e3035a10db61ab8bce888c56dd716398c1e02157d989b664f7d",
+     "k_cert": 135,
+     "k_steer": 144,
+     "k_steer_methods": 48,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 92.44457799135652
+    },
+    {
+     "family": "piggybacked",
+     "sha": "52aeb980bc5da8adca4dcd382e721ad41b2d6eaa68f59607e799f900a68b9366",
+     "k_cert": 3,
+     "k_steer": 5,
+     "k_steer_methods": 2,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 14.933184523068078
+    },
+    {
+     "family": "piggybacked",
+     "sha": "63757c15f48631836a0e0f3f545a769b23133fc23e09e3339b1612809e7e51b3",
+     "k_cert": 68,
+     "k_steer": 76,
+     "k_steer_methods": 26,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 197.92675412889486
+    },
+    {
+     "family": "piggybacked",
+     "sha": "865f51ef497596cb09ca822733a3bb12269e14a99e7bb61846961f0f99343bea",
+     "k_cert": 212,
+     "k_steer": 224,
+     "k_steer_methods": 75,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 126.38433447227548
+    },
+    {
+     "family": "piggybacked",
+     "sha": "bf7a873af10b09b8ed7272facac6507c2bf8088f3cc1222f8b336ba3d97717aa",
+     "k_cert": 122,
+     "k_steer": 132,
+     "k_steer_methods": 44,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 123.57184145265458
+    },
+    {
+     "family": "piggybacked",
+     "sha": "d35bafaae380dab4d27d49781aa0ca37d0cf30eb35f32c2ef6bbb3567d63db4c",
+     "k_cert": 254,
+     "k_steer": 264,
+     "k_steer_methods": 88,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 110.70682002478438
+    },
+    {
+     "family": "piggybacked",
+     "sha": "dcefd61602d0f36f0ee79a75ae7a00a7b4f0d7b7d2d997774a1132150cbb761f",
+     "k_cert": 23,
+     "k_steer": 27,
+     "k_steer_methods": 9,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 128.42507543311004
+    },
+    {
+     "family": "piggybacked",
+     "sha": "f522bf9317d59d14d4a1f29e8325471973042216c54881edaeb6d51c48e613cb",
+     "k_cert": 278,
+     "k_steer": 295,
+     "k_steer_methods": 99,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 202.3660050502554
+    },
+    {
+     "family": "original",
+     "sha": "032b3ab75a6d39dd52e0a2e87e6b0611a9395dddae828b554f029a658d7ed18d",
+     "k_cert": 57,
+     "k_steer": 66,
+     "k_steer_methods": 22,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 46.54030511288038
+    },
+    {
+     "family": "original",
+     "sha": "4bee6ae3e08f2d8d84b94b59cfb9757bdb0466b22ac431658bf917a757877bdd",
+     "k_cert": 62,
+     "k_steer": 77,
+     "k_steer_methods": 26,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 72.83543093852057
+    },
+    {
+     "family": "original",
+     "sha": "5178fe58c70a170943399d2c60f4c239bbf7466b85b1c3bdf7ededcf749e7104",
+     "k_cert": 42,
+     "k_steer": 52,
+     "k_steer_methods": 18,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 48.877397639399746
+    },
+    {
+     "family": "original",
+     "sha": "81cf425f564ecbd17c1593dfab3d1456254ce9e5ce65064bf16914aedcd9959f",
+     "k_cert": 0,
+     "k_steer": 21,
+     "k_steer_methods": 7,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 110.20435563080073
+    },
+    {
+     "family": "original",
+     "sha": "8f4887cf5521f8db871e3531f501eb24c500bcd485583d83b59ec419e5ac8b4b",
+     "k_cert": 53,
+     "k_steer": 78,
+     "k_steer_methods": 26,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 125.7179382586272
+    },
+    {
+     "family": "original",
+     "sha": "d98c063a77dd5886b0b7e6fd80368835df48fcfb2e2447d05628a71fede71687",
+     "k_cert": 128,
+     "k_steer": 155,
+     "k_steer_methods": 52,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 140.6947049465615
+    },
+    {
+     "family": "piggybacked",
+     "sha": "2bd2ccc32b87b8a6173d8efff96c682c86a0c7979cd5f9ba21b56e651a142bdb",
+     "k_cert": 19,
+     "k_steer": 21,
+     "k_steer_methods": 7,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 14.66287829861518
+    },
+    {
+     "family": "piggybacked",
+     "sha": "37b4cf755480f1b55e6140db3a2cdb11ccb3771fee1d001f79ee32b70fb28120",
+     "k_cert": 80,
+     "k_steer": 89,
+     "k_steer_methods": 30,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 86.89073598491383
+    },
+    {
+     "family": "piggybacked",
+     "sha": "4d44ca1f9e65203e43e4c78166842be8d62abe977fe5951295b1ea925064216b",
+     "k_cert": 87,
+     "k_steer": 95,
+     "k_steer_methods": 32,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 84.33860326090301
+    },
+    {
+     "family": "piggybacked",
+     "sha": "6ae5da04345e5d0a9d2906b622654ace8b95cb801fe4a720ba233a62ba78d048",
+     "k_cert": 161,
+     "k_steer": 173,
+     "k_steer_methods": 58,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 106.98598038995577
+    },
+    {
+     "family": "piggybacked",
+     "sha": "960be87f67a5a52db3136088eaaf0e91c7f92920d0e8b37f26a5a66bca9f434b",
+     "k_cert": 14,
+     "k_steer": 17,
+     "k_steer_methods": 6,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 77.82030583337487
+    },
+    {
+     "family": "piggybacked",
+     "sha": "b644edd30af9e69e8aeb5f4d37bf16f1b6522bcd0b35c6d119c177eead824b61",
+     "k_cert": 122,
+     "k_steer": 135,
+     "k_steer_methods": 45,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 162.87418457201866
+    },
+    {
+     "family": "piggybacked",
+     "sha": "fc95b0805eee08dad660c4567c75cb9d34930fa3a3d684e3899c9e7634276294",
+     "k_cert": 268,
+     "k_steer": 288,
+     "k_steer_methods": 96,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 181.43318329346482
+    },
+    {
+     "family": "original",
+     "sha": "054e1e67998aa305b1d4a9cd3f638a9e9cad964ddf8f052b24b2c37e0c552d6e",
+     "k_cert": 25,
+     "k_steer": 36,
+     "k_steer_methods": 12,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 46.119410230400824
+    },
+    {
+     "family": "original",
+     "sha": "564c55f2ef45b5cba749110b5d1890b37654bb29546c7f45ec85d95b9a8f7231",
+     "k_cert": 178,
+     "k_steer": 225,
+     "k_steer_methods": 75,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 207.69930187653497
+    },
+    {
+     "family": "original",
+     "sha": "7b438d11becbbc8affe35dd60e1e1a9b176560bf16e1e8ee0a5c361a0bc56440",
+     "k_cert": 101,
+     "k_steer": 146,
+     "k_steer_methods": 49,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 194.14942698859556
+    },
+    {
+     "family": "original",
+     "sha": "cccbb65373132daeab66c8b9541ba5fc47dfe99eb7377b3d1b222f3ce3fa537c",
+     "k_cert": 0,
+     "k_steer": 11,
+     "k_steer_methods": 4,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 64.6297145282261
+    },
+    {
+     "family": "original",
+     "sha": "cd71771c4db7eb0ac8f5350b80801c201476ad1a3ea9e6d93e366da0dc925b90",
+     "k_cert": 0,
+     "k_steer": 20,
+     "k_steer_methods": 7,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 107.37318100903968
+    },
+    {
+     "family": "original",
+     "sha": "e3a146501c025a43ab0353e5116923569754b50f25f7ecf60d861c3107ddb5af",
+     "k_cert": 4,
+     "k_steer": 16,
+     "k_steer_methods": 6,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 46.73328578219169
+    },
+    {
+     "family": "piggybacked",
+     "sha": "4ec33c05d3cc3b6541fc5f5e1195aa5398d67a0a2a741210dc1444b53eb7ebad",
+     "k_cert": 178,
+     "k_steer": 190,
+     "k_steer_methods": 64,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 84.4630096551147
+    },
+    {
+     "family": "piggybacked",
+     "sha": "5cb836e46579c7ac52552cc8d895a4ab15f0ea2fa013e74a15e197cb4056dbd6",
+     "k_cert": 245,
+     "k_steer": 262,
+     "k_steer_methods": 88,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 117.47765745025733
+    },
+    {
+     "family": "piggybacked",
+     "sha": "74c3195a82ca55239576420dc74211577c6ad30cb8442b3b2186061eac05a4c0",
+     "k_cert": 39,
+     "k_steer": 47,
+     "k_steer_methods": 16,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 146.20191517213445
+    },
+    {
+     "family": "piggybacked",
+     "sha": "9e44db7298ad3f9b2e0b052f37d0ec21fa5d28e2b35803e412f7c8371cdc1439",
+     "k_cert": 144,
+     "k_steer": 156,
+     "k_steer_methods": 52,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 88.18163074019441
+    },
+    {
+     "family": "original",
+     "sha": "262cbb493239d6b6466f739d4e6bd8e6b1001bc526aa2a8153e64b84b90fd44a",
+     "k_cert": 49,
+     "k_steer": 98,
+     "k_steer_methods": 33,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 186.40010729610646
+    },
+    {
+     "family": "original",
+     "sha": "4f3373d5a119a84f516d4c7b45669aa3a2d76811d34c60aeca4258fbcdd87967",
+     "k_cert": 40,
+     "k_steer": 63,
+     "k_steer_methods": 21,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 87.84645695758026
+    },
+    {
+     "family": "original",
+     "sha": "727c8fa502b346a5718d254564694076f74a96b0763887cadfb96be077edf0ff",
+     "k_cert": 23,
+     "k_steer": 39,
+     "k_steer_methods": 13,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 59.07622195096772
+    },
+    {
+     "family": "original",
+     "sha": "9374a9ea721dd8c3f2c80a66d73a2bf093d126a18b4f011d10e888b5d30cbe11",
+     "k_cert": 56,
+     "k_steer": 84,
+     "k_steer_methods": 28,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 108.816359064251
+    },
+    {
+     "family": "original",
+     "sha": "a52db6a608676e7a39cfb3e19e477b7a25c9c141715930c2a79624b93139f46f",
+     "k_cert": 160,
+     "k_steer": 186,
+     "k_steer_methods": 62,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 105.9103394386025
+    },
+    {
+     "family": "original",
+     "sha": "b939cc300deb3f21f26aa05e523d67f5e625deedace410a97656ece8bf4efff1",
+     "k_cert": 147,
+     "k_steer": 191,
+     "k_steer_methods": 64,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 174.6682569902156
+    },
+    {
+     "family": "piggybacked",
+     "sha": "034b72de43ae0389f25151d1f991c95a11f40aa0ab6d3fcb1e5263f4798541d4",
+     "k_cert": 133,
+     "k_steer": 149,
+     "k_steer_methods": 50,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 114.3153532995459
+    },
+    {
+     "family": "piggybacked",
+     "sha": "11f8ba4bdd77d3059e25198c446cbfaadf132b39b8cd9adf3b94220f8f144eae",
+     "k_cert": 86,
+     "k_steer": 100,
+     "k_steer_methods": 34,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 160.8819442945665
+    },
+    {
+     "family": "piggybacked",
+     "sha": "1bec3ec4b07e41f99b8d62cb4c7323b0702adc6f5d0f576e1dd32b035d1636fe",
+     "k_cert": 69,
+     "k_steer": 79,
+     "k_steer_methods": 27,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 80.44874144447506
+    },
+    {
+     "family": "piggybacked",
+     "sha": "46c7824f4eb24a4642dc6ee4e1402eae60b3ea4a4712c55f3052a05205db9ff3",
+     "k_cert": 58,
+     "k_steer": 68,
+     "k_steer_methods": 23,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 106.82228231974825
+    },
+    {
+     "family": "piggybacked",
+     "sha": "a8833669ce4f1f78d8eb3d799748a5489dbeeb2be435dc7c99f1f31ebc35a3ab",
+     "k_cert": 20,
+     "k_steer": 25,
+     "k_steer_methods": 9,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 105.33280590585252
+    },
+    {
+     "family": "piggybacked",
+     "sha": "e142d3881f905ce1598aeab6c8ebdf5717146d944e1310553c3280dbd15157ba",
+     "k_cert": 58,
+     "k_steer": 70,
+     "k_steer_methods": 24,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 190.4520937138786
+    },
+    {
+     "family": "piggybacked",
+     "sha": "ec422d028011b4a0ff45c762e6f5e91f4b807c5ba0fed513c652bd6dd5d6bbc0",
+     "k_cert": 127,
+     "k_steer": 139,
+     "k_steer_methods": 47,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 82.13403679352427
+    },
+    {
+     "family": "original",
+     "sha": "3f70a9c6ee7f32b87fe7c26a0b9ab3e969a36c8a0ed3b4b54be54f32c8cc6fe3",
+     "k_cert": 44,
+     "k_steer": 49,
+     "k_steer_methods": 17,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 22.956480566497994
+    },
+    {
+     "family": "original",
+     "sha": "762c68fc46ec15b81812c2adc52da09dcd5bcd923ed52b402a76dfa291f45bb2",
+     "k_cert": 0,
+     "k_steer": 7,
+     "k_steer_methods": 3,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 123.25177483509111
+    },
+    {
+     "family": "original",
+     "sha": "770f16736825e55ebdff678923ffb14b1585cd5b047ada990f9a97d04edb03ca",
+     "k_cert": 4,
+     "k_steer": 15,
+     "k_steer_methods": 5,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 46.32493928760188
+    },
+    {
+     "family": "original",
+     "sha": "81bef3408e9036e4cad808bdf2d522c8ad50f8c6cac2e0fe3edea2d590d66a76",
+     "k_cert": 45,
+     "k_steer": 69,
+     "k_steer_methods": 23,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 112.90261290156221
+    },
+    {
+     "family": "original",
+     "sha": "b86b9b8f44b955cdd6ebae5c17413029c7c2e340228d0dbe92d27349d4d0fd67",
+     "k_cert": 60,
+     "k_steer": 82,
+     "k_steer_methods": 28,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 107.09808588392231
+    },
+    {
+     "family": "original",
+     "sha": "d037128438689130900ca2130b88a667fea769f04b920ff4811f9dcf94e1a141",
+     "k_cert": 63,
+     "k_steer": 86,
+     "k_steer_methods": 29,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 112.4144118874444
+    },
+    {
+     "family": "piggybacked",
+     "sha": "0431d8a0c512bf163baa2e35c62083a65b4965cc6b32b924e237380b24588d8e",
+     "k_cert": 6,
+     "k_steer": 8,
+     "k_steer_methods": 3,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 130.91982279242512
+    },
+    {
+     "family": "piggybacked",
+     "sha": "63daf6ce0d3f7a078b92311c697334d43980e1f9885dbeaeb9304f0be6020175",
+     "k_cert": 20,
+     "k_steer": 24,
+     "k_steer_methods": 8,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 132.29134514396625
+    },
+    {
+     "family": "piggybacked",
+     "sha": "ba4f7e22505b8780b15943bb02ff1352ca09618bfcc8a6a079fb100abd1169c6",
+     "k_cert": 17,
+     "k_steer": 21,
+     "k_steer_methods": 7,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 199.71229306179427
+    },
+    {
+     "family": "piggybacked",
+     "sha": "e15546679f3664b0b9149e14337d3ae5c2b8cb9ba519f39ce4447049fb90080d",
+     "k_cert": 132,
+     "k_steer": 144,
+     "k_steer_methods": 48,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 109.04127658827184
+    }
+   ]
+  },
+  "0.1": {
+   "f1": 0.6759692582077735,
+   "f1_sd": 0.015461915115800053,
+   "n_cert": 65,
+   "k_cert_median": 76.0,
+   "k_cert_q": [
+    28.0,
+    156.0
+   ],
+   "k_steer_median": 97.0,
+   "k_steer_methods_median": 33.0,
+   "steer_over_cert_median": 1.1935483870967742,
+   "steer_never_frac": 0.0,
+   "rand_never_frac": null,
+   "per_family": {
+    "original": {
+     "n": 32,
+     "k_cert_median": 55.0,
+     "k_steer_median": 77.5
+    },
+    "piggybacked": {
+     "n": 33,
+     "k_cert_median": 97.0,
+     "k_steer_median": 109.0
+    }
+   },
+   "rows": [
+    {
+     "family": "original",
+     "sha": "22bba0fb0f2b9f106162311a63f9d62e147742833f0343a8bbace90b1461fd84",
+     "k_cert": 14,
+     "k_steer": 22,
+     "k_steer_methods": 8,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 38.57460304397182
+    },
+    {
+     "family": "original",
+     "sha": "27930615e34a1a100b85e0b7e89f538042d97f365f85c02051bff0562ce19e6e",
+     "k_cert": 130,
+     "k_steer": 154,
+     "k_steer_methods": 52,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 133.7235955244997
+    },
+    {
+     "family": "original",
+     "sha": "38546b8eca220efcb91c47823d31a24c92f70c8877b4c3e9bf126fc2eb2718e0",
+     "k_cert": 11,
+     "k_steer": 17,
+     "k_steer_methods": 6,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 28.24889378365107
+    },
+    {
+     "family": "original",
+     "sha": "8f2aa0aeeeab21133627e02e7b11995f7a9d1216a6e1373d6795089f46a46da8",
+     "k_cert": 167,
+     "k_steer": 182,
+     "k_steer_methods": 61,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 84.72897969408106
+    },
+    {
+     "family": "original",
+     "sha": "ae8e9ead394b985bf7188ec15474c7fbf4e9bd8f5b775b23f61c97844e55fa26",
+     "k_cert": 90,
+     "k_steer": 110,
+     "k_steer_methods": 37,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 112.17842929904127
+    },
+    {
+     "family": "original",
+     "sha": "c41e995f2d48c79baa8409d39ab0be142db853903ea41cdf62f26d65d75167e8",
+     "k_cert": 60,
+     "k_steer": 73,
+     "k_steer_methods": 25,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 74.04728219185361
+    },
+    {
+     "family": "original",
+     "sha": "e1aac1e236e9300ffdc81f9a34fc28d40a544d9b7ca83a949bee26fac3040af0",
+     "k_cert": 0,
+     "k_steer": 4,
+     "k_steer_methods": 2,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 25.495097567963924
+    },
+    {
+     "family": "original",
+     "sha": "e32b355a45b168f340a51e33af1639823f584d2e5b4e84cbd8a756e8f1c75914",
+     "k_cert": 15,
+     "k_steer": 20,
+     "k_steer_methods": 7,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 26.229754097208
+    },
+    {
+     "family": "original",
+     "sha": "fe2d564730e6110c64e9e49b55d6a1ae323b36fba64217774900c3fa8c78baab",
+     "k_cert": 57,
+     "k_steer": 70,
+     "k_steer_methods": 24,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 68.24954212300622
+    },
+    {
+     "family": "piggybacked",
+     "sha": "1120fe334263efb18d62f008daa916f0ebb4643682d621b0a94b8beb0a2fb089",
+     "k_cert": 71,
+     "k_steer": 79,
+     "k_steer_methods": 27,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 112.60106571431729
+    },
+    {
+     "family": "piggybacked",
+     "sha": "155ed91e51ec57af1d71f1914b5817833860652d20cc68c1bc5479aeb6848d0c",
+     "k_cert": 229,
+     "k_steer": 249,
+     "k_steer_methods": 83,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 219.4379183277129
+    },
+    {
+     "family": "piggybacked",
+     "sha": "477a557906c52e3035a10db61ab8bce888c56dd716398c1e02157d989b664f7d",
+     "k_cert": 156,
+     "k_steer": 167,
+     "k_steer_methods": 56,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 92.44457799135652
+    },
+    {
+     "family": "piggybacked",
+     "sha": "52aeb980bc5da8adca4dcd382e721ad41b2d6eaa68f59607e799f900a68b9366",
+     "k_cert": 7,
+     "k_steer": 9,
+     "k_steer_methods": 3,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 14.933184523068078
+    },
+    {
+     "family": "piggybacked",
+     "sha": "63757c15f48631836a0e0f3f545a769b23133fc23e09e3339b1612809e7e51b3",
+     "k_cert": 97,
+     "k_steer": 109,
+     "k_steer_methods": 37,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 197.92675412889486
+    },
+    {
+     "family": "piggybacked",
+     "sha": "865f51ef497596cb09ca822733a3bb12269e14a99e7bb61846961f0f99343bea",
+     "k_cert": 292,
+     "k_steer": 307,
+     "k_steer_methods": 103,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 126.38433447227548
+    },
+    {
+     "family": "piggybacked",
+     "sha": "b13b7b8a5c24926065c5a5a54ea095cbe92bdd201da7e90196ed6daf16a3716c",
+     "k_cert": 33,
+     "k_steer": 39,
+     "k_steer_methods": 13,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 121.38780828402827
+    },
+    {
+     "family": "piggybacked",
+     "sha": "bf7a873af10b09b8ed7272facac6507c2bf8088f3cc1222f8b336ba3d97717aa",
+     "k_cert": 163,
+     "k_steer": 175,
+     "k_steer_methods": 59,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 123.57184145265458
+    },
+    {
+     "family": "piggybacked",
+     "sha": "d35bafaae380dab4d27d49781aa0ca37d0cf30eb35f32c2ef6bbb3567d63db4c",
+     "k_cert": 411,
+     "k_steer": 425,
+     "k_steer_methods": 142,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 110.70682002478438
+    },
+    {
+     "family": "piggybacked",
+     "sha": "dcefd61602d0f36f0ee79a75ae7a00a7b4f0d7b7d2d997774a1132150cbb761f",
+     "k_cert": 87,
+     "k_steer": 97,
+     "k_steer_methods": 33,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 128.42507543311004
+    },
+    {
+     "family": "piggybacked",
+     "sha": "f522bf9317d59d14d4a1f29e8325471973042216c54881edaeb6d51c48e613cb",
+     "k_cert": 414,
+     "k_steer": 437,
+     "k_steer_methods": 146,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 202.3660050502554
+    },
+    {
+     "family": "original",
+     "sha": "032b3ab75a6d39dd52e0a2e87e6b0611a9395dddae828b554f029a658d7ed18d",
+     "k_cert": 88,
+     "k_steer": 101,
+     "k_steer_methods": 34,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 46.54030511288038
+    },
+    {
+     "family": "original",
+     "sha": "4bee6ae3e08f2d8d84b94b59cfb9757bdb0466b22ac431658bf917a757877bdd",
+     "k_cert": 111,
+     "k_steer": 130,
+     "k_steer_methods": 44,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 72.83543093852057
+    },
+    {
+     "family": "original",
+     "sha": "5178fe58c70a170943399d2c60f4c239bbf7466b85b1c3bdf7ededcf749e7104",
+     "k_cert": 83,
+     "k_steer": 97,
+     "k_steer_methods": 33,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 48.877397639399746
+    },
+    {
+     "family": "original",
+     "sha": "81cf425f564ecbd17c1593dfab3d1456254ce9e5ce65064bf16914aedcd9959f",
+     "k_cert": 80,
+     "k_steer": 109,
+     "k_steer_methods": 37,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 110.20435563080073
+    },
+    {
+     "family": "original",
+     "sha": "8f4887cf5521f8db871e3531f501eb24c500bcd485583d83b59ec419e5ac8b4b",
+     "k_cert": 48,
+     "k_steer": 82,
+     "k_steer_methods": 28,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 125.7179382586272
+    },
+    {
+     "family": "original",
+     "sha": "d98c063a77dd5886b0b7e6fd80368835df48fcfb2e2447d05628a71fede71687",
+     "k_cert": 160,
+     "k_steer": 197,
+     "k_steer_methods": 66,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 140.6947049465615
+    },
+    {
+     "family": "piggybacked",
+     "sha": "2bd2ccc32b87b8a6173d8efff96c682c86a0c7979cd5f9ba21b56e651a142bdb",
+     "k_cert": 28,
+     "k_steer": 31,
+     "k_steer_methods": 11,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 14.66287829861518
+    },
+    {
+     "family": "piggybacked",
+     "sha": "37b4cf755480f1b55e6140db3a2cdb11ccb3771fee1d001f79ee32b70fb28120",
+     "k_cert": 49,
+     "k_steer": 58,
+     "k_steer_methods": 20,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 86.89073598491383
+    },
+    {
+     "family": "piggybacked",
+     "sha": "4d44ca1f9e65203e43e4c78166842be8d62abe977fe5951295b1ea925064216b",
+     "k_cert": 78,
+     "k_steer": 88,
+     "k_steer_methods": 30,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 84.33860326090301
+    },
+    {
+     "family": "piggybacked",
+     "sha": "6ae5da04345e5d0a9d2906b622654ace8b95cb801fe4a720ba233a62ba78d048",
+     "k_cert": 212,
+     "k_steer": 230,
+     "k_steer_methods": 77,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 106.98598038995577
+    },
+    {
+     "family": "piggybacked",
+     "sha": "960be87f67a5a52db3136088eaaf0e91c7f92920d0e8b37f26a5a66bca9f434b",
+     "k_cert": 44,
+     "k_steer": 52,
+     "k_steer_methods": 18,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 77.82030583337487
+    },
+    {
+     "family": "piggybacked",
+     "sha": "b644edd30af9e69e8aeb5f4d37bf16f1b6522bcd0b35c6d119c177eead824b61",
+     "k_cert": 160,
+     "k_steer": 180,
+     "k_steer_methods": 60,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 162.87418457201866
+    },
+    {
+     "family": "piggybacked",
+     "sha": "fc95b0805eee08dad660c4567c75cb9d34930fa3a3d684e3899c9e7634276294",
+     "k_cert": 306,
+     "k_steer": 333,
+     "k_steer_methods": 111,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 181.43318329346482
+    },
+    {
+     "family": "original",
+     "sha": "054e1e67998aa305b1d4a9cd3f638a9e9cad964ddf8f052b24b2c37e0c552d6e",
+     "k_cert": 50,
+     "k_steer": 63,
+     "k_steer_methods": 21,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 46.119410230400824
+    },
+    {
+     "family": "original",
+     "sha": "564c55f2ef45b5cba749110b5d1890b37654bb29546c7f45ec85d95b9a8f7231",
+     "k_cert": 74,
+     "k_steer": 135,
+     "k_steer_methods": 45,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 207.69930187653497
+    },
+    {
+     "family": "original",
+     "sha": "7b438d11becbbc8affe35dd60e1e1a9b176560bf16e1e8ee0a5c361a0bc56440",
+     "k_cert": 179,
+     "k_steer": 234,
+     "k_steer_methods": 78,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 194.14942698859556
+    },
+    {
+     "family": "original",
+     "sha": "cccbb65373132daeab66c8b9541ba5fc47dfe99eb7377b3d1b222f3ce3fa537c",
+     "k_cert": 53,
+     "k_steer": 72,
+     "k_steer_methods": 24,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 64.6297145282261
+    },
+    {
+     "family": "original",
+     "sha": "cd71771c4db7eb0ac8f5350b80801c201476ad1a3ea9e6d93e366da0dc925b90",
+     "k_cert": 0,
+     "k_steer": 26,
+     "k_steer_methods": 9,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 107.37318100903968
+    },
+    {
+     "family": "original",
+     "sha": "e3a146501c025a43ab0353e5116923569754b50f25f7ecf60d861c3107ddb5af",
+     "k_cert": 20,
+     "k_steer": 35,
+     "k_steer_methods": 12,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 46.73328578219169
+    },
+    {
+     "family": "piggybacked",
+     "sha": "4ec33c05d3cc3b6541fc5f5e1195aa5398d67a0a2a741210dc1444b53eb7ebad",
+     "k_cert": 231,
+     "k_steer": 247,
+     "k_steer_methods": 83,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 84.4630096551147
+    },
+    {
+     "family": "piggybacked",
+     "sha": "5cb836e46579c7ac52552cc8d895a4ab15f0ea2fa013e74a15e197cb4056dbd6",
+     "k_cert": 289,
+     "k_steer": 309,
+     "k_steer_methods": 103,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 117.47765745025733
+    },
+    {
+     "family": "piggybacked",
+     "sha": "74c3195a82ca55239576420dc74211577c6ad30cb8442b3b2186061eac05a4c0",
+     "k_cert": 4,
+     "k_steer": 6,
+     "k_steer_methods": 2,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 146.20191517213445
+    },
+    {
+     "family": "piggybacked",
+     "sha": "9e44db7298ad3f9b2e0b052f37d0ec21fa5d28e2b35803e412f7c8371cdc1439",
+     "k_cert": 208,
+     "k_steer": 223,
+     "k_steer_methods": 75,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 88.18163074019441
+    },
+    {
+     "family": "original",
+     "sha": "262cbb493239d6b6466f739d4e6bd8e6b1001bc526aa2a8153e64b84b90fd44a",
+     "k_cert": 51,
+     "k_steer": 116,
+     "k_steer_methods": 39,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 186.40010729610646
+    },
+    {
+     "family": "original",
+     "sha": "4f3373d5a119a84f516d4c7b45669aa3a2d76811d34c60aeca4258fbcdd87967",
+     "k_cert": 0,
+     "k_steer": 28,
+     "k_steer_methods": 10,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 87.84645695758026
+    },
+    {
+     "family": "original",
+     "sha": "727c8fa502b346a5718d254564694076f74a96b0763887cadfb96be077edf0ff",
+     "k_cert": 11,
+     "k_steer": 32,
+     "k_steer_methods": 11,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 59.07622195096772
+    },
+    {
+     "family": "original",
+     "sha": "9374a9ea721dd8c3f2c80a66d73a2bf093d126a18b4f011d10e888b5d30cbe11",
+     "k_cert": 28,
+     "k_steer": 67,
+     "k_steer_methods": 23,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 108.816359064251
+    },
+    {
+     "family": "original",
+     "sha": "a52db6a608676e7a39cfb3e19e477b7a25c9c141715930c2a79624b93139f46f",
+     "k_cert": 198,
+     "k_steer": 233,
+     "k_steer_methods": 78,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 105.9103394386025
+    },
+    {
+     "family": "original",
+     "sha": "b939cc300deb3f21f26aa05e523d67f5e625deedace410a97656ece8bf4efff1",
+     "k_cert": 219,
+     "k_steer": 277,
+     "k_steer_methods": 93,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 174.6682569902156
+    },
+    {
+     "family": "piggybacked",
+     "sha": "034b72de43ae0389f25151d1f991c95a11f40aa0ab6d3fcb1e5263f4798541d4",
+     "k_cert": 145,
+     "k_steer": 165,
+     "k_steer_methods": 55,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 114.3153532995459
+    },
+    {
+     "family": "piggybacked",
+     "sha": "11f8ba4bdd77d3059e25198c446cbfaadf132b39b8cd9adf3b94220f8f144eae",
+     "k_cert": 66,
+     "k_steer": 82,
+     "k_steer_methods": 28,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 160.8819442945665
+    },
+    {
+     "family": "piggybacked",
+     "sha": "1bec3ec4b07e41f99b8d62cb4c7323b0702adc6f5d0f576e1dd32b035d1636fe",
+     "k_cert": 62,
+     "k_steer": 74,
+     "k_steer_methods": 25,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 80.44874144447506
+    },
+    {
+     "family": "piggybacked",
+     "sha": "46c7824f4eb24a4642dc6ee4e1402eae60b3ea4a4712c55f3052a05205db9ff3",
+     "k_cert": 76,
+     "k_steer": 90,
+     "k_steer_methods": 30,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 106.82228231974825
+    },
+    {
+     "family": "piggybacked",
+     "sha": "a8833669ce4f1f78d8eb3d799748a5489dbeeb2be435dc7c99f1f31ebc35a3ab",
+     "k_cert": 3,
+     "k_steer": 5,
+     "k_steer_methods": 2,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 105.33280590585252
+    },
+    {
+     "family": "piggybacked",
+     "sha": "e142d3881f905ce1598aeab6c8ebdf5717146d944e1310553c3280dbd15157ba",
+     "k_cert": 42,
+     "k_steer": 54,
+     "k_steer_methods": 18,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 190.4520937138786
+    },
+    {
+     "family": "piggybacked",
+     "sha": "ec422d028011b4a0ff45c762e6f5e91f4b807c5ba0fed513c652bd6dd5d6bbc0",
+     "k_cert": 126,
+     "k_steer": 141,
+     "k_steer_methods": 47,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 82.13403679352427
+    },
+    {
+     "family": "original",
+     "sha": "3f70a9c6ee7f32b87fe7c26a0b9ab3e969a36c8a0ed3b4b54be54f32c8cc6fe3",
+     "k_cert": 50,
+     "k_steer": 57,
+     "k_steer_methods": 19,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 22.956480566497994
+    },
+    {
+     "family": "original",
+     "sha": "770f16736825e55ebdff678923ffb14b1585cd5b047ada990f9a97d04edb03ca",
+     "k_cert": 12,
+     "k_steer": 25,
+     "k_steer_methods": 9,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 46.32493928760188
+    },
+    {
+     "family": "original",
+     "sha": "81bef3408e9036e4cad808bdf2d522c8ad50f8c6cac2e0fe3edea2d590d66a76",
+     "k_cert": 78,
+     "k_steer": 109,
+     "k_steer_methods": 37,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 112.90261290156221
+    },
+    {
+     "family": "original",
+     "sha": "b86b9b8f44b955cdd6ebae5c17413029c7c2e340228d0dbe92d27349d4d0fd67",
+     "k_cert": 23,
+     "k_steer": 53,
+     "k_steer_methods": 18,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 107.09808588392231
+    },
+    {
+     "family": "original",
+     "sha": "d037128438689130900ca2130b88a667fea769f04b920ff4811f9dcf94e1a141",
+     "k_cert": 98,
+     "k_steer": 128,
+     "k_steer_methods": 43,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 112.4144118874444
+    },
+    {
+     "family": "piggybacked",
+     "sha": "0431d8a0c512bf163baa2e35c62083a65b4965cc6b32b924e237380b24588d8e",
+     "k_cert": 24,
+     "k_steer": 30,
+     "k_steer_methods": 10,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 130.91982279242512
+    },
+    {
+     "family": "piggybacked",
+     "sha": "63daf6ce0d3f7a078b92311c697334d43980e1f9885dbeaeb9304f0be6020175",
+     "k_cert": 108,
+     "k_steer": 124,
+     "k_steer_methods": 42,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 132.29134514396625
+    },
+    {
+     "family": "piggybacked",
+     "sha": "ba4f7e22505b8780b15943bb02ff1352ca09618bfcc8a6a079fb100abd1169c6",
+     "k_cert": 18,
+     "k_steer": 23,
+     "k_steer_methods": 8,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 199.71229306179427
+    },
+    {
+     "family": "piggybacked",
+     "sha": "e15546679f3664b0b9149e14337d3ae5c2b8cb9ba519f39ce4447049fb90080d",
+     "k_cert": 156,
+     "k_steer": 172,
+     "k_steer_methods": 58,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 109.04127658827184
+    }
+   ]
+  },
+  "0.05": {
+   "f1": 0.6446687790429672,
+   "f1_sd": 0.02021944994866997,
+   "n_cert": 62,
+   "k_cert_median": 109.5,
+   "k_cert_q": [
+    33.25,
+    161.75
+   ],
+   "k_steer_median": 120.5,
+   "k_steer_methods_median": 40.5,
+   "steer_over_cert_median": 1.1481707317073169,
+   "steer_never_frac": 0.0,
+   "rand_never_frac": null,
+   "per_family": {
+    "original": {
+     "n": 30,
+     "k_cert_median": 87.5,
+     "k_steer_median": 107.0
+    },
+    "piggybacked": {
+     "n": 32,
+     "k_cert_median": 127.5,
+     "k_steer_median": 139.0
+    }
+   },
+   "rows": [
+    {
+     "family": "original",
+     "sha": "22bba0fb0f2b9f106162311a63f9d62e147742833f0343a8bbace90b1461fd84",
+     "k_cert": 7,
+     "k_steer": 13,
+     "k_steer_methods": 5,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 38.57460304397182
+    },
+    {
+     "family": "original",
+     "sha": "27930615e34a1a100b85e0b7e89f538042d97f365f85c02051bff0562ce19e6e",
+     "k_cert": 164,
+     "k_steer": 183,
+     "k_steer_methods": 61,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 133.7235955244997
+    },
+    {
+     "family": "original",
+     "sha": "38546b8eca220efcb91c47823d31a24c92f70c8877b4c3e9bf126fc2eb2718e0",
+     "k_cert": 10,
+     "k_steer": 15,
+     "k_steer_methods": 5,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 28.24889378365107
+    },
+    {
+     "family": "original",
+     "sha": "8f2aa0aeeeab21133627e02e7b11995f7a9d1216a6e1373d6795089f46a46da8",
+     "k_cert": 188,
+     "k_steer": 200,
+     "k_steer_methods": 67,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 84.72897969408106
+    },
+    {
+     "family": "original",
+     "sha": "ae8e9ead394b985bf7188ec15474c7fbf4e9bd8f5b775b23f61c97844e55fa26",
+     "k_cert": 146,
+     "k_steer": 163,
+     "k_steer_methods": 55,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 112.17842929904127
+    },
+    {
+     "family": "original",
+     "sha": "c41e995f2d48c79baa8409d39ab0be142db853903ea41cdf62f26d65d75167e8",
+     "k_cert": 83,
+     "k_steer": 95,
+     "k_steer_methods": 32,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 74.04728219185361
+    },
+    {
+     "family": "original",
+     "sha": "e1aac1e236e9300ffdc81f9a34fc28d40a544d9b7ca83a949bee26fac3040af0",
+     "k_cert": 6,
+     "k_steer": 11,
+     "k_steer_methods": 4,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 25.495097567963924
+    },
+    {
+     "family": "original",
+     "sha": "e32b355a45b168f340a51e33af1639823f584d2e5b4e84cbd8a756e8f1c75914",
+     "k_cert": 5,
+     "k_steer": 10,
+     "k_steer_methods": 4,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 26.229754097208
+    },
+    {
+     "family": "original",
+     "sha": "fe2d564730e6110c64e9e49b55d6a1ae323b36fba64217774900c3fa8c78baab",
+     "k_cert": 111,
+     "k_steer": 122,
+     "k_steer_methods": 41,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 68.24954212300622
+    },
+    {
+     "family": "piggybacked",
+     "sha": "1120fe334263efb18d62f008daa916f0ebb4643682d621b0a94b8beb0a2fb089",
+     "k_cert": 142,
+     "k_steer": 151,
+     "k_steer_methods": 51,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 112.60106571431729
+    },
+    {
+     "family": "piggybacked",
+     "sha": "155ed91e51ec57af1d71f1914b5817833860652d20cc68c1bc5479aeb6848d0c",
+     "k_cert": 261,
+     "k_steer": 279,
+     "k_steer_methods": 93,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 219.4379183277129
+    },
+    {
+     "family": "piggybacked",
+     "sha": "477a557906c52e3035a10db61ab8bce888c56dd716398c1e02157d989b664f7d",
+     "k_cert": 133,
+     "k_steer": 142,
+     "k_steer_methods": 48,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 92.44457799135652
+    },
+    {
+     "family": "piggybacked",
+     "sha": "52aeb980bc5da8adca4dcd382e721ad41b2d6eaa68f59607e799f900a68b9366",
+     "k_cert": 5,
+     "k_steer": 6,
+     "k_steer_methods": 2,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 14.933184523068078
+    },
+    {
+     "family": "piggybacked",
+     "sha": "63757c15f48631836a0e0f3f545a769b23133fc23e09e3339b1612809e7e51b3",
+     "k_cert": 48,
+     "k_steer": 55,
+     "k_steer_methods": 19,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 197.92675412889486
+    },
+    {
+     "family": "piggybacked",
+     "sha": "865f51ef497596cb09ca822733a3bb12269e14a99e7bb61846961f0f99343bea",
+     "k_cert": 366,
+     "k_steer": 379,
+     "k_steer_methods": 127,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 126.38433447227548
+    },
+    {
+     "family": "piggybacked",
+     "sha": "b13b7b8a5c24926065c5a5a54ea095cbe92bdd201da7e90196ed6daf16a3716c",
+     "k_cert": 96,
+     "k_steer": 105,
+     "k_steer_methods": 35,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 121.38780828402827
+    },
+    {
+     "family": "piggybacked",
+     "sha": "bf7a873af10b09b8ed7272facac6507c2bf8088f3cc1222f8b336ba3d97717aa",
+     "k_cert": 172,
+     "k_steer": 183,
+     "k_steer_methods": 61,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 123.57184145265458
+    },
+    {
+     "family": "piggybacked",
+     "sha": "d35bafaae380dab4d27d49781aa0ca37d0cf30eb35f32c2ef6bbb3567d63db4c",
+     "k_cert": 485,
+     "k_steer": 498,
+     "k_steer_methods": 166,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 110.70682002478438
+    },
+    {
+     "family": "piggybacked",
+     "sha": "dcefd61602d0f36f0ee79a75ae7a00a7b4f0d7b7d2d997774a1132150cbb761f",
+     "k_cert": 114,
+     "k_steer": 124,
+     "k_steer_methods": 42,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 128.42507543311004
+    },
+    {
+     "family": "piggybacked",
+     "sha": "f522bf9317d59d14d4a1f29e8325471973042216c54881edaeb6d51c48e613cb",
+     "k_cert": 495,
+     "k_steer": 515,
+     "k_steer_methods": 172,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 202.3660050502554
+    },
+    {
+     "family": "original",
+     "sha": "032b3ab75a6d39dd52e0a2e87e6b0611a9395dddae828b554f029a658d7ed18d",
+     "k_cert": 108,
+     "k_steer": 119,
+     "k_steer_methods": 40,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 46.54030511288038
+    },
+    {
+     "family": "original",
+     "sha": "4bee6ae3e08f2d8d84b94b59cfb9757bdb0466b22ac431658bf917a757877bdd",
+     "k_cert": 141,
+     "k_steer": 158,
+     "k_steer_methods": 53,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 72.83543093852057
+    },
+    {
+     "family": "original",
+     "sha": "5178fe58c70a170943399d2c60f4c239bbf7466b85b1c3bdf7ededcf749e7104",
+     "k_cert": 119,
+     "k_steer": 130,
+     "k_steer_methods": 44,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 48.877397639399746
+    },
+    {
+     "family": "original",
+     "sha": "81cf425f564ecbd17c1593dfab3d1456254ce9e5ce65064bf16914aedcd9959f",
+     "k_cert": 92,
+     "k_steer": 119,
+     "k_steer_methods": 40,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 110.20435563080073
+    },
+    {
+     "family": "original",
+     "sha": "8f4887cf5521f8db871e3531f501eb24c500bcd485583d83b59ec419e5ac8b4b",
+     "k_cert": 48,
+     "k_steer": 79,
+     "k_steer_methods": 27,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 125.7179382586272
+    },
+    {
+     "family": "original",
+     "sha": "d98c063a77dd5886b0b7e6fd80368835df48fcfb2e2447d05628a71fede71687",
+     "k_cert": 118,
+     "k_steer": 152,
+     "k_steer_methods": 51,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 140.6947049465615
+    },
+    {
+     "family": "piggybacked",
+     "sha": "2bd2ccc32b87b8a6173d8efff96c682c86a0c7979cd5f9ba21b56e651a142bdb",
+     "k_cert": 33,
+     "k_steer": 36,
+     "k_steer_methods": 12,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 14.66287829861518
+    },
+    {
+     "family": "piggybacked",
+     "sha": "37b4cf755480f1b55e6140db3a2cdb11ccb3771fee1d001f79ee32b70fb28120",
+     "k_cert": 50,
+     "k_steer": 58,
+     "k_steer_methods": 20,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 86.89073598491383
+    },
+    {
+     "family": "piggybacked",
+     "sha": "4d44ca1f9e65203e43e4c78166842be8d62abe977fe5951295b1ea925064216b",
+     "k_cert": 60,
+     "k_steer": 69,
+     "k_steer_methods": 23,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 84.33860326090301
+    },
+    {
+     "family": "piggybacked",
+     "sha": "6ae5da04345e5d0a9d2906b622654ace8b95cb801fe4a720ba233a62ba78d048",
+     "k_cert": 228,
+     "k_steer": 244,
+     "k_steer_methods": 82,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 106.98598038995577
+    },
+    {
+     "family": "piggybacked",
+     "sha": "960be87f67a5a52db3136088eaaf0e91c7f92920d0e8b37f26a5a66bca9f434b",
+     "k_cert": 57,
+     "k_steer": 66,
+     "k_steer_methods": 22,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 77.82030583337487
+    },
+    {
+     "family": "piggybacked",
+     "sha": "b644edd30af9e69e8aeb5f4d37bf16f1b6522bcd0b35c6d119c177eead824b61",
+     "k_cert": 202,
+     "k_steer": 222,
+     "k_steer_methods": 74,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 162.87418457201866
+    },
+    {
+     "family": "piggybacked",
+     "sha": "fc95b0805eee08dad660c4567c75cb9d34930fa3a3d684e3899c9e7634276294",
+     "k_cert": 340,
+     "k_steer": 366,
+     "k_steer_methods": 122,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 181.43318329346482
+    },
+    {
+     "family": "original",
+     "sha": "054e1e67998aa305b1d4a9cd3f638a9e9cad964ddf8f052b24b2c37e0c552d6e",
+     "k_cert": 51,
+     "k_steer": 63,
+     "k_steer_methods": 21,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 46.119410230400824
+    },
+    {
+     "family": "original",
+     "sha": "7b438d11becbbc8affe35dd60e1e1a9b176560bf16e1e8ee0a5c361a0bc56440",
+     "k_cert": 307,
+     "k_steer": 354,
+     "k_steer_methods": 118,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 194.14942698859556
+    },
+    {
+     "family": "original",
+     "sha": "cccbb65373132daeab66c8b9541ba5fc47dfe99eb7377b3d1b222f3ce3fa537c",
+     "k_cert": 77,
+     "k_steer": 94,
+     "k_steer_methods": 32,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 64.6297145282261
+    },
+    {
+     "family": "original",
+     "sha": "cd71771c4db7eb0ac8f5350b80801c201476ad1a3ea9e6d93e366da0dc925b90",
+     "k_cert": 0,
+     "k_steer": 12,
+     "k_steer_methods": 4,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 107.37318100903968
+    },
+    {
+     "family": "original",
+     "sha": "e3a146501c025a43ab0353e5116923569754b50f25f7ecf60d861c3107ddb5af",
+     "k_cert": 17,
+     "k_steer": 30,
+     "k_steer_methods": 10,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 46.73328578219169
+    },
+    {
+     "family": "piggybacked",
+     "sha": "4ec33c05d3cc3b6541fc5f5e1195aa5398d67a0a2a741210dc1444b53eb7ebad",
+     "k_cert": 234,
+     "k_steer": 248,
+     "k_steer_methods": 83,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 84.4630096551147
+    },
+    {
+     "family": "piggybacked",
+     "sha": "5cb836e46579c7ac52552cc8d895a4ab15f0ea2fa013e74a15e197cb4056dbd6",
+     "k_cert": 282,
+     "k_steer": 300,
+     "k_steer_methods": 100,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 117.47765745025733
+    },
+    {
+     "family": "piggybacked",
+     "sha": "74c3195a82ca55239576420dc74211577c6ad30cb8442b3b2186061eac05a4c0",
+     "k_cert": 18,
+     "k_steer": 23,
+     "k_steer_methods": 8,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 146.20191517213445
+    },
+    {
+     "family": "piggybacked",
+     "sha": "9e44db7298ad3f9b2e0b052f37d0ec21fa5d28e2b35803e412f7c8371cdc1439",
+     "k_cert": 224,
+     "k_steer": 238,
+     "k_steer_methods": 80,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 88.18163074019441
+    },
+    {
+     "family": "original",
+     "sha": "262cbb493239d6b6466f739d4e6bd8e6b1001bc526aa2a8153e64b84b90fd44a",
+     "k_cert": 140,
+     "k_steer": 196,
+     "k_steer_methods": 66,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 186.40010729610646
+    },
+    {
+     "family": "original",
+     "sha": "4f3373d5a119a84f516d4c7b45669aa3a2d76811d34c60aeca4258fbcdd87967",
+     "k_cert": 0,
+     "k_steer": 3,
+     "k_steer_methods": 1,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 87.84645695758026
+    },
+    {
+     "family": "original",
+     "sha": "727c8fa502b346a5718d254564694076f74a96b0763887cadfb96be077edf0ff",
+     "k_cert": 0,
+     "k_steer": 8,
+     "k_steer_methods": 3,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 59.07622195096772
+    },
+    {
+     "family": "original",
+     "sha": "a52db6a608676e7a39cfb3e19e477b7a25c9c141715930c2a79624b93139f46f",
+     "k_cert": 217,
+     "k_steer": 247,
+     "k_steer_methods": 83,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 105.9103394386025
+    },
+    {
+     "family": "original",
+     "sha": "b939cc300deb3f21f26aa05e523d67f5e625deedace410a97656ece8bf4efff1",
+     "k_cert": 272,
+     "k_steer": 323,
+     "k_steer_methods": 108,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 174.6682569902156
+    },
+    {
+     "family": "piggybacked",
+     "sha": "034b72de43ae0389f25151d1f991c95a11f40aa0ab6d3fcb1e5263f4798541d4",
+     "k_cert": 155,
+     "k_steer": 173,
+     "k_steer_methods": 58,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 114.3153532995459
+    },
+    {
+     "family": "piggybacked",
+     "sha": "11f8ba4bdd77d3059e25198c446cbfaadf132b39b8cd9adf3b94220f8f144eae",
+     "k_cert": 13,
+     "k_steer": 17,
+     "k_steer_methods": 6,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 160.8819442945665
+    },
+    {
+     "family": "piggybacked",
+     "sha": "1bec3ec4b07e41f99b8d62cb4c7323b0702adc6f5d0f576e1dd32b035d1636fe",
+     "k_cert": 34,
+     "k_steer": 42,
+     "k_steer_methods": 14,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 80.44874144447506
+    },
+    {
+     "family": "piggybacked",
+     "sha": "46c7824f4eb24a4642dc6ee4e1402eae60b3ea4a4712c55f3052a05205db9ff3",
+     "k_cert": 46,
+     "k_steer": 56,
+     "k_steer_methods": 19,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 106.82228231974825
+    },
+    {
+     "family": "piggybacked",
+     "sha": "a8833669ce4f1f78d8eb3d799748a5489dbeeb2be435dc7c99f1f31ebc35a3ab",
+     "k_cert": 24,
+     "k_steer": 31,
+     "k_steer_methods": 11,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 105.33280590585252
+    },
+    {
+     "family": "piggybacked",
+     "sha": "e142d3881f905ce1598aeab6c8ebdf5717146d944e1310553c3280dbd15157ba",
+     "k_cert": 12,
+     "k_steer": 16,
+     "k_steer_methods": 6,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 190.4520937138786
+    },
+    {
+     "family": "piggybacked",
+     "sha": "ec422d028011b4a0ff45c762e6f5e91f4b807c5ba0fed513c652bd6dd5d6bbc0",
+     "k_cert": 122,
+     "k_steer": 136,
+     "k_steer_methods": 46,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 82.13403679352427
+    },
+    {
+     "family": "original",
+     "sha": "3f70a9c6ee7f32b87fe7c26a0b9ab3e969a36c8a0ed3b4b54be54f32c8cc6fe3",
+     "k_cert": 41,
+     "k_steer": 47,
+     "k_steer_methods": 16,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 22.956480566497994
+    },
+    {
+     "family": "original",
+     "sha": "770f16736825e55ebdff678923ffb14b1585cd5b047ada990f9a97d04edb03ca",
+     "k_cert": 11,
+     "k_steer": 24,
+     "k_steer_methods": 8,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 46.32493928760188
+    },
+    {
+     "family": "original",
+     "sha": "81bef3408e9036e4cad808bdf2d522c8ad50f8c6cac2e0fe3edea2d590d66a76",
+     "k_cert": 146,
+     "k_steer": 175,
+     "k_steer_methods": 59,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 112.90261290156221
+    },
+    {
+     "family": "original",
+     "sha": "b86b9b8f44b955cdd6ebae5c17413029c7c2e340228d0dbe92d27349d4d0fd67",
+     "k_cert": 0,
+     "k_steer": 22,
+     "k_steer_methods": 8,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 107.09808588392231
+    },
+    {
+     "family": "original",
+     "sha": "d037128438689130900ca2130b88a667fea769f04b920ff4811f9dcf94e1a141",
+     "k_cert": 125,
+     "k_steer": 154,
+     "k_steer_methods": 52,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 112.4144118874444
+    },
+    {
+     "family": "piggybacked",
+     "sha": "0431d8a0c512bf163baa2e35c62083a65b4965cc6b32b924e237380b24588d8e",
+     "k_cert": 133,
+     "k_steer": 149,
+     "k_steer_methods": 50,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 130.91982279242512
+    },
+    {
+     "family": "piggybacked",
+     "sha": "63daf6ce0d3f7a078b92311c697334d43980e1f9885dbeaeb9304f0be6020175",
+     "k_cert": 75,
+     "k_steer": 87,
+     "k_steer_methods": 29,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 132.29134514396625
+    },
+    {
+     "family": "piggybacked",
+     "sha": "e15546679f3664b0b9149e14337d3ae5c2b8cb9ba519f39ce4447049fb90080d",
+     "k_cert": 136,
+     "k_steer": 151,
+     "k_steer_methods": 51,
+     "k_rand": null,
+     "rand_never": false,
+     "norm": 109.04127658827184
+    }
+   ]
+  }
+ },
+ "monotone": {
+  "original": {
+   "n_pos": 40,
+   "auc_monotone": 0.5,
+   "auc_unconstrained": 0.56375,
+   "f1_monotone": 0.0,
+   "f1_unconstrained": 0.5
+  },
+  "piggybacked": {
+   "n_pos": 40,
+   "auc_monotone": 0.626875,
+   "auc_unconstrained": 0.564375,
+   "f1_monotone": 0.6190476190476191,
+   "f1_unconstrained": 0.5909090909090909
+  }
+ }
+}

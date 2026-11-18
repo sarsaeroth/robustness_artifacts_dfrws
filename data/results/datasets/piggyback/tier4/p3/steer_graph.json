@@ -1,0 +1,81 @@
+{
+ "n": 9,
+ "note": "k in synthesized stub methods; each emits ~3 WL tokens; full pipeline re-vectorization",
+ "k_graph_median": 2.0,
+ "never_flipped_frac": 0.3333333333333333,
+ "per_family": {
+  "original": {
+   "n": 4,
+   "k_graph_median": 2.0
+  },
+  "piggybacked": {
+   "n": 5,
+   "k_graph_median": 2.5
+  }
+ },
+ "rows": [
+  {
+   "family": "original",
+   "sha": "268acdfdab9f6f187640789d5849ce53e810ad9a30ec67e1033403e198c4b7f5",
+   "k_graph": 2,
+   "site_deg": 15,
+   "n_nodes": 190
+  },
+  {
+   "family": "original",
+   "sha": "e32b355a45b168f340a51e33af1639823f584d2e5b4e84cbd8a756e8f1c75914",
+   "k_graph": null,
+   "site_deg": 23,
+   "n_nodes": 356
+  },
+  {
+   "family": "original",
+   "sha": "e1aac1e236e9300ffdc81f9a34fc28d40a544d9b7ca83a949bee26fac3040af0",
+   "k_graph": 2,
+   "site_deg": 18,
+   "n_nodes": 280
+  },
+  {
+   "family": "original",
+   "sha": "22bba0fb0f2b9f106162311a63f9d62e147742833f0343a8bbace90b1461fd84",
+   "k_graph": null,
+   "site_deg": 90,
+   "n_nodes": 839
+  },
+  {
+   "family": "piggybacked",
+   "sha": "2bd2ccc32b87b8a6173d8efff96c682c86a0c7979cd5f9ba21b56e651a142bdb",
+   "k_graph": 5,
+   "site_deg": 20,
+   "n_nodes": 184
+  },
+  {
+   "family": "piggybacked",
+   "sha": "52aeb980bc5da8adca4dcd382e721ad41b2d6eaa68f59607e799f900a68b9366",
+   "k_graph": 1,
+   "site_deg": 22,
+   "n_nodes": 193
+  },
+  {
+   "family": "piggybacked",
+   "sha": "a22802398519c99a40e2ae33b1caa1980c254449ea4926e56c62b39ef8fd46ce",
+   "k_graph": 1,
+   "site_deg": 69,
+   "n_nodes": 974
+  },
+  {
+   "family": "piggybacked",
+   "sha": "4a4432db1a460fe22433f5450a9c39be335fbd4a6f8fb199402f637ae84466f4",
+   "k_graph": 4,
+   "site_deg": 43,
+   "n_nodes": 1114
+  },
+  {
+   "family": "piggybacked",
+   "sha": "ec422d028011b4a0ff45c762e6f5e91f4b807c5ba0fed513c652bd6dd5d6bbc0",
+   "k_graph": null,
+   "site_deg": 76,
+   "n_nodes": 3117
+  }
+ ]
+}

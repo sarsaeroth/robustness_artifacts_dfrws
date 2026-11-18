@@ -1,0 +1,83 @@
+{
+ "D18": {
+  "cauly": {
+   "n": 40,
+   "precision_at_sdk": 0.7835497835497836,
+   "average_precision": 0.8550315257336076,
+   "auroc": 0.9861832312596139,
+   "base_rate": 0.09842700607936361
+  },
+  "igexin": {
+   "n": 40,
+   "precision_at_sdk": 0.8489661657911053,
+   "average_precision": 0.9166089280891496,
+   "auroc": 0.9865756372638737,
+   "base_rate": 0.06335864133205657
+  },
+  "kyview": {
+   "n": 40,
+   "precision_at_sdk": 0.6104374175649248,
+   "average_precision": 0.6517178525273843,
+   "auroc": 0.9268472740030661,
+   "base_rate": 0.0832263325329068
+  },
+  "plankton": {
+   "n": 40,
+   "precision_at_sdk": 0.9611580121057661,
+   "average_precision": 0.9799302504364833,
+   "auroc": 0.9931673973806778,
+   "base_rate": 0.11663059427732941
+  },
+  "revmob": {
+   "n": 40,
+   "precision_at_sdk": 0.9957841483979764,
+   "average_precision": 0.9971152976736255,
+   "auroc": 0.99845541489807,
+   "base_rate": 0.026560371765082927
+  },
+  "viser": {
+   "n": 40,
+   "precision_at_sdk": 0.565422477440525,
+   "average_precision": 0.579053076228423,
+   "auroc": 0.9891556218716419,
+   "base_rate": 0.11122671603563228
+  }
+ },
+ "D19": {
+  "median_spearman_across_seeds": 0.9990948330378125,
+  "p10": 0.9740780570552032,
+  "n": 240
+ },
+ "D16": {
+  "revmob": {
+   "collision_free_ceiling": 0.9921241706231565,
+   "deployed_hashed_p_at_target": 0.23047406588574626,
+   "deployed_base_rate": 0.16093924369275675
+  },
+  "igexin": {
+   "collision_free_ceiling": 0.8198110941184518,
+   "deployed_hashed_p_at_target": 0.09700475821957041,
+   "deployed_base_rate": 0.07361514702294052
+  },
+  "cauly": {
+   "collision_free_ceiling": 0.8130434782608695,
+   "deployed_hashed_p_at_target": 0.24633652497699568,
+   "deployed_base_rate": 0.1799827997612974
+  },
+  "plankton": {
+   "collision_free_ceiling": 0.9733796296296297,
+   "deployed_hashed_p_at_target": 0.3297742221452383,
+   "deployed_base_rate": 0.24529430204241268
+  },
+  "viser": {
+   "collision_free_ceiling": 0.5410172272354389,
+   "deployed_hashed_p_at_target": 0.26703147791552345,
+   "deployed_base_rate": 0.25129269162468804
+  },
+  "kyview": {
+   "collision_free_ceiling": 0.6003610460577673,
+   "deployed_hashed_p_at_target": 0.16090215984447517,
+   "deployed_base_rate": 0.09984845722026671
+  }
+ }
+}

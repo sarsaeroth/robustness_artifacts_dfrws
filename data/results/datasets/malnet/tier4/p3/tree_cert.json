@@ -1,0 +1,374 @@
+{
+ "summary": {
+  "n": 60,
+  "model": "RandomForest(60) on normalized FCG identifier WL",
+  "k_cert_median": 0.0,
+  "k_attack_median": 118.0,
+  "zero_cert_frac": 0.9833333333333333,
+  "attack_over_cert_median": 118.0,
+  "per_family": {
+   "revmob": {
+    "n": 6,
+    "k_cert": 0.0,
+    "k_attack": 150.0
+   },
+   "igexin": {
+    "n": 5,
+    "k_cert": 0.0,
+    "k_attack": 513.5
+   },
+   "cauly": {
+    "n": 8,
+    "k_cert": 0.0,
+    "k_attack": 343.0
+   },
+   "plankton": {
+    "n": 9,
+    "k_cert": 0.0,
+    "k_attack": 326.5
+   },
+   "viser": {
+    "n": 5,
+    "k_cert": 0.0,
+    "k_attack": 176.0
+   },
+   "kyview": {
+    "n": 7,
+    "k_cert": 0.0,
+    "k_attack": 31.0
+   },
+   "droidkungfu": {
+    "n": 3,
+    "k_cert": 0.0,
+    "k_attack": 109.0
+   },
+   "ginmaster": {
+    "n": 0,
+    "k_cert": null,
+    "k_attack": null
+   },
+   "gingermaster": {
+    "n": 3,
+    "k_cert": 0.0,
+    "k_attack": 61.0
+   },
+   "smspay": {
+    "n": 2,
+    "k_cert": 0.0,
+    "k_attack": 155.0
+   },
+   "dowgin": {
+    "n": 1,
+    "k_cert": 0.0,
+    "k_attack": 453.0
+   },
+   "eldorado": {
+    "n": 11,
+    "k_cert": 0.0,
+    "k_attack": 6.0
+   }
+  }
+ },
+ "rows": [
+  {
+   "family": "revmob",
+   "k_cert": 0,
+   "k_attack": 641
+  },
+  {
+   "family": "revmob",
+   "k_cert": 0,
+   "k_attack": 109
+  },
+  {
+   "family": "revmob",
+   "k_cert": 0,
+   "k_attack": 185
+  },
+  {
+   "family": "revmob",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "revmob",
+   "k_cert": 1,
+   "k_attack": null
+  },
+  {
+   "family": "revmob",
+   "k_cert": 0,
+   "k_attack": 115
+  },
+  {
+   "family": "igexin",
+   "k_cert": 0,
+   "k_attack": 508
+  },
+  {
+   "family": "igexin",
+   "k_cert": 0,
+   "k_attack": 82
+  },
+  {
+   "family": "igexin",
+   "k_cert": 0,
+   "k_attack": 519
+  },
+  {
+   "family": "igexin",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "igexin",
+   "k_cert": 0,
+   "k_attack": 694
+  },
+  {
+   "family": "cauly",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "cauly",
+   "k_cert": 0,
+   "k_attack": 58
+  },
+  {
+   "family": "cauly",
+   "k_cert": 0,
+   "k_attack": 34
+  },
+  {
+   "family": "cauly",
+   "k_cert": 0,
+   "k_attack": 681
+  },
+  {
+   "family": "cauly",
+   "k_cert": 0,
+   "k_attack": 343
+  },
+  {
+   "family": "cauly",
+   "k_cert": 0,
+   "k_attack": 399
+  },
+  {
+   "family": "cauly",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "cauly",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "plankton",
+   "k_cert": 0,
+   "k_attack": 25
+  },
+  {
+   "family": "plankton",
+   "k_cert": 0,
+   "k_attack": 259
+  },
+  {
+   "family": "plankton",
+   "k_cert": 0,
+   "k_attack": 1116
+  },
+  {
+   "family": "plankton",
+   "k_cert": 0,
+   "k_attack": 1239
+  },
+  {
+   "family": "plankton",
+   "k_cert": 0,
+   "k_attack": 394
+  },
+  {
+   "family": "plankton",
+   "k_cert": 0,
+   "k_attack": 59
+  },
+  {
+   "family": "plankton",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "plankton",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "plankton",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "viser",
+   "k_cert": 0,
+   "k_attack": 460
+  },
+  {
+   "family": "viser",
+   "k_cert": 0,
+   "k_attack": 564
+  },
+  {
+   "family": "viser",
+   "k_cert": 0,
+   "k_attack": 19
+  },
+  {
+   "family": "viser",
+   "k_cert": 0,
+   "k_attack": 121
+  },
+  {
+   "family": "viser",
+   "k_cert": 0,
+   "k_attack": 176
+  },
+  {
+   "family": "kyview",
+   "k_cert": 0,
+   "k_attack": 31
+  },
+  {
+   "family": "kyview",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "kyview",
+   "k_cert": 0,
+   "k_attack": 1583
+  },
+  {
+   "family": "kyview",
+   "k_cert": 0,
+   "k_attack": 961
+  },
+  {
+   "family": "kyview",
+   "k_cert": 0,
+   "k_attack": 2
+  },
+  {
+   "family": "kyview",
+   "k_cert": 0,
+   "k_attack": 19
+  },
+  {
+   "family": "kyview",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "droidkungfu",
+   "k_cert": 0,
+   "k_attack": 101
+  },
+  {
+   "family": "droidkungfu",
+   "k_cert": 0,
+   "k_attack": 109
+  },
+  {
+   "family": "droidkungfu",
+   "k_cert": 0,
+   "k_attack": 193
+  },
+  {
+   "family": "gingermaster",
+   "k_cert": 0,
+   "k_attack": 391
+  },
+  {
+   "family": "gingermaster",
+   "k_cert": 0,
+   "k_attack": 1
+  },
+  {
+   "family": "gingermaster",
+   "k_cert": 0,
+   "k_attack": 61
+  },
+  {
+   "family": "smspay",
+   "k_cert": 0,
+   "k_attack": 303
+  },
+  {
+   "family": "smspay",
+   "k_cert": 0,
+   "k_attack": 7
+  },
+  {
+   "family": "dowgin",
+   "k_cert": 0,
+   "k_attack": 453
+  },
+  {
+   "family": "eldorado",
+   "k_cert": 0,
+   "k_attack": 5
+  },
+  {
+   "family": "eldorado",
+   "k_cert": 0,
+   "k_attack": 6
+  },
+  {
+   "family": "eldorado",
+   "k_cert": 0,
+   "k_attack": 6
+  },
+  {
+   "family": "eldorado",
+   "k_cert": 0,
+   "k_attack": 6
+  },
+  {
+   "family": "eldorado",
+   "k_cert": 0,
+   "k_attack": 6
+  },
+  {
+   "family": "eldorado",
+   "k_cert": 0,
+   "k_attack": 3
+  },
+  {
+   "family": "eldorado",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "eldorado",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "eldorado",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "eldorado",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "eldorado",
+   "k_cert": 0,
+   "k_attack": null
+  }
+ ]
+}

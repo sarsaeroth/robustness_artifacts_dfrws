@@ -1,0 +1,355 @@
+{
+  "dims": [
+    1024,
+    2048,
+    4096,
+    8192,
+    16384,
+    32768,
+    65536,
+    131072,
+    262144,
+    524288,
+    1048576,
+    2097152
+  ],
+  "iters": 2,
+  "colourings": [
+    "labeled",
+    "fuzzy",
+    "api"
+  ],
+  "E1_isolation_vs_prediction": {
+    "1024": {
+      "n": 450,
+      "mean_signed_error": 0.00058,
+      "median_signed_error": 0.0,
+      "max_abs_error": 0.22375
+    },
+    "2048": {
+      "n": 450,
+      "mean_signed_error": 0.00056,
+      "median_signed_error": 0.0,
+      "max_abs_error": 0.08326
+    },
+    "4096": {
+      "n": 450,
+      "mean_signed_error": 0.00175,
+      "median_signed_error": 0.0,
+      "max_abs_error": 0.16462
+    },
+    "8192": {
+      "n": 450,
+      "mean_signed_error": 0.00011,
+      "median_signed_error": -1e-05,
+      "max_abs_error": 0.19426
+    },
+    "16384": {
+      "n": 450,
+      "mean_signed_error": -0.00167,
+      "median_signed_error": -0.00051,
+      "max_abs_error": 0.22708
+    },
+    "32768": {
+      "n": 450,
+      "mean_signed_error": -0.00312,
+      "median_signed_error": -0.00037,
+      "max_abs_error": 0.23871
+    },
+    "65536": {
+      "n": 450,
+      "mean_signed_error": -0.00179,
+      "median_signed_error": 3e-05,
+      "max_abs_error": 0.23112
+    },
+    "131072": {
+      "n": 450,
+      "mean_signed_error": -0.00097,
+      "median_signed_error": 0.00058,
+      "max_abs_error": 0.23533
+    },
+    "262144": {
+      "n": 450,
+      "mean_signed_error": 0.00126,
+      "median_signed_error": 0.00143,
+      "max_abs_error": 0.28632
+    },
+    "524288": {
+      "n": 450,
+      "mean_signed_error": 0.00049,
+      "median_signed_error": 0.00095,
+      "max_abs_error": 0.15603
+    },
+    "1048576": {
+      "n": 450,
+      "mean_signed_error": -0.00042,
+      "median_signed_error": 0.00074,
+      "max_abs_error": 0.17777
+    },
+    "2097152": {
+      "n": 450,
+      "mean_signed_error": -0.00055,
+      "median_signed_error": 0.0006,
+      "max_abs_error": 0.07397
+    }
+  },
+  "E2_occupancy_ratio": {
+    "n": 450,
+    "rho_median": 0.01314,
+    "rho_p95": 0.31132,
+    "rho_max": 0.90586,
+    "max_dstar_spread_factor": 10.622
+  },
+  "E4_colouring_vs_M_distinct": {
+    "labeled": {
+      "n": 450,
+      "M_distinct_median": 51885,
+      "d_star_90_median": 492452,
+      "ratio_to_labeled": 1.0
+    },
+    "fuzzy": {
+      "n": 450,
+      "M_distinct_median": 18244,
+      "d_star_90_median": 173157,
+      "ratio_to_labeled": 0.3516
+    },
+    "api": {
+      "n": 450,
+      "M_distinct_median": 4993,
+      "d_star_90_median": 47389,
+      "ratio_to_labeled": 0.0962
+    }
+  },
+  "E6_recurrence_by_target": {
+    "Lcom/unity3d/": {
+      "apps": 15,
+      "distinct_sigs": 5143,
+      "recurrence": 0.7297
+    },
+    "Lcom/tapjoy/": {
+      "apps": 2,
+      "distinct_sigs": 1333,
+      "recurrence": 0.9572
+    },
+    "Lcom/flurry/": {
+      "apps": 16,
+      "distinct_sigs": 13773,
+      "recurrence": 0.1321
+    },
+    "Lorg/xmlpull/": {
+      "apps": 106,
+      "distinct_sigs": 90,
+      "recurrence": 0.9222
+    },
+    "Lorg/w3c/": {
+      "apps": 53,
+      "distinct_sigs": 86,
+      "recurrence": 0.7791
+    },
+    "Lcom/chartboost/": {
+      "apps": 12,
+      "distinct_sigs": 12376,
+      "recurrence": 0.4003
+    },
+    "Lcom/inmobi/": {
+      "apps": 12,
+      "distinct_sigs": 5963,
+      "recurrence": 0.4241
+    },
+    "Lcom/umeng/": {
+      "apps": 40,
+      "distinct_sigs": 15741,
+      "recurrence": 0.3919
+    },
+    "Lcom/vungle/": {
+      "apps": 4,
+      "distinct_sigs": 3188,
+      "recurrence": 0.0028
+    },
+    "Lcom/startapp/": {
+      "apps": 10,
+      "distinct_sigs": 8490,
+      "recurrence": 0.8523
+    },
+    "Lorg/altbeacon/": {
+      "apps": 3,
+      "distinct_sigs": 602,
+      "recurrence": 1.0
+    },
+    "Lcom/facebook/": {
+      "apps": 29,
+      "distinct_sigs": 29647,
+      "recurrence": 0.5752
+    },
+    "Lcom/localytics/": {
+      "apps": 1,
+      "distinct_sigs": 117,
+      "recurrence": 0.0
+    },
+    "Lcom/ironsource/": {
+      "apps": 1,
+      "distinct_sigs": 1793,
+      "recurrence": 0.0
+    },
+    "Lcom/loopj/": {
+      "apps": 12,
+      "distinct_sigs": 1340,
+      "recurrence": 0.4948
+    },
+    "Lcom/squareup/": {
+      "apps": 21,
+      "distinct_sigs": 6870,
+      "recurrence": 0.4256
+    },
+    "Lcom/smaato/": {
+      "apps": 2,
+      "distinct_sigs": 4073,
+      "recurrence": 0.5095
+    },
+    "Lcom/nostra13/": {
+      "apps": 14,
+      "distinct_sigs": 1863,
+      "recurrence": 0.6028
+    },
+    "Lorg/slf4j/": {
+      "apps": 6,
+      "distinct_sigs": 553,
+      "recurrence": 0.6022
+    },
+    "Lcom/appodeal/": {
+      "apps": 3,
+      "distinct_sigs": 4977,
+      "recurrence": 0.7008
+    },
+    "Lcom/applovin/": {
+      "apps": 3,
+      "distinct_sigs": 1512,
+      "recurrence": 1.0
+    },
+    "Lcom/yandex/": {
+      "apps": 3,
+      "distinct_sigs": 2925,
+      "recurrence": 0.6547
+    },
+    "Lcom/mopub/": {
+      "apps": 5,
+      "distinct_sigs": 4285,
+      "recurrence": 0.9785
+    },
+    "Lcom/amazon/device/ads/": {
+      "apps": 3,
+      "distinct_sigs": 2566,
+      "recurrence": 1.0
+    },
+    "Lcom/bumptech/": {
+      "apps": 11,
+      "distinct_sigs": 11760,
+      "recurrence": 0.3366
+    },
+    "Lcom/appnext/": {
+      "apps": 1,
+      "distinct_sigs": 915,
+      "recurrence": 0.0
+    },
+    "Lcom/tappx/": {
+      "apps": 1,
+      "distinct_sigs": 420,
+      "recurrence": 0.0
+    },
+    "Lorg/jsoup/": {
+      "apps": 11,
+      "distinct_sigs": 1928,
+      "recurrence": 0.9289
+    },
+    "Lcom/j256/": {
+      "apps": 3,
+      "distinct_sigs": 2456,
+      "recurrence": 0.8921
+    },
+    "Lio/fabric/": {
+      "apps": 4,
+      "distinct_sigs": 1390,
+      "recurrence": 0.8683
+    },
+    "Lcom/crashlytics/": {
+      "apps": 4,
+      "distinct_sigs": 2353,
+      "recurrence": 0.2869
+    },
+    "Lretrofit2/": {
+      "apps": 3,
+      "distinct_sigs": 402,
+      "recurrence": 0.8333
+    },
+    "Lio/reactivex/": {
+      "apps": 1,
+      "distinct_sigs": 9,
+      "recurrence": 0.0
+    },
+    "Lorg/joda/": {
+      "apps": 4,
+      "distinct_sigs": 4802,
+      "recurrence": 0.9219
+    },
+    "Lcom/airbnb/": {
+      "apps": 1,
+      "distinct_sigs": 1088,
+      "recurrence": 0.0
+    },
+    "Lorg/apmem/": {
+      "apps": 2,
+      "distinct_sigs": 146,
+      "recurrence": 0.3014
+    },
+    "Lorg/greenrobot/": {
+      "apps": 5,
+      "distinct_sigs": 397,
+      "recurrence": 0.5819
+    },
+    "Lorg/acra/": {
+      "apps": 2,
+      "distinct_sigs": 581,
+      "recurrence": 0.0826
+    },
+    "Lcom/fasterxml/": {
+      "apps": 2,
+      "distinct_sigs": 8626,
+      "recurrence": 0.6217
+    },
+    "Lde/greenrobot/": {
+      "apps": 5,
+      "distinct_sigs": 288,
+      "recurrence": 0.6701
+    },
+    "Lcz/msebera/": {
+      "apps": 3,
+      "distinct_sigs": 7644,
+      "recurrence": 0.6444
+    },
+    "Lorg/codehaus/": {
+      "apps": 2,
+      "distinct_sigs": 1637,
+      "recurrence": 0.0
+    },
+    "Lcom/qq/e/": {
+      "apps": 3,
+      "distinct_sigs": 1077,
+      "recurrence": 0.4429
+    },
+    "Lcom/baidu/mobads/": {
+      "apps": 4,
+      "distinct_sigs": 2894,
+      "recurrence": 0.1904
+    },
+    "Lorg/spongycastle/": {
+      "apps": 1,
+      "distinct_sigs": 30,
+      "recurrence": 0.0
+    },
+    "Lrx/": {
+      "apps": 1,
+      "distinct_sigs": 7,
+      "recurrence": 0.0
+    }
+  }
+}

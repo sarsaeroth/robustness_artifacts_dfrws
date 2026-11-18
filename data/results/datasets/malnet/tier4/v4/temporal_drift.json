@@ -1,0 +1,5813 @@
+{
+ "dataset": "malnet",
+ "groups": "neardup",
+ "graphs": [
+  "fcg"
+ ],
+ "n": 6495,
+ "fields": {
+  "first_seen": {
+   "dated": 1.0,
+   "coverage": {
+    "admobads": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.73,
+      2013.87,
+      2013.87
+     ]
+    },
+    "admogo": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2014.03,
+      2015.08,
+      2016.21
+     ]
+    },
+    "adpush": {
+     "n": 149,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.77,
+      2014.95,
+      2015.79
+     ]
+    },
+    "adwo": {
+     "n": 149,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.15,
+      2013.87,
+      2016.11
+     ]
+    },
+    "airpush": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.71,
+      2014.52,
+      2016.46
+     ]
+    },
+    "anydown": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2016.13,
+      2016.19,
+      2016.22
+     ]
+    },
+    "appsgeyser": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2014.25,
+      2014.55,
+      2016.53
+     ]
+    },
+    "artemis": {
+     "n": 149,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2014.22,
+      2016.09,
+      2016.39
+     ]
+    },
+    "benign": {
+     "n": 500,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2014.52,
+      2018.66,
+      2020.36
+     ]
+    },
+    "cauly": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2014.11,
+      2014.58,
+      2016.57
+     ]
+    },
+    "cve": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2016.12,
+      2016.48,
+      2016.7
+     ]
+    },
+    "deng": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2014.41,
+      2016.05,
+      2016.22
+     ]
+    },
+    "domob": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2014.07,
+      2015.16,
+      2016.21
+     ]
+    },
+    "dowgin": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.93,
+      2014.58,
+      2016.52
+     ]
+    },
+    "droidkungfu": {
+     "n": 149,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.74,
+      2014.99,
+      2016.21
+     ]
+    },
+    "eldorado": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2016.04,
+      2016.22,
+      2016.67
+     ]
+    },
+    "feiwo": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2015.94,
+      2016.21,
+      2016.46
+     ]
+    },
+    "genbl": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.89,
+      2016.09,
+      2016.62
+     ]
+    },
+    "genpua": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2016.05,
+      2016.14,
+      2016.35
+     ]
+    },
+    "gingermaster": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.87,
+      2014.04,
+      2016.08
+     ]
+    },
+    "ginmaster": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.87,
+      2014.95,
+      2016.22
+     ]
+    },
+    "igexin": {
+     "n": 149,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2014.34,
+      2016.12,
+      2016.65
+     ]
+    },
+    "inmobiads": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.74,
+      2013.78,
+      2013.87
+     ]
+    },
+    "jiagu": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2016.21,
+      2016.65,
+      2017.04
+     ]
+    },
+    "kuguo": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.87,
+      2016.08,
+      2016.33
+     ]
+    },
+    "kyview": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.97,
+      2016.12,
+      2016.65
+     ]
+    },
+    "leadbolt": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.77,
+      2014.51,
+      2016.25
+     ]
+    },
+    "millennialmediaads": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.73,
+      2013.78,
+      2013.87
+     ]
+    },
+    "mobwin": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.8,
+      2014.16,
+      2016.21
+     ]
+    },
+    "nandrobox": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.74,
+      2014.49,
+      2016.22
+     ]
+    },
+    "plankton": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.15,
+      2014.03,
+      2016.1
+     ]
+    },
+    "revmob": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2014.15,
+      2014.57,
+      2016.32
+     ]
+    },
+    "smspay": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2014.36,
+      2016.2,
+      2016.63
+     ]
+    },
+    "startapp": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2014.2,
+      2014.58,
+      2016.6
+     ]
+    },
+    "umeng": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.74,
+      2014.44,
+      2016.22
+     ]
+    },
+    "utchi": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2014.01,
+      2016.09,
+      2016.22
+     ]
+    },
+    "viser": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.98,
+      2014.58,
+      2016.34
+     ]
+    },
+    "waps": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.74,
+      2014.52,
+      2016.22
+     ]
+    },
+    "wapsx": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.74,
+      2015.13,
+      2016.21
+     ]
+    },
+    "wooboo": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.28,
+      2014.94,
+      2016.21
+     ]
+    },
+    "youmi": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2014.01,
+      2014.56,
+      2016.21
+     ]
+    }
+   },
+   "date_only": {
+    "n": 6495,
+    "f1_date_only": 0.057894478428303586,
+    "f1_prior": 0.024054329860334185
+   },
+   "era": {
+    "admobads": {
+     "skipped": "150 dated apps or interquartile range < 0.5 years"
+    },
+    "admogo": {
+     "n": 150,
+     "split_year": 2015.08,
+     "auroc_late_vs_early": 0.4945777777777777
+    },
+    "adpush": {
+     "n": 149,
+     "split_year": 2014.95,
+     "auroc_late_vs_early": 0.8844628695025233
+    },
+    "adwo": {
+     "n": 149,
+     "split_year": 2013.87,
+     "auroc_late_vs_early": 0.8162162162162162
+    },
+    "airpush": {
+     "n": 150,
+     "split_year": 2014.52,
+     "auroc_late_vs_early": 0.7722825120085395
+    },
+    "anydown": {
+     "skipped": "150 dated apps or interquartile range < 0.5 years"
+    },
+    "appsgeyser": {
+     "n": 150,
+     "split_year": 2014.55,
+     "auroc_late_vs_early": 0.7742222222222223
+    },
+    "artemis": {
+     "n": 149,
+     "split_year": 2016.09,
+     "auroc_late_vs_early": 0.6767567567567567
+    },
+    "benign": {
+     "n": 500,
+     "split_year": 2018.66,
+     "auroc_late_vs_early": 0.7519359999999999
+    },
+    "cauly": {
+     "n": 150,
+     "split_year": 2014.58,
+     "auroc_late_vs_early": 0.9649715504978663
+    },
+    "cve": {
+     "skipped": "150 dated apps or interquartile range < 0.5 years"
+    },
+    "deng": {
+     "n": 150,
+     "split_year": 2016.05,
+     "auroc_late_vs_early": 0.7745777777777778
+    },
+    "domob": {
+     "n": 150,
+     "split_year": 2015.16,
+     "auroc_late_vs_early": 0.5723180928660381
+    },
+    "dowgin": {
+     "n": 150,
+     "split_year": 2014.58,
+     "auroc_late_vs_early": 0.8657777777777779
+    },
+    "droidkungfu": {
+     "n": 149,
+     "split_year": 2014.99,
+     "auroc_late_vs_early": 0.6220259552992069
+    },
+    "eldorado": {
+     "skipped": "150 dated apps or interquartile range < 0.5 years"
+    },
+    "feiwo": {
+     "skipped": "150 dated apps or interquartile range < 0.5 years"
+    },
+    "genbl": {
+     "n": 150,
+     "split_year": 2016.09,
+     "auroc_late_vs_early": 0.9027555555555555
+    },
+    "genpua": {
+     "skipped": "150 dated apps or interquartile range < 0.5 years"
+    },
+    "gingermaster": {
+     "skipped": "150 dated apps or interquartile range < 0.5 years"
+    },
+    "ginmaster": {
+     "n": 150,
+     "split_year": 2014.95,
+     "auroc_late_vs_early": 0.6004269702899839
+    },
+    "igexin": {
+     "n": 149,
+     "split_year": 2016.12,
+     "auroc_late_vs_early": 0.7610028860028859
+    },
+    "inmobiads": {
+     "skipped": "150 dated apps or interquartile range < 0.5 years"
+    },
+    "jiagu": {
+     "n": 150,
+     "split_year": 2016.65,
+     "auroc_late_vs_early": 0.9635555555555556
+    },
+    "kuguo": {
+     "n": 150,
+     "split_year": 2016.08,
+     "auroc_late_vs_early": 0.6771555555555556
+    },
+    "kyview": {
+     "n": 150,
+     "split_year": 2016.12,
+     "auroc_late_vs_early": 0.7971194879089616
+    },
+    "leadbolt": {
+     "n": 150,
+     "split_year": 2014.51,
+     "auroc_late_vs_early": 0.8096000000000001
+    },
+    "millennialmediaads": {
+     "skipped": "150 dated apps or interquartile range < 0.5 years"
+    },
+    "mobwin": {
+     "n": 150,
+     "split_year": 2014.16,
+     "auroc_late_vs_early": 0.6604344729344729
+    },
+    "nandrobox": {
+     "n": 150,
+     "split_year": 2014.49,
+     "auroc_late_vs_early": 0.7048888888888889
+    },
+    "plankton": {
+     "n": 150,
+     "split_year": 2014.03,
+     "auroc_late_vs_early": 0.7868444444444445
+    },
+    "revmob": {
+     "n": 150,
+     "split_year": 2014.57,
+     "auroc_late_vs_early": 0.8872000000000001
+    },
+    "smspay": {
+     "n": 150,
+     "split_year": 2016.2,
+     "auroc_late_vs_early": 0.8218666666666666
+    },
+    "startapp": {
+     "n": 150,
+     "split_year": 2014.58,
+     "auroc_late_vs_early": 0.9602666666666667
+    },
+    "umeng": {
+     "n": 150,
+     "split_year": 2014.44,
+     "auroc_late_vs_early": 0.7395555555555556
+    },
+    "utchi": {
+     "n": 150,
+     "split_year": 2016.09,
+     "auroc_late_vs_early": 0.5833926031294452
+    },
+    "viser": {
+     "n": 150,
+     "split_year": 2014.58,
+     "auroc_late_vs_early": 0.6400996264009963
+    },
+    "waps": {
+     "n": 150,
+     "split_year": 2014.52,
+     "auroc_late_vs_early": 0.6780444444444443
+    },
+    "wapsx": {
+     "n": 150,
+     "split_year": 2015.13,
+     "auroc_late_vs_early": 0.614311111111111
+    },
+    "wooboo": {
+     "n": 150,
+     "split_year": 2014.94,
+     "auroc_late_vs_early": 0.6643555555555556
+    },
+    "youmi": {
+     "skipped": "150 dated apps or interquartile range < 0.5 years"
+    }
+   },
+   "feature_drift": {
+    "admogo": [
+     {
+      "year": 2013,
+      "n": 15,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 33,
+      "dist_first": 0.042130680619003935,
+      "dist_prev": 0.042130680619003935,
+      "new_active_share": 0.3710554951033732
+     },
+     {
+      "year": 2015,
+      "n": 67,
+      "dist_first": 0.006615263880757505,
+      "dist_prev": 0.03419248949544118,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 34,
+      "dist_first": 0.11546780369787091,
+      "dist_prev": 0.10153903641672901,
+      "new_active_share": 0.0732196589769308
+     }
+    ],
+    "adpush": [
+     {
+      "year": 2013,
+      "n": 39,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 39,
+      "dist_first": 0.3426616135888625,
+      "dist_prev": 0.3426616135888625,
+      "new_active_share": 0.0019550342130987292
+     },
+     {
+      "year": 2015,
+      "n": 61,
+      "dist_first": 0.9561800433442512,
+      "dist_prev": 0.7538745702901872,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 10,
+      "dist_first": 0.8100194814669293,
+      "dist_prev": 0.9638276754171098,
+      "new_active_share": 0.0
+     }
+    ],
+    "adwo": [
+     {
+      "year": 2013,
+      "n": 83,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 29,
+      "dist_first": 0.4204206337744507,
+      "dist_prev": 0.4204206337744507,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 23,
+      "dist_first": 0.6038107730000217,
+      "dist_prev": 0.5318637450569672,
+      "new_active_share": 0.0
+     }
+    ],
+    "airpush": [
+     {
+      "year": 2013,
+      "n": 29,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 70,
+      "dist_first": 0.785981916888941,
+      "dist_prev": 0.785981916888941,
+      "new_active_share": 0.0009765625
+     },
+     {
+      "year": 2016,
+      "n": 38,
+      "dist_first": 0.936812835430741,
+      "dist_prev": 0.7581588515226305,
+      "new_active_share": 0.0
+     }
+    ],
+    "appsgeyser": [
+     {
+      "year": 2014,
+      "n": 98,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2016,
+      "n": 46,
+      "dist_first": 0.9893202594269727,
+      "dist_prev": 0.9893202594269727,
+      "new_active_share": 0.0
+     }
+    ],
+    "artemis": [
+     {
+      "year": 2014,
+      "n": 47,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2015,
+      "n": 15,
+      "dist_first": 0.9411324992879413,
+      "dist_prev": 0.9411324992879413,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 81,
+      "dist_first": 0.8746749096429371,
+      "dist_prev": 0.8513600267453814,
+      "new_active_share": 0.0
+     }
+    ],
+    "benign": [
+     {
+      "year": 2013,
+      "n": 16,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 62,
+      "dist_first": 1.0148865832348863,
+      "dist_prev": 1.0148865832348863,
+      "new_active_share": 0.0341796875
+     },
+     {
+      "year": 2015,
+      "n": 15,
+      "dist_first": 1.03726476722056,
+      "dist_prev": 0.8403297561963504,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 98,
+      "dist_first": 1.0195439641006807,
+      "dist_prev": 0.7352936593410981,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2017,
+      "n": 33,
+      "dist_first": 1.0280566296044185,
+      "dist_prev": 0.6491853387724196,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2018,
+      "n": 106,
+      "dist_first": 1.0197537001695975,
+      "dist_prev": 0.5298116057863607,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2019,
+      "n": 96,
+      "dist_first": 1.0018330266117907,
+      "dist_prev": 0.3725533873514624,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2020,
+      "n": 74,
+      "dist_first": 0.990329877562208,
+      "dist_prev": 0.4483252704243812,
+      "new_active_share": 0.0
+     }
+    ],
+    "cauly": [
+     {
+      "year": 2014,
+      "n": 81,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2016,
+      "n": 62,
+      "dist_first": 0.5355523186040719,
+      "dist_prev": 0.5355523186040719,
+      "new_active_share": 0.009775171065493646
+     }
+    ],
+    "cve": [
+     {
+      "year": 2016,
+      "n": 128,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2017,
+      "n": 12,
+      "dist_first": 0.11408393861714261,
+      "dist_prev": 0.11408393861714261,
+      "new_active_share": 0.021151586368977675
+     }
+    ],
+    "deng": [
+     {
+      "year": 2014,
+      "n": 52,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2015,
+      "n": 21,
+      "dist_first": 0.6357995163720865,
+      "dist_prev": 0.6357995163720865,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 77,
+      "dist_first": 0.6847571859198862,
+      "dist_prev": 0.7599679971436308,
+      "new_active_share": 0.0
+     }
+    ],
+    "domob": [
+     {
+      "year": 2013,
+      "n": 13,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 51,
+      "dist_first": 0.23402000068477846,
+      "dist_prev": 0.23402000068477846,
+      "new_active_share": 0.015701668302257114
+     },
+     {
+      "year": 2015,
+      "n": 31,
+      "dist_first": 0.5841078016161414,
+      "dist_prev": 0.3509595507954799,
+      "new_active_share": 0.0009940357852882703
+     },
+     {
+      "year": 2016,
+      "n": 55,
+      "dist_first": 0.3140304880914191,
+      "dist_prev": 0.4348560759015473,
+      "new_active_share": 0.0
+     }
+    ],
+    "dowgin": [
+     {
+      "year": 2013,
+      "n": 16,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 65,
+      "dist_first": 0.8472454296063487,
+      "dist_prev": 0.8472454296063487,
+      "new_active_share": 0.0126953125
+     },
+     {
+      "year": 2015,
+      "n": 11,
+      "dist_first": 0.9467367786274925,
+      "dist_prev": 0.9037813697472311,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 58,
+      "dist_first": 0.9328075757939205,
+      "dist_prev": 0.6862103320005406,
+      "new_active_share": 0.0
+     }
+    ],
+    "droidkungfu": [
+     {
+      "year": 2013,
+      "n": 24,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 53,
+      "dist_first": 0.4041312340591665,
+      "dist_prev": 0.4041312340591665,
+      "new_active_share": 0.009823182711198428
+     },
+     {
+      "year": 2015,
+      "n": 37,
+      "dist_first": 0.38201534010653615,
+      "dist_prev": 0.24614226156569785,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 34,
+      "dist_first": 0.26579339857209705,
+      "dist_prev": 0.4248739179344455,
+      "new_active_share": 0.0009823182711198428
+     }
+    ],
+    "eldorado": [
+     {
+      "year": 2016,
+      "n": 129,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2017,
+      "n": 10,
+      "dist_first": 0.7656813615288292,
+      "dist_prev": 0.7656813615288292,
+      "new_active_share": 0.938953488372093
+     }
+    ],
+    "feiwo": [
+     {
+      "year": 2015,
+      "n": 23,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2016,
+      "n": 121,
+      "dist_first": 0.462881452015951,
+      "dist_prev": 0.462881452015951,
+      "new_active_share": 0.006842619745845552
+     }
+    ],
+    "genbl": [
+     {
+      "year": 2013,
+      "n": 22,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 28,
+      "dist_first": 0.37981956201422773,
+      "dist_prev": 0.37981956201422773,
+      "new_active_share": 0.0044004400440044
+     },
+     {
+      "year": 2015,
+      "n": 11,
+      "dist_first": 0.9499887000676563,
+      "dist_prev": 0.9557213551501378,
+      "new_active_share": 0.016194331983805668
+     },
+     {
+      "year": 2016,
+      "n": 88,
+      "dist_first": 0.9262210400833282,
+      "dist_prev": 0.6610077541873165,
+      "new_active_share": 0.0
+     }
+    ],
+    "gingermaster": [
+     {
+      "year": 2013,
+      "n": 68,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 51,
+      "dist_first": 0.8121794291182471,
+      "dist_prev": 0.8121794291182471,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 19,
+      "dist_first": 1.0022927131676256,
+      "dist_prev": 0.8850806754285908,
+      "new_active_share": 0.0
+     }
+    ],
+    "ginmaster": [
+     {
+      "year": 2013,
+      "n": 27,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 55,
+      "dist_first": 0.7667662834845914,
+      "dist_prev": 0.7667662834845914,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2015,
+      "n": 27,
+      "dist_first": 0.861303294266999,
+      "dist_prev": 0.6515188385688512,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 39,
+      "dist_first": 0.8114937520838799,
+      "dist_prev": 0.8713139350021101,
+      "new_active_share": 0.0
+     }
+    ],
+    "igexin": [
+     {
+      "year": 2014,
+      "n": 33,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2015,
+      "n": 11,
+      "dist_first": 0.756209679243943,
+      "dist_prev": 0.756209679243943,
+      "new_active_share": 0.002028397565922921
+     },
+     {
+      "year": 2016,
+      "n": 93,
+      "dist_first": 0.8302392862111534,
+      "dist_prev": 0.4242500934608888,
+      "new_active_share": 0.0009765625
+     }
+    ],
+    "jiagu": [
+     {
+      "year": 2016,
+      "n": 90,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2017,
+      "n": 60,
+      "dist_first": 0.6660059787084424,
+      "dist_prev": 0.6660059787084424,
+      "new_active_share": 0.8531746031746031
+     }
+    ],
+    "kuguo": [
+     {
+      "year": 2013,
+      "n": 24,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 23,
+      "dist_first": 0.6823275569816538,
+      "dist_prev": 0.6823275569816538,
+      "new_active_share": 0.0009823182711198428
+     },
+     {
+      "year": 2015,
+      "n": 20,
+      "dist_first": 0.6499776811702487,
+      "dist_prev": 0.7143198483663237,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 82,
+      "dist_first": 0.7227437575907766,
+      "dist_prev": 0.5942395705833659,
+      "new_active_share": 0.0
+     }
+    ],
+    "kyview": [
+     {
+      "year": 2013,
+      "n": 17,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 43,
+      "dist_first": 0.36841664819354103,
+      "dist_prev": 0.36841664819354103,
+      "new_active_share": 0.05484818805093046
+     },
+     {
+      "year": 2016,
+      "n": 72,
+      "dist_first": 0.7177968309012126,
+      "dist_prev": 0.7303689186569278,
+      "new_active_share": 0.0009765625
+     },
+     {
+      "year": 2017,
+      "n": 13,
+      "dist_first": 0.9481165554467051,
+      "dist_prev": 0.7512266234738304,
+      "new_active_share": 0.0
+     }
+    ],
+    "leadbolt": [
+     {
+      "year": 2013,
+      "n": 29,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 68,
+      "dist_first": 0.7943263597300695,
+      "dist_prev": 0.7943263597300695,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 45,
+      "dist_first": 0.9573115841412356,
+      "dist_prev": 0.7236159720484232,
+      "new_active_share": 0.0
+     }
+    ],
+    "mobwin": [
+     {
+      "year": 2013,
+      "n": 62,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 41,
+      "dist_first": 0.21354060738239578,
+      "dist_prev": 0.21354060738239578,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2015,
+      "n": 15,
+      "dist_first": 0.2782609922661372,
+      "dist_prev": 0.29536213065619776,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 32,
+      "dist_first": 0.2796617831812612,
+      "dist_prev": 0.18327447465640456,
+      "new_active_share": 0.0
+     }
+    ],
+    "nandrobox": [
+     {
+      "year": 2013,
+      "n": 43,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 42,
+      "dist_first": 0.3005469046176573,
+      "dist_prev": 0.3005469046176573,
+      "new_active_share": 0.026470588235294117
+     },
+     {
+      "year": 2015,
+      "n": 17,
+      "dist_first": 0.26307898122617224,
+      "dist_prev": 0.2724768831936978,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 47,
+      "dist_first": 0.3948434689325746,
+      "dist_prev": 0.31717568079071423,
+      "new_active_share": 0.0
+     }
+    ],
+    "plankton": [
+     {
+      "year": 2013,
+      "n": 65,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 45,
+      "dist_first": 0.4854949457486234,
+      "dist_prev": 0.4854949457486234,
+      "new_active_share": 0.00881488736532811
+     },
+     {
+      "year": 2015,
+      "n": 10,
+      "dist_first": 0.3714687557386118,
+      "dist_prev": 0.5186773503547024,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 21,
+      "dist_first": 0.3049659489527754,
+      "dist_prev": 0.45138821532786844,
+      "new_active_share": 0.0
+     }
+    ],
+    "revmob": [
+     {
+      "year": 2014,
+      "n": 86,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2016,
+      "n": 52,
+      "dist_first": 0.08462718862178109,
+      "dist_prev": 0.08462718862178109,
+      "new_active_share": 0.09456740442655935
+     }
+    ],
+    "smspay": [
+     {
+      "year": 2014,
+      "n": 29,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2015,
+      "n": 16,
+      "dist_first": 0.782917213629476,
+      "dist_prev": 0.782917213629476,
+      "new_active_share": 0.000992063492063492
+     },
+     {
+      "year": 2016,
+      "n": 93,
+      "dist_first": 0.7847237830207967,
+      "dist_prev": 0.6067937584126225,
+      "new_active_share": 0.0
+     }
+    ],
+    "startapp": [
+     {
+      "year": 2014,
+      "n": 83,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2016,
+      "n": 64,
+      "dist_first": 0.7334119691571546,
+      "dist_prev": 0.7334119691571546,
+      "new_active_share": 0.017154389505549948
+     }
+    ],
+    "umeng": [
+     {
+      "year": 2013,
+      "n": 46,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 38,
+      "dist_first": 0.3976831102223952,
+      "dist_prev": 0.3976831102223952,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2015,
+      "n": 12,
+      "dist_first": 0.5776184916706031,
+      "dist_prev": 0.5987907917656858,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 54,
+      "dist_first": 0.7397157609508149,
+      "dist_prev": 0.7196367567444119,
+      "new_active_share": 0.0
+     }
+    ],
+    "utchi": [
+     {
+      "year": 2013,
+      "n": 15,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 39,
+      "dist_first": 0.9372951892036587,
+      "dist_prev": 0.9372951892036587,
+      "new_active_share": 0.026418786692759294
+     },
+     {
+      "year": 2015,
+      "n": 20,
+      "dist_first": 0.9818435956205003,
+      "dist_prev": 0.33268590740443926,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 76,
+      "dist_first": 0.9424002375036833,
+      "dist_prev": 0.38647129408299463,
+      "new_active_share": 0.0
+     }
+    ],
+    "viser": [
+     {
+      "year": 2013,
+      "n": 19,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 64,
+      "dist_first": 0.5034927506405817,
+      "dist_prev": 0.5034927506405817,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 63,
+      "dist_first": 0.6731995493351466,
+      "dist_prev": 0.43139973861698144,
+      "new_active_share": 0.0
+     }
+    ],
+    "waps": [
+     {
+      "year": 2013,
+      "n": 46,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 38,
+      "dist_first": 0.6091501416343794,
+      "dist_prev": 0.6091501416343794,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2015,
+      "n": 14,
+      "dist_first": 0.6539828798325198,
+      "dist_prev": 0.7104535002689789,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 52,
+      "dist_first": 0.5880521638952347,
+      "dist_prev": 0.48464383893118024,
+      "new_active_share": 0.0
+     }
+    ],
+    "wapsx": [
+     {
+      "year": 2013,
+      "n": 24,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 40,
+      "dist_first": 0.3371016537452016,
+      "dist_prev": 0.3371016537452016,
+      "new_active_share": 0.046966731898238745
+     },
+     {
+      "year": 2015,
+      "n": 25,
+      "dist_first": 0.3131583178911288,
+      "dist_prev": 0.2845941556438082,
+      "new_active_share": 0.001
+     },
+     {
+      "year": 2016,
+      "n": 60,
+      "dist_first": 0.42431715494373834,
+      "dist_prev": 0.3734898295074067,
+      "new_active_share": 0.0
+     }
+    ],
+    "wooboo": [
+     {
+      "year": 2012,
+      "n": 10,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2013,
+      "n": 31,
+      "dist_first": 0.471452767235889,
+      "dist_prev": 0.471452767235889,
+      "new_active_share": 0.04625984251968504
+     },
+     {
+      "year": 2014,
+      "n": 43,
+      "dist_first": 0.4044458784935465,
+      "dist_prev": 0.4199509549831453,
+      "new_active_share": 0.0010090817356205853
+     },
+     {
+      "year": 2015,
+      "n": 35,
+      "dist_first": 0.385960029270519,
+      "dist_prev": 0.18162411727869343,
+      "new_active_share": 0.0010224948875255625
+     },
+     {
+      "year": 2016,
+      "n": 31,
+      "dist_first": 0.3435840098754297,
+      "dist_prev": 0.14236758624280332,
+      "new_active_share": 0.0
+     }
+    ],
+    "youmi": [
+     {
+      "year": 2013,
+      "n": 15,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 100,
+      "dist_first": 0.9708603715324717,
+      "dist_prev": 0.9708603715324717,
+      "new_active_share": 0.005876591576885406
+     },
+     {
+      "year": 2016,
+      "n": 29,
+      "dist_first": 0.7114219191716679,
+      "dist_prev": 0.9635715508310474,
+      "new_active_share": 0.0
+     }
+    ]
+   },
+   "global_split": {
+    "split_year": 2015.18,
+    "f1": 0.29522477724022994,
+    "n_test_scored": 2651,
+    "train_classes": {
+     "admobads": 150,
+     "admogo": 110,
+     "adpush": 101,
+     "adwo": 124,
+     "airpush": 107,
+     "appsgeyser": 100,
+     "artemis": 56,
+     "benign": 78,
+     "cauly": 87,
+     "cve": 7,
+     "deng": 56,
+     "domob": 80,
+     "dowgin": 84,
+     "droidkungfu": 109,
+     "eldorado": 3,
+     "genbl": 52,
+     "gingermaster": 128,
+     "ginmaster": 98,
+     "igexin": 39,
+     "inmobiads": 150,
+     "kuguo": 52,
+     "kyview": 60,
+     "leadbolt": 101,
+     "millennialmediaads": 150,
+     "mobwin": 106,
+     "nandrobox": 92,
+     "plankton": 122,
+     "revmob": 93,
+     "smspay": 38,
+     "startapp": 84,
+     "umeng": 92,
+     "utchi": 64,
+     "viser": 83,
+     "waps": 88,
+     "wapsx": 79,
+     "wooboo": 102,
+     "youmi": 119
+    },
+    "test_classes": {
+     "admogo": 40,
+     "adpush": 48,
+     "adwo": 25,
+     "airpush": 43,
+     "anydown": 150,
+     "appsgeyser": 50,
+     "artemis": 93,
+     "benign": 422,
+     "cauly": 63,
+     "cve": 143,
+     "deng": 94,
+     "domob": 70,
+     "dowgin": 66,
+     "droidkungfu": 40,
+     "eldorado": 147,
+     "feiwo": 150,
+     "genbl": 98,
+     "genpua": 150,
+     "gingermaster": 22,
+     "ginmaster": 52,
+     "igexin": 110,
+     "jiagu": 150,
+     "kuguo": 98,
+     "kyview": 90,
+     "leadbolt": 49,
+     "mobwin": 44,
+     "nandrobox": 58,
+     "plankton": 28,
+     "revmob": 57,
+     "smspay": 112,
+     "startapp": 66,
+     "umeng": 58,
+     "utchi": 86,
+     "viser": 67,
+     "waps": 62,
+     "wapsx": 71,
+     "wooboo": 48,
+     "youmi": 31
+    }
+   },
+   "within_class": {
+    "classes": [
+     "admobads",
+     "admogo",
+     "adpush",
+     "adwo",
+     "airpush",
+     "anydown",
+     "appsgeyser",
+     "artemis",
+     "benign",
+     "cauly",
+     "cve",
+     "deng",
+     "domob",
+     "dowgin",
+     "droidkungfu",
+     "eldorado",
+     "feiwo",
+     "genbl",
+     "genpua",
+     "gingermaster",
+     "ginmaster",
+     "igexin",
+     "inmobiads",
+     "jiagu",
+     "kuguo",
+     "kyview",
+     "leadbolt",
+     "millennialmediaads",
+     "mobwin",
+     "nandrobox",
+     "plankton",
+     "revmob",
+     "smspay",
+     "startapp",
+     "umeng",
+     "utchi",
+     "viser",
+     "waps",
+     "wapsx",
+     "wooboo",
+     "youmi"
+    ],
+    "n_train": 3209,
+    "n_test": 2980,
+    "f1_temporal": 0.3971199788843849,
+    "f1_random": 0.5327879576667726,
+    "gap": 0.13566797878238768
+   },
+   "rolling": {
+    "windows": [
+     {
+      "year": 2014,
+      "f1": 0.32917766816043226,
+      "classes": [
+       "admogo",
+       "adpush",
+       "adwo",
+       "airpush",
+       "benign",
+       "domob",
+       "dowgin",
+       "droidkungfu",
+       "genbl",
+       "gingermaster",
+       "ginmaster",
+       "inmobiads",
+       "kuguo",
+       "kyview",
+       "leadbolt",
+       "millennialmediaads",
+       "mobwin",
+       "nandrobox",
+       "plankton",
+       "umeng",
+       "utchi",
+       "viser",
+       "waps",
+       "wapsx",
+       "wooboo",
+       "youmi"
+      ],
+      "n_test": 1107,
+      "test_apps_of_untrained_classes": 510
+     },
+     {
+      "year": 2015,
+      "f1": 0.35046352538069764,
+      "classes": [
+       "admogo",
+       "adpush",
+       "adwo",
+       "airpush",
+       "appsgeyser",
+       "artemis",
+       "benign",
+       "deng",
+       "domob",
+       "dowgin",
+       "droidkungfu",
+       "genbl",
+       "gingermaster",
+       "ginmaster",
+       "igexin",
+       "kuguo",
+       "kyview",
+       "leadbolt",
+       "mobwin",
+       "nandrobox",
+       "plankton",
+       "revmob",
+       "smspay",
+       "umeng",
+       "utchi",
+       "waps",
+       "wapsx",
+       "wooboo",
+       "youmi"
+      ],
+      "n_test": 440,
+      "test_apps_of_untrained_classes": 42
+     },
+     {
+      "year": 2016,
+      "f1": 0.28701242556135237,
+      "classes": [
+       "admogo",
+       "adpush",
+       "adwo",
+       "airpush",
+       "appsgeyser",
+       "artemis",
+       "benign",
+       "cauly",
+       "cve",
+       "deng",
+       "domob",
+       "dowgin",
+       "droidkungfu",
+       "eldorado",
+       "feiwo",
+       "genbl",
+       "gingermaster",
+       "ginmaster",
+       "igexin",
+       "kuguo",
+       "kyview",
+       "leadbolt",
+       "mobwin",
+       "nandrobox",
+       "plankton",
+       "revmob",
+       "smspay",
+       "startapp",
+       "umeng",
+       "utchi",
+       "viser",
+       "waps",
+       "wapsx",
+       "wooboo",
+       "youmi"
+      ],
+      "n_test": 1908,
+      "test_apps_of_untrained_classes": 381
+     },
+     {
+      "year": 2017,
+      "f1": 0.7713661865926311,
+      "classes": [
+       "benign",
+       "cve",
+       "eldorado",
+       "igexin",
+       "jiagu",
+       "kyview"
+      ],
+      "n_test": 127,
+      "test_apps_of_untrained_classes": 0
+     }
+    ],
+    "aut": 0.39591595943952723
+   },
+   "oof_by_year": {
+    "admobads": {
+     "by_year": {
+      "2013": [
+       150,
+       0.913
+      ]
+     },
+     "spearman_correct_date": 0.1910023036041139
+    },
+    "admogo": {
+     "by_year": {
+      "2013": [
+       15,
+       0.867
+      ],
+      "2014": [
+       33,
+       0.788
+      ],
+      "2015": [
+       67,
+       0.955
+      ],
+      "2016": [
+       34,
+       0.588
+      ],
+      "2017": [
+       1,
+       0.0
+      ]
+     },
+     "spearman_correct_date": -0.16593450202977536
+    },
+    "adpush": {
+     "by_year": {
+      "2013": [
+       39,
+       0.718
+      ],
+      "2014": [
+       39,
+       0.795
+      ],
+      "2015": [
+       61,
+       0.721
+      ],
+      "2016": [
+       10,
+       0.3
+      ]
+     },
+     "spearman_correct_date": -0.1518931019265652
+    },
+    "adwo": {
+     "by_year": {
+      "2012": [
+       8,
+       0.375
+      ],
+      "2013": [
+       83,
+       0.422
+      ],
+      "2014": [
+       29,
+       0.241
+      ],
+      "2015": [
+       6,
+       0.5
+      ],
+      "2016": [
+       23,
+       0.304
+      ]
+     },
+     "spearman_correct_date": -0.18040099203517834
+    },
+    "airpush": {
+     "by_year": {
+      "2012": [
+       5,
+       0.4
+      ],
+      "2013": [
+       29,
+       0.345
+      ],
+      "2014": [
+       70,
+       0.271
+      ],
+      "2015": [
+       6,
+       0.667
+      ],
+      "2016": [
+       38,
+       0.263
+      ],
+      "2017": [
+       2,
+       1.0
+      ]
+     },
+     "spearman_correct_date": -0.06541079522621
+    },
+    "anydown": {
+     "by_year": {
+      "2015": [
+       1,
+       1.0
+      ],
+      "2016": [
+       149,
+       0.852
+      ]
+     },
+     "spearman_correct_date": -0.003705406904565303
+    },
+    "appsgeyser": {
+     "by_year": {
+      "2014": [
+       98,
+       0.153
+      ],
+      "2015": [
+       6,
+       0.333
+      ],
+      "2016": [
+       46,
+       0.783
+      ]
+     },
+     "spearman_correct_date": 0.5138165214890865
+    },
+    "artemis": {
+     "by_year": {
+      "2013": [
+       6,
+       0.333
+      ],
+      "2014": [
+       47,
+       0.191
+      ],
+      "2015": [
+       15,
+       0.2
+      ],
+      "2016": [
+       81,
+       0.086
+      ]
+     },
+     "spearman_correct_date": -0.18477734317803135
+    },
+    "benign": {
+     "by_year": {
+      "2013": [
+       16,
+       0.188
+      ],
+      "2014": [
+       62,
+       0.242
+      ],
+      "2015": [
+       15,
+       0.133
+      ],
+      "2016": [
+       98,
+       0.347
+      ],
+      "2017": [
+       33,
+       0.606
+      ],
+      "2018": [
+       106,
+       0.726
+      ],
+      "2019": [
+       96,
+       0.76
+      ],
+      "2020": [
+       74,
+       0.716
+      ]
+     },
+     "spearman_correct_date": 0.40884458793186557
+    },
+    "cauly": {
+     "by_year": {
+      "2013": [
+       6,
+       0.833
+      ],
+      "2014": [
+       81,
+       0.926
+      ],
+      "2015": [
+       1,
+       1.0
+      ],
+      "2016": [
+       62,
+       0.887
+      ]
+     },
+     "spearman_correct_date": 0.011379876628136528
+    },
+    "cve": {
+     "by_year": {
+      "2014": [
+       7,
+       0.286
+      ],
+      "2015": [
+       3,
+       0.333
+      ],
+      "2016": [
+       128,
+       0.938
+      ],
+      "2017": [
+       12,
+       1.0
+      ]
+     },
+     "spearman_correct_date": 0.34269369357552854
+    },
+    "deng": {
+     "by_year": {
+      "2014": [
+       52,
+       0.231
+      ],
+      "2015": [
+       21,
+       0.381
+      ],
+      "2016": [
+       77,
+       0.234
+      ]
+     },
+     "spearman_correct_date": -0.0015936118017794542
+    },
+    "domob": {
+     "by_year": {
+      "2013": [
+       13,
+       0.615
+      ],
+      "2014": [
+       51,
+       0.745
+      ],
+      "2015": [
+       31,
+       0.613
+      ],
+      "2016": [
+       55,
+       0.673
+      ]
+     },
+     "spearman_correct_date": -0.04374042099353907
+    },
+    "dowgin": {
+     "by_year": {
+      "2013": [
+       16,
+       0.188
+      ],
+      "2014": [
+       65,
+       0.446
+      ],
+      "2015": [
+       11,
+       0.273
+      ],
+      "2016": [
+       58,
+       0.276
+      ]
+     },
+     "spearman_correct_date": -0.08744812674788738
+    },
+    "droidkungfu": {
+     "by_year": {
+      "2012": [
+       1,
+       1.0
+      ],
+      "2013": [
+       24,
+       0.167
+      ],
+      "2014": [
+       53,
+       0.396
+      ],
+      "2015": [
+       37,
+       0.405
+      ],
+      "2016": [
+       34,
+       0.529
+      ]
+     },
+     "spearman_correct_date": 0.16435616369375025
+    },
+    "eldorado": {
+     "by_year": {
+      "2013": [
+       1,
+       0.0
+      ],
+      "2014": [
+       2,
+       0.0
+      ],
+      "2015": [
+       8,
+       0.75
+      ],
+      "2016": [
+       129,
+       0.884
+      ],
+      "2017": [
+       10,
+       0.7
+      ]
+     },
+     "spearman_correct_date": -0.004702958622297913
+    },
+    "feiwo": {
+     "by_year": {
+      "2015": [
+       23,
+       0.478
+      ],
+      "2016": [
+       121,
+       0.57
+      ],
+      "2017": [
+       6,
+       0.0
+      ]
+     },
+     "spearman_correct_date": -0.03568911814146959
+    },
+    "genbl": {
+     "by_year": {
+      "2013": [
+       22,
+       0.5
+      ],
+      "2014": [
+       28,
+       0.821
+      ],
+      "2015": [
+       11,
+       0.091
+      ],
+      "2016": [
+       88,
+       0.284
+      ],
+      "2017": [
+       1,
+       0.0
+      ]
+     },
+     "spearman_correct_date": -0.2705194888326738
+    },
+    "genpua": {
+     "by_year": {
+      "2015": [
+       7,
+       0.286
+      ],
+      "2016": [
+       143,
+       0.196
+      ]
+     },
+     "spearman_correct_date": -0.05936202009349884
+    },
+    "gingermaster": {
+     "by_year": {
+      "2012": [
+       5,
+       0.0
+      ],
+      "2013": [
+       68,
+       0.426
+      ],
+      "2014": [
+       51,
+       0.176
+      ],
+      "2015": [
+       7,
+       0.143
+      ],
+      "2016": [
+       19,
+       0.105
+      ]
+     },
+     "spearman_correct_date": -0.2791402068072595
+    },
+    "ginmaster": {
+     "by_year": {
+      "2013": [
+       27,
+       0.222
+      ],
+      "2014": [
+       55,
+       0.218
+      ],
+      "2015": [
+       27,
+       0.148
+      ],
+      "2016": [
+       39,
+       0.128
+      ],
+      "2017": [
+       2,
+       0.0
+      ]
+     },
+     "spearman_correct_date": -0.08998083053026155
+    },
+    "igexin": {
+     "by_year": {
+      "2013": [
+       5,
+       1.0
+      ],
+      "2014": [
+       33,
+       0.697
+      ],
+      "2015": [
+       11,
+       0.818
+      ],
+      "2016": [
+       93,
+       0.882
+      ],
+      "2017": [
+       7,
+       0.857
+      ]
+     },
+     "spearman_correct_date": 0.13288134896589066
+    },
+    "inmobiads": {
+     "by_year": {
+      "2013": [
+       143,
+       0.86
+      ],
+      "2014": [
+       7,
+       0.571
+      ]
+     },
+     "spearman_correct_date": -0.036139624741792616
+    },
+    "jiagu": {
+     "by_year": {
+      "2016": [
+       90,
+       0.922
+      ],
+      "2017": [
+       60,
+       0.983
+      ]
+     },
+     "spearman_correct_date": 0.15875884060910897
+    },
+    "kuguo": {
+     "by_year": {
+      "2013": [
+       24,
+       0.458
+      ],
+      "2014": [
+       23,
+       0.304
+      ],
+      "2015": [
+       20,
+       0.3
+      ],
+      "2016": [
+       82,
+       0.268
+      ],
+      "2017": [
+       1,
+       0.0
+      ]
+     },
+     "spearman_correct_date": -0.15011837963589653
+    },
+    "kyview": {
+     "by_year": {
+      "2013": [
+       17,
+       0.647
+      ],
+      "2014": [
+       43,
+       0.674
+      ],
+      "2015": [
+       5,
+       0.6
+      ],
+      "2016": [
+       72,
+       0.306
+      ],
+      "2017": [
+       13,
+       0.385
+      ]
+     },
+     "spearman_correct_date": -0.33285026161765763
+    },
+    "leadbolt": {
+     "by_year": {
+      "2012": [
+       2,
+       1.0
+      ],
+      "2013": [
+       29,
+       0.448
+      ],
+      "2014": [
+       68,
+       0.279
+      ],
+      "2015": [
+       6,
+       0.167
+      ],
+      "2016": [
+       45,
+       0.444
+      ]
+     },
+     "spearman_correct_date": 0.01469863419757014
+    },
+    "millennialmediaads": {
+     "by_year": {
+      "2013": [
+       141,
+       0.78
+      ],
+      "2014": [
+       9,
+       0.778
+      ]
+     },
+     "spearman_correct_date": -0.06362053594927294
+    },
+    "mobwin": {
+     "by_year": {
+      "2013": [
+       62,
+       0.435
+      ],
+      "2014": [
+       41,
+       0.854
+      ],
+      "2015": [
+       15,
+       0.6
+      ],
+      "2016": [
+       32,
+       0.844
+      ]
+     },
+     "spearman_correct_date": 0.23928978990391273
+    },
+    "nandrobox": {
+     "by_year": {
+      "2012": [
+       1,
+       1.0
+      ],
+      "2013": [
+       43,
+       0.977
+      ],
+      "2014": [
+       42,
+       0.69
+      ],
+      "2015": [
+       17,
+       0.882
+      ],
+      "2016": [
+       47,
+       0.809
+      ]
+     },
+     "spearman_correct_date": -0.15344085924936776
+    },
+    "plankton": {
+     "by_year": {
+      "2012": [
+       7,
+       1.0
+      ],
+      "2013": [
+       65,
+       0.908
+      ],
+      "2014": [
+       45,
+       0.444
+      ],
+      "2015": [
+       10,
+       0.6
+      ],
+      "2016": [
+       21,
+       0.762
+      ],
+      "2019": [
+       2,
+       1.0
+      ]
+     },
+     "spearman_correct_date": -0.31928538403811063
+    },
+    "revmob": {
+     "by_year": {
+      "2013": [
+       7,
+       0.857
+      ],
+      "2014": [
+       86,
+       0.93
+      ],
+      "2015": [
+       5,
+       1.0
+      ],
+      "2016": [
+       52,
+       0.692
+      ]
+     },
+     "spearman_correct_date": -0.29978340668094655
+    },
+    "smspay": {
+     "by_year": {
+      "2013": [
+       9,
+       0.333
+      ],
+      "2014": [
+       29,
+       0.448
+      ],
+      "2015": [
+       16,
+       0.562
+      ],
+      "2016": [
+       93,
+       0.441
+      ],
+      "2017": [
+       3,
+       0.333
+      ]
+     },
+     "spearman_correct_date": -0.005266012515722313
+    },
+    "startapp": {
+     "by_year": {
+      "2014": [
+       83,
+       0.566
+      ],
+      "2015": [
+       1,
+       0.0
+      ],
+      "2016": [
+       64,
+       0.75
+      ],
+      "2017": [
+       2,
+       0.0
+      ]
+     },
+     "spearman_correct_date": 0.03802178650802715
+    },
+    "umeng": {
+     "by_year": {
+      "2013": [
+       46,
+       0.522
+      ],
+      "2014": [
+       38,
+       0.447
+      ],
+      "2015": [
+       12,
+       0.75
+      ],
+      "2016": [
+       54,
+       0.537
+      ]
+     },
+     "spearman_correct_date": -0.010026490642450887
+    },
+    "utchi": {
+     "by_year": {
+      "2013": [
+       15,
+       0.2
+      ],
+      "2014": [
+       39,
+       0.436
+      ],
+      "2015": [
+       20,
+       0.45
+      ],
+      "2016": [
+       76,
+       0.329
+      ]
+     },
+     "spearman_correct_date": -0.07690002060407762
+    },
+    "viser": {
+     "by_year": {
+      "2013": [
+       19,
+       0.263
+      ],
+      "2014": [
+       64,
+       0.516
+      ],
+      "2015": [
+       4,
+       0.5
+      ],
+      "2016": [
+       63,
+       0.492
+      ]
+     },
+     "spearman_correct_date": 0.05119191886694921
+    },
+    "waps": {
+     "by_year": {
+      "2013": [
+       46,
+       0.283
+      ],
+      "2014": [
+       38,
+       0.342
+      ],
+      "2015": [
+       14,
+       0.214
+      ],
+      "2016": [
+       52,
+       0.423
+      ]
+     },
+     "spearman_correct_date": 0.11609172904931965
+    },
+    "wapsx": {
+     "by_year": {
+      "2012": [
+       1,
+       1.0
+      ],
+      "2013": [
+       24,
+       0.708
+      ],
+      "2014": [
+       40,
+       0.5
+      ],
+      "2015": [
+       25,
+       0.56
+      ],
+      "2016": [
+       60,
+       0.567
+      ]
+     },
+     "spearman_correct_date": -0.05871021728435425
+    },
+    "wooboo": {
+     "by_year": {
+      "2012": [
+       10,
+       0.7
+      ],
+      "2013": [
+       31,
+       0.645
+      ],
+      "2014": [
+       43,
+       0.977
+      ],
+      "2015": [
+       35,
+       0.886
+      ],
+      "2016": [
+       31,
+       0.871
+      ]
+     },
+     "spearman_correct_date": 0.16839404328882152
+    },
+    "youmi": {
+     "by_year": {
+      "2013": [
+       15,
+       0.333
+      ],
+      "2014": [
+       100,
+       0.63
+      ],
+      "2015": [
+       6,
+       0.5
+      ],
+      "2016": [
+       29,
+       0.517
+      ]
+     },
+     "spearman_correct_date": 0.0646009447102289
+    }
+   },
+   "versions": {
+    "packages": 10,
+    "packages_by_class": {
+     "eldorado": 2,
+     "youmi": 1,
+     "droidkungfu": 1,
+     "umeng": 2,
+     "artemis": 1,
+     "deng": 2,
+     "kyview": 1
+    },
+    "pairs": 20,
+    "spearman_dist_timegap": 0.5237020316027088,
+    "median_dist_consecutive": 0.4834228605701605,
+    "acc_first_build": 0.8,
+    "acc_last_build": 0.3
+   }
+  },
+  "dex_date": {
+   "dated": 0.963,
+   "coverage": {
+    "admobads": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2010.25,
+      2011.08,
+      2011.96
+     ]
+    },
+    "admogo": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2012.72,
+      2012.89,
+      2013.4
+     ]
+    },
+    "adpush": {
+     "n": 149,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2012.62,
+      2013.09,
+      2015.58
+     ]
+    },
+    "adwo": {
+     "n": 149,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2011.95,
+      2012.61,
+      2014.42
+     ]
+    },
+    "airpush": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2012.13,
+      2014.2,
+      2016.33
+     ]
+    },
+    "anydown": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2015.35,
+      2015.69,
+      2016.09
+     ]
+    },
+    "appsgeyser": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.24,
+      2014.25,
+      2016.3
+     ]
+    },
+    "artemis": {
+     "n": 149,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2012.76,
+      2014.42,
+      2016.2
+     ]
+    },
+    "benign": {
+     "n": 500,
+     "dated": 0.53,
+     "p10_p50_p90": [
+      2013.25,
+      2015.77,
+      2018.68
+     ]
+    },
+    "cauly": {
+     "n": 150,
+     "dated": 0.993,
+     "p10_p50_p90": [
+      2013.95,
+      2014.53,
+      2016.49
+     ]
+    },
+    "cve": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2014.75,
+      2016.19,
+      2016.61
+     ]
+    },
+    "deng": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2012.97,
+      2014.58,
+      2015.69
+     ]
+    },
+    "domob": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2011.87,
+      2012.61,
+      2013.95
+     ]
+    },
+    "dowgin": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2013.82,
+      2014.5,
+      2016.34
+     ]
+    },
+    "droidkungfu": {
+     "n": 149,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2011.8,
+      2012.38,
+      2012.91
+     ]
+    },
+    "eldorado": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2015.55,
+      2015.92,
+      2016.43
+     ]
+    },
+    "feiwo": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2015.37,
+      2015.62,
+      2016.28
+     ]
+    },
+    "genbl": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2012.44,
+      2013.8,
+      2016.28
+     ]
+    },
+    "genpua": {
+     "n": 150,
+     "dated": 0.993,
+     "p10_p50_p90": [
+      2014.75,
+      2015.79,
+      2016.26
+     ]
+    },
+    "gingermaster": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2012.58,
+      2013.66,
+      2014.13
+     ]
+    },
+    "ginmaster": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2012.09,
+      2012.94,
+      2015.94
+     ]
+    },
+    "igexin": {
+     "n": 149,
+     "dated": 0.993,
+     "p10_p50_p90": [
+      2013.98,
+      2015.68,
+      2016.52
+     ]
+    },
+    "inmobiads": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2012.71,
+      2013.74,
+      2013.85
+     ]
+    },
+    "jiagu": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2015.94,
+      2016.56,
+      2016.68
+     ]
+    },
+    "kuguo": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2012.22,
+      2014.23,
+      2016.19
+     ]
+    },
+    "kyview": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2012.92,
+      2014.34,
+      2016.61
+     ]
+    },
+    "leadbolt": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2012.48,
+      2014.17,
+      2015.43
+     ]
+    },
+    "millennialmediaads": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2012.08,
+      2013.73,
+      2013.85
+     ]
+    },
+    "mobwin": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2012.2,
+      2012.97,
+      2013.85
+     ]
+    },
+    "nandrobox": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2011.97,
+      2012.54,
+      2014.12
+     ]
+    },
+    "plankton": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2012.1,
+      2013.24,
+      2014.33
+     ]
+    },
+    "revmob": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2014.01,
+      2014.53,
+      2015.61
+     ]
+    },
+    "smspay": {
+     "n": 150,
+     "dated": 0.993,
+     "p10_p50_p90": [
+      2013.16,
+      2015.18,
+      2016.52
+     ]
+    },
+    "startapp": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2014.12,
+      2014.55,
+      2016.5
+     ]
+    },
+    "umeng": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2011.74,
+      2013.21,
+      2015.89
+     ]
+    },
+    "utchi": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2012.68,
+      2012.87,
+      2013.13
+     ]
+    },
+    "viser": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2012.91,
+      2014.46,
+      2015.07
+     ]
+    },
+    "waps": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2012.11,
+      2013.0,
+      2014.38
+     ]
+    },
+    "wapsx": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2011.6,
+      2012.25,
+      2013.55
+     ]
+    },
+    "wooboo": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2010.72,
+      2011.48,
+      2012.25
+     ]
+    },
+    "youmi": {
+     "n": 150,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2011.63,
+      2014.27,
+      2014.58
+     ]
+    }
+   },
+   "date_only": {
+    "n": 6256,
+    "f1_date_only": 0.07435444529581196,
+    "f1_prior": 0.024100885503547987
+   },
+   "era": {
+    "admobads": {
+     "n": 150,
+     "split_year": 2011.08,
+     "auroc_late_vs_early": 0.8117333333333333
+    },
+    "admogo": {
+     "skipped": "150 dated apps or interquartile range < 0.5 years"
+    },
+    "adpush": {
+     "n": 149,
+     "split_year": 2013.09,
+     "auroc_late_vs_early": 0.9785585585585586
+    },
+    "adwo": {
+     "n": 149,
+     "split_year": 2012.61,
+     "auroc_late_vs_early": 0.8634234234234235
+    },
+    "airpush": {
+     "n": 150,
+     "split_year": 2014.2,
+     "auroc_late_vs_early": 0.8776888888888889
+    },
+    "anydown": {
+     "skipped": "150 dated apps or interquartile range < 0.5 years"
+    },
+    "appsgeyser": {
+     "n": 150,
+     "split_year": 2014.25,
+     "auroc_late_vs_early": 0.8179555555555555
+    },
+    "artemis": {
+     "n": 149,
+     "split_year": 2014.42,
+     "auroc_late_vs_early": 0.8052252252252252
+    },
+    "benign": {
+     "n": 265,
+     "split_year": 2015.77,
+     "auroc_late_vs_early": 0.6695146958304852
+    },
+    "cauly": {
+     "n": 149,
+     "split_year": 2014.53,
+     "auroc_late_vs_early": 0.9760360360360361
+    },
+    "cve": {
+     "skipped": "150 dated apps or interquartile range < 0.5 years"
+    },
+    "deng": {
+     "n": 150,
+     "split_year": 2014.58,
+     "auroc_late_vs_early": 0.7685333333333333
+    },
+    "domob": {
+     "n": 150,
+     "split_year": 2012.61,
+     "auroc_late_vs_early": 0.8666666666666667
+    },
+    "dowgin": {
+     "n": 150,
+     "split_year": 2014.5,
+     "auroc_late_vs_early": 0.8035555555555556
+    },
+    "droidkungfu": {
+     "n": 149,
+     "split_year": 2012.38,
+     "auroc_late_vs_early": 0.8381981981981982
+    },
+    "eldorado": {
+     "n": 150,
+     "split_year": 2015.92,
+     "auroc_late_vs_early": 0.4928888888888888
+    },
+    "feiwo": {
+     "skipped": "150 dated apps or interquartile range < 0.5 years"
+    },
+    "genbl": {
+     "n": 150,
+     "split_year": 2013.8,
+     "auroc_late_vs_early": 0.9368888888888889
+    },
+    "genpua": {
+     "n": 149,
+     "split_year": 2015.79,
+     "auroc_late_vs_early": 0.7487387387387388
+    },
+    "gingermaster": {
+     "n": 150,
+     "split_year": 2013.66,
+     "auroc_late_vs_early": 0.8691555555555556
+    },
+    "ginmaster": {
+     "n": 150,
+     "split_year": 2012.94,
+     "auroc_late_vs_early": 0.6976495726495726
+    },
+    "igexin": {
+     "n": 148,
+     "split_year": 2015.68,
+     "auroc_late_vs_early": 0.8480642804967129
+    },
+    "inmobiads": {
+     "skipped": "150 dated apps or interquartile range < 0.5 years"
+    },
+    "jiagu": {
+     "skipped": "150 dated apps or interquartile range < 0.5 years"
+    },
+    "kuguo": {
+     "n": 150,
+     "split_year": 2014.23,
+     "auroc_late_vs_early": 0.9208888888888889
+    },
+    "kyview": {
+     "n": 150,
+     "split_year": 2014.34,
+     "auroc_late_vs_early": 0.9587555555555556
+    },
+    "leadbolt": {
+     "n": 150,
+     "split_year": 2014.17,
+     "auroc_late_vs_early": 0.9034666666666668
+    },
+    "millennialmediaads": {
+     "skipped": "150 dated apps or interquartile range < 0.5 years"
+    },
+    "mobwin": {
+     "n": 150,
+     "split_year": 2012.97,
+     "auroc_late_vs_early": 0.9416888888888888
+    },
+    "nandrobox": {
+     "n": 150,
+     "split_year": 2012.54,
+     "auroc_late_vs_early": 0.9944888888888889
+    },
+    "plankton": {
+     "n": 150,
+     "split_year": 2013.24,
+     "auroc_late_vs_early": 0.9111111111111111
+    },
+    "revmob": {
+     "skipped": "150 dated apps or interquartile range < 0.5 years"
+    },
+    "smspay": {
+     "n": 149,
+     "split_year": 2015.18,
+     "auroc_late_vs_early": 0.8064864864864865
+    },
+    "startapp": {
+     "n": 150,
+     "split_year": 2014.55,
+     "auroc_late_vs_early": 0.9811555555555556
+    },
+    "umeng": {
+     "n": 150,
+     "split_year": 2013.21,
+     "auroc_late_vs_early": 0.9043555555555556
+    },
+    "utchi": {
+     "skipped": "150 dated apps or interquartile range < 0.5 years"
+    },
+    "viser": {
+     "n": 150,
+     "split_year": 2014.46,
+     "auroc_late_vs_early": 0.7192389758179232
+    },
+    "waps": {
+     "n": 150,
+     "split_year": 2013.0,
+     "auroc_late_vs_early": 0.9576888888888888
+    },
+    "wapsx": {
+     "n": 150,
+     "split_year": 2012.25,
+     "auroc_late_vs_early": 0.8979555555555555
+    },
+    "wooboo": {
+     "n": 150,
+     "split_year": 2011.48,
+     "auroc_late_vs_early": 0.9495111111111112
+    },
+    "youmi": {
+     "n": 150,
+     "split_year": 2014.27,
+     "auroc_late_vs_early": 0.9799111111111112
+    }
+   },
+   "feature_drift": {
+    "admobads": [
+     {
+      "year": 2010,
+      "n": 61,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2011,
+      "n": 72,
+      "dist_first": 0.45488637507440766,
+      "dist_prev": 0.45488637507440766,
+      "new_active_share": 0.07991120976692564
+     },
+     {
+      "year": 2012,
+      "n": 10,
+      "dist_first": 0.25670811133829363,
+      "dist_prev": 0.20430229490896556,
+      "new_active_share": 0.04106776180698152
+     }
+    ],
+    "admogo": [
+     {
+      "year": 2012,
+      "n": 126,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2013,
+      "n": 14,
+      "dist_first": 0.7329551218769569,
+      "dist_prev": 0.7329551218769569,
+      "new_active_share": 0.3411405295315682
+     }
+    ],
+    "adpush": [
+     {
+      "year": 2012,
+      "n": 65,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2013,
+      "n": 21,
+      "dist_first": 0.9539645134020681,
+      "dist_prev": 0.9539645134020681,
+      "new_active_share": 0.001049317943336831
+     },
+     {
+      "year": 2014,
+      "n": 33,
+      "dist_first": 1.0185260130309437,
+      "dist_prev": 1.0176397922005114,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2015,
+      "n": 30,
+      "dist_first": 1.0116236018289337,
+      "dist_prev": 0.42416732814287483,
+      "new_active_share": 0.0
+     }
+    ],
+    "adwo": [
+     {
+      "year": 2011,
+      "n": 23,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2012,
+      "n": 73,
+      "dist_first": 0.37462950061867306,
+      "dist_prev": 0.37462950061867306,
+      "new_active_share": 0.026418786692759294
+     },
+     {
+      "year": 2013,
+      "n": 26,
+      "dist_first": 0.8151547225636352,
+      "dist_prev": 0.7306149711316996,
+      "new_active_share": 0.0009784735812133072
+     },
+     {
+      "year": 2014,
+      "n": 20,
+      "dist_first": 0.8688100077749319,
+      "dist_prev": 0.5565329131184777,
+      "new_active_share": 0.0
+     }
+    ],
+    "airpush": [
+     {
+      "year": 2011,
+      "n": 13,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2012,
+      "n": 13,
+      "dist_first": 0.5862934911300285,
+      "dist_prev": 0.5862934911300285,
+      "new_active_share": 0.044760935910478125
+     },
+     {
+      "year": 2013,
+      "n": 34,
+      "dist_first": 0.9031670505699303,
+      "dist_prev": 0.8858281116628548,
+      "new_active_share": 0.002932551319648094
+     },
+     {
+      "year": 2014,
+      "n": 59,
+      "dist_first": 0.9853400794224456,
+      "dist_prev": 0.8626147906318817,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 21,
+      "dist_first": 1.009373505584459,
+      "dist_prev": 0.8000044941593862,
+      "new_active_share": 0.0
+     }
+    ],
+    "anydown": [
+     {
+      "year": 2015,
+      "n": 122,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2016,
+      "n": 20,
+      "dist_first": 0.279262907507131,
+      "dist_prev": 0.279262907507131,
+      "new_active_share": 0.03112449799196787
+     }
+    ],
+    "appsgeyser": [
+     {
+      "year": 2012,
+      "n": 11,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2013,
+      "n": 33,
+      "dist_first": 0.9402942518094395,
+      "dist_prev": 0.9402942518094395,
+      "new_active_share": 0.05083088954056696
+     },
+     {
+      "year": 2014,
+      "n": 68,
+      "dist_first": 1.0046303976774948,
+      "dist_prev": 0.9314507526424186,
+      "new_active_share": 0.0009765625
+     },
+     {
+      "year": 2015,
+      "n": 12,
+      "dist_first": 1.0246216667237058,
+      "dist_prev": 0.9458506192792765,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 26,
+      "dist_first": 1.0154578281666233,
+      "dist_prev": 0.12075847200889434,
+      "new_active_share": 0.0
+     }
+    ],
+    "artemis": [
+     {
+      "year": 2012,
+      "n": 13,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2013,
+      "n": 44,
+      "dist_first": 0.9323107583202079,
+      "dist_prev": 0.9323107583202079,
+      "new_active_share": 0.0322265625
+     },
+     {
+      "year": 2014,
+      "n": 29,
+      "dist_first": 0.981789365249588,
+      "dist_prev": 0.715545110747761,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2015,
+      "n": 33,
+      "dist_first": 0.9907259969508628,
+      "dist_prev": 0.8722218623138391,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 23,
+      "dist_first": 1.028619420158009,
+      "dist_prev": 0.8434243027878976,
+      "new_active_share": 0.0
+     }
+    ],
+    "benign": [
+     {
+      "year": 2012,
+      "n": 11,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2013,
+      "n": 27,
+      "dist_first": 0.9353556779476002,
+      "dist_prev": 0.9353556779476002,
+      "new_active_share": 0.07933398628795299
+     },
+     {
+      "year": 2014,
+      "n": 56,
+      "dist_first": 0.9092084470029927,
+      "dist_prev": 0.9280938234041524,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2015,
+      "n": 38,
+      "dist_first": 0.8918816279190679,
+      "dist_prev": 0.6307619160691081,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 63,
+      "dist_first": 0.9628765159508643,
+      "dist_prev": 0.7294500320636315,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2017,
+      "n": 18,
+      "dist_first": 0.9427096453510124,
+      "dist_prev": 0.7651072167677555,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2018,
+      "n": 23,
+      "dist_first": 0.9783944764142674,
+      "dist_prev": 0.6814466395089632,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2019,
+      "n": 15,
+      "dist_first": 0.938979333124415,
+      "dist_prev": 0.8412568602176974,
+      "new_active_share": 0.0
+     }
+    ],
+    "cauly": [
+     {
+      "year": 2013,
+      "n": 19,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 83,
+      "dist_first": 0.4659107805615301,
+      "dist_prev": 0.4659107805615301,
+      "new_active_share": 0.05697445972495088
+     },
+     {
+      "year": 2016,
+      "n": 41,
+      "dist_first": 0.8166350514137968,
+      "dist_prev": 0.6517083916202775,
+      "new_active_share": 0.002955665024630542
+     }
+    ],
+    "cve": [
+     {
+      "year": 2014,
+      "n": 14,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2015,
+      "n": 17,
+      "dist_first": 0.5224484798539593,
+      "dist_prev": 0.5224484798539593,
+      "new_active_share": 0.03929679420889348
+     },
+     {
+      "year": 2016,
+      "n": 115,
+      "dist_first": 0.6015012901867625,
+      "dist_prev": 0.2249053701211562,
+      "new_active_share": 0.0033821871476888386
+     }
+    ],
+    "deng": [
+     {
+      "year": 2013,
+      "n": 15,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 58,
+      "dist_first": 0.796600846823333,
+      "dist_prev": 0.796600846823333,
+      "new_active_share": 0.0078125
+     },
+     {
+      "year": 2015,
+      "n": 53,
+      "dist_first": 0.8983379775340318,
+      "dist_prev": 0.6883049482299368,
+      "new_active_share": 0.0
+     }
+    ],
+    "domob": [
+     {
+      "year": 2011,
+      "n": 22,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2012,
+      "n": 79,
+      "dist_first": 0.7771398079426516,
+      "dist_prev": 0.7771398079426516,
+      "new_active_share": 0.11504424778761062
+     },
+     {
+      "year": 2013,
+      "n": 36,
+      "dist_first": 0.9038321081690011,
+      "dist_prev": 0.44327855337859,
+      "new_active_share": 0.002938295788442703
+     }
+    ],
+    "dowgin": [
+     {
+      "year": 2013,
+      "n": 24,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 60,
+      "dist_first": 0.797897702103293,
+      "dist_prev": 0.797897702103293,
+      "new_active_share": 0.001953125
+     },
+     {
+      "year": 2015,
+      "n": 26,
+      "dist_first": 0.907194174885369,
+      "dist_prev": 0.8996893636260294,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 30,
+      "dist_first": 0.9422930314132826,
+      "dist_prev": 0.7030864554425349,
+      "new_active_share": 0.0
+     }
+    ],
+    "droidkungfu": [
+     {
+      "year": 2011,
+      "n": 49,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2012,
+      "n": 89,
+      "dist_first": 0.589031553704493,
+      "dist_prev": 0.589031553704493,
+      "new_active_share": 0.033366045142296366
+     }
+    ],
+    "eldorado": [
+     {
+      "year": 2015,
+      "n": 75,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2016,
+      "n": 64,
+      "dist_first": 0.16485752683968613,
+      "dist_prev": 0.16485752683968613,
+      "new_active_share": 0.9345238095238095
+     }
+    ],
+    "feiwo": [
+     {
+      "year": 2015,
+      "n": 121,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2016,
+      "n": 23,
+      "dist_first": 0.6640383680892227,
+      "dist_prev": 0.6640383680892227,
+      "new_active_share": 0.0
+     }
+    ],
+    "genbl": [
+     {
+      "year": 2012,
+      "n": 27,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2013,
+      "n": 49,
+      "dist_first": 0.8415570714210683,
+      "dist_prev": 0.8415570714210683,
+      "new_active_share": 0.011822660098522168
+     },
+     {
+      "year": 2014,
+      "n": 32,
+      "dist_first": 0.7767676929526047,
+      "dist_prev": 0.9360080394684078,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2015,
+      "n": 17,
+      "dist_first": 0.9216795677462823,
+      "dist_prev": 0.7711443070332212,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 19,
+      "dist_first": 0.9797223119612029,
+      "dist_prev": 0.8262882574514714,
+      "new_active_share": 0.0
+     }
+    ],
+    "genpua": [
+     {
+      "year": 2014,
+      "n": 24,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2015,
+      "n": 81,
+      "dist_first": 0.9365884579379419,
+      "dist_prev": 0.9365884579379419,
+      "new_active_share": 0.007858546168958742
+     },
+     {
+      "year": 2016,
+      "n": 40,
+      "dist_first": 0.9342446676539272,
+      "dist_prev": 0.4027414929945199,
+      "new_active_share": 0.0
+     }
+    ],
+    "gingermaster": [
+     {
+      "year": 2012,
+      "n": 26,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2013,
+      "n": 99,
+      "dist_first": 0.9275438478895581,
+      "dist_prev": 0.9275438478895581,
+      "new_active_share": 0.0068359375
+     },
+     {
+      "year": 2014,
+      "n": 10,
+      "dist_first": 0.9834817803889475,
+      "dist_prev": 0.8736636178114835,
+      "new_active_share": 0.0
+     }
+    ],
+    "ginmaster": [
+     {
+      "year": 2012,
+      "n": 75,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2013,
+      "n": 32,
+      "dist_first": 0.8578037445042692,
+      "dist_prev": 0.8578037445042692,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 14,
+      "dist_first": 0.9985324009937571,
+      "dist_prev": 0.9698397873124738,
+      "new_active_share": 0.0
+     }
+    ],
+    "igexin": [
+     {
+      "year": 2013,
+      "n": 11,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 35,
+      "dist_first": 0.46535172443318484,
+      "dist_prev": 0.46535172443318484,
+      "new_active_share": 0.05196078431372549
+     },
+     {
+      "year": 2015,
+      "n": 50,
+      "dist_first": 0.9205905050322785,
+      "dist_prev": 0.7806277755092347,
+      "new_active_share": 0.0019569471624266144
+     },
+     {
+      "year": 2016,
+      "n": 47,
+      "dist_first": 0.9243108080260175,
+      "dist_prev": 0.21658265147183786,
+      "new_active_share": 0.0
+     }
+    ],
+    "inmobiads": [
+     {
+      "year": 2012,
+      "n": 11,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2013,
+      "n": 126,
+      "dist_first": 0.9736954184890371,
+      "dist_prev": 0.9736954184890371,
+      "new_active_share": 0.41338582677165353
+     }
+    ],
+    "jiagu": [
+     {
+      "year": 2015,
+      "n": 16,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2016,
+      "n": 134,
+      "dist_first": 0.5592445717008191,
+      "dist_prev": 0.5592445717008191,
+      "new_active_share": 0.4298245614035088
+     }
+    ],
+    "kuguo": [
+     {
+      "year": 2012,
+      "n": 53,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2013,
+      "n": 12,
+      "dist_first": 1.004153619873572,
+      "dist_prev": 1.004153619873572,
+      "new_active_share": 0.0020429009193054137
+     },
+     {
+      "year": 2014,
+      "n": 12,
+      "dist_first": 0.9812226062361389,
+      "dist_prev": 0.9529448285255138,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2015,
+      "n": 33,
+      "dist_first": 1.0153180200968583,
+      "dist_prev": 1.0006907109628815,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 32,
+      "dist_first": 1.0034849106833772,
+      "dist_prev": 0.5654264989865647,
+      "new_active_share": 0.0
+     }
+    ],
+    "kyview": [
+     {
+      "year": 2012,
+      "n": 14,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2013,
+      "n": 45,
+      "dist_first": 0.8635377932418561,
+      "dist_prev": 0.8635377932418561,
+      "new_active_share": 0.05263157894736842
+     },
+     {
+      "year": 2014,
+      "n": 30,
+      "dist_first": 0.9446128882338081,
+      "dist_prev": 0.4664939766141918,
+      "new_active_share": 0.0009794319294809011
+     },
+     {
+      "year": 2015,
+      "n": 12,
+      "dist_first": 0.9298696355835399,
+      "dist_prev": 0.8347222484521979,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 46,
+      "dist_first": 0.9629363481161034,
+      "dist_prev": 0.8308188499805129,
+      "new_active_share": 0.0
+     }
+    ],
+    "leadbolt": [
+     {
+      "year": 2012,
+      "n": 24,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2013,
+      "n": 29,
+      "dist_first": 0.8486772110330236,
+      "dist_prev": 0.8486772110330236,
+      "new_active_share": 0.0234375
+     },
+     {
+      "year": 2014,
+      "n": 70,
+      "dist_first": 0.9897045446010049,
+      "dist_prev": 0.7698442000758541,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2015,
+      "n": 15,
+      "dist_first": 1.0616950147345487,
+      "dist_prev": 0.6242920425605295,
+      "new_active_share": 0.0
+     }
+    ],
+    "millennialmediaads": [
+     {
+      "year": 2011,
+      "n": 13,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2012,
+      "n": 15,
+      "dist_first": 0.6619128933153108,
+      "dist_prev": 0.6619128933153108,
+      "new_active_share": 0.06315789473684211
+     },
+     {
+      "year": 2013,
+      "n": 114,
+      "dist_first": 0.9512639226243785,
+      "dist_prev": 0.8287295322154039,
+      "new_active_share": 0.016748768472906402
+     }
+    ],
+    "mobwin": [
+     {
+      "year": 2012,
+      "n": 73,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2013,
+      "n": 66,
+      "dist_first": 0.4487802505767452,
+      "dist_prev": 0.4487802505767452,
+      "new_active_share": 0.07135874877810362
+     }
+    ],
+    "nandrobox": [
+     {
+      "year": 2011,
+      "n": 17,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2012,
+      "n": 87,
+      "dist_first": 0.5411846841185789,
+      "dist_prev": 0.5411846841185789,
+      "new_active_share": 0.01634320735444331
+     },
+     {
+      "year": 2013,
+      "n": 28,
+      "dist_first": 0.8906095761902905,
+      "dist_prev": 0.6879422906418443,
+      "new_active_share": 0.006054490413723511
+     },
+     {
+      "year": 2014,
+      "n": 15,
+      "dist_first": 0.9712554015743761,
+      "dist_prev": 0.5957751627003737,
+      "new_active_share": 0.0029644268774703555
+     }
+    ],
+    "plankton": [
+     {
+      "year": 2012,
+      "n": 57,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2013,
+      "n": 61,
+      "dist_first": 0.5204355247777634,
+      "dist_prev": 0.5204355247777634,
+      "new_active_share": 0.046534653465346534
+     },
+     {
+      "year": 2014,
+      "n": 21,
+      "dist_first": 0.9906794217545136,
+      "dist_prev": 0.8746134126337047,
+      "new_active_share": 0.006951340615690168
+     }
+    ],
+    "revmob": [
+     {
+      "year": 2013,
+      "n": 15,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 113,
+      "dist_first": 0.2567885295702097,
+      "dist_prev": 0.2567885295702097,
+      "new_active_share": 0.05511811023622047
+     },
+     {
+      "year": 2015,
+      "n": 10,
+      "dist_first": 0.5008906183512378,
+      "dist_prev": 0.32421642660582517,
+      "new_active_share": 0.04356636271529889
+     },
+     {
+      "year": 2016,
+      "n": 12,
+      "dist_first": 0.9102436073621916,
+      "dist_prev": 0.7839967560951595,
+      "new_active_share": 0.004106776180698152
+     }
+    ],
+    "smspay": [
+     {
+      "year": 2013,
+      "n": 32,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 28,
+      "dist_first": 0.7201931728314516,
+      "dist_prev": 0.7201931728314516,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2015,
+      "n": 22,
+      "dist_first": 0.8672689214282623,
+      "dist_prev": 0.6010173915963223,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 56,
+      "dist_first": 0.7849741612884362,
+      "dist_prev": 0.7018679825433571,
+      "new_active_share": 0.0
+     }
+    ],
+    "startapp": [
+     {
+      "year": 2014,
+      "n": 90,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2016,
+      "n": 49,
+      "dist_first": 0.8861688518921379,
+      "dist_prev": 0.8861688518921379,
+      "new_active_share": 0.015608740894901144
+     }
+    ],
+    "umeng": [
+     {
+      "year": 2011,
+      "n": 26,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2012,
+      "n": 39,
+      "dist_first": 0.7405070443497186,
+      "dist_prev": 0.7405070443497186,
+      "new_active_share": 0.014705882352941176
+     },
+     {
+      "year": 2013,
+      "n": 38,
+      "dist_first": 0.8488796350377044,
+      "dist_prev": 0.512182613402209,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2014,
+      "n": 11,
+      "dist_first": 0.9117719623837781,
+      "dist_prev": 0.6861894879005752,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2015,
+      "n": 23,
+      "dist_first": 0.9379198830073304,
+      "dist_prev": 0.9167467439499972,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 12,
+      "dist_first": 0.9760842083638881,
+      "dist_prev": 0.5005400875143621,
+      "new_active_share": 0.0
+     }
+    ],
+    "utchi": [
+     {
+      "year": 2012,
+      "n": 124,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2013,
+      "n": 24,
+      "dist_first": 0.8090104338162708,
+      "dist_prev": 0.8090104338162708,
+      "new_active_share": 0.0009794319294809011
+     }
+    ],
+    "viser": [
+     {
+      "year": 2012,
+      "n": 16,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2013,
+      "n": 33,
+      "dist_first": 0.671435168537956,
+      "dist_prev": 0.671435168537956,
+      "new_active_share": 0.01857282502443793
+     },
+     {
+      "year": 2014,
+      "n": 76,
+      "dist_first": 0.9445499701834583,
+      "dist_prev": 0.5160217436927447,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2015,
+      "n": 15,
+      "dist_first": 0.9747839724702415,
+      "dist_prev": 0.7020367077528321,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 10,
+      "dist_first": 0.9207066260810293,
+      "dist_prev": 0.8450625083267407,
+      "new_active_share": 0.0
+     }
+    ],
+    "waps": [
+     {
+      "year": 2011,
+      "n": 10,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2012,
+      "n": 61,
+      "dist_first": 0.6912019970648197,
+      "dist_prev": 0.6912019970648197,
+      "new_active_share": 0.06182531894013739
+     },
+     {
+      "year": 2013,
+      "n": 52,
+      "dist_first": 0.9939138497086885,
+      "dist_prev": 0.8324233378594653,
+      "new_active_share": 0.001953125
+     },
+     {
+      "year": 2014,
+      "n": 17,
+      "dist_first": 0.9986326612933772,
+      "dist_prev": 0.7678455519783636,
+      "new_active_share": 0.0
+     }
+    ],
+    "wapsx": [
+     {
+      "year": 2011,
+      "n": 46,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2012,
+      "n": 77,
+      "dist_first": 0.4765822801093569,
+      "dist_prev": 0.4765822801093569,
+      "new_active_share": 0.023483365949119372
+     },
+     {
+      "year": 2013,
+      "n": 13,
+      "dist_first": 0.9569470419866066,
+      "dist_prev": 0.7689849313038467,
+      "new_active_share": 0.0
+     }
+    ],
+    "wooboo": [
+     {
+      "year": 2010,
+      "n": 35,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2011,
+      "n": 93,
+      "dist_first": 0.4584902760280051,
+      "dist_prev": 0.4584902760280051,
+      "new_active_share": 0.1437007874015748
+     },
+     {
+      "year": 2012,
+      "n": 19,
+      "dist_first": 0.8457506886939263,
+      "dist_prev": 0.7392015527153096,
+      "new_active_share": 0.0029702970297029703
+     }
+    ],
+    "youmi": [
+     {
+      "year": 2011,
+      "n": 29,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2012,
+      "n": 27,
+      "dist_first": 0.816343419690395,
+      "dist_prev": 0.816343419690395,
+      "new_active_share": 0.00392156862745098
+     },
+     {
+      "year": 2013,
+      "n": 10,
+      "dist_first": 1.027170707111711,
+      "dist_prev": 0.9254687077585981,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2014,
+      "n": 79,
+      "dist_first": 1.0223028251639827,
+      "dist_prev": 1.0133500671899305,
+      "new_active_share": 0.0
+     }
+    ]
+   },
+   "global_split": {
+    "split_year": 2013.96,
+    "f1": 0.12918716808915365,
+    "n_test_scored": 2830,
+    "train_classes": {
+     "admobads": 150,
+     "admogo": 140,
+     "adpush": 86,
+     "adwo": 120,
+     "airpush": 60,
+     "appsgeyser": 42,
+     "artemis": 61,
+     "benign": 47,
+     "cauly": 18,
+     "cve": 4,
+     "deng": 32,
+     "domob": 137,
+     "dowgin": 32,
+     "droidkungfu": 144,
+     "eldorado": 5,
+     "feiwo": 5,
+     "genbl": 81,
+     "genpua": 4,
+     "gingermaster": 129,
+     "ginmaster": 115,
+     "igexin": 15,
+     "inmobiads": 143,
+     "kuguo": 72,
+     "kyview": 50,
+     "leadbolt": 55,
+     "millennialmediaads": 142,
+     "mobwin": 144,
+     "nandrobox": 133,
+     "plankton": 123,
+     "revmob": 14,
+     "smspay": 41,
+     "startapp": 5,
+     "umeng": 104,
+     "utchi": 149,
+     "viser": 45,
+     "waps": 125,
+     "wapsx": 138,
+     "wooboo": 150,
+     "youmi": 66
+    },
+    "test_classes": {
+     "admogo": 10,
+     "adpush": 63,
+     "adwo": 29,
+     "airpush": 90,
+     "anydown": 150,
+     "appsgeyser": 108,
+     "artemis": 88,
+     "benign": 218,
+     "cauly": 131,
+     "cve": 146,
+     "deng": 118,
+     "domob": 13,
+     "dowgin": 118,
+     "droidkungfu": 5,
+     "eldorado": 145,
+     "feiwo": 145,
+     "genbl": 69,
+     "genpua": 145,
+     "gingermaster": 21,
+     "ginmaster": 35,
+     "igexin": 133,
+     "inmobiads": 7,
+     "jiagu": 150,
+     "kuguo": 78,
+     "kyview": 100,
+     "leadbolt": 95,
+     "millennialmediaads": 8,
+     "mobwin": 6,
+     "nandrobox": 17,
+     "plankton": 27,
+     "revmob": 136,
+     "smspay": 108,
+     "startapp": 145,
+     "umeng": 46,
+     "utchi": 1,
+     "viser": 105,
+     "waps": 25,
+     "wapsx": 12,
+     "youmi": 84
+    }
+   },
+   "within_class": {
+    "classes": [
+     "admobads",
+     "admogo",
+     "adpush",
+     "adwo",
+     "airpush",
+     "anydown",
+     "appsgeyser",
+     "artemis",
+     "benign",
+     "cauly",
+     "cve",
+     "deng",
+     "domob",
+     "dowgin",
+     "droidkungfu",
+     "eldorado",
+     "feiwo",
+     "genbl",
+     "genpua",
+     "gingermaster",
+     "ginmaster",
+     "igexin",
+     "inmobiads",
+     "jiagu",
+     "kuguo",
+     "kyview",
+     "leadbolt",
+     "millennialmediaads",
+     "mobwin",
+     "nandrobox",
+     "plankton",
+     "revmob",
+     "smspay",
+     "startapp",
+     "umeng",
+     "utchi",
+     "viser",
+     "waps",
+     "wapsx",
+     "wooboo",
+     "youmi"
+    ],
+    "n_train": 3112,
+    "n_test": 2925,
+    "f1_temporal": 0.3214259834857946,
+    "f1_random": 0.5224668812344998,
+    "gap": 0.2010408977487052
+   },
+   "rolling": {
+    "windows": [
+     {
+      "year": 2011,
+      "f1": 0.9144796380090499,
+      "classes": [
+       "admobads",
+       "wooboo"
+      ],
+      "n_test": 165,
+      "test_apps_of_untrained_classes": 315
+     },
+     {
+      "year": 2012,
+      "f1": 0.36612651798658963,
+      "classes": [
+       "admobads",
+       "adwo",
+       "airpush",
+       "benign",
+       "domob",
+       "droidkungfu",
+       "ginmaster",
+       "millennialmediaads",
+       "nandrobox",
+       "umeng",
+       "waps",
+       "wapsx",
+       "wooboo",
+       "youmi"
+      ],
+      "n_test": 668,
+      "test_apps_of_untrained_classes": 676
+     },
+     {
+      "year": 2013,
+      "f1": 0.19661310569506057,
+      "classes": [
+       "admogo",
+       "adpush",
+       "adwo",
+       "airpush",
+       "appsgeyser",
+       "artemis",
+       "benign",
+       "deng",
+       "domob",
+       "dowgin",
+       "droidkungfu",
+       "genbl",
+       "gingermaster",
+       "ginmaster",
+       "inmobiads",
+       "kuguo",
+       "kyview",
+       "leadbolt",
+       "millennialmediaads",
+       "mobwin",
+       "nandrobox",
+       "plankton",
+       "smspay",
+       "umeng",
+       "utchi",
+       "viser",
+       "waps",
+       "wapsx",
+       "youmi"
+      ],
+      "n_test": 1129,
+      "test_apps_of_untrained_classes": 57
+     },
+     {
+      "year": 2014,
+      "f1": 0.22907509706245294,
+      "classes": [
+       "admogo",
+       "adpush",
+       "adwo",
+       "airpush",
+       "appsgeyser",
+       "artemis",
+       "benign",
+       "cauly",
+       "deng",
+       "domob",
+       "dowgin",
+       "genbl",
+       "gingermaster",
+       "ginmaster",
+       "igexin",
+       "inmobiads",
+       "kuguo",
+       "kyview",
+       "leadbolt",
+       "millennialmediaads",
+       "nandrobox",
+       "plankton",
+       "revmob",
+       "smspay",
+       "umeng",
+       "viser",
+       "waps",
+       "wapsx",
+       "youmi"
+      ],
+      "n_test": 1041,
+      "test_apps_of_untrained_classes": 143
+     },
+     {
+      "year": 2015,
+      "f1": 0.19071901395448848,
+      "classes": [
+       "adpush",
+       "airpush",
+       "appsgeyser",
+       "artemis",
+       "benign",
+       "cve",
+       "deng",
+       "dowgin",
+       "eldorado",
+       "genbl",
+       "genpua",
+       "gingermaster",
+       "ginmaster",
+       "igexin",
+       "kuguo",
+       "kyview",
+       "leadbolt",
+       "revmob",
+       "smspay",
+       "startapp",
+       "umeng",
+       "viser"
+      ],
+      "n_test": 584,
+      "test_apps_of_untrained_classes": 257
+     },
+     {
+      "year": 2016,
+      "f1": 0.28604437723807696,
+      "classes": [
+       "adwo",
+       "airpush",
+       "anydown",
+       "appsgeyser",
+       "artemis",
+       "benign",
+       "cauly",
+       "cve",
+       "deng",
+       "dowgin",
+       "eldorado",
+       "feiwo",
+       "genbl",
+       "genpua",
+       "ginmaster",
+       "igexin",
+       "jiagu",
+       "kuguo",
+       "kyview",
+       "leadbolt",
+       "revmob",
+       "smspay",
+       "startapp",
+       "umeng",
+       "viser"
+      ],
+      "n_test": 879,
+      "test_apps_of_untrained_classes": 0
+     }
+    ],
+    "aut": 0.316559148464431
+   },
+   "oof_by_year": {
+    "admobads": {
+     "by_year": {
+      "2009": [
+       4,
+       1.0
+      ],
+      "2010": [
+       61,
+       0.934
+      ],
+      "2011": [
+       72,
+       0.917
+      ],
+      "2012": [
+       10,
+       0.8
+      ],
+      "2013": [
+       3,
+       0.667
+      ]
+     },
+     "spearman_correct_date": -0.17484488699950887
+    },
+    "admogo": {
+     "by_year": {
+      "2012": [
+       126,
+       0.905
+      ],
+      "2013": [
+       14,
+       0.5
+      ],
+      "2014": [
+       7,
+       0.286
+      ],
+      "2015": [
+       2,
+       0.0
+      ],
+      "2016": [
+       1,
+       0.0
+      ]
+     },
+     "spearman_correct_date": -0.22000911052739286
+    },
+    "adpush": {
+     "by_year": {
+      "2012": [
+       65,
+       0.723
+      ],
+      "2013": [
+       21,
+       0.857
+      ],
+      "2014": [
+       33,
+       0.848
+      ],
+      "2015": [
+       30,
+       0.433
+      ]
+     },
+     "spearman_correct_date": -0.1436079201059723
+    },
+    "adwo": {
+     "by_year": {
+      "2011": [
+       23,
+       0.261
+      ],
+      "2012": [
+       73,
+       0.507
+      ],
+      "2013": [
+       26,
+       0.231
+      ],
+      "2014": [
+       20,
+       0.15
+      ],
+      "2016": [
+       7,
+       0.429
+      ]
+     },
+     "spearman_correct_date": -0.14858105558856177
+    },
+    "airpush": {
+     "by_year": {
+      "2008": [
+       2,
+       1.0
+      ],
+      "2011": [
+       13,
+       0.385
+      ],
+      "2012": [
+       13,
+       0.538
+      ],
+      "2013": [
+       34,
+       0.382
+      ],
+      "2014": [
+       59,
+       0.169
+      ],
+      "2015": [
+       8,
+       0.5
+      ],
+      "2016": [
+       21,
+       0.286
+      ]
+     },
+     "spearman_correct_date": -0.17011321246491623
+    },
+    "anydown": {
+     "by_year": {
+      "2014": [
+       8,
+       1.0
+      ],
+      "2015": [
+       122,
+       0.852
+      ],
+      "2016": [
+       20,
+       0.8
+      ]
+     },
+     "spearman_correct_date": -0.15671391574178306
+    },
+    "appsgeyser": {
+     "by_year": {
+      "2012": [
+       11,
+       0.091
+      ],
+      "2013": [
+       33,
+       0.182
+      ],
+      "2014": [
+       68,
+       0.176
+      ],
+      "2015": [
+       12,
+       0.667
+      ],
+      "2016": [
+       26,
+       1.0
+      ]
+     },
+     "spearman_correct_date": 0.5536951782496403
+    },
+    "artemis": {
+     "by_year": {
+      "2009": [
+       1,
+       1.0
+      ],
+      "2010": [
+       2,
+       0.5
+      ],
+      "2011": [
+       4,
+       0.0
+      ],
+      "2012": [
+       13,
+       0.154
+      ],
+      "2013": [
+       44,
+       0.273
+      ],
+      "2014": [
+       29,
+       0.069
+      ],
+      "2015": [
+       33,
+       0.061
+      ],
+      "2016": [
+       23,
+       0.043
+      ]
+     },
+     "spearman_correct_date": -0.20942123525765263
+    },
+    "benign": {
+     "by_year": {
+      "2010": [
+       4,
+       0.25
+      ],
+      "2011": [
+       8,
+       0.0
+      ],
+      "2012": [
+       11,
+       0.273
+      ],
+      "2013": [
+       27,
+       0.185
+      ],
+      "2014": [
+       56,
+       0.268
+      ],
+      "2015": [
+       38,
+       0.184
+      ],
+      "2016": [
+       63,
+       0.429
+      ],
+      "2017": [
+       18,
+       0.611
+      ],
+      "2018": [
+       23,
+       0.652
+      ],
+      "2019": [
+       15,
+       0.667
+      ],
+      "2020": [
+       2,
+       0.5
+      ]
+     },
+     "spearman_correct_date": 0.33075838444377137
+    },
+    "cauly": {
+     "by_year": {
+      "2012": [
+       2,
+       1.0
+      ],
+      "2013": [
+       19,
+       0.895
+      ],
+      "2014": [
+       83,
+       0.904
+      ],
+      "2015": [
+       4,
+       1.0
+      ],
+      "2016": [
+       41,
+       0.902
+      ]
+     },
+     "spearman_correct_date": -0.018183402377003246
+    },
+    "cve": {
+     "by_year": {
+      "2013": [
+       4,
+       0.5
+      ],
+      "2014": [
+       14,
+       0.429
+      ],
+      "2015": [
+       17,
+       0.824
+      ],
+      "2016": [
+       115,
+       0.983
+      ]
+     },
+     "spearman_correct_date": 0.38077411700523933
+    },
+    "deng": {
+     "by_year": {
+      "2011": [
+       8,
+       0.75
+      ],
+      "2012": [
+       9,
+       0.222
+      ],
+      "2013": [
+       15,
+       0.267
+      ],
+      "2014": [
+       58,
+       0.207
+      ],
+      "2015": [
+       53,
+       0.264
+      ],
+      "2016": [
+       7,
+       0.0
+      ]
+     },
+     "spearman_correct_date": -0.11717814621398742
+    },
+    "domob": {
+     "by_year": {
+      "2008": [
+       1,
+       1.0
+      ],
+      "2011": [
+       22,
+       0.455
+      ],
+      "2012": [
+       79,
+       0.785
+      ],
+      "2013": [
+       36,
+       0.667
+      ],
+      "2014": [
+       9,
+       0.222
+      ],
+      "2015": [
+       3,
+       1.0
+      ]
+     },
+     "spearman_correct_date": -0.03762731244327697
+    },
+    "dowgin": {
+     "by_year": {
+      "2008": [
+       1,
+       0.0
+      ],
+      "2011": [
+       1,
+       0.0
+      ],
+      "2012": [
+       8,
+       0.125
+      ],
+      "2013": [
+       24,
+       0.25
+      ],
+      "2014": [
+       60,
+       0.517
+      ],
+      "2015": [
+       26,
+       0.308
+      ],
+      "2016": [
+       30,
+       0.167
+      ]
+     },
+     "spearman_correct_date": -0.06955540969347279
+    },
+    "droidkungfu": {
+     "by_year": {
+      "2011": [
+       49,
+       0.714
+      ],
+      "2012": [
+       89,
+       0.258
+      ],
+      "2013": [
+       7,
+       0.143
+      ],
+      "2014": [
+       4,
+       0.0
+      ]
+     },
+     "spearman_correct_date": -0.49505440090623715
+    },
+    "eldorado": {
+     "by_year": {
+      "2008": [
+       1,
+       0.0
+      ],
+      "2010": [
+       1,
+       0.0
+      ],
+      "2012": [
+       1,
+       0.0
+      ],
+      "2013": [
+       2,
+       0.0
+      ],
+      "2014": [
+       6,
+       0.0
+      ],
+      "2015": [
+       75,
+       0.973
+      ],
+      "2016": [
+       64,
+       0.844
+      ]
+     },
+     "spearman_correct_date": 0.1333265828456224
+    },
+    "feiwo": {
+     "by_year": {
+      "2008": [
+       5,
+       0.4
+      ],
+      "2014": [
+       1,
+       0.0
+      ],
+      "2015": [
+       121,
+       0.595
+      ],
+      "2016": [
+       23,
+       0.261
+      ]
+     },
+     "spearman_correct_date": -0.2907119154030992
+    },
+    "genbl": {
+     "by_year": {
+      "2010": [
+       1,
+       0.0
+      ],
+      "2011": [
+       5,
+       0.8
+      ],
+      "2012": [
+       27,
+       0.407
+      ],
+      "2013": [
+       49,
+       0.633
+      ],
+      "2014": [
+       32,
+       0.25
+      ],
+      "2015": [
+       17,
+       0.235
+      ],
+      "2016": [
+       19,
+       0.105
+      ]
+     },
+     "spearman_correct_date": -0.25425208173444414
+    },
+    "genpua": {
+     "by_year": {
+      "2012": [
+       1,
+       0.0
+      ],
+      "2013": [
+       3,
+       0.0
+      ],
+      "2014": [
+       24,
+       0.0
+      ],
+      "2015": [
+       81,
+       0.259
+      ],
+      "2016": [
+       40,
+       0.225
+      ]
+     },
+     "spearman_correct_date": 0.09572630257212868
+    },
+    "gingermaster": {
+     "by_year": {
+      "2008": [
+       1,
+       0.0
+      ],
+      "2011": [
+       5,
+       0.0
+      ],
+      "2012": [
+       26,
+       0.154
+      ],
+      "2013": [
+       99,
+       0.374
+      ],
+      "2014": [
+       10,
+       0.0
+      ],
+      "2015": [
+       5,
+       0.0
+      ],
+      "2016": [
+       4,
+       0.0
+      ]
+     },
+     "spearman_correct_date": 0.10761946903333566
+    },
+    "ginmaster": {
+     "by_year": {
+      "2008": [
+       3,
+       1.0
+      ],
+      "2010": [
+       3,
+       0.0
+      ],
+      "2011": [
+       7,
+       0.143
+      ],
+      "2012": [
+       75,
+       0.227
+      ],
+      "2013": [
+       32,
+       0.125
+      ],
+      "2014": [
+       9,
+       0.222
+      ],
+      "2015": [
+       7,
+       0.0
+      ],
+      "2016": [
+       14,
+       0.0
+      ]
+     },
+     "spearman_correct_date": -0.18175316541683825
+    },
+    "igexin": {
+     "by_year": {
+      "2012": [
+       5,
+       0.2
+      ],
+      "2013": [
+       11,
+       0.909
+      ],
+      "2014": [
+       35,
+       0.771
+      ],
+      "2015": [
+       50,
+       0.88
+      ],
+      "2016": [
+       47,
+       0.894
+      ]
+     },
+     "spearman_correct_date": 0.12185673582041495
+    },
+    "inmobiads": {
+     "by_year": {
+      "2011": [
+       6,
+       1.0
+      ],
+      "2012": [
+       11,
+       0.818
+      ],
+      "2013": [
+       126,
+       0.857
+      ],
+      "2014": [
+       7,
+       0.571
+      ]
+     },
+     "spearman_correct_date": 0.0006410285201737666
+    },
+    "jiagu": {
+     "by_year": {
+      "2015": [
+       16,
+       0.688
+      ],
+      "2016": [
+       134,
+       0.978
+      ]
+     },
+     "spearman_correct_date": 0.20695642626412913
+    },
+    "kuguo": {
+     "by_year": {
+      "2008": [
+       5,
+       0.8
+      ],
+      "2011": [
+       3,
+       1.0
+      ],
+      "2012": [
+       53,
+       0.547
+      ],
+      "2013": [
+       12,
+       0.083
+      ],
+      "2014": [
+       12,
+       0.0
+      ],
+      "2015": [
+       33,
+       0.03
+      ],
+      "2016": [
+       32,
+       0.25
+      ]
+     },
+     "spearman_correct_date": -0.3865017071715566
+    },
+    "kyview": {
+     "by_year": {
+      "2010": [
+       1,
+       1.0
+      ],
+      "2011": [
+       2,
+       0.0
+      ],
+      "2012": [
+       14,
+       0.214
+      ],
+      "2013": [
+       45,
+       0.689
+      ],
+      "2014": [
+       30,
+       0.633
+      ],
+      "2015": [
+       12,
+       0.417
+      ],
+      "2016": [
+       46,
+       0.239
+      ]
+     },
+     "spearman_correct_date": -0.19751899816086255
+    },
+    "leadbolt": {
+     "by_year": {
+      "2011": [
+       5,
+       0.8
+      ],
+      "2012": [
+       24,
+       0.542
+      ],
+      "2013": [
+       29,
+       0.241
+      ],
+      "2014": [
+       70,
+       0.271
+      ],
+      "2015": [
+       15,
+       0.467
+      ],
+      "2016": [
+       7,
+       0.714
+      ]
+     },
+     "spearman_correct_date": -0.010383879806894357
+    },
+    "millennialmediaads": {
+     "by_year": {
+      "2011": [
+       13,
+       0.846
+      ],
+      "2012": [
+       15,
+       0.6
+      ],
+      "2013": [
+       114,
+       0.789
+      ],
+      "2014": [
+       8,
+       0.875
+      ]
+     },
+     "spearman_correct_date": 0.0449869951879496
+    },
+    "mobwin": {
+     "by_year": {
+      "2011": [
+       5,
+       0.6
+      ],
+      "2012": [
+       73,
+       0.753
+      ],
+      "2013": [
+       66,
+       0.515
+      ],
+      "2014": [
+       3,
+       1.0
+      ],
+      "2015": [
+       3,
+       1.0
+      ]
+     },
+     "spearman_correct_date": -0.23585222585162802
+    },
+    "nandrobox": {
+     "by_year": {
+      "2010": [
+       1,
+       0.0
+      ],
+      "2011": [
+       17,
+       0.706
+      ],
+      "2012": [
+       87,
+       0.977
+      ],
+      "2013": [
+       28,
+       0.786
+      ],
+      "2014": [
+       15,
+       0.4
+      ],
+      "2015": [
+       2,
+       0.0
+      ]
+     },
+     "spearman_correct_date": -0.23280350077875114
+    },
+    "plankton": {
+     "by_year": {
+      "2009": [
+       1,
+       0.0
+      ],
+      "2011": [
+       5,
+       0.6
+      ],
+      "2012": [
+       57,
+       0.947
+      ],
+      "2013": [
+       61,
+       0.787
+      ],
+      "2014": [
+       21,
+       0.238
+      ],
+      "2015": [
+       2,
+       0.0
+      ],
+      "2016": [
+       3,
+       0.0
+      ]
+     },
+     "spearman_correct_date": -0.4761193180266619
+    },
+    "revmob": {
+     "by_year": {
+      "2013": [
+       15,
+       0.867
+      ],
+      "2014": [
+       113,
+       0.929
+      ],
+      "2015": [
+       10,
+       0.8
+      ],
+      "2016": [
+       12,
+       0.083
+      ]
+     },
+     "spearman_correct_date": -0.2888729787862062
+    },
+    "smspay": {
+     "by_year": {
+      "2011": [
+       2,
+       0.0
+      ],
+      "2012": [
+       9,
+       0.222
+      ],
+      "2013": [
+       32,
+       0.438
+      ],
+      "2014": [
+       28,
+       0.393
+      ],
+      "2015": [
+       22,
+       0.545
+      ],
+      "2016": [
+       56,
+       0.5
+      ]
+     },
+     "spearman_correct_date": 0.09629825665692836
+    },
+    "startapp": {
+     "by_year": {
+      "2012": [
+       2,
+       0.0
+      ],
+      "2013": [
+       3,
+       0.667
+      ],
+      "2014": [
+       90,
+       0.533
+      ],
+      "2015": [
+       6,
+       0.833
+      ],
+      "2016": [
+       49,
+       0.816
+      ]
+     },
+     "spearman_correct_date": 0.05687196373058912
+    },
+    "umeng": {
+     "by_year": {
+      "2008": [
+       1,
+       0.0
+      ],
+      "2011": [
+       26,
+       0.654
+      ],
+      "2012": [
+       39,
+       0.692
+      ],
+      "2013": [
+       38,
+       0.421
+      ],
+      "2014": [
+       11,
+       0.455
+      ],
+      "2015": [
+       23,
+       0.478
+      ],
+      "2016": [
+       12,
+       0.25
+      ]
+     },
+     "spearman_correct_date": -0.23590303115953828
+    },
+    "utchi": {
+     "by_year": {
+      "2011": [
+       1,
+       0.0
+      ],
+      "2012": [
+       124,
+       0.379
+      ],
+      "2013": [
+       24,
+       0.292
+      ],
+      "2016": [
+       1,
+       0.0
+      ]
+     },
+     "spearman_correct_date": -0.15862829326064273
+    },
+    "viser": {
+     "by_year": {
+      "2012": [
+       16,
+       0.625
+      ],
+      "2013": [
+       33,
+       0.364
+      ],
+      "2014": [
+       76,
+       0.513
+      ],
+      "2015": [
+       15,
+       0.333
+      ],
+      "2016": [
+       10,
+       0.5
+      ]
+     },
+     "spearman_correct_date": -0.06213820719624374
+    },
+    "waps": {
+     "by_year": {
+      "2008": [
+       4,
+       1.0
+      ],
+      "2011": [
+       10,
+       0.0
+      ],
+      "2012": [
+       61,
+       0.328
+      ],
+      "2013": [
+       52,
+       0.346
+      ],
+      "2014": [
+       17,
+       0.529
+      ],
+      "2015": [
+       3,
+       0.0
+      ],
+      "2016": [
+       3,
+       0.0
+      ]
+     },
+     "spearman_correct_date": -0.02112654922678146
+    },
+    "wapsx": {
+     "by_year": {
+      "2008": [
+       3,
+       1.0
+      ],
+      "2011": [
+       46,
+       0.652
+      ],
+      "2012": [
+       77,
+       0.636
+      ],
+      "2013": [
+       13,
+       0.308
+      ],
+      "2014": [
+       5,
+       0.0
+      ],
+      "2015": [
+       3,
+       0.0
+      ],
+      "2016": [
+       3,
+       0.0
+      ]
+     },
+     "spearman_correct_date": -0.33168952013132663
+    },
+    "wooboo": {
+     "by_year": {
+      "2010": [
+       35,
+       1.0
+      ],
+      "2011": [
+       93,
+       0.86
+      ],
+      "2012": [
+       19,
+       0.579
+      ],
+      "2013": [
+       3,
+       0.333
+      ]
+     },
+     "spearman_correct_date": -0.3730523967577177
+    },
+    "youmi": {
+     "by_year": {
+      "2008": [
+       1,
+       1.0
+      ],
+      "2011": [
+       29,
+       0.483
+      ],
+      "2012": [
+       27,
+       0.593
+      ],
+      "2013": [
+       10,
+       0.5
+      ],
+      "2014": [
+       79,
+       0.633
+      ],
+      "2015": [
+       4,
+       0.0
+      ]
+     },
+     "spearman_correct_date": 0.06008281557621142
+    }
+   },
+   "versions": {
+    "packages": 10,
+    "packages_by_class": {
+     "eldorado": 2,
+     "youmi": 1,
+     "droidkungfu": 1,
+     "umeng": 2,
+     "artemis": 1,
+     "deng": 2,
+     "kyview": 1
+    },
+    "pairs": 20,
+    "spearman_dist_timegap": 0.5460699897267173,
+    "median_dist_consecutive": 0.4834228605701605,
+    "acc_first_build": 0.8,
+    "acc_last_build": 0.3
+   }
+  }
+ },
+ "oof_f1": 0.5667821538757692
+}

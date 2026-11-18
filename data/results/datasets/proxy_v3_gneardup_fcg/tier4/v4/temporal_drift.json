@@ -1,0 +1,974 @@
+{
+ "dataset": "proxy_v3",
+ "groups": "neardup",
+ "graphs": [
+  "fcg"
+ ],
+ "n": 4773,
+ "fields": {
+  "first_seen": {
+   "dated": 0.768,
+   "coverage": {
+    "cashraven": {
+     "n": 39,
+     "dated": 0.897,
+     "p10_p50_p90": [
+      2023.15,
+      2023.48,
+      2024.74
+     ]
+    },
+    "ipidea": {
+     "n": 205,
+     "dated": 0.976,
+     "p10_p50_p90": [
+      2022.08,
+      2024.03,
+      2025.83
+     ]
+    },
+    "ipninja": {
+     "n": 37,
+     "dated": 0.622,
+     "p10_p50_p90": [
+      2019.19,
+      2019.46,
+      2021.97
+     ]
+    },
+    "luminati": {
+     "n": 2085,
+     "dated": 0.613,
+     "p10_p50_p90": [
+      2018.11,
+      2019.37,
+      2021.93
+     ]
+    },
+    "monkeysocks": {
+     "n": 1125,
+     "dated": 0.804,
+     "p10_p50_p90": [
+      2018.83,
+      2018.93,
+      2021.95
+     ]
+    },
+    "non_proxy": {
+     "n": 996,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2018.44,
+      2019.92,
+      2022.14
+     ]
+    },
+    "oxylabs": {
+     "n": 91,
+     "dated": 0.758,
+     "p10_p50_p90": [
+      2019.19,
+      2019.44,
+      2019.58
+     ]
+    },
+    "popa": {
+     "n": 178,
+     "dated": 0.815,
+     "p10_p50_p90": [
+      2021.08,
+      2022.71,
+      2025.56
+     ]
+    },
+    "traffmonetizer": {
+     "n": 17,
+     "dated": 0.882,
+     "p10_p50_p90": [
+      2023.13,
+      2023.94,
+      2025.82
+     ]
+    }
+   },
+   "date_only": {
+    "n": 3666,
+    "f1_date_only": 0.16520462288898788,
+    "f1_prior": 0.0912024101322941
+   },
+   "era": {
+    "cashraven": {
+     "skipped": "35 dated apps or interquartile range < 0.5 years"
+    },
+    "ipidea": {
+     "n": 200,
+     "split_year": 2024.03,
+     "auroc_late_vs_early": 0.8165816581658165
+    },
+    "ipninja": {
+     "skipped": "23 dated apps or interquartile range < 0.5 years"
+    },
+    "luminati": {
+     "n": 1278,
+     "split_year": 2019.37,
+     "auroc_late_vs_early": 0.8919697982714578
+    },
+    "monkeysocks": {
+     "skipped": "905 dated apps or interquartile range < 0.5 years"
+    },
+    "non_proxy": {
+     "n": 996,
+     "split_year": 2019.92,
+     "auroc_late_vs_early": 0.7492500120965792
+    },
+    "oxylabs": {
+     "skipped": "69 dated apps or interquartile range < 0.5 years"
+    },
+    "popa": {
+     "n": 145,
+     "split_year": 2022.71,
+     "auroc_late_vs_early": 0.884703196347032
+    },
+    "traffmonetizer": {
+     "skipped": "15 dated apps or interquartile range < 0.5 years"
+    }
+   },
+   "feature_drift": {
+    "ipidea": [
+     {
+      "year": 2022,
+      "n": 68,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2023,
+      "n": 21,
+      "dist_first": 0.6367369209313677,
+      "dist_prev": 0.6367369209313677,
+      "new_active_share": 0.05017103762827822
+     },
+     {
+      "year": 2024,
+      "n": 13,
+      "dist_first": 0.814100487967137,
+      "dist_prev": 0.20776666670400934,
+      "new_active_share": 0.012517385257301807
+     },
+     {
+      "year": 2025,
+      "n": 89,
+      "dist_first": 0.9489697019365017,
+      "dist_prev": 0.8912862035374647,
+      "new_active_share": 0.022781774580335732
+     }
+    ],
+    "luminati": [
+     {
+      "year": 2013,
+      "n": 11,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 41,
+      "dist_first": 0.09506443022333355,
+      "dist_prev": 0.09506443022333355,
+      "new_active_share": 0.2257142857142857
+     },
+     {
+      "year": 2016,
+      "n": 46,
+      "dist_first": 0.973636827829084,
+      "dist_prev": 0.856725087682704,
+      "new_active_share": 0.26913875598086123
+     },
+     {
+      "year": 2017,
+      "n": 26,
+      "dist_first": 1.0011851017921638,
+      "dist_prev": 0.5557377308102345,
+      "new_active_share": 0.07014028056112225
+     },
+     {
+      "year": 2018,
+      "n": 282,
+      "dist_first": 1.0066684060272932,
+      "dist_prev": 0.5388773688747166,
+      "new_active_share": 0.003913894324853229
+     },
+     {
+      "year": 2019,
+      "n": 508,
+      "dist_first": 1.0029161694426736,
+      "dist_prev": 0.5578318948843426,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2020,
+      "n": 115,
+      "dist_first": 1.0419140279911348,
+      "dist_prev": 0.6263195253188187,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2021,
+      "n": 216,
+      "dist_first": 1.0331596616267937,
+      "dist_prev": 0.7307457193909717,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2022,
+      "n": 24,
+      "dist_first": 1.0306911067517335,
+      "dist_prev": 0.8235368204829924,
+      "new_active_share": 0.0
+     }
+    ],
+    "monkeysocks": [
+     {
+      "year": 2018,
+      "n": 654,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2019,
+      "n": 93,
+      "dist_first": 0.007061676836124353,
+      "dist_prev": 0.007061676836124353,
+      "new_active_share": 0.1796875
+     },
+     {
+      "year": 2021,
+      "n": 148,
+      "dist_first": 0.25183325039886806,
+      "dist_prev": 0.18236922229338548,
+      "new_active_share": 0.016917293233082706
+     }
+    ],
+    "non_proxy": [
+     {
+      "year": 2017,
+      "n": 71,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2018,
+      "n": 225,
+      "dist_first": 0.528997527025467,
+      "dist_prev": 0.528997527025467,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2019,
+      "n": 238,
+      "dist_first": 0.966704407383179,
+      "dist_prev": 0.53298052657374,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2020,
+      "n": 156,
+      "dist_first": 0.8848167686078199,
+      "dist_prev": 0.15107660861855265,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2021,
+      "n": 135,
+      "dist_first": 0.8757946810469649,
+      "dist_prev": 0.1596038197774009,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2022,
+      "n": 133,
+      "dist_first": 0.9731389235185496,
+      "dist_prev": 0.15152678965136257,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2023,
+      "n": 29,
+      "dist_first": 0.942746190612001,
+      "dist_prev": 0.40794498867925855,
+      "new_active_share": 0.0
+     }
+    ],
+    "popa": [
+     {
+      "year": 2021,
+      "n": 36,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2022,
+      "n": 54,
+      "dist_first": 0.8822894124902853,
+      "dist_prev": 0.8822894124902853,
+      "new_active_share": 0.06974459724950884
+     },
+     {
+      "year": 2024,
+      "n": 15,
+      "dist_first": 0.9294943997415637,
+      "dist_prev": 0.9372316844900661,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2025,
+      "n": 26,
+      "dist_first": 0.9042693209819347,
+      "dist_prev": 0.34615789092940075,
+      "new_active_share": 0.0
+     }
+    ]
+   },
+   "global_split": {
+    "split_year": 2019.48,
+    "f1": 0.7681231521038127,
+    "n_test_scored": 1440,
+    "train_classes": {
+     "ipninja": 13,
+     "luminati": 672,
+     "monkeysocks": 736,
+     "non_proxy": 369,
+     "oxylabs": 41
+    },
+    "test_classes": {
+     "cashraven": 35,
+     "ipidea": 200,
+     "ipninja": 10,
+     "luminati": 606,
+     "monkeysocks": 169,
+     "non_proxy": 627,
+     "oxylabs": 28,
+     "popa": 145,
+     "traffmonetizer": 15
+    }
+   },
+   "within_class": {
+    "classes": [
+     "cashraven",
+     "ipidea",
+     "ipninja",
+     "luminati",
+     "monkeysocks",
+     "non_proxy",
+     "oxylabs",
+     "popa"
+    ],
+    "n_train": 1816,
+    "n_test": 1048,
+    "f1_temporal": 0.5354629820938817,
+    "f1_random": 0.6166008043665259,
+    "gap": 0.08113782227264421
+   },
+   "rolling": {
+    "windows": [
+     {
+      "year": 2018,
+      "f1": 0.47277990826377925,
+      "classes": [
+       "luminati",
+       "non_proxy"
+      ],
+      "n_test": 379,
+      "test_apps_of_untrained_classes": 656
+     },
+     {
+      "year": 2019,
+      "f1": 0.9350524954577728,
+      "classes": [
+       "luminati",
+       "monkeysocks",
+       "non_proxy"
+      ],
+      "n_test": 379,
+      "test_apps_of_untrained_classes": 82
+     },
+     {
+      "year": 2020,
+      "f1": 0.9130098089829634,
+      "classes": [
+       "luminati",
+       "non_proxy"
+      ],
+      "n_test": 163,
+      "test_apps_of_untrained_classes": 9
+     },
+     {
+      "year": 2021,
+      "f1": 0.6369463869463869,
+      "classes": [
+       "ipninja",
+       "luminati",
+       "non_proxy"
+      ],
+      "n_test": 214,
+      "test_apps_of_untrained_classes": 42
+     },
+     {
+      "year": 2022,
+      "f1": 0.6282863948437719,
+      "classes": [
+       "luminati",
+       "non_proxy",
+       "popa"
+      ],
+      "n_test": 187,
+      "test_apps_of_untrained_classes": 22
+     },
+     {
+      "year": 2023,
+      "f1": 0.9821428571428572,
+      "classes": [
+       "ipidea",
+       "non_proxy"
+      ],
+      "n_test": 39,
+      "test_apps_of_untrained_classes": 37
+     },
+     {
+      "year": 2025,
+      "f1": 0.25172509684470573,
+      "classes": [
+       "ipidea",
+       "non_proxy",
+       "popa"
+      ],
+      "n_test": 106,
+      "test_apps_of_untrained_classes": 3
+     }
+    ],
+    "aut": 0.7429484076546657
+   },
+   "oof_by_year": {
+    "cashraven": {
+     "by_year": {
+      "2023": [
+       30,
+       0.133
+      ],
+      "2024": [
+       4,
+       0.0
+      ],
+      "2025": [
+       1,
+       0.0
+      ]
+     },
+     "spearman_correct_date": 0.24897004791035254
+    },
+    "ipidea": {
+     "by_year": {
+      "2021": [
+       9,
+       0.111
+      ],
+      "2022": [
+       68,
+       0.015
+      ],
+      "2023": [
+       21,
+       0.619
+      ],
+      "2024": [
+       13,
+       0.923
+      ],
+      "2025": [
+       89,
+       0.888
+      ]
+     },
+     "spearman_correct_date": 0.7714991123681086
+    },
+    "ipninja": {
+     "by_year": {
+      "2019": [
+       15,
+       0.733
+      ],
+      "2021": [
+       8,
+       1.0
+      ]
+     },
+     "spearman_correct_date": 0.14910385273630844
+    },
+    "luminati": {
+     "by_year": {
+      "2013": [
+       11,
+       0.0
+      ],
+      "2014": [
+       41,
+       0.0
+      ],
+      "2015": [
+       1,
+       0.0
+      ],
+      "2016": [
+       46,
+       0.065
+      ],
+      "2017": [
+       26,
+       0.654
+      ],
+      "2018": [
+       282,
+       0.809
+      ],
+      "2019": [
+       508,
+       0.817
+      ],
+      "2020": [
+       115,
+       0.574
+      ],
+      "2021": [
+       216,
+       0.773
+      ],
+      "2022": [
+       24,
+       0.75
+      ],
+      "2024": [
+       1,
+       0.0
+      ],
+      "2025": [
+       6,
+       0.333
+      ],
+      "2026": [
+       1,
+       0.0
+      ]
+     },
+     "spearman_correct_date": 0.1604558633695944
+    },
+    "monkeysocks": {
+     "by_year": {
+      "2018": [
+       654,
+       0.974
+      ],
+      "2019": [
+       93,
+       0.978
+      ],
+      "2020": [
+       3,
+       1.0
+      ],
+      "2021": [
+       148,
+       0.986
+      ],
+      "2022": [
+       6,
+       1.0
+      ],
+      "2024": [
+       1,
+       1.0
+      ]
+     },
+     "spearman_correct_date": 0.07867428136923682
+    },
+    "non_proxy": {
+     "by_year": {
+      "2017": [
+       71,
+       0.93
+      ],
+      "2018": [
+       225,
+       0.96
+      ],
+      "2019": [
+       238,
+       0.983
+      ],
+      "2020": [
+       156,
+       0.987
+      ],
+      "2021": [
+       135,
+       0.97
+      ],
+      "2022": [
+       133,
+       0.985
+      ],
+      "2023": [
+       29,
+       0.862
+      ],
+      "2024": [
+       3,
+       1.0
+      ],
+      "2025": [
+       6,
+       0.667
+      ]
+     },
+     "spearman_correct_date": 0.01757477924524379
+    },
+    "oxylabs": {
+     "by_year": {
+      "2018": [
+       2,
+       0.0
+      ],
+      "2019": [
+       67,
+       0.746
+      ]
+     },
+     "spearman_correct_date": 0.28273242431079687
+    },
+    "popa": {
+     "by_year": {
+      "2020": [
+       9,
+       1.0
+      ],
+      "2021": [
+       36,
+       0.833
+      ],
+      "2022": [
+       54,
+       0.704
+      ],
+      "2023": [
+       4,
+       0.5
+      ],
+      "2024": [
+       15,
+       0.2
+      ],
+      "2025": [
+       26,
+       0.423
+      ],
+      "2026": [
+       1,
+       0.0
+      ]
+     },
+     "spearman_correct_date": -0.3987072942910776
+    }
+   },
+   "versions": {
+    "packages": 133,
+    "packages_by_class": {
+     "luminati": 58,
+     "monkeysocks": 21,
+     "popa": 16,
+     "non_proxy": 1,
+     "ipidea": 21,
+     "cashraven": 5,
+     "oxylabs": 7,
+     "traffmonetizer": 2,
+     "ipninja": 2
+    },
+    "pairs": 1353,
+    "spearman_dist_timegap": 0.1365970411339061,
+    "median_dist_consecutive": 0.05446441966293114,
+    "acc_first_build": 0.8120300751879699,
+    "acc_last_build": 0.7894736842105263
+   },
+   "provenance": {
+    "cashraven": {
+     "2023": {
+      "version_pivot": 18,
+      "marker_confirmed": 30,
+      "c2_domain_pivot": 12
+     },
+     "2024": {
+      "c2_domain_pivot": 4,
+      "marker_confirmed": 4
+     },
+     "2025": {
+      "c2_domain_pivot": 1,
+      "marker_confirmed": 1
+     }
+    },
+    "ipidea": {
+     "2021": {
+      "c2_domain_pivot": 1,
+      "marker_confirmed": 9,
+      "version_pivot": 8
+     },
+     "2022": {
+      "version_pivot": 61,
+      "marker_confirmed": 68,
+      "c2_domain_pivot": 7
+     },
+     "2023": {
+      "c2_domain_pivot": 15,
+      "marker_confirmed": 21,
+      "version_pivot": 6
+     },
+     "2024": {
+      "version_pivot": 10,
+      "marker_confirmed": 13,
+      "c2_domain_pivot": 3
+     },
+     "2025": {
+      "c2_domain_pivot": 84,
+      "marker_confirmed": 89,
+      "version_pivot": 5
+     }
+    },
+    "ipninja": {
+     "2019": {
+      "version_pivot": 2,
+      "marker_confirmed": 15,
+      "mi_network": 13
+     },
+     "2021": {
+      "mi_network": 8,
+      "marker_confirmed": 8
+     }
+    },
+    "luminati": {
+     "2013": {
+      "version_pivot": 11,
+      "marker_confirmed": 11
+     },
+     "2014": {
+      "version_pivot": 41,
+      "marker_confirmed": 41
+     },
+     "2015": {
+      "version_pivot": 1,
+      "marker_confirmed": 1
+     },
+     "2016": {
+      "version_pivot": 46,
+      "marker_confirmed": 46
+     },
+     "2017": {
+      "mi_network": 17,
+      "marker_confirmed": 26,
+      "version_pivot": 8,
+      "c2_domain_pivot": 1
+     },
+     "2018": {
+      "mi_network": 208,
+      "marker_confirmed": 175,
+      "version_pivot": 59,
+      "c2_domain_pivot": 9,
+      "dex_pivot": 6
+     },
+     "2019": {
+      "mi_network": 278,
+      "marker_confirmed": 470,
+      "version_pivot": 198,
+      "c2_domain_pivot": 17,
+      "dex_pivot": 15
+     },
+     "2020": {
+      "c2_domain_pivot": 17,
+      "marker_confirmed": 114,
+      "version_pivot": 90,
+      "mi_network": 6,
+      "dex_pivot": 2
+     },
+     "2021": {
+      "mi_network": 99,
+      "marker_confirmed": 204,
+      "version_pivot": 59,
+      "c2_domain_pivot": 23,
+      "dex_pivot": 35
+     },
+     "2022": {
+      "version_pivot": 12,
+      "marker_confirmed": 24,
+      "dex_pivot": 3,
+      "c2_domain_pivot": 8,
+      "mi_network": 1
+     },
+     "2024": {
+      "c2_domain_pivot": 1,
+      "marker_confirmed": 1
+     },
+     "2025": {
+      "c2_domain_pivot": 6,
+      "marker_confirmed": 6
+     },
+     "2026": {
+      "c2_domain_pivot": 1,
+      "marker_confirmed": 1
+     }
+    },
+    "monkeysocks": {
+     "2018": {
+      "mi_network": 583,
+      "marker_confirmed": 654,
+      "dex_pivot": 43,
+      "c2_domain_pivot": 1,
+      "version_pivot": 27
+     },
+     "2019": {
+      "dex_pivot": 11,
+      "marker_confirmed": 92,
+      "mi_network": 82
+     },
+     "2020": {
+      "dex_pivot": 3,
+      "marker_confirmed": 3
+     },
+     "2021": {
+      "mi_network": 102,
+      "marker_confirmed": 148,
+      "dex_pivot": 44,
+      "c2_domain_pivot": 2
+     },
+     "2022": {
+      "dex_pivot": 4,
+      "marker_confirmed": 6,
+      "c2_domain_pivot": 2
+     },
+     "2024": {
+      "c2_domain_pivot": 1,
+      "marker_confirmed": 1
+     }
+    },
+    "non_proxy": {
+     "2017": {
+      "background": 71,
+      "marker_confirmed": 0
+     },
+     "2018": {
+      "background": 225,
+      "marker_confirmed": 0
+     },
+     "2019": {
+      "background": 238,
+      "marker_confirmed": 0
+     },
+     "2020": {
+      "background": 156,
+      "marker_confirmed": 0
+     },
+     "2021": {
+      "background": 135,
+      "marker_confirmed": 0
+     },
+     "2022": {
+      "background": 133,
+      "marker_confirmed": 0
+     },
+     "2023": {
+      "background": 29,
+      "marker_confirmed": 0
+     },
+     "2024": {
+      "background": 3,
+      "marker_confirmed": 0
+     },
+     "2025": {
+      "background": 6,
+      "marker_confirmed": 0
+     }
+    },
+    "oxylabs": {
+     "2018": {
+      "mi_network": 2,
+      "marker_confirmed": 0
+     },
+     "2019": {
+      "mi_network": 67,
+      "marker_confirmed": 6
+     }
+    },
+    "popa": {
+     "2020": {
+      "c2_domain_pivot": 4,
+      "marker_confirmed": 9,
+      "version_pivot": 5
+     },
+     "2021": {
+      "c2_domain_pivot": 20,
+      "marker_confirmed": 36,
+      "version_pivot": 16
+     },
+     "2022": {
+      "version_pivot": 18,
+      "marker_confirmed": 54,
+      "c2_domain_pivot": 36
+     },
+     "2023": {
+      "c2_domain_pivot": 3,
+      "marker_confirmed": 4,
+      "version_pivot": 1
+     },
+     "2024": {
+      "c2_domain_pivot": 10,
+      "marker_confirmed": 15,
+      "version_pivot": 5
+     },
+     "2025": {
+      "c2_domain_pivot": 18,
+      "marker_confirmed": 26,
+      "version_pivot": 8
+     },
+     "2026": {
+      "c2_domain_pivot": 1,
+      "marker_confirmed": 1
+     }
+    },
+    "traffmonetizer": {
+     "2022": {
+      "c2_domain_pivot": 1,
+      "marker_confirmed": 1
+     },
+     "2023": {
+      "version_pivot": 2,
+      "marker_confirmed": 7,
+      "c2_domain_pivot": 5
+     },
+     "2024": {
+      "c2_domain_pivot": 1,
+      "marker_confirmed": 1
+     },
+     "2025": {
+      "c2_domain_pivot": 5,
+      "marker_confirmed": 5
+     },
+     "2026": {
+      "c2_domain_pivot": 1,
+      "marker_confirmed": 1
+     }
+    }
+   }
+  }
+ },
+ "oof_f1": 0.7010312406228105
+}

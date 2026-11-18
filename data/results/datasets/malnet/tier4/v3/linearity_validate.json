@@ -1,0 +1,114 @@
+{
+ "B6": {
+  "additive": {
+   "naive_bayes": 0.9895733731050236,
+   "logistic": 0.9895788102475033,
+   "forest": 0.987494572297004
+  },
+  "xor": {
+   "naive_bayes": 0.4833409691983512,
+   "logistic": 0.4876166034624407,
+   "forest": 0.6467019821634795
+  }
+ },
+ "B7": {
+  "labeled": {
+   "cka": 0.27037237772409756
+  },
+  "combined": {
+   "error": "KeyError('fcg_wlall_1024: no packed vectors for dataset maln"
+  },
+  "fuzzy": {
+   "cka": 0.1934511644666039
+  },
+  "api": {
+   "cka": 0.16289424193332733
+  },
+  "structure": {
+   "cka": 0.10318770153575439
+  },
+  "node2vec": {
+   "error": "KeyError('fcg_n2v_1024: no packed vectors for dataset malnet"
+  },
+  "dex": {
+   "error": "KeyError('dex_bytecode_1024: no packed vectors for dataset m"
+  }
+ },
+ "B8": {
+  "labeled": {
+   "margin_median": 0.5477949926811858,
+   "margin_p10": 0.06326662896009709,
+   "within_margin_frac": 0.9949969810005337
+  },
+  "combined": {
+   "error": "KeyError('fcg_wlall_1024: no packed vectors for dataset maln"
+  },
+  "fuzzy": {
+   "margin_median": 0.3441609756141246,
+   "margin_p10": 0.03459687685669943,
+   "within_margin_frac": 0.997568009187718
+  },
+  "api": {
+   "margin_median": 0.10225780667605944,
+   "margin_p10": 0.01073810240251225,
+   "within_margin_frac": 1.0
+  },
+  "structure": {
+   "margin_median": 0.08665479286696698,
+   "margin_p10": 0.010387552372557373,
+   "within_margin_frac": 1.0
+  },
+  "node2vec": {
+   "error": "KeyError('fcg_n2v_1024: no packed vectors for dataset malnet"
+  },
+  "dex": {
+   "error": "KeyError('dex_bytecode_1024: no packed vectors for dataset m"
+  }
+ },
+ "B9": {
+  "identifier": {
+   "256": {
+    "linear": 0.5852981965558243,
+    "forest": 0.5739105173960696
+   },
+   "1024": {
+    "linear": 0.6942189150612513,
+    "forest": 0.5968908639329176
+   },
+   "4096": {
+    "linear": 0.7033098549751484,
+    "forest": 0.6502399632340292
+   },
+   "16384": {
+    "linear": 0.7303766136279214,
+    "forest": 0.6780673992737078
+   },
+   "65536": {
+    "linear": 0.735474486208968,
+    "forest": 0.7288878858395842
+   }
+  },
+  "degree": {
+   "256": {
+    "linear": 0.375687483783605,
+    "forest": 0.5876941807309847
+   },
+   "1024": {
+    "linear": 0.5313351269770559,
+    "forest": 0.647161059246894
+   },
+   "4096": {
+    "linear": 0.48122758115584074,
+    "forest": 0.6806975024900632
+   },
+   "16384": {
+    "linear": 0.4030613065773914,
+    "forest": 0.7517464927668746
+   },
+   "65536": {
+    "linear": 0.40076575741264725,
+    "forest": 0.7686793717638454
+   }
+  }
+ }
+}

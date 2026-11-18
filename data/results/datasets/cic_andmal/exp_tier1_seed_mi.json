@@ -1,0 +1,88 @@
+{
+  "families": [
+    "adware",
+    "benign",
+    "pua",
+    "riskware",
+    "trojan"
+  ],
+  "apps": 200,
+  "n_permutations": 5,
+  "modes": {
+    "labeled": {
+      "identity": {
+        "I_bits": 1.8813,
+        "I_null_bits": 1.6892,
+        "I_signal_bits": 0.1921,
+        "distinct_colours": 1314881
+      },
+      "rename": {
+        "I_bits": 2.2753,
+        "I_null_bits": 2.2986,
+        "I_signal_bits": -0.0233,
+        "distinct_colours": 1898495
+      },
+      "J_maximin_bits": -0.0233
+    },
+    "fuzzy": {
+      "identity": {
+        "I_bits": 0.1571,
+        "I_null_bits": 0.1235,
+        "I_signal_bits": 0.0336,
+        "distinct_colours": 38671
+      },
+      "rename": {
+        "I_bits": 0.1571,
+        "I_null_bits": 0.1265,
+        "I_signal_bits": 0.0306,
+        "distinct_colours": 38671
+      },
+      "J_maximin_bits": 0.0306
+    },
+    "api": {
+      "identity": {
+        "I_bits": 0.0019,
+        "I_null_bits": 0.0016,
+        "I_signal_bits": 0.0003,
+        "distinct_colours": 763
+      },
+      "rename": {
+        "I_bits": 0.0019,
+        "I_null_bits": 0.0017,
+        "I_signal_bits": 0.0002,
+        "distinct_colours": 763
+      },
+      "J_maximin_bits": 0.0002
+    },
+    "opcode": {
+      "identity": {
+        "I_bits": 0.7381,
+        "I_null_bits": 0.6086,
+        "I_signal_bits": 0.1295,
+        "distinct_colours": 328847
+      },
+      "rename": {
+        "I_bits": 0.7381,
+        "I_null_bits": 0.6022,
+        "I_signal_bits": 0.1359,
+        "distinct_colours": 328847
+      },
+      "J_maximin_bits": 0.1295
+    },
+    "combined": {
+      "identity": {
+        "I_bits": 0.9065,
+        "I_null_bits": 0.7601,
+        "I_signal_bits": 0.1464,
+        "distinct_colours": 417947
+      },
+      "rename": {
+        "I_bits": 0.9065,
+        "I_null_bits": 0.7678,
+        "I_signal_bits": 0.1388,
+        "distinct_colours": 417947
+      },
+      "J_maximin_bits": 0.1388
+    }
+  }
+}

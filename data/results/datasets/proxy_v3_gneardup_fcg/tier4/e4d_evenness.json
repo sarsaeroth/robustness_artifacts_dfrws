@@ -1,0 +1,98 @@
+{
+ "n": 270,
+ "e1_vs_kcert": {
+  "spearman": -0.23358423232777298,
+  "spearman_p": 0.00010701916957631977,
+  "kendall": -0.1708251743913922
+ },
+ "e2_vs_kcert": {
+  "spearman": -0.0843277201437616,
+  "spearman_p": 0.16707018896437045,
+  "kendall": -0.06563794271903209
+ },
+ "e1_median": 0.41041644772348373,
+ "e2_median": 0.09213511062027535,
+ "kcert_median": 343.5,
+ "per_family": {
+  "cashraven": {
+   "n": 39,
+   "e1_vs_kcert": {
+    "spearman": -0.4482479330356073,
+    "spearman_p": 0.004212461145573054,
+    "kendall": -0.3480632663334909
+   },
+   "e1_median": 0.41332275548352465,
+   "kcert_median": 482.0
+  },
+  "ipidea": {
+   "n": 40,
+   "e1_vs_kcert": {
+    "spearman": -0.7360322755201941,
+    "spearman_p": 6.231518689320404e-08,
+    "kendall": -0.5189467993895951
+   },
+   "e1_median": 0.416433339683669,
+   "kcert_median": 364.5
+  },
+  "ipninja": {
+   "n": 37,
+   "e1_vs_kcert": {
+    "spearman": 0.7184373511195807,
+    "spearman_p": 5.525938359443302e-07,
+    "kendall": 0.5562499999999999
+   },
+   "e1_median": 0.3948858561126144,
+   "kcert_median": 196.0
+  },
+  "luminati": {
+   "n": 40,
+   "e1_vs_kcert": {
+    "spearman": 0.2260943236802489,
+    "spearman_p": 0.16066339015537692,
+    "kendall": 0.15963824663490328
+   },
+   "e1_median": 0.43301165337678293,
+   "kcert_median": 208.0
+  },
+  "monkeysocks": {
+   "n": 40,
+   "e1_vs_kcert": {
+    "spearman": -0.6171516079632466,
+    "spearman_p": 2.2200810732371598e-05,
+    "kendall": -0.4923857868020304
+   },
+   "e1_median": 0.38944954695096595,
+   "kcert_median": 631.0
+  },
+  "oxylabs": {
+   "n": 17,
+   "e1_vs_kcert": {
+    "spearman": -0.8236842105263159,
+    "spearman_p": 4.8279932880504056e-05,
+    "kendall": -0.6666666666666666
+   },
+   "e1_median": 0.402611470441043,
+   "kcert_median": 164.0
+  },
+  "popa": {
+   "n": 40,
+   "e1_vs_kcert": {
+    "spearman": -0.18803659415486268,
+    "spearman_p": 0.24526093649091885,
+    "kendall": -0.12218652044262013
+   },
+   "e1_median": 0.42548456555444447,
+   "kcert_median": 522.0
+  },
+  "traffmonetizer": {
+   "n": 17,
+   "e1_vs_kcert": {
+    "spearman": 0.6450031868377981,
+    "spearman_p": 0.005177961672901768,
+    "kendall": 0.40590682253921034
+   },
+   "e1_median": 0.401759089033972,
+   "kcert_median": 258.0
+  }
+ }
+}

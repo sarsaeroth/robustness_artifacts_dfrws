@@ -1,0 +1,26 @@
+{
+ "D18": {
+  "piggybacked": {
+   "n": 31,
+   "precision_at_sdk": 0.6432748538011696,
+   "average_precision": 0.638148667601683,
+   "auroc": 0.6358334772629375,
+   "base_rate": 0.20974868820767745
+  }
+ },
+ "D19": {
+  "median_spearman_across_seeds": 0.9994467223436467,
+  "p10": 0.9807187051556348,
+  "n": 70
+ },
+ "D16": {
+  "original": {
+   "collision_free_ceiling": null
+  },
+  "piggybacked": {
+   "collision_free_ceiling": 0.6432748538011696,
+   "deployed_hashed_p_at_target": 0.330190554737573,
+   "deployed_base_rate": 0.32615914372467103
+  }
+ }
+}

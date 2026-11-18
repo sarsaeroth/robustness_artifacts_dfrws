@@ -1,0 +1,353 @@
+{
+ "families": [
+  "revmob",
+  "igexin",
+  "cauly",
+  "plankton",
+  "viser",
+  "kyview"
+ ],
+ "n_by_family": {
+  "revmob": 40,
+  "igexin": 40,
+  "cauly": 40,
+  "plankton": 40,
+  "viser": 40,
+  "kyview": 40
+ },
+ "median_sdk_token_frac": {
+  "revmob": 0.02656037174165249,
+  "igexin": 0.06335864216089249,
+  "cauly": 0.09842700511217117,
+  "plankton": 0.11663059890270233,
+  "viser": 0.11122671514749527,
+  "kyview": 0.08322633802890778
+ },
+ "vocab": 1041330,
+ "repeats": 2,
+ "A2a": {
+  "full": {
+   "macro_f1": 0.9747296140678493,
+   "sd": 0.018542871342484495
+  },
+  "sdk": {
+   "macro_f1": 0.981327337952725,
+   "sd": 0.01699366983688602
+  },
+  "host": {
+   "macro_f1": 0.8706340669421164,
+   "sd": 0.038855168795874244
+  },
+  "sdk_minus_host": {
+   "mean_gap": 0.11069327101060851,
+   "t": 4.075177148255986,
+   "p": 0.0027780087575413927
+  },
+  "full_minus_sdk": {
+   "mean_gap": -0.006597723884875584,
+   "t": -0.6342721593200665,
+   "p": 0.5416873196413073
+  },
+  "full_minus_host": {
+   "mean_gap": 0.10409554712573295,
+   "t": 4.675349249494689,
+   "p": 0.0011597948898743405
+  }
+ },
+ "A2b": {
+  "0.3": {
+   "full": {
+    "macro_f1": 0.9597910277812239,
+    "sd": 0.03121272510320638
+   },
+   "sdk": {
+    "macro_f1": 0.9727408756820521,
+    "sd": 0.03077466341426914
+   },
+   "host": {
+    "macro_f1": 0.7530147991220763,
+    "sd": 0.0859069024857032
+   },
+   "sdk_minus_host": {
+    "mean_gap": 0.21972607655997586,
+    "t": 3.692320120364771,
+    "p": 0.004979448984649041
+   },
+   "full_minus_sdk": {
+    "mean_gap": -0.012949847900828315,
+    "t": -1.0736605836104622,
+    "p": 0.3109166724993868
+   },
+   "full_minus_host": {
+    "mean_gap": 0.20677622865914752,
+    "t": 3.485526636786384,
+    "p": 0.006878424518626359
+   },
+   "n_clusters": 160
+  },
+  "0.5": {
+   "full": {
+    "macro_f1": 0.9412618404081071,
+    "sd": 0.034839304347326884
+   },
+   "sdk": {
+    "macro_f1": 0.9727357089934487,
+    "sd": 0.024505369471896517
+   },
+   "host": {
+    "macro_f1": 0.7647304083972665,
+    "sd": 0.09527870628660086
+   },
+   "sdk_minus_host": {
+    "mean_gap": 0.20800530059618247,
+    "t": 3.8276413152560025,
+    "p": 0.004042301904200915
+   },
+   "full_minus_sdk": {
+    "mean_gap": -0.031473868585341694,
+    "t": -1.730053138197315,
+    "p": 0.11767523461335672
+   },
+   "full_minus_host": {
+    "mean_gap": 0.1765314320108408,
+    "t": 3.025429299113579,
+    "p": 0.014352534039917568
+   },
+   "n_clusters": 179
+  },
+  "0.7": {
+   "full": {
+    "macro_f1": 0.9585449136919726,
+    "sd": 0.04150748055892959
+   },
+   "sdk": {
+    "macro_f1": 0.9740841293782472,
+    "sd": 0.03086757305698102
+   },
+   "host": {
+    "macro_f1": 0.8231552270573337,
+    "sd": 0.06049268513806384
+   },
+   "sdk_minus_host": {
+    "mean_gap": 0.15092890232091338,
+    "t": 3.6985417305604407,
+    "p": 0.00493168706382471
+   },
+   "full_minus_sdk": {
+    "mean_gap": -0.015539215686274487,
+    "t": -0.5686232421271729,
+    "p": 0.5835197893009558
+   },
+   "full_minus_host": {
+    "mean_gap": 0.1353896866346389,
+    "t": 3.148685432084354,
+    "p": 0.011762409114849935
+   },
+   "n_clusters": 192
+  }
+ },
+ "A2c": {
+  "dex_grouped": {
+   "clean_accuracy": 0.9729166666666667,
+   "all": {
+    "unseen": {
+     "n": 2400,
+     "follows_sdk": 0.7366666666666667,
+     "follows_host": 0.20333333333333334,
+     "neither": 0.06
+    },
+    "seen": {
+     "n": 2400,
+     "follows_sdk": 0.70375,
+     "follows_host": 0.2654166666666667,
+     "neither": 0.030833333333333334
+    }
+   },
+   "revmob": {
+    "unseen": {
+     "n": 400,
+     "follows_sdk": 0.92,
+     "follows_host": 0.07,
+     "neither": 0.01
+    },
+    "seen": {
+     "n": 400,
+     "follows_sdk": 0.8975,
+     "follows_host": 0.1,
+     "neither": 0.0025
+    }
+   },
+   "igexin": {
+    "unseen": {
+     "n": 400,
+     "follows_sdk": 0.58,
+     "follows_host": 0.2525,
+     "neither": 0.1675
+    },
+    "seen": {
+     "n": 400,
+     "follows_sdk": 0.565,
+     "follows_host": 0.335,
+     "neither": 0.1
+    }
+   },
+   "cauly": {
+    "unseen": {
+     "n": 400,
+     "follows_sdk": 0.83,
+     "follows_host": 0.1575,
+     "neither": 0.0125
+    },
+    "seen": {
+     "n": 400,
+     "follows_sdk": 0.7925,
+     "follows_host": 0.2,
+     "neither": 0.0075
+    }
+   },
+   "plankton": {
+    "unseen": {
+     "n": 400,
+     "follows_sdk": 0.8375,
+     "follows_host": 0.145,
+     "neither": 0.0175
+    },
+    "seen": {
+     "n": 400,
+     "follows_sdk": 0.815,
+     "follows_host": 0.175,
+     "neither": 0.01
+    }
+   },
+   "viser": {
+    "unseen": {
+     "n": 400,
+     "follows_sdk": 0.59,
+     "follows_host": 0.3275,
+     "neither": 0.0825
+    },
+    "seen": {
+     "n": 400,
+     "follows_sdk": 0.575,
+     "follows_host": 0.3925,
+     "neither": 0.0325
+    }
+   },
+   "kyview": {
+    "unseen": {
+     "n": 400,
+     "follows_sdk": 0.6625,
+     "follows_host": 0.2675,
+     "neither": 0.07
+    },
+    "seen": {
+     "n": 400,
+     "follows_sdk": 0.5775,
+     "follows_host": 0.39,
+     "neither": 0.0325
+    }
+   }
+  },
+  "host_cluster_0.3": {
+   "clean_accuracy": 0.96875,
+   "all": {
+    "unseen": {
+     "n": 2400,
+     "follows_sdk": 0.7841666666666667,
+     "follows_host": 0.13916666666666666,
+     "neither": 0.07666666666666666
+    },
+    "seen": {
+     "n": 2400,
+     "follows_sdk": 0.6895833333333333,
+     "follows_host": 0.2708333333333333,
+     "neither": 0.03958333333333333
+    }
+   },
+   "revmob": {
+    "unseen": {
+     "n": 400,
+     "follows_sdk": 0.9475,
+     "follows_host": 0.04,
+     "neither": 0.0125
+    },
+    "seen": {
+     "n": 400,
+     "follows_sdk": 0.86,
+     "follows_host": 0.1325,
+     "neither": 0.0075
+    }
+   },
+   "igexin": {
+    "unseen": {
+     "n": 400,
+     "follows_sdk": 0.635,
+     "follows_host": 0.1875,
+     "neither": 0.1775
+    },
+    "seen": {
+     "n": 400,
+     "follows_sdk": 0.5775,
+     "follows_host": 0.315,
+     "neither": 0.1075
+    }
+   },
+   "cauly": {
+    "unseen": {
+     "n": 400,
+     "follows_sdk": 0.88,
+     "follows_host": 0.0925,
+     "neither": 0.0275
+    },
+    "seen": {
+     "n": 400,
+     "follows_sdk": 0.7825,
+     "follows_host": 0.2125,
+     "neither": 0.005
+    }
+   },
+   "plankton": {
+    "unseen": {
+     "n": 400,
+     "follows_sdk": 0.865,
+     "follows_host": 0.1075,
+     "neither": 0.0275
+    },
+    "seen": {
+     "n": 400,
+     "follows_sdk": 0.7775,
+     "follows_host": 0.2125,
+     "neither": 0.01
+    }
+   },
+   "viser": {
+    "unseen": {
+     "n": 400,
+     "follows_sdk": 0.6675,
+     "follows_host": 0.225,
+     "neither": 0.1075
+    },
+    "seen": {
+     "n": 400,
+     "follows_sdk": 0.5575,
+     "follows_host": 0.4025,
+     "neither": 0.04
+    }
+   },
+   "kyview": {
+    "unseen": {
+     "n": 400,
+     "follows_sdk": 0.71,
+     "follows_host": 0.1825,
+     "neither": 0.1075
+    },
+    "seen": {
+     "n": 400,
+     "follows_sdk": 0.5825,
+     "follows_host": 0.35,
+     "neither": 0.0675
+    }
+   }
+  }
+ }
+}

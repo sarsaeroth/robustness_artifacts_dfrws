@@ -1,0 +1,63 @@
+{
+ "labeled": {
+  "n_evals": 6745,
+  "clean_accuracy": 0.6770941438102298,
+  "flip_rate": 0.710303928836175,
+  "inside_certified_frac": 0.0,
+  "unsound_flips_inside": 0,
+  "delta_median": 1.4142135381698608,
+  "radius_median": 0.03085766536311866,
+  "delta_over_radius_median": 45.98424472375879,
+  "delta_over_radius_q": [
+   17.055330452177483,
+   24.1057701815735,
+   109.55908182462383,
+   303.141491332516
+  ],
+  "flip_rate_given_outside": 0.710303928836175,
+  "per_family": {
+   "adware": {
+    "n": 1995,
+    "flip_rate": 0.5939849624060151,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 46.36253878974572
+   },
+   "pua": {
+    "n": 2000,
+    "flip_rate": 0.8045,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 27.114350516651655
+   },
+   "riskware": {
+    "n": 1985,
+    "flip_rate": 0.7274559193954659,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 56.297289562630056
+   },
+   "trojan": {
+    "n": 765,
+    "flip_rate": 0.722875816993464,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 85.14182981607736
+   }
+  }
+ },
+ "combined": {
+  "clean_accuracy": 0.7232023721275018,
+  "radius_median": 0.02736750996947736,
+  "renaming_delta": 0.0,
+  "note": "renaming-invariant (see comment)"
+ },
+ "fuzzy": {
+  "clean_accuracy": 0.7202372127501854,
+  "radius_median": 0.016121504991759242,
+  "renaming_delta": 0.0,
+  "note": "renaming-invariant (see comment)"
+ },
+ "structure": {
+  "clean_accuracy": 0.6372127501853224,
+  "radius_median": 0.0064552386111694626,
+  "renaming_delta": 0.0,
+  "note": "renaming-invariant (see comment)"
+ }
+}

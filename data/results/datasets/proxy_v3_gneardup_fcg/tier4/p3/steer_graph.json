@@ -1,0 +1,322 @@
+{
+ "n": 40,
+ "note": "k in synthesized stub methods; each emits ~3 WL tokens; full pipeline re-vectorization",
+ "k_graph_median": 17.0,
+ "never_flipped_frac": 0.875,
+ "per_family": {
+  "cashraven": {
+   "n": 1,
+   "k_graph_median": null
+  },
+  "ipidea": {
+   "n": 6,
+   "k_graph_median": null
+  },
+  "ipninja": {
+   "n": 6,
+   "k_graph_median": 17.0
+  },
+  "luminati": {
+   "n": 6,
+   "k_graph_median": 11.5
+  },
+  "monkeysocks": {
+   "n": 6,
+   "k_graph_median": null
+  },
+  "oxylabs": {
+   "n": 6,
+   "k_graph_median": null
+  },
+  "popa": {
+   "n": 5,
+   "k_graph_median": null
+  },
+  "traffmonetizer": {
+   "n": 4,
+   "k_graph_median": null
+  }
+ },
+ "rows": [
+  {
+   "family": "cashraven",
+   "sha": "d9bdeafb19e492b951831565acf09e4b7fdaa6b58eb9371f0d2af58a2fc241ce",
+   "k_graph": null,
+   "site_deg": 83,
+   "n_nodes": 86241
+  },
+  {
+   "family": "ipidea",
+   "sha": "05fc3f1a1a3fd9e04477a2a295cfa158a12925c604de276d6bd4bc6f4b74a8a2",
+   "k_graph": null,
+   "site_deg": 257,
+   "n_nodes": 60350
+  },
+  {
+   "family": "ipidea",
+   "sha": "5fd4537aba5d9436d0425a91fbb30315a955c6e085421d3ae411e4268ccc90ea",
+   "k_graph": null,
+   "site_deg": 270,
+   "n_nodes": 61488
+  },
+  {
+   "family": "ipidea",
+   "sha": "bb9aaba43113c549c18d8a0f17bfe06ae33b58a381f957f731886a601b40a8ae",
+   "k_graph": null,
+   "site_deg": 257,
+   "n_nodes": 61172
+  },
+  {
+   "family": "ipidea",
+   "sha": "2c82c0959a080db1186fe9367c830aa7d0fba42404bf7b0c9fd598ca9003157f",
+   "k_graph": null,
+   "site_deg": 270,
+   "n_nodes": 65030
+  },
+  {
+   "family": "ipidea",
+   "sha": "a3b85fd3d5328d96be74899fe1dc0e2e8d65bbb075a9fa087ab42853ce2f95f6",
+   "k_graph": null,
+   "site_deg": 270,
+   "n_nodes": 65473
+  },
+  {
+   "family": "ipidea",
+   "sha": "b18a4cb996bfd6c1773156859e078943beffd326d92accfef7517e55918a4569",
+   "k_graph": null,
+   "site_deg": 270,
+   "n_nodes": 65495
+  },
+  {
+   "family": "ipninja",
+   "sha": "06a122c066e6cf4333206d47801eca78195bdaffb5792aa831f892e3ff10b3a4",
+   "k_graph": 17,
+   "site_deg": 97,
+   "n_nodes": 24809
+  },
+  {
+   "family": "ipninja",
+   "sha": "2f18edf8ed3f196e937539dfa2403a7cca8f6f139c7142c778fd909472c1711b",
+   "k_graph": 17,
+   "site_deg": 97,
+   "n_nodes": 24809
+  },
+  {
+   "family": "ipninja",
+   "sha": "54f5cf930c00b44b777bd1f3f1649d9ef6cdd038438840e92ed1cf9f190272eb",
+   "k_graph": 17,
+   "site_deg": 97,
+   "n_nodes": 24809
+  },
+  {
+   "family": "ipninja",
+   "sha": "f67dcb86c5d3e75af2ad85daed950322126500293f66f0e8037de6b1f37c0b04",
+   "k_graph": null,
+   "site_deg": 69,
+   "n_nodes": 33658
+  },
+  {
+   "family": "ipninja",
+   "sha": "0e086372f97572bfe357c66528124ab0913d0cf7bde408295bdc1e50970291fa",
+   "k_graph": null,
+   "site_deg": 160,
+   "n_nodes": 36655
+  },
+  {
+   "family": "ipninja",
+   "sha": "1ec06c271b2bec38628a48b16b139c35bc4089e5d59a78aba90573ed491c2524",
+   "k_graph": null,
+   "site_deg": 160,
+   "n_nodes": 36655
+  },
+  {
+   "family": "luminati",
+   "sha": "d5adbe14f14b7eeeadc2360c9de2800d3ec4e4c0bb8e5c77217d9f6301329eb0",
+   "k_graph": 11,
+   "site_deg": 59,
+   "n_nodes": 7817
+  },
+  {
+   "family": "luminati",
+   "sha": "6c075bbec50514ecd70c4e86f0049b6bea70a6dc65792c55f678e192c3a9ef53",
+   "k_graph": null,
+   "site_deg": 71,
+   "n_nodes": 9176
+  },
+  {
+   "family": "luminati",
+   "sha": "bb4d460f2ed818be633f4b9ab827a6f6b67f5e709bb212e008071571161feff3",
+   "k_graph": 12,
+   "site_deg": 50,
+   "n_nodes": 16349
+  },
+  {
+   "family": "luminati",
+   "sha": "a18fc7745fdb7a72401dcca1db755a1313811f82e73e11ba6fe1b2cc6027cbd0",
+   "k_graph": null,
+   "site_deg": 74,
+   "n_nodes": 17427
+  },
+  {
+   "family": "luminati",
+   "sha": "b67210c1ed10ad47a608b3b704c6177de548bab9b9aa7c4d76364771c1bc2ece",
+   "k_graph": null,
+   "site_deg": 68,
+   "n_nodes": 20373
+  },
+  {
+   "family": "luminati",
+   "sha": "d1af9989b8af62c1c440a9f002564c609c1412d82730533a46b5b47ca2feffef",
+   "k_graph": null,
+   "site_deg": 68,
+   "n_nodes": 20926
+  },
+  {
+   "family": "monkeysocks",
+   "sha": "cde08b4037ee3684316d81cd15b1cb4b70bad1146f25d6ceda260c604a0d88c8",
+   "k_graph": null,
+   "site_deg": 79,
+   "n_nodes": 4977
+  },
+  {
+   "family": "monkeysocks",
+   "sha": "c281a0c166f28e8501fd53f690bc669a549020e0628879f264912268d608ce9a",
+   "k_graph": null,
+   "site_deg": 500,
+   "n_nodes": 145352
+  },
+  {
+   "family": "monkeysocks",
+   "sha": "ce8b57b9a568f966f3ff82dca0f1102dae58fc4dfa7aaef5d43e9e2543d2ed59",
+   "k_graph": null,
+   "site_deg": 500,
+   "n_nodes": 146933
+  },
+  {
+   "family": "monkeysocks",
+   "sha": "d3c21e85ece1e09c693a503798c88cb602dfe867da6bbee6e81cbe77787bb168",
+   "k_graph": null,
+   "site_deg": 500,
+   "n_nodes": 146954
+  },
+  {
+   "family": "monkeysocks",
+   "sha": "06e64d87ad8de55d0414f01c74f4c3a6a696c1283888ff4594f703885b884e69",
+   "k_graph": null,
+   "site_deg": 500,
+   "n_nodes": 146954
+  },
+  {
+   "family": "monkeysocks",
+   "sha": "1551883c212bd1bcb52f0d1465cfa47af33294e9e5f3329480a14e874f7b385f",
+   "k_graph": null,
+   "site_deg": 500,
+   "n_nodes": 146954
+  },
+  {
+   "family": "oxylabs",
+   "sha": "51f10bfe857ca0d8eee27a443d750e7d91538a6c06bc3ccdf60ccbcbd35cee67",
+   "k_graph": null,
+   "site_deg": 176,
+   "n_nodes": 52229
+  },
+  {
+   "family": "oxylabs",
+   "sha": "8b35e71d3f59066715785b53be54ac0053817b2f45b286f814cee2e84c66f2c0",
+   "k_graph": null,
+   "site_deg": 176,
+   "n_nodes": 52229
+  },
+  {
+   "family": "oxylabs",
+   "sha": "9c34730a03e6bd45e7f30ba3f5f48c1ed647bfba7b9023f0042eb928f7b6253a",
+   "k_graph": null,
+   "site_deg": 176,
+   "n_nodes": 52229
+  },
+  {
+   "family": "oxylabs",
+   "sha": "db21833fd971e18bf741837cfd45c8bd0219c52f4a02acaee5f5a5b66f01250b",
+   "k_graph": null,
+   "site_deg": 176,
+   "n_nodes": 52229
+  },
+  {
+   "family": "oxylabs",
+   "sha": "df7e8c435d8daa21b843184d32f48034764bee57ecb0ff23125dcf059abb16f2",
+   "k_graph": null,
+   "site_deg": 176,
+   "n_nodes": 52229
+  },
+  {
+   "family": "oxylabs",
+   "sha": "eb8151074f398a6faa3b454783a82a25d7424e6d1b01725e5cd3837ca7c1e322",
+   "k_graph": null,
+   "site_deg": 176,
+   "n_nodes": 52229
+  },
+  {
+   "family": "popa",
+   "sha": "d2aec969b04ff1e33e4741b74458e41573c707bc377ed9c8787d31c366ccd1e0",
+   "k_graph": null,
+   "site_deg": 528,
+   "n_nodes": 44427
+  },
+  {
+   "family": "popa",
+   "sha": "6e394fa99199afe3d5b43575352192a84a0c3254161df718d92d2e58346d448d",
+   "k_graph": null,
+   "site_deg": 550,
+   "n_nodes": 56054
+  },
+  {
+   "family": "popa",
+   "sha": "53e2bb5268f34a04d2ac4cb46a73b4fa23930cc56ef8575ba99ecbda6d86c9d9",
+   "k_graph": null,
+   "site_deg": 3266,
+   "n_nodes": 65684
+  },
+  {
+   "family": "popa",
+   "sha": "7433f00f3d137bfcadfa1a0b9f0f9c9c138e448f3cd9e390d5a15aad9185a12b",
+   "k_graph": null,
+   "site_deg": 500,
+   "n_nodes": 70065
+  },
+  {
+   "family": "popa",
+   "sha": "78e65dc70d87f8e4d122144246e0c19c20f93c9ea84062dc29602b876c0200a7",
+   "k_graph": null,
+   "site_deg": 426,
+   "n_nodes": 72287
+  },
+  {
+   "family": "traffmonetizer",
+   "sha": "87b43ae49a1e6d6bb4ba5cd1c0b5b8abbdfd3fa053797f56bfc0f685dfb36077",
+   "k_graph": null,
+   "site_deg": 576,
+   "n_nodes": 112556
+  },
+  {
+   "family": "traffmonetizer",
+   "sha": "6ded928efeea7213182f92020ebbab17fe36b640b0df8ee44dff4ec2f95d620f",
+   "k_graph": null,
+   "site_deg": 579,
+   "n_nodes": 113192
+  },
+  {
+   "family": "traffmonetizer",
+   "sha": "28310a6a056cc1d90ac3353b705a0bb548bc1b6f5797c9b04a45ebba7a8cef12",
+   "k_graph": null,
+   "site_deg": 642,
+   "n_nodes": 130111
+  },
+  {
+   "family": "traffmonetizer",
+   "sha": "12adf5f2ec652045ea5d419ec2d9f688f4e050639f55333df40c95d6873087c3",
+   "k_graph": null,
+   "site_deg": 245,
+   "n_nodes": 122600
+  }
+ ]
+}

@@ -1,0 +1,273 @@
+{
+ "labeled": {
+  "n_evals": 29975,
+  "clean_accuracy": 0.5747122602168474,
+  "flip_rate": 0.9732777314428691,
+  "inside_certified_frac": 0.0,
+  "unsound_flips_inside": 0,
+  "delta_median": 1.4139459133148193,
+  "radius_median": 0.029083603993058205,
+  "delta_over_radius_median": 48.533698499264375,
+  "delta_over_radius_q": [
+   14.535172487519523,
+   22.850632878385284,
+   142.15305678650964,
+   408.28076671911344
+  ],
+  "flip_rate_given_outside": 0.9732777314428691,
+  "per_family": {
+   "admobads": {
+    "n": 750,
+    "flip_rate": 0.9893333333333333,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 14.498977300535287
+   },
+   "admogo": {
+    "n": 750,
+    "flip_rate": 0.9973333333333333,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 34.45611740210933
+   },
+   "adpush": {
+    "n": 745,
+    "flip_rate": 0.9825503355704698,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 41.49554314109919
+   },
+   "adwo": {
+    "n": 745,
+    "flip_rate": 0.9798657718120806,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 83.38585457616877
+   },
+   "airpush": {
+    "n": 750,
+    "flip_rate": 0.956,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 93.27583999741307
+   },
+   "anydown": {
+    "n": 750,
+    "flip_rate": 1.0,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 31.138848754959355
+   },
+   "appsgeyser": {
+    "n": 750,
+    "flip_rate": 0.9106666666666666,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 111.22721126707751
+   },
+   "artemis": {
+    "n": 745,
+    "flip_rate": 0.9610738255033557,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 107.2211510480327
+   },
+   "cauly": {
+    "n": 750,
+    "flip_rate": 0.992,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 20.42285643524926
+   },
+   "cve": {
+    "n": 750,
+    "flip_rate": 0.9973333333333333,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 12.94934232310958
+   },
+   "deng": {
+    "n": 750,
+    "flip_rate": 0.9506666666666667,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 133.32536448793047
+   },
+   "domob": {
+    "n": 750,
+    "flip_rate": 0.984,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 34.79040768154652
+   },
+   "dowgin": {
+    "n": 750,
+    "flip_rate": 0.9546666666666667,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 114.73338923144551
+   },
+   "droidkungfu": {
+    "n": 745,
+    "flip_rate": 0.9865771812080537,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 58.3770198084984
+   },
+   "eldorado": {
+    "n": 750,
+    "flip_rate": 0.992,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 23.363343616876133
+   },
+   "feiwo": {
+    "n": 750,
+    "flip_rate": 0.9746666666666667,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 47.840395049370755
+   },
+   "genbl": {
+    "n": 750,
+    "flip_rate": 0.9613333333333334,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 80.17554032830988
+   },
+   "genpua": {
+    "n": 750,
+    "flip_rate": 0.9866666666666667,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 61.0964927374976
+   },
+   "gingermaster": {
+    "n": 750,
+    "flip_rate": 0.9613333333333334,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 105.78657729399201
+   },
+   "ginmaster": {
+    "n": 750,
+    "flip_rate": 0.952,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 138.58064471199233
+   },
+   "igexin": {
+    "n": 745,
+    "flip_rate": 0.9852348993288591,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 41.89509152853383
+   },
+   "inmobiads": {
+    "n": 750,
+    "flip_rate": 0.996,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 26.139352939487672
+   },
+   "jiagu": {
+    "n": 750,
+    "flip_rate": 0.996,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 21.27720284403405
+   },
+   "kuguo": {
+    "n": 750,
+    "flip_rate": 0.9533333333333334,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 109.70451433119231
+   },
+   "kyview": {
+    "n": 750,
+    "flip_rate": 0.984,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 57.03421950317373
+   },
+   "leadbolt": {
+    "n": 750,
+    "flip_rate": 0.9413333333333334,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 77.55802329416997
+   },
+   "millennialmediaads": {
+    "n": 750,
+    "flip_rate": 0.9813333333333333,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 27.653413105754318
+   },
+   "mobwin": {
+    "n": 750,
+    "flip_rate": 0.9826666666666667,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 31.697036746755288
+   },
+   "nandrobox": {
+    "n": 750,
+    "flip_rate": 0.9893333333333333,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 15.089822310456393
+   },
+   "plankton": {
+    "n": 750,
+    "flip_rate": 0.984,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 23.474238905919954
+   },
+   "revmob": {
+    "n": 750,
+    "flip_rate": 0.9986666666666667,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 21.261838107579486
+   },
+   "smspay": {
+    "n": 750,
+    "flip_rate": 0.9706666666666667,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 85.44398713587363
+   },
+   "startapp": {
+    "n": 750,
+    "flip_rate": 0.9946666666666667,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 43.03970506259945
+   },
+   "umeng": {
+    "n": 750,
+    "flip_rate": 0.972,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 86.19460901452712
+   },
+   "utchi": {
+    "n": 750,
+    "flip_rate": 0.9026666666666666,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 111.57575089901228
+   },
+   "viser": {
+    "n": 750,
+    "flip_rate": 0.8946666666666667,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 96.96444964209887
+   },
+   "waps": {
+    "n": 750,
+    "flip_rate": 0.9733333333333334,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 81.23870600507641
+   },
+   "wapsx": {
+    "n": 750,
+    "flip_rate": 0.9733333333333334,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 58.597659104137605
+   },
+   "wooboo": {
+    "n": 750,
+    "flip_rate": 0.9973333333333333,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 17.5995431539001
+   },
+   "youmi": {
+    "n": 750,
+    "flip_rate": 0.9906666666666667,
+    "inside_frac": 0.0,
+    "delta_over_radius_median": 64.20464557795731
+   }
+  }
+ },
+ "fuzzy": {
+  "clean_accuracy": 0.596396997497915,
+  "radius_median": 0.019911641255021095,
+  "renaming_delta": 0.0,
+  "note": "renaming-invariant (see comment)"
+ },
+ "structure": {
+  "clean_accuracy": 0.3670725604670559,
+  "radius_median": 0.008219712413847446,
+  "renaming_delta": 0.0,
+  "note": "renaming-invariant (see comment)"
+ }
+}

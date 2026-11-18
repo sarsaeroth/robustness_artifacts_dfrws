@@ -1,0 +1,104 @@
+{
+ "dataset": "piggyback",
+ "groups": "neardup",
+ "modifiable_rows": [
+  "self",
+  "obf"
+ ],
+ "mama_family": {
+  "f1": 0.5510961414051219,
+  "n": 1528,
+  "unconditional": 0.0032722513089005235,
+  "k_median_when_finite": 1.0,
+  "k_q10_q90": [
+   1.0,
+   3507.399999999996
+  ],
+  "attack_flips_rate": 1.0,
+  "one_fewer_flips_rate": 0.0006565988181221273,
+  "per_family": {
+   "original": {
+    "n": 753,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "piggybacked": {
+    "n": 775,
+    "unconditional": 0.0064516129032258064,
+    "k_median": 356.0
+   }
+  }
+ },
+ "mama_family_std": {
+  "f1": 0.609336529796861,
+  "n": 1652,
+  "unconditional": 0.0,
+  "k_median_when_finite": 1.0,
+  "k_q10_q90": [
+   1.0,
+   2.0
+  ],
+  "attack_flips_rate": 1.0,
+  "one_fewer_flips_rate": 0.0,
+  "per_family": {
+   "original": {
+    "n": 852,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "piggybacked": {
+    "n": 800,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   }
+  }
+ },
+ "mama_package": {
+  "f1": 0.6292626928763072,
+  "n": 1722,
+  "unconditional": 0.0023228803716608595,
+  "k_median_when_finite": 1.0,
+  "k_q10_q90": [
+   1.0,
+   718.8999999999994
+  ],
+  "attack_flips_rate": 1.0,
+  "one_fewer_flips_rate": 0.0,
+  "per_family": {
+   "original": {
+    "n": 925,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "piggybacked": {
+    "n": 797,
+    "unconditional": 0.005018820577164366,
+    "k_median": 1.0
+   }
+  }
+ },
+ "mama_package_std": {
+  "f1": 0.6307940967271554,
+  "n": 1714,
+  "unconditional": 0.0,
+  "k_median_when_finite": 1.0,
+  "k_q10_q90": [
+   1.0,
+   1.0
+  ],
+  "attack_flips_rate": 1.0,
+  "one_fewer_flips_rate": 0.0,
+  "per_family": {
+   "original": {
+    "n": 839,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "piggybacked": {
+    "n": 875,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   }
+  }
+ }
+}

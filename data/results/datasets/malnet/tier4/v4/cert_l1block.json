@@ -1,0 +1,844 @@
+{
+ "dataset": "malnet",
+ "groups": "neardup",
+ "modifiable_rows": [
+  "self",
+  "obf"
+ ],
+ "mama_family": {
+  "f1": 0.1982833375187563,
+  "n": 1466,
+  "unconditional": 0.0,
+  "k_median_when_finite": 1.0,
+  "k_q10_q90": [
+   1.0,
+   196.0
+  ],
+  "attack_flips_rate": 1.0,
+  "one_fewer_flips_rate": 0.0,
+  "per_family": {
+   "admobads": {
+    "n": 70,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "admogo": {
+    "n": 4,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "adwo": {
+    "n": 15,
+    "unconditional": 0.0,
+    "k_median": 3.0
+   },
+   "airpush": {
+    "n": 9,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "anydown": {
+    "n": 21,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "appsgeyser": {
+    "n": 108,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "artemis": {
+    "n": 13,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "cauly": {
+    "n": 2,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "cve": {
+    "n": 98,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "deng": {
+    "n": 8,
+    "unconditional": 0.0,
+    "k_median": 25.0
+   },
+   "domob": {
+    "n": 2,
+    "unconditional": 0.0,
+    "k_median": 3.5
+   },
+   "dowgin": {
+    "n": 1,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "droidkungfu": {
+    "n": 24,
+    "unconditional": 0.0,
+    "k_median": 3.0
+   },
+   "eldorado": {
+    "n": 124,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "feiwo": {
+    "n": 39,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "genbl": {
+    "n": 9,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "genpua": {
+    "n": 28,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "ginmaster": {
+    "n": 3,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "igexin": {
+    "n": 44,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "inmobiads": {
+    "n": 47,
+    "unconditional": 0.0,
+    "k_median": 177.0
+   },
+   "jiagu": {
+    "n": 121,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "kuguo": {
+    "n": 1,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "kyview": {
+    "n": 25,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "leadbolt": {
+    "n": 1,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "millennialmediaads": {
+    "n": 22,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "mobwin": {
+    "n": 5,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "nandrobox": {
+    "n": 124,
+    "unconditional": 0.0,
+    "k_median": 1145.5
+   },
+   "plankton": {
+    "n": 43,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "revmob": {
+    "n": 91,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "smspay": {
+    "n": 8,
+    "unconditional": 0.0,
+    "k_median": 155.0
+   },
+   "startapp": {
+    "n": 27,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "umeng": {
+    "n": 10,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "utchi": {
+    "n": 132,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "viser": {
+    "n": 67,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "waps": {
+    "n": 7,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "wapsx": {
+    "n": 19,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "wooboo": {
+    "n": 88,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "youmi": {
+    "n": 6,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   }
+  }
+ },
+ "mama_family_std": {
+  "f1": 0.31536968846287194,
+  "n": 2094,
+  "unconditional": 0.0,
+  "k_median_when_finite": 1.0,
+  "k_q10_q90": [
+   1.0,
+   1.0
+  ],
+  "attack_flips_rate": 1.0,
+  "one_fewer_flips_rate": 0.0,
+  "per_family": {
+   "admobads": {
+    "n": 103,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "adpush": {
+    "n": 11,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "adwo": {
+    "n": 23,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "airpush": {
+    "n": 35,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "anydown": {
+    "n": 115,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "appsgeyser": {
+    "n": 148,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "artemis": {
+    "n": 16,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "cauly": {
+    "n": 21,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "cve": {
+    "n": 93,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "deng": {
+    "n": 3,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "domob": {
+    "n": 29,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "dowgin": {
+    "n": 28,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "droidkungfu": {
+    "n": 32,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "eldorado": {
+    "n": 121,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "feiwo": {
+    "n": 67,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "genbl": {
+    "n": 20,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "genpua": {
+    "n": 3,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "gingermaster": {
+    "n": 4,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "ginmaster": {
+    "n": 7,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "igexin": {
+    "n": 77,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "inmobiads": {
+    "n": 65,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "jiagu": {
+    "n": 148,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "kuguo": {
+    "n": 18,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "kyview": {
+    "n": 39,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "leadbolt": {
+    "n": 16,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "millennialmediaads": {
+    "n": 21,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "mobwin": {
+    "n": 76,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "nandrobox": {
+    "n": 123,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "plankton": {
+    "n": 56,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "revmob": {
+    "n": 94,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "smspay": {
+    "n": 13,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "startapp": {
+    "n": 61,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "umeng": {
+    "n": 17,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "utchi": {
+    "n": 124,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "viser": {
+    "n": 91,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "waps": {
+    "n": 8,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "wapsx": {
+    "n": 97,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "wooboo": {
+    "n": 69,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "youmi": {
+    "n": 2,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   }
+  }
+ },
+ "mama_package": {
+  "f1": 0.28207541298432115,
+  "n": 1865,
+  "unconditional": 0.0,
+  "k_median_when_finite": 1.0,
+  "k_q10_q90": [
+   1.0,
+   20.200000000000273
+  ],
+  "attack_flips_rate": 1.0,
+  "one_fewer_flips_rate": 0.0,
+  "per_family": {
+   "admobads": {
+    "n": 104,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "adpush": {
+    "n": 26,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "adwo": {
+    "n": 13,
+    "unconditional": 0.0,
+    "k_median": 5.0
+   },
+   "airpush": {
+    "n": 21,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "anydown": {
+    "n": 99,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "appsgeyser": {
+    "n": 139,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "artemis": {
+    "n": 2,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "cauly": {
+    "n": 16,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "cve": {
+    "n": 100,
+    "unconditional": 0.0,
+    "k_median": 193.0
+   },
+   "deng": {
+    "n": 3,
+    "unconditional": 0.0,
+    "k_median": 10.0
+   },
+   "domob": {
+    "n": 26,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "dowgin": {
+    "n": 14,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "droidkungfu": {
+    "n": 32,
+    "unconditional": 0.0,
+    "k_median": 3.0
+   },
+   "eldorado": {
+    "n": 128,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "feiwo": {
+    "n": 39,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "genbl": {
+    "n": 24,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "genpua": {
+    "n": 13,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "gingermaster": {
+    "n": 14,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "ginmaster": {
+    "n": 6,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "igexin": {
+    "n": 58,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "inmobiads": {
+    "n": 50,
+    "unconditional": 0.0,
+    "k_median": 376.0
+   },
+   "jiagu": {
+    "n": 148,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "kuguo": {
+    "n": 21,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "kyview": {
+    "n": 17,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "leadbolt": {
+    "n": 13,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "millennialmediaads": {
+    "n": 67,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "mobwin": {
+    "n": 26,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "nandrobox": {
+    "n": 97,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "plankton": {
+    "n": 28,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "revmob": {
+    "n": 78,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "smspay": {
+    "n": 26,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "startapp": {
+    "n": 31,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "umeng": {
+    "n": 25,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "utchi": {
+    "n": 115,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "viser": {
+    "n": 58,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "waps": {
+    "n": 23,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "wapsx": {
+    "n": 55,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "wooboo": {
+    "n": 83,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "youmi": {
+    "n": 27,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   }
+  }
+ },
+ "mama_package_std": {
+  "f1": 0.5668162614052322,
+  "n": 3510,
+  "unconditional": 0.0,
+  "k_median_when_finite": 1.0,
+  "k_q10_q90": [
+   1.0,
+   1.0
+  ],
+  "attack_flips_rate": 1.0,
+  "one_fewer_flips_rate": 0.0,
+  "per_family": {
+   "admobads": {
+    "n": 128,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "admogo": {
+    "n": 120,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "adpush": {
+    "n": 90,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "adwo": {
+    "n": 33,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "airpush": {
+    "n": 75,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "anydown": {
+    "n": 112,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "appsgeyser": {
+    "n": 145,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "artemis": {
+    "n": 26,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "cauly": {
+    "n": 114,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "cve": {
+    "n": 133,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "deng": {
+    "n": 24,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "domob": {
+    "n": 97,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "dowgin": {
+    "n": 47,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "droidkungfu": {
+    "n": 59,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "eldorado": {
+    "n": 128,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "feiwo": {
+    "n": 75,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "genbl": {
+    "n": 63,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "genpua": {
+    "n": 32,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "gingermaster": {
+    "n": 65,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "ginmaster": {
+    "n": 34,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "igexin": {
+    "n": 91,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "inmobiads": {
+    "n": 117,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "jiagu": {
+    "n": 145,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "kuguo": {
+    "n": 44,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "kyview": {
+    "n": 71,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "leadbolt": {
+    "n": 91,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "millennialmediaads": {
+    "n": 110,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "mobwin": {
+    "n": 98,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "nandrobox": {
+    "n": 127,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "plankton": {
+    "n": 97,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "revmob": {
+    "n": 119,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "smspay": {
+    "n": 55,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "startapp": {
+    "n": 86,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "umeng": {
+    "n": 62,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "utchi": {
+    "n": 145,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "viser": {
+    "n": 129,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "waps": {
+    "n": 66,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "wapsx": {
+    "n": 75,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "wooboo": {
+    "n": 115,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   },
+   "youmi": {
+    "n": 67,
+    "unconditional": 0.0,
+    "k_median": 1.0
+   }
+  }
+ }
+}

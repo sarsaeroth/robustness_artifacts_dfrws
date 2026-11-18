@@ -1,0 +1,47 @@
+{
+ "apps_analysed": 391,
+ "apps_unambiguous": 371,
+ "subset": "applications whose host-to-SDK cut is defined (unambiguous SDK boundary)",
+ "per_provider": {
+  "cashraven": {
+   "apps": 39,
+   "fcg_nodes_median": 148471,
+   "sdk_methods_median": 115
+  },
+  "ipidea": {
+   "apps": 58,
+   "fcg_nodes_median": 146009.5,
+   "sdk_methods_median": 100.0
+  },
+  "ipninja": {
+   "apps": 37,
+   "fcg_nodes_median": 62674,
+   "sdk_methods_median": 448
+  },
+  "luminati": {
+   "apps": 52,
+   "fcg_nodes_median": 37611.0,
+   "sdk_methods_median": 1132.0
+  },
+  "monkeysocks": {
+   "apps": 60,
+   "fcg_nodes_median": 146954.0,
+   "sdk_methods_median": 399.0
+  },
+  "oxylabs": {
+   "apps": 52,
+   "fcg_nodes_median": 52229.0,
+   "sdk_methods_median": 296.0
+  },
+  "popa": {
+   "apps": 57,
+   "fcg_nodes_median": 181493,
+   "sdk_methods_median": 86
+  },
+  "traffmonetizer": {
+   "apps": 16,
+   "fcg_nodes_median": 134172.0,
+   "sdk_methods_median": 37.0
+  }
+ }
+}

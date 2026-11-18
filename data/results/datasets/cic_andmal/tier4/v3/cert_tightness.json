@@ -1,0 +1,177 @@
+{
+ "C11_C12": {
+  "labeled": {
+   "overall": {
+    "n": 94,
+    "k_cert_median": 9.0,
+    "k_tight_median": 9.5,
+    "k_grad_median": 13.0,
+    "floor_median": 13.0,
+    "k_steer_median": 14.0,
+    "ceiling_over_floor_median": 1.0870154855394707,
+    "tight_over_loose_median": 1.0,
+    "grad_over_loose_median": 1.0833333333333333,
+    "censored_frac": 0.0
+   },
+   "per_family": {
+    "adware": {
+     "n": 26,
+     "floor_median": 43.0,
+     "k_steer_median": 44.0,
+     "ceiling_over_floor_median": 1.0526315789473684
+    },
+    "pua": {
+     "n": 30,
+     "floor_median": 5.5,
+     "k_steer_median": 6.5,
+     "ceiling_over_floor_median": 1.25
+    },
+    "riskware": {
+     "n": 24,
+     "floor_median": 9.0,
+     "k_steer_median": 10.0,
+     "ceiling_over_floor_median": 1.0811965811965811
+    },
+    "trojan": {
+     "n": 14,
+     "floor_median": 38.5,
+     "k_steer_median": 40.0,
+     "ceiling_over_floor_median": 1.0294372294372294
+    }
+   }
+  },
+  "fuzzy": {
+   "overall": {
+    "n": 109,
+    "k_cert_median": 14.0,
+    "k_tight_median": 14.0,
+    "k_grad_median": 75.0,
+    "floor_median": 75.0,
+    "k_steer_median": 76.0,
+    "ceiling_over_floor_median": 1.0288461538461537,
+    "tight_over_loose_median": 1.0,
+    "grad_over_loose_median": 1.2173913043478262,
+    "censored_frac": 0.0
+   },
+   "per_family": {
+    "adware": {
+     "n": 29,
+     "floor_median": 117.0,
+     "k_steer_median": 118.0,
+     "ceiling_over_floor_median": 1.018348623853211
+    },
+    "pua": {
+     "n": 33,
+     "floor_median": 17.0,
+     "k_steer_median": 18.0,
+     "ceiling_over_floor_median": 1.2666666666666666
+    },
+    "riskware": {
+     "n": 25,
+     "floor_median": 23.0,
+     "k_steer_median": 24.0,
+     "ceiling_over_floor_median": 1.0555555555555556
+    },
+    "trojan": {
+     "n": 22,
+     "floor_median": 129.5,
+     "k_steer_median": 130.5,
+     "ceiling_over_floor_median": 1.0070436507936509
+    }
+   }
+  },
+  "api": {
+   "overall": {
+    "n": 106,
+    "k_cert_median": 0.0,
+    "k_tight_median": 0.0,
+    "k_grad_median": 63.5,
+    "floor_median": 63.5,
+    "k_steer_median": 67.5,
+    "ceiling_over_floor_median": 1.0363756613756614,
+    "tight_over_loose_median": 0.0,
+    "grad_over_loose_median": 4.0,
+    "censored_frac": 0.0
+   },
+   "per_family": {
+    "adware": {
+     "n": 28,
+     "floor_median": 148.0,
+     "k_steer_median": 149.5,
+     "ceiling_over_floor_median": 1.0256005056890012
+    },
+    "pua": {
+     "n": 30,
+     "floor_median": 18.0,
+     "k_steer_median": 20.0,
+     "ceiling_over_floor_median": 1.1539473684210526
+    },
+    "riskware": {
+     "n": 21,
+     "floor_median": 5.0,
+     "k_steer_median": 6.0,
+     "ceiling_over_floor_median": 1.0597014925373134
+    },
+    "trojan": {
+     "n": 27,
+     "floor_median": 112.0,
+     "k_steer_median": 113.0,
+     "ceiling_over_floor_median": 1.0106382978723405
+    }
+   }
+  },
+  "structure": {
+   "overall": {
+    "n": 104,
+    "k_cert_median": 0.0,
+    "k_tight_median": 0.0,
+    "k_grad_median": 61.0,
+    "floor_median": 61.0,
+    "k_steer_median": 70.0,
+    "ceiling_over_floor_median": 1.2142857142857142,
+    "tight_over_loose_median": 0.0,
+    "grad_over_loose_median": 18.0,
+    "censored_frac": 0.028846153846153848
+   },
+   "per_family": {
+    "adware": {
+     "n": 27,
+     "floor_median": 217.0,
+     "k_steer_median": 222.0,
+     "ceiling_over_floor_median": 1.1666666666666667
+    },
+    "pua": {
+     "n": 29,
+     "floor_median": 29.0,
+     "k_steer_median": 37.5,
+     "ceiling_over_floor_median": 1.3571428571428572
+    },
+    "riskware": {
+     "n": 24,
+     "floor_median": 16.5,
+     "k_steer_median": 20.5,
+     "ceiling_over_floor_median": 1.154553209639582
+    },
+    "trojan": {
+     "n": 24,
+     "floor_median": 120.5,
+     "k_steer_median": 146.5,
+     "ceiling_over_floor_median": 1.2510504201680672
+    }
+   }
+  }
+ },
+ "C14": {
+  "n_common": 41,
+  "n_salts": 5,
+  "spearman_median": 0.9987601744120005,
+  "spearman_min": 0.9615856692392234,
+  "median_k_by_salt": {
+   "1": 0.0,
+   "2": 0.0,
+   "3": 0.0,
+   "4": 0.0,
+   "5": 0.0
+  }
+ }
+}

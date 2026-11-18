@@ -1,0 +1,15 @@
+{
+ "n_apps": 0,
+ "n_perm": 200,
+ "median": {
+  "spearman": NaN,
+  "pearson": NaN,
+  "rel_l2": NaN,
+  "rel_l2_mc_noise": NaN,
+  "top_target_jaccard": NaN,
+  "p_at_target_psi": NaN,
+  "p_at_target_renorm": NaN,
+  "n_methods": NaN
+ },
+ "apps": []
+}

@@ -1,0 +1,324 @@
+{
+ "n": 38,
+ "note": "k in synthesized stub methods; each emits ~3 WL tokens; full pipeline re-vectorization",
+ "k_graph_median": 4.0,
+ "never_flipped_frac": 0.7105263157894737,
+ "per_family": {
+  "revmob": {
+   "n": 6,
+   "k_graph_median": null
+  },
+  "igexin": {
+   "n": 4,
+   "k_graph_median": 10.0
+  },
+  "cauly": {
+   "n": 6,
+   "k_graph_median": null
+  },
+  "plankton": {
+   "n": 5,
+   "k_graph_median": null
+  },
+  "viser": {
+   "n": 4,
+   "k_graph_median": null
+  },
+  "kyview": {
+   "n": 2,
+   "k_graph_median": null
+  },
+  "droidkungfu": {
+   "n": 2,
+   "k_graph_median": 1.0
+  },
+  "ginmaster": {
+   "n": 1,
+   "k_graph_median": 1.0
+  },
+  "gingermaster": {
+   "n": 0,
+   "k_graph_median": null
+  },
+  "smspay": {
+   "n": 0,
+   "k_graph_median": null
+  },
+  "dowgin": {
+   "n": 2,
+   "k_graph_median": 3.5
+  },
+  "eldorado": {
+   "n": 6,
+   "k_graph_median": 4.0
+  }
+ },
+ "rows": [
+  {
+   "family": "revmob",
+   "sha": "05400f42016a11289a703457b88b21ac1926559f81e13c11e6246d66987ab03a",
+   "k_graph": null,
+   "site_deg": 56,
+   "n_nodes": 3571
+  },
+  {
+   "family": "revmob",
+   "sha": "5cbcda24806041ab1aae0992781c34c30b096ef04aaf40d981aa1ed5ace4c986",
+   "k_graph": null,
+   "site_deg": 75,
+   "n_nodes": 3928
+  },
+  {
+   "family": "revmob",
+   "sha": "98b022f2a1ba51634ca3f5696cbc7e936e17279e7a4a326c24bec4eec8908090",
+   "k_graph": null,
+   "site_deg": 106,
+   "n_nodes": 5269
+  },
+  {
+   "family": "revmob",
+   "sha": "37a021c45f891ea07fa073d04d4f7193322ba67868f516d86011f291689b6c8a",
+   "k_graph": null,
+   "site_deg": 22,
+   "n_nodes": 5489
+  },
+  {
+   "family": "revmob",
+   "sha": "a7e6f467e9057db8ede57f3e40c823cea7b9ac607e2c937dbfebc75d02699b0a",
+   "k_graph": null,
+   "site_deg": 24,
+   "n_nodes": 7008
+  },
+  {
+   "family": "revmob",
+   "sha": "75f8091bb3071ae8c240041028a69b8fa513be7dbefed6df6001a33bbd689fb8",
+   "k_graph": null,
+   "site_deg": 101,
+   "n_nodes": 8837
+  },
+  {
+   "family": "igexin",
+   "sha": "261d6a332a046f3d4f0315d7a31bb2c0fa4ec4c324cc2a2316c8bfb3d900f876",
+   "k_graph": 10,
+   "site_deg": 165,
+   "n_nodes": 8162
+  },
+  {
+   "family": "igexin",
+   "sha": "04f982104a4c6ecacc174bca6b69916888be6c53b2a6edfac8ed9c02b1c7a8e8",
+   "k_graph": null,
+   "site_deg": 121,
+   "n_nodes": 13659
+  },
+  {
+   "family": "igexin",
+   "sha": "3855aa31e46b6f7cd535301afb12533e0ca8aaba1650e9e228b2dde18e8920a2",
+   "k_graph": null,
+   "site_deg": 165,
+   "n_nodes": 17362
+  },
+  {
+   "family": "igexin",
+   "sha": "c55f98f71c3f2541b48ae9ab4bd8ef33e2af78f55e9efd6e9faadc07804fb770",
+   "k_graph": null,
+   "site_deg": 115,
+   "n_nodes": 18995
+  },
+  {
+   "family": "cauly",
+   "sha": "f7e2df5ca53efa84727d4ea10fcc5389e9569c4b9f0172b3de9df4daae57b4f9",
+   "k_graph": null,
+   "site_deg": 47,
+   "n_nodes": 862
+  },
+  {
+   "family": "cauly",
+   "sha": "156e9a93b12fb2e16b62080c6024528671744d281a6464784eaea408fa6d1a64",
+   "k_graph": null,
+   "site_deg": 96,
+   "n_nodes": 2501
+  },
+  {
+   "family": "cauly",
+   "sha": "8e55cc87ac4712abe8825a2f2bec398433e664620e0ba07fc3a3f20e68bd298b",
+   "k_graph": null,
+   "site_deg": 98,
+   "n_nodes": 2865
+  },
+  {
+   "family": "cauly",
+   "sha": "543c0bb90c8072670b5db5dfcdb0fecee56fdf22649bd5ba4e29090bbf952b0f",
+   "k_graph": null,
+   "site_deg": 94,
+   "n_nodes": 3706
+  },
+  {
+   "family": "cauly",
+   "sha": "87cde6bb76f5349c12986652642f277eaadba82bb7b829ae1c8fc3911121e5d9",
+   "k_graph": null,
+   "site_deg": 47,
+   "n_nodes": 4875
+  },
+  {
+   "family": "cauly",
+   "sha": "3c929f0ac17442b16bb997a71d77fde9170094d72cb1d75d9b3ad659c9a1628f",
+   "k_graph": null,
+   "site_deg": 50,
+   "n_nodes": 5066
+  },
+  {
+   "family": "plankton",
+   "sha": "0d6ea9a98da10a7acb4af73d3b44246b4fdbc568eb93193d4e944be371e44929",
+   "k_graph": null,
+   "site_deg": 53,
+   "n_nodes": 2332
+  },
+  {
+   "family": "plankton",
+   "sha": "604271ae53ac6722fe5e88901bd3ecc1b14f29909e03277ec91d87cd30a345b7",
+   "k_graph": null,
+   "site_deg": 53,
+   "n_nodes": 2848
+  },
+  {
+   "family": "plankton",
+   "sha": "da07693f3a21629a87b6bba6958f28b72c213a60e51a6933345dcfc58e2163c0",
+   "k_graph": null,
+   "site_deg": 61,
+   "n_nodes": 2962
+  },
+  {
+   "family": "plankton",
+   "sha": "c7641bcecaa9e68cc44f5d8816611b504ae5d38fa27c9b2c8970b45b710d744b",
+   "k_graph": null,
+   "site_deg": 53,
+   "n_nodes": 3096
+  },
+  {
+   "family": "plankton",
+   "sha": "220edc0dc65182671f74ebeacb8b2f87256eb108608e1f77aceca7af84f892cd",
+   "k_graph": null,
+   "site_deg": 53,
+   "n_nodes": 3096
+  },
+  {
+   "family": "viser",
+   "sha": "70ce8b0de53ebb5f2612e8b1b2083827acc7d76af9b1259454aa708f3a558b65",
+   "k_graph": null,
+   "site_deg": 145,
+   "n_nodes": 2001
+  },
+  {
+   "family": "viser",
+   "sha": "c5a084fdffc8873cf2fc2a13fc12e6eb6ee92bcfd84c5df6c744858b7453450e",
+   "k_graph": null,
+   "site_deg": 55,
+   "n_nodes": 3999
+  },
+  {
+   "family": "viser",
+   "sha": "526df3be5a08c1ef85697efcacdc3e4eaf10bb3def8e857c4b52b0a69e161cc6",
+   "k_graph": null,
+   "site_deg": 69,
+   "n_nodes": 5217
+  },
+  {
+   "family": "viser",
+   "sha": "01d07395e65bb1909cc701b381c2ec5fdcebe0bf93136a6dd427ec4a7389cacf",
+   "k_graph": null,
+   "site_deg": 61,
+   "n_nodes": 5589
+  },
+  {
+   "family": "kyview",
+   "sha": "604cfcd67b65af068145127b4ce77383ec433959eb39b927125c87298ab539ce",
+   "k_graph": null,
+   "site_deg": 73,
+   "n_nodes": 5722
+  },
+  {
+   "family": "kyview",
+   "sha": "1f6eed818d41b77b88fe9f1285a3ce90da32e0b1bb9ea905b0de3bc22082eba6",
+   "k_graph": null,
+   "site_deg": 171,
+   "n_nodes": 5556
+  },
+  {
+   "family": "droidkungfu",
+   "sha": "7a8ec2528e53aa925eb413fe3f5e3f30f7d5765b0365e9f2f0f49b8a072cf656",
+   "k_graph": 1,
+   "site_deg": 85,
+   "n_nodes": 963
+  },
+  {
+   "family": "droidkungfu",
+   "sha": "0512bc500d213f9681c876de2ac837211c2ab3e57d410e3933f37f789ed39e0f",
+   "k_graph": null,
+   "site_deg": 70,
+   "n_nodes": 3225
+  },
+  {
+   "family": "ginmaster",
+   "sha": "5690f6617d2b18f87cebec6cb6447886f21a64f30a068d48c368b4e94d603432",
+   "k_graph": 1,
+   "site_deg": 33,
+   "n_nodes": 451
+  },
+  {
+   "family": "dowgin",
+   "sha": "c2d0f386d4c86c4d1c8abaeb7e8c6d8947957e56f7f8498f335c206077389714",
+   "k_graph": 1,
+   "site_deg": 20,
+   "n_nodes": 191
+  },
+  {
+   "family": "dowgin",
+   "sha": "a5d2b5f9e779111fe4069f0dc55cafd27a4efbf0b7b5714407564a02b3469715",
+   "k_graph": 6,
+   "site_deg": 22,
+   "n_nodes": 227
+  },
+  {
+   "family": "eldorado",
+   "sha": "d33c0fb339078208e4fdf9fab00fc697f6ed39dfdf81663047285dfb2bf04ba3",
+   "k_graph": 1,
+   "site_deg": 11,
+   "n_nodes": 48
+  },
+  {
+   "family": "eldorado",
+   "sha": "5ca0ce96e399c4c2bc329f1b489633b822c110d2ee358c2d34af8cce18f901a6",
+   "k_graph": 3,
+   "site_deg": 11,
+   "n_nodes": 49
+  },
+  {
+   "family": "eldorado",
+   "sha": "1ce6245660c08132862e17b6cc97f7a357cfbcf6270e895e2e04d3eaf57a6fc8",
+   "k_graph": 4,
+   "site_deg": 11,
+   "n_nodes": 49
+  },
+  {
+   "family": "eldorado",
+   "sha": "30fdd1f06767bd51f2839dde9fa8d9f88c871003db31fa73bfcdb1165a980f7a",
+   "k_graph": 4,
+   "site_deg": 11,
+   "n_nodes": 49
+  },
+  {
+   "family": "eldorado",
+   "sha": "4276c3f7088a8cf438fb1d1a76fbadde34c72200093647077b148e44a67e62c3",
+   "k_graph": 4,
+   "site_deg": 11,
+   "n_nodes": 49
+  },
+  {
+   "family": "eldorado",
+   "sha": "4f863fa0befe1e9c9e4d348949dfe4f5e1c7cb279d28da55ae9559d6ad545b40",
+   "k_graph": 4,
+   "site_deg": 11,
+   "n_nodes": 49
+  }
+ ]
+}

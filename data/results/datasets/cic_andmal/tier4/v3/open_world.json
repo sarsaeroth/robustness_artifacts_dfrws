@@ -1,0 +1,858 @@
+{
+ "n_corpus": 1848,
+ "n_wild": 4887,
+ "classes": [
+  "adware",
+  "benign",
+  "pua",
+  "riskware",
+  "trojan"
+ ],
+ "repeats": 2,
+ "O1_abstain": {
+  "auroc_proxy_vs_wild": 0.710513650002283,
+  "tau_95_coverage": 0.3176921942240844,
+  "wild_fp_at_tau": 0.9987722529158993
+ },
+ "O1": {
+  "linear": {
+   "wild_fp_rate": 0.2553713934929404,
+   "sd": 0.03173237371513314
+  },
+  "additive": {
+   "wild_fp_rate": 0.33533865357069775,
+   "sd": 0.02393998378037475
+  },
+  "pairwise": {
+   "wild_fp_rate": 0.28937998772252915,
+   "sd": 0.020517584820639534
+  },
+  "rf": {
+   "wild_fp_rate": 0.035952527112748114,
+   "sd": 0.0021829705292428473
+  },
+  "mlp": {
+   "wild_fp_rate": 0.29032126048700635,
+   "sd": 0.014191503000224858
+  }
+ },
+ "O2": {
+  "linear": {
+   "macro_f1": 0.6052268747422545,
+   "sd": 0.021068811220639548
+  },
+  "additive": {
+   "macro_f1": 0.5497154560758308,
+   "sd": 0.02583492850513501,
+   "diff_vs_linear": -0.05551141866642347,
+   "p": 0.001028685880167542
+  },
+  "pairwise": {
+   "macro_f1": 0.5699307436475136,
+   "sd": 0.03037667755340373,
+   "diff_vs_linear": -0.03529613109474089,
+   "p": 0.07033964222699236
+  },
+  "rf": {
+   "macro_f1": 0.5365172638346014,
+   "sd": 0.024824694150762133,
+   "diff_vs_linear": -0.06870961090765303,
+   "p": 0.00043712519198595986
+  },
+  "mlp": {
+   "macro_f1": 0.6155528465804144,
+   "sd": 0.0220958351408617,
+   "diff_vs_linear": 0.010325971838160086,
+   "p": 0.4591619467700495
+  }
+ },
+ "O3": {
+  "n": 94,
+  "k_any_median": 9.0,
+  "k_benign_median": 18.5,
+  "attack_any_median": 11.0,
+  "attack_benign_median": 25.0,
+  "attack_benign_censored": 0.0,
+  "untargeted_lands_benign": 0.30851063829787234,
+  "per_family": {
+   "adware": {
+    "n": 23,
+    "k_any_median": 26.0,
+    "k_benign_median": 42.0,
+    "attack_benign_median": 57.0
+   },
+   "pua": {
+    "n": 30,
+    "k_any_median": 6.5,
+    "k_benign_median": 9.0,
+    "attack_benign_median": 13.0
+   },
+   "riskware": {
+    "n": 26,
+    "k_any_median": 10.0,
+    "k_benign_median": 18.5,
+    "attack_benign_median": 19.5
+   },
+   "trojan": {
+    "n": 15,
+    "k_any_median": 18.0,
+    "k_benign_median": 45.0,
+    "attack_benign_median": 55.0
+   }
+  },
+  "rows": [
+   {
+    "family": "adware",
+    "k_any": 6,
+    "k_benign": 12,
+    "attack_benign": 20,
+    "attack_any": 7,
+    "lands": "pua"
+   },
+   {
+    "family": "adware",
+    "k_any": 44,
+    "k_benign": 69,
+    "attack_benign": 180,
+    "attack_any": 50,
+    "lands": "riskware"
+   },
+   {
+    "family": "adware",
+    "k_any": 26,
+    "k_benign": 31,
+    "attack_benign": 33,
+    "attack_any": 27,
+    "lands": "pua"
+   },
+   {
+    "family": "adware",
+    "k_any": 135,
+    "k_benign": 135,
+    "attack_benign": 150,
+    "attack_any": 150,
+    "lands": "benign"
+   },
+   {
+    "family": "adware",
+    "k_any": 5,
+    "k_benign": 5,
+    "attack_benign": 6,
+    "attack_any": 6,
+    "lands": "benign"
+   },
+   {
+    "family": "adware",
+    "k_any": 68,
+    "k_benign": 79,
+    "attack_benign": 157,
+    "attack_any": 81,
+    "lands": "trojan"
+   },
+   {
+    "family": "adware",
+    "k_any": 0,
+    "k_benign": 21,
+    "attack_benign": 80,
+    "attack_any": 1,
+    "lands": "riskware"
+   },
+   {
+    "family": "adware",
+    "k_any": 8,
+    "k_benign": 8,
+    "attack_benign": 9,
+    "attack_any": 10,
+    "lands": "pua"
+   },
+   {
+    "family": "adware",
+    "k_any": 21,
+    "k_benign": 42,
+    "attack_benign": 117,
+    "attack_any": 22,
+    "lands": "riskware"
+   },
+   {
+    "family": "pua",
+    "k_any": 4,
+    "k_benign": 4,
+    "attack_benign": 7,
+    "attack_any": 7,
+    "lands": "adware"
+   },
+   {
+    "family": "pua",
+    "k_any": 37,
+    "k_benign": 37,
+    "attack_benign": 45,
+    "attack_any": 45,
+    "lands": "benign"
+   },
+   {
+    "family": "pua",
+    "k_any": 4,
+    "k_benign": 4,
+    "attack_benign": 7,
+    "attack_any": 7,
+    "lands": "adware"
+   },
+   {
+    "family": "pua",
+    "k_any": 4,
+    "k_benign": 4,
+    "attack_benign": 7,
+    "attack_any": 7,
+    "lands": "adware"
+   },
+   {
+    "family": "pua",
+    "k_any": 4,
+    "k_benign": 4,
+    "attack_benign": 7,
+    "attack_any": 7,
+    "lands": "adware"
+   },
+   {
+    "family": "pua",
+    "k_any": 4,
+    "k_benign": 4,
+    "attack_benign": 7,
+    "attack_any": 7,
+    "lands": "adware"
+   },
+   {
+    "family": "pua",
+    "k_any": 3,
+    "k_benign": 4,
+    "attack_benign": 7,
+    "attack_any": 5,
+    "lands": "riskware"
+   },
+   {
+    "family": "riskware",
+    "k_any": 30,
+    "k_benign": 55,
+    "attack_benign": 62,
+    "attack_any": 32,
+    "lands": "adware"
+   },
+   {
+    "family": "riskware",
+    "k_any": 66,
+    "k_benign": 66,
+    "attack_benign": 78,
+    "attack_any": 78,
+    "lands": "benign"
+   },
+   {
+    "family": "riskware",
+    "k_any": 2,
+    "k_benign": 4,
+    "attack_benign": 6,
+    "attack_any": 4,
+    "lands": "pua"
+   },
+   {
+    "family": "riskware",
+    "k_any": 22,
+    "k_benign": 22,
+    "attack_benign": 23,
+    "attack_any": 23,
+    "lands": "benign"
+   },
+   {
+    "family": "riskware",
+    "k_any": 32,
+    "k_benign": 32,
+    "attack_benign": 39,
+    "attack_any": 39,
+    "lands": "benign"
+   },
+   {
+    "family": "riskware",
+    "k_any": 5,
+    "k_benign": 8,
+    "attack_benign": 9,
+    "attack_any": 6,
+    "lands": "pua"
+   },
+   {
+    "family": "trojan",
+    "k_any": 18,
+    "k_benign": 26,
+    "attack_benign": 28,
+    "attack_any": 19,
+    "lands": "riskware"
+   },
+   {
+    "family": "trojan",
+    "k_any": 16,
+    "k_benign": 30,
+    "attack_benign": 33,
+    "attack_any": 17,
+    "lands": "riskware"
+   },
+   {
+    "family": "trojan",
+    "k_any": 27,
+    "k_benign": 50,
+    "attack_benign": 58,
+    "attack_any": 29,
+    "lands": "riskware"
+   },
+   {
+    "family": "trojan",
+    "k_any": 69,
+    "k_benign": 74,
+    "attack_benign": 83,
+    "attack_any": 76,
+    "lands": "riskware"
+   },
+   {
+    "family": "adware",
+    "k_any": 133,
+    "k_benign": 133,
+    "attack_benign": 147,
+    "attack_any": 147,
+    "lands": "benign"
+   },
+   {
+    "family": "adware",
+    "k_any": 40,
+    "k_benign": 70,
+    "attack_benign": 131,
+    "attack_any": 42,
+    "lands": "trojan"
+   },
+   {
+    "family": "adware",
+    "k_any": 46,
+    "k_benign": 94,
+    "attack_benign": 229,
+    "attack_any": 49,
+    "lands": "riskware"
+   },
+   {
+    "family": "pua",
+    "k_any": 8,
+    "k_benign": 8,
+    "attack_benign": 10,
+    "attack_any": 10,
+    "lands": "benign"
+   },
+   {
+    "family": "pua",
+    "k_any": 6,
+    "k_benign": 9,
+    "attack_benign": 25,
+    "attack_any": 8,
+    "lands": "adware"
+   },
+   {
+    "family": "pua",
+    "k_any": 6,
+    "k_benign": 9,
+    "attack_benign": 25,
+    "attack_any": 8,
+    "lands": "adware"
+   },
+   {
+    "family": "pua",
+    "k_any": 8,
+    "k_benign": 10,
+    "attack_benign": 26,
+    "attack_any": 11,
+    "lands": "adware"
+   },
+   {
+    "family": "pua",
+    "k_any": 2,
+    "k_benign": 4,
+    "attack_benign": 7,
+    "attack_any": 4,
+    "lands": "riskware"
+   },
+   {
+    "family": "riskware",
+    "k_any": 1,
+    "k_benign": 1,
+    "attack_benign": 2,
+    "attack_any": 2,
+    "lands": "trojan"
+   },
+   {
+    "family": "riskware",
+    "k_any": 61,
+    "k_benign": 63,
+    "attack_benign": 74,
+    "attack_any": 71,
+    "lands": "pua"
+   },
+   {
+    "family": "riskware",
+    "k_any": 6,
+    "k_benign": 6,
+    "attack_benign": 7,
+    "attack_any": 7,
+    "lands": "benign"
+   },
+   {
+    "family": "riskware",
+    "k_any": 45,
+    "k_benign": 45,
+    "attack_benign": 53,
+    "attack_any": 53,
+    "lands": "benign"
+   },
+   {
+    "family": "riskware",
+    "k_any": 2,
+    "k_benign": 2,
+    "attack_benign": 3,
+    "attack_any": 4,
+    "lands": "pua"
+   },
+   {
+    "family": "riskware",
+    "k_any": 0,
+    "k_benign": 4,
+    "attack_benign": 11,
+    "attack_any": 1,
+    "lands": "pua"
+   },
+   {
+    "family": "riskware",
+    "k_any": 30,
+    "k_benign": 57,
+    "attack_benign": 129,
+    "attack_any": 32,
+    "lands": "adware"
+   },
+   {
+    "family": "riskware",
+    "k_any": 4,
+    "k_benign": 4,
+    "attack_benign": 6,
+    "attack_any": 5,
+    "lands": "trojan"
+   },
+   {
+    "family": "trojan",
+    "k_any": 9,
+    "k_benign": 221,
+    "attack_benign": 513,
+    "attack_any": 10,
+    "lands": "pua"
+   },
+   {
+    "family": "trojan",
+    "k_any": 2,
+    "k_benign": 38,
+    "attack_benign": 55,
+    "attack_any": 3,
+    "lands": "riskware"
+   },
+   {
+    "family": "trojan",
+    "k_any": 8,
+    "k_benign": 10,
+    "attack_benign": 11,
+    "attack_any": 9,
+    "lands": "adware"
+   },
+   {
+    "family": "adware",
+    "k_any": 117,
+    "k_benign": 150,
+    "attack_benign": 298,
+    "attack_any": 128,
+    "lands": "riskware"
+   },
+   {
+    "family": "adware",
+    "k_any": 80,
+    "k_benign": 80,
+    "attack_benign": 86,
+    "attack_any": 84,
+    "lands": "trojan"
+   },
+   {
+    "family": "adware",
+    "k_any": 4,
+    "k_benign": 4,
+    "attack_benign": 5,
+    "attack_any": 5,
+    "lands": "benign"
+   },
+   {
+    "family": "pua",
+    "k_any": 2,
+    "k_benign": 3,
+    "attack_benign": 5,
+    "attack_any": 3,
+    "lands": "adware"
+   },
+   {
+    "family": "pua",
+    "k_any": 16,
+    "k_benign": 30,
+    "attack_benign": 35,
+    "attack_any": 18,
+    "lands": "trojan"
+   },
+   {
+    "family": "pua",
+    "k_any": 2,
+    "k_benign": 2,
+    "attack_benign": 3,
+    "attack_any": 3,
+    "lands": "benign"
+   },
+   {
+    "family": "pua",
+    "k_any": 16,
+    "k_benign": 30,
+    "attack_benign": 35,
+    "attack_any": 18,
+    "lands": "trojan"
+   },
+   {
+    "family": "pua",
+    "k_any": 9,
+    "k_benign": 9,
+    "attack_benign": 12,
+    "attack_any": 12,
+    "lands": "benign"
+   },
+   {
+    "family": "riskware",
+    "k_any": 14,
+    "k_benign": 18,
+    "attack_benign": 19,
+    "attack_any": 15,
+    "lands": "trojan"
+   },
+   {
+    "family": "riskware",
+    "k_any": 1,
+    "k_benign": 55,
+    "attack_benign": 120,
+    "attack_any": 2,
+    "lands": "pua"
+   },
+   {
+    "family": "riskware",
+    "k_any": 2,
+    "k_benign": 2,
+    "attack_benign": 3,
+    "attack_any": 3,
+    "lands": "trojan"
+   },
+   {
+    "family": "trojan",
+    "k_any": 30,
+    "k_benign": 73,
+    "attack_benign": 83,
+    "attack_any": 33,
+    "lands": "adware"
+   },
+   {
+    "family": "trojan",
+    "k_any": 62,
+    "k_benign": 68,
+    "attack_benign": 75,
+    "attack_any": 67,
+    "lands": "adware"
+   },
+   {
+    "family": "adware",
+    "k_any": 1,
+    "k_benign": 1,
+    "attack_benign": 2,
+    "attack_any": 2,
+    "lands": "benign"
+   },
+   {
+    "family": "adware",
+    "k_any": 1,
+    "k_benign": 1,
+    "attack_benign": 2,
+    "attack_any": 2,
+    "lands": "benign"
+   },
+   {
+    "family": "adware",
+    "k_any": 35,
+    "k_benign": 70,
+    "attack_benign": 181,
+    "attack_any": 36,
+    "lands": "riskware"
+   },
+   {
+    "family": "adware",
+    "k_any": 1,
+    "k_benign": 1,
+    "attack_benign": 2,
+    "attack_any": 2,
+    "lands": "benign"
+   },
+   {
+    "family": "adware",
+    "k_any": 49,
+    "k_benign": 49,
+    "attack_benign": 53,
+    "attack_any": 53,
+    "lands": "benign"
+   },
+   {
+    "family": "pua",
+    "k_any": 3,
+    "k_benign": 3,
+    "attack_benign": 5,
+    "attack_any": 6,
+    "lands": "riskware"
+   },
+   {
+    "family": "pua",
+    "k_any": 19,
+    "k_benign": 69,
+    "attack_benign": 117,
+    "attack_any": 20,
+    "lands": "adware"
+   },
+   {
+    "family": "pua",
+    "k_any": 8,
+    "k_benign": 9,
+    "attack_benign": 12,
+    "attack_any": 12,
+    "lands": "adware"
+   },
+   {
+    "family": "pua",
+    "k_any": 21,
+    "k_benign": 21,
+    "attack_benign": 23,
+    "attack_any": 23,
+    "lands": "benign"
+   },
+   {
+    "family": "pua",
+    "k_any": 26,
+    "k_benign": 55,
+    "attack_benign": 65,
+    "attack_any": 27,
+    "lands": "trojan"
+   },
+   {
+    "family": "pua",
+    "k_any": 21,
+    "k_benign": 71,
+    "attack_benign": 112,
+    "attack_any": 22,
+    "lands": "trojan"
+   },
+   {
+    "family": "pua",
+    "k_any": 8,
+    "k_benign": 10,
+    "attack_benign": 14,
+    "attack_any": 11,
+    "lands": "adware"
+   },
+   {
+    "family": "riskware",
+    "k_any": 148,
+    "k_benign": 148,
+    "attack_benign": 175,
+    "attack_any": 175,
+    "lands": "benign"
+   },
+   {
+    "family": "riskware",
+    "k_any": 2,
+    "k_benign": 2,
+    "attack_benign": 3,
+    "attack_any": 3,
+    "lands": "benign"
+   },
+   {
+    "family": "riskware",
+    "k_any": 5,
+    "k_benign": 5,
+    "attack_benign": 6,
+    "attack_any": 6,
+    "lands": "benign"
+   },
+   {
+    "family": "riskware",
+    "k_any": 157,
+    "k_benign": 159,
+    "attack_benign": 192,
+    "attack_any": 192,
+    "lands": "benign"
+   },
+   {
+    "family": "riskware",
+    "k_any": 145,
+    "k_benign": 145,
+    "attack_benign": 170,
+    "attack_any": 170,
+    "lands": "benign"
+   },
+   {
+    "family": "trojan",
+    "k_any": 7,
+    "k_benign": 62,
+    "attack_benign": 91,
+    "attack_any": 8,
+    "lands": "riskware"
+   },
+   {
+    "family": "trojan",
+    "k_any": 10,
+    "k_benign": 10,
+    "attack_benign": 11,
+    "attack_any": 11,
+    "lands": "benign"
+   },
+   {
+    "family": "trojan",
+    "k_any": 30,
+    "k_benign": 45,
+    "attack_benign": 51,
+    "attack_any": 33,
+    "lands": "riskware"
+   },
+   {
+    "family": "trojan",
+    "k_any": 41,
+    "k_benign": 41,
+    "attack_benign": 44,
+    "attack_any": 44,
+    "lands": "benign"
+   },
+   {
+    "family": "adware",
+    "k_any": 41,
+    "k_benign": 52,
+    "attack_benign": 57,
+    "attack_any": 44,
+    "lands": "riskware"
+   },
+   {
+    "family": "adware",
+    "k_any": 11,
+    "k_benign": 12,
+    "attack_benign": 13,
+    "attack_any": 13,
+    "lands": "trojan"
+   },
+   {
+    "family": "adware",
+    "k_any": 2,
+    "k_benign": 2,
+    "attack_benign": 3,
+    "attack_any": 3,
+    "lands": "benign"
+   },
+   {
+    "family": "pua",
+    "k_any": 8,
+    "k_benign": 10,
+    "attack_benign": 15,
+    "attack_any": 10,
+    "lands": "adware"
+   },
+   {
+    "family": "pua",
+    "k_any": 3,
+    "k_benign": 3,
+    "attack_benign": 5,
+    "attack_any": 4,
+    "lands": "riskware"
+   },
+   {
+    "family": "pua",
+    "k_any": 7,
+    "k_benign": 10,
+    "attack_benign": 15,
+    "attack_any": 8,
+    "lands": "adware"
+   },
+   {
+    "family": "pua",
+    "k_any": 10,
+    "k_benign": 239,
+    "attack_benign": 799,
+    "attack_any": 11,
+    "lands": "adware"
+   },
+   {
+    "family": "pua",
+    "k_any": 6,
+    "k_benign": 11,
+    "attack_benign": 28,
+    "attack_any": 7,
+    "lands": "riskware"
+   },
+   {
+    "family": "pua",
+    "k_any": 2,
+    "k_benign": 4,
+    "attack_benign": 6,
+    "attack_any": 3,
+    "lands": "adware"
+   },
+   {
+    "family": "riskware",
+    "k_any": 2,
+    "k_benign": 4,
+    "attack_benign": 6,
+    "attack_any": 4,
+    "lands": "pua"
+   },
+   {
+    "family": "riskware",
+    "k_any": 3,
+    "k_benign": 3,
+    "attack_benign": 4,
+    "attack_any": 4,
+    "lands": "benign"
+   },
+   {
+    "family": "riskware",
+    "k_any": 19,
+    "k_benign": 19,
+    "attack_benign": 20,
+    "attack_any": 20,
+    "lands": "benign"
+   },
+   {
+    "family": "riskware",
+    "k_any": 72,
+    "k_benign": 112,
+    "attack_benign": 127,
+    "attack_any": 76,
+    "lands": "pua"
+   },
+   {
+    "family": "trojan",
+    "k_any": 41,
+    "k_benign": 58,
+    "attack_benign": 71,
+    "attack_any": 46,
+    "lands": "riskware"
+   },
+   {
+    "family": "trojan",
+    "k_any": 16,
+    "k_benign": 16,
+    "attack_benign": 17,
+    "attack_any": 17,
+    "lands": "benign"
+   }
+  ]
+ }
+}

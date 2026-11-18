@@ -1,0 +1,107 @@
+{
+ "D18": {
+  "cashraven": {
+   "n": 35,
+   "precision_at_sdk": 0.6228070175438597,
+   "average_precision": 0.4808865006501808,
+   "auroc": 0.9785999638587678,
+   "base_rate": 0.0013387981350776856
+  },
+  "ipidea": {
+   "n": 17,
+   "precision_at_sdk": 0.0,
+   "average_precision": 0.00011649711537335127,
+   "auroc": 0.629024360687523,
+   "base_rate": 6.472561732057519e-05
+  },
+  "ipninja": {
+   "n": 37,
+   "precision_at_sdk": 0.1440677966101695,
+   "average_precision": 0.24002076136214623,
+   "auroc": 0.9269995734043827,
+   "base_rate": 0.03619324608175796
+  },
+  "luminati": {
+   "n": 40,
+   "precision_at_sdk": 0.5028789279112754,
+   "average_precision": 0.5604716116976889,
+   "auroc": 0.5996660575181525,
+   "base_rate": 0.21263731449077483
+  },
+  "monkeysocks": {
+   "n": 40,
+   "precision_at_sdk": 0.0,
+   "average_precision": 0.006765155001174243,
+   "auroc": 0.6394738634571171,
+   "base_rate": 0.0052567092209794075
+  },
+  "oxylabs": {
+   "n": 17,
+   "precision_at_sdk": 0.4527027027027027,
+   "average_precision": 0.31182831841935793,
+   "auroc": 0.813040627040867,
+   "base_rate": 0.04314868804664723
+  },
+  "popa": {
+   "n": 30,
+   "precision_at_sdk": 0.16091954022988506,
+   "average_precision": 0.053913880716431384,
+   "auroc": 0.8894223456413635,
+   "base_rate": 0.0012075837836532499
+  },
+  "traffmonetizer": {
+   "n": 16,
+   "precision_at_sdk": 0.08333333333333333,
+   "average_precision": 0.06598165332772779,
+   "auroc": 0.9404159223284856,
+   "base_rate": 0.0009899615482184341
+  }
+ },
+ "D19": {
+  "median_spearman_across_seeds": 0.93184842674492,
+  "p10": 0.37520279936357037,
+  "n": 270
+ },
+ "D16": {
+  "cashraven": {
+   "collision_free_ceiling": 0.6228070175438597,
+   "deployed_hashed_p_at_target": 0.009919049290392872,
+   "deployed_base_rate": 0.005779451073909845
+  },
+  "ipidea": {
+   "collision_free_ceiling": 0.0,
+   "deployed_hashed_p_at_target": 0.0,
+   "deployed_base_rate": 6.867982930896479e-05
+  },
+  "ipninja": {
+   "collision_free_ceiling": 0.1440677966101695,
+   "deployed_hashed_p_at_target": 0.07832104509160573,
+   "deployed_base_rate": 0.07508058088216456
+  },
+  "luminati": {
+   "collision_free_ceiling": 0.5012652495378928,
+   "deployed_hashed_p_at_target": 0.3355446292301018,
+   "deployed_base_rate": 0.3303463510237481
+  },
+  "monkeysocks": {
+   "collision_free_ceiling": 0.0,
+   "deployed_hashed_p_at_target": 0.005639097744360902,
+   "deployed_base_rate": 0.004833031259150029
+  },
+  "oxylabs": {
+   "collision_free_ceiling": 0.4391891891891892,
+   "deployed_hashed_p_at_target": 0.05747696238367083,
+   "deployed_base_rate": 0.04287324498224021
+  },
+  "popa": {
+   "collision_free_ceiling": 0.16170977011494253,
+   "deployed_hashed_p_at_target": 0.0035374317662123195,
+   "deployed_base_rate": 0.002601836638495235
+  },
+  "traffmonetizer": {
+   "collision_free_ceiling": 0.08333333333333333,
+   "deployed_hashed_p_at_target": 0.008182857409481149,
+   "deployed_base_rate": 0.001675304868832737
+  }
+ }
+}

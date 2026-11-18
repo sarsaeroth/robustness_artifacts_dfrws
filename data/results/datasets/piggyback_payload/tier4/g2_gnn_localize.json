@@ -1,0 +1,16 @@
+{
+ "n": 31,
+ "epochs": 40,
+ "reps": 1,
+ "macro_f1": 1.0,
+ "device": "cuda",
+ "base_rate": {
+  "piggybacked": 0.17686462794225075
+ },
+ "localize_p_at_target": {
+  "piggybacked": 0.23404192951454936
+ },
+ "localize_n": {
+  "piggybacked": 31
+ }
+}

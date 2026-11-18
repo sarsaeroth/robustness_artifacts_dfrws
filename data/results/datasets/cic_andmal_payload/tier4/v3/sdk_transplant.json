@@ -1,0 +1,15 @@
+{
+ "families": [
+  "adware",
+  "pua",
+  "riskware",
+  "trojan"
+ ],
+ "skipped": "fewer than two families with SDK/payload tokens",
+ "n_by_family": {
+  "adware": 0,
+  "pua": 0,
+  "riskware": 0,
+  "trojan": 0
+ }
+}

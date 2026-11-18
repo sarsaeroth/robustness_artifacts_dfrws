@@ -1,0 +1,117 @@
+{
+ "n": 13,
+ "note": "k in synthesized stub methods; each emits ~3 WL tokens; full pipeline re-vectorization",
+ "k_graph_median": 5.0,
+ "never_flipped_frac": 0.07692307692307693,
+ "per_family": {
+  "adware": {
+   "n": 4,
+   "k_graph_median": 3.0
+  },
+  "pua": {
+   "n": 6,
+   "k_graph_median": 6.5
+  },
+  "riskware": {
+   "n": 2,
+   "k_graph_median": 8.0
+  },
+  "trojan": {
+   "n": 1,
+   "k_graph_median": null
+  }
+ },
+ "rows": [
+  {
+   "family": "adware",
+   "sha": "3247990845ae647d1e6b85e36f0990d06624bb0ea21da2012ac87925016157cb",
+   "k_graph": 3,
+   "site_deg": 38,
+   "n_nodes": 82
+  },
+  {
+   "family": "adware",
+   "sha": "79837f162bed63fb5976734ae372d277d2f5f458b5291c99ef0e073b9e7b659d",
+   "k_graph": 3,
+   "site_deg": 38,
+   "n_nodes": 82
+  },
+  {
+   "family": "adware",
+   "sha": "e8fd65ebc2a850124ae10da34a638833873402079e23d47e1d8f68afd9551e27",
+   "k_graph": 3,
+   "site_deg": 38,
+   "n_nodes": 82
+  },
+  {
+   "family": "adware",
+   "sha": "c07f50e15e710c6cfcf0b5306b900b683f6344d9501658d5ce6acf23e0c28f94",
+   "k_graph": 2,
+   "site_deg": 40,
+   "n_nodes": 898
+  },
+  {
+   "family": "pua",
+   "sha": "18c3f15c8fa90ebe95e09154764d4f55ad3db45dfe92391504402a8f4f835bbe",
+   "k_graph": 5,
+   "site_deg": 2,
+   "n_nodes": 13
+  },
+  {
+   "family": "pua",
+   "sha": "4e36574c199ce6792bc90fedc9e32c84a771663fec9a8f28685800ea98ec8965",
+   "k_graph": 3,
+   "site_deg": 11,
+   "n_nodes": 49
+  },
+  {
+   "family": "pua",
+   "sha": "ebf91bda8bbc838829e23e0f249624f95d4a8e30ee92984ebf60158f7538acb2",
+   "k_graph": 6,
+   "site_deg": 11,
+   "n_nodes": 49
+  },
+  {
+   "family": "pua",
+   "sha": "197fe9c081b863d22588307e2cfcf7dfc71a44cf62926aaf677ec0de5085bb35",
+   "k_graph": 7,
+   "site_deg": 11,
+   "n_nodes": 49
+  },
+  {
+   "family": "pua",
+   "sha": "a33029819ee70de1bee4cf751179926a5599365e15b9945edfcb68adfd40e6d8",
+   "k_graph": 7,
+   "site_deg": 11,
+   "n_nodes": 49
+  },
+  {
+   "family": "pua",
+   "sha": "c2f1c0c2124b144ef473e68896d3521759f876ab51290caa8e3e9702622380cf",
+   "k_graph": 7,
+   "site_deg": 11,
+   "n_nodes": 49
+  },
+  {
+   "family": "riskware",
+   "sha": "1c1ecaed707641c3d4ed3e4c3c02e3c1386e394bc456f54eccbc3c75e3379838",
+   "k_graph": 5,
+   "site_deg": 20,
+   "n_nodes": 70
+  },
+  {
+   "family": "riskware",
+   "sha": "3941c3fb7269b93bccbcc00e151bb47d383feb1c8088adf8a6f98d8be7417f77",
+   "k_graph": 11,
+   "site_deg": 20,
+   "n_nodes": 75
+  },
+  {
+   "family": "trojan",
+   "sha": "3113173eb26115ffb5d5921c02c55d5417676693edfe4be8ce8c2eac9927996b",
+   "k_graph": null,
+   "site_deg": 71,
+   "n_nodes": 4231
+  }
+ ]
+}

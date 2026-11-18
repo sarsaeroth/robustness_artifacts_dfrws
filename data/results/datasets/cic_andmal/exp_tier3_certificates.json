@@ -1,0 +1,25 @@
+{
+  "dim": 1024,
+  "iters": 2,
+  "apps": 120,
+  "smoothing": {
+    "n_samples": 200,
+    "deletion_prob": 0.1,
+    "alpha": 0.01
+  },
+  "deterministic_certified_k": {
+    "median": 1,
+    "p25": 0,
+    "p75": 6,
+    "zero_fraction": 0.425,
+    "cost_forward_passes": 1
+  },
+  "smoothed_pA": {
+    "mean": 0.6959,
+    "median": 0.7621,
+    "abstain_fraction": 0.2083,
+    "cost_forward_passes": 200,
+    "radius": "not computed; needs the sparse-smoothing LP for discrete edits"
+  },
+  "attribution_covered_by_either": false
+}

@@ -1,0 +1,245 @@
+{
+  "dims": [
+    1024,
+    2048,
+    4096,
+    8192,
+    16384,
+    32768,
+    65536,
+    131072,
+    262144,
+    524288,
+    1048576,
+    2097152
+  ],
+  "iters": 2,
+  "colourings": [
+    "labeled",
+    "fuzzy",
+    "api"
+  ],
+  "E1_isolation_vs_prediction": {
+    "1024": {
+      "n": 168,
+      "mean_signed_error": 0.00078,
+      "median_signed_error": 0.0,
+      "max_abs_error": 0.11671
+    },
+    "2048": {
+      "n": 168,
+      "mean_signed_error": -0.00089,
+      "median_signed_error": -1e-05,
+      "max_abs_error": 0.08551
+    },
+    "4096": {
+      "n": 168,
+      "mean_signed_error": -0.00306,
+      "median_signed_error": -0.00016,
+      "max_abs_error": 0.16417
+    },
+    "8192": {
+      "n": 168,
+      "mean_signed_error": 0.00247,
+      "median_signed_error": -0.00038,
+      "max_abs_error": 0.18562
+    },
+    "16384": {
+      "n": 168,
+      "mean_signed_error": 0.00699,
+      "median_signed_error": 0.00183,
+      "max_abs_error": 0.19366
+    },
+    "32768": {
+      "n": 168,
+      "mean_signed_error": 0.00284,
+      "median_signed_error": 0.00064,
+      "max_abs_error": 0.23718
+    },
+    "65536": {
+      "n": 168,
+      "mean_signed_error": 0.00106,
+      "median_signed_error": 0.00051,
+      "max_abs_error": 0.26757
+    },
+    "131072": {
+      "n": 168,
+      "mean_signed_error": -0.00112,
+      "median_signed_error": 0.0004,
+      "max_abs_error": 0.16656
+    },
+    "262144": {
+      "n": 168,
+      "mean_signed_error": -0.00019,
+      "median_signed_error": 0.00067,
+      "max_abs_error": 0.11647
+    },
+    "524288": {
+      "n": 168,
+      "mean_signed_error": 0.00021,
+      "median_signed_error": 0.00051,
+      "max_abs_error": 0.07637
+    },
+    "1048576": {
+      "n": 168,
+      "mean_signed_error": 0.00185,
+      "median_signed_error": 0.00082,
+      "max_abs_error": 0.03059
+    },
+    "2097152": {
+      "n": 168,
+      "mean_signed_error": 0.00071,
+      "median_signed_error": 0.00049,
+      "max_abs_error": 0.02632
+    }
+  },
+  "E2_occupancy_ratio": {
+    "n": 168,
+    "rho_median": 0.03938,
+    "rho_p95": 0.75644,
+    "rho_max": 0.96127,
+    "max_dstar_spread_factor": 25.8184
+  },
+  "E4_colouring_vs_M_distinct": {
+    "labeled": {
+      "n": 168,
+      "M_distinct_median": 13623,
+      "d_star_90_median": 129298,
+      "ratio_to_labeled": 1.0
+    },
+    "fuzzy": {
+      "n": 168,
+      "M_distinct_median": 6914,
+      "d_star_90_median": 65622,
+      "ratio_to_labeled": 0.5075
+    },
+    "api": {
+      "n": 168,
+      "M_distinct_median": 1990,
+      "d_star_90_median": 18887,
+      "ratio_to_labeled": 0.1461
+    }
+  },
+  "E6_recurrence_by_target": {
+    "Lcom/facebook/": {
+      "apps": 17,
+      "distinct_sigs": 2980,
+      "recurrence": 0.9554
+    },
+    "Lcom/unity3d/": {
+      "apps": 16,
+      "distinct_sigs": 2252,
+      "recurrence": 0.6044
+    },
+    "Lorg/xmlpull/": {
+      "apps": 32,
+      "distinct_sigs": 41,
+      "recurrence": 0.7805
+    },
+    "Lcom/mopub/": {
+      "apps": 1,
+      "distinct_sigs": 755,
+      "recurrence": 0.0
+    },
+    "Lcom/chartboost/": {
+      "apps": 5,
+      "distinct_sigs": 2136,
+      "recurrence": 0.5538
+    },
+    "Lcom/flurry/": {
+      "apps": 13,
+      "distinct_sigs": 9537,
+      "recurrence": 0.9666
+    },
+    "Lorg/acra/": {
+      "apps": 1,
+      "distinct_sigs": 387,
+      "recurrence": 0.0
+    },
+    "Lorg/joda/": {
+      "apps": 4,
+      "distinct_sigs": 37,
+      "recurrence": 1.0
+    },
+    "Lcom/inmobi/": {
+      "apps": 8,
+      "distinct_sigs": 1721,
+      "recurrence": 0.14
+    },
+    "Lcom/loopj/": {
+      "apps": 3,
+      "distinct_sigs": 65,
+      "recurrence": 1.0
+    },
+    "Lcom/umeng/": {
+      "apps": 9,
+      "distinct_sigs": 4285,
+      "recurrence": 0.5312
+    },
+    "Lorg/w3c/": {
+      "apps": 11,
+      "distinct_sigs": 67,
+      "recurrence": 0.4179
+    },
+    "Lorg/slf4j/": {
+      "apps": 3,
+      "distinct_sigs": 10,
+      "recurrence": 1.0
+    },
+    "SDK:piggybacked": {
+      "apps": 30,
+      "distinct_sigs": 27629,
+      "recurrence": 0.2632
+    },
+    "Lcom/smaato/": {
+      "apps": 3,
+      "distinct_sigs": 12,
+      "recurrence": 1.0
+    },
+    "Lcom/vungle/": {
+      "apps": 1,
+      "distinct_sigs": 868,
+      "recurrence": 0.0
+    },
+    "Lcom/fasterxml/": {
+      "apps": 2,
+      "distinct_sigs": 1420,
+      "recurrence": 0.0028
+    },
+    "Lorg/codehaus/": {
+      "apps": 1,
+      "distinct_sigs": 19,
+      "recurrence": 0.0
+    },
+    "Lcom/nostra13/": {
+      "apps": 2,
+      "distinct_sigs": 659,
+      "recurrence": 0.915
+    },
+    "Lcom/baidu/mobads/": {
+      "apps": 1,
+      "distinct_sigs": 534,
+      "recurrence": 0.0
+    },
+    "Lcom/amplitude/": {
+      "apps": 1,
+      "distinct_sigs": 37,
+      "recurrence": 0.0
+    },
+    "Lcom/mixpanel/": {
+      "apps": 1,
+      "distinct_sigs": 78,
+      "recurrence": 0.0
+    },
+    "Lcom/tapjoy/": {
+      "apps": 2,
+      "distinct_sigs": 353,
+      "recurrence": 0.2776
+    },
+    "Lorg/jsoup/": {
+      "apps": 1,
+      "distinct_sigs": 1460,
+      "recurrence": 0.0
+    }
+  }
+}

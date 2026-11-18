@@ -1,0 +1,52 @@
+{
+ "labeled": {
+  "n_corpus": 2713,
+  "n_dropped": 0,
+  "n_wild": 4852,
+  "wild_fp": 0.32819455894476507,
+  "wild_fp_sd": 0.02264954385996914,
+  "abstain": {
+   "skipped": "fewer than two non-benign classes"
+  }
+ },
+ "combined": {
+  "n_corpus": 2713,
+  "n_dropped": 0,
+  "n_wild": 4852,
+  "wild_fp": 0.1316982687551525,
+  "wild_fp_sd": 0.005350682187035104,
+  "abstain": {
+   "skipped": "fewer than two non-benign classes"
+  }
+ },
+ "fuzzy": {
+  "n_corpus": 2713,
+  "n_dropped": 0,
+  "n_wild": 4852,
+  "wild_fp": 0.2788540807914262,
+  "wild_fp_sd": 0.0328478028020319,
+  "abstain": {
+   "skipped": "fewer than two non-benign classes"
+  }
+ },
+ "api": {
+  "n_corpus": 2713,
+  "n_dropped": 0,
+  "n_wild": 4852,
+  "wild_fp": 0.18573784006595218,
+  "wild_fp_sd": 0.0037584970486578217,
+  "abstain": {
+   "skipped": "fewer than two non-benign classes"
+  }
+ },
+ "structure": {
+  "n_corpus": 2713,
+  "n_dropped": 0,
+  "n_wild": 4852,
+  "wild_fp": 0.10725474031327287,
+  "wild_fp_sd": 0.027699058794052732,
+  "abstain": {
+   "skipped": "fewer than two non-benign classes"
+  }
+ }
+}

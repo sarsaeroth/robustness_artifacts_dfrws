@@ -1,0 +1,331 @@
+{
+ "n_corpus": 2713,
+ "n_wild": 4888,
+ "classes": [
+  "original",
+  "piggybacked"
+ ],
+ "repeats": 2,
+ "O1_abstain": {
+  "skipped": "fewer than two non-benign classes"
+ },
+ "O1": {
+  "linear": {
+   "wild_fp_rate": 0.33162847790507366,
+   "sd": 0.024583480876732712
+  },
+  "additive": {
+   "wild_fp_rate": 0.5522094926350245,
+   "sd": 0.042404886031346824
+  },
+  "pairwise": {
+   "wild_fp_rate": 0.5494067103109657,
+   "sd": 0.04477138365183107
+  },
+  "rf": {
+   "wild_fp_rate": 0.7205605564648118,
+   "sd": 0.032442377303848136
+  },
+  "mlp": {
+   "wild_fp_rate": 0.3710106382978724,
+   "sd": 0.10506697551152318
+  }
+ },
+ "O2": {
+  "linear": {
+   "macro_f1": 0.6900873364247229,
+   "sd": 0.016996705598665226
+  },
+  "additive": {
+   "macro_f1": 0.6213542134599228,
+   "sd": 0.026659690073352574,
+   "diff_vs_linear": -0.0687331229648,
+   "p": 0.003380894212727637
+  },
+  "pairwise": {
+   "macro_f1": 0.6441833806955585,
+   "sd": 0.01803361823807364,
+   "diff_vs_linear": -0.045903955729164427,
+   "p": 0.015244827734076396
+  },
+  "rf": {
+   "macro_f1": 0.6726185471502386,
+   "sd": 0.02859119408496854,
+   "diff_vs_linear": -0.017468789274484076,
+   "p": 0.42668843067447765
+  },
+  "mlp": {
+   "macro_f1": 0.6475550472787548,
+   "sd": 0.04446099995727446,
+   "diff_vs_linear": -0.042532289145967975,
+   "p": 0.1545325273748291
+  }
+ },
+ "O3": {
+  "n": 31,
+  "k_any_median": 38.0,
+  "k_benign_median": 38.0,
+  "attack_any_median": 42.0,
+  "attack_benign_median": 42.0,
+  "attack_benign_censored": 0.0,
+  "untargeted_lands_benign": 1.0,
+  "per_family": {
+   "piggybacked": {
+    "n": 31,
+    "k_any_median": 38.0,
+    "k_benign_median": 38.0,
+    "attack_benign_median": 42.0
+   }
+  },
+  "rows": [
+   {
+    "family": "piggybacked",
+    "k_any": 44,
+    "k_benign": 44,
+    "attack_benign": 46,
+    "attack_any": 46,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 35,
+    "k_benign": 35,
+    "attack_benign": 39,
+    "attack_any": 39,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 1,
+    "k_benign": 1,
+    "attack_benign": 2,
+    "attack_any": 2,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 28,
+    "k_benign": 28,
+    "attack_benign": 29,
+    "attack_any": 29,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 48,
+    "k_benign": 48,
+    "attack_benign": 53,
+    "attack_any": 53,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 38,
+    "k_benign": 38,
+    "attack_benign": 41,
+    "attack_any": 41,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 39,
+    "k_benign": 39,
+    "attack_benign": 42,
+    "attack_any": 42,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 7,
+    "k_benign": 7,
+    "attack_benign": 8,
+    "attack_any": 8,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 94,
+    "k_benign": 94,
+    "attack_benign": 107,
+    "attack_any": 107,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 3,
+    "k_benign": 3,
+    "attack_benign": 5,
+    "attack_any": 5,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 0,
+    "k_benign": 0,
+    "attack_benign": 1,
+    "attack_any": 1,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 38,
+    "k_benign": 38,
+    "attack_benign": 43,
+    "attack_any": 43,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 38,
+    "k_benign": 38,
+    "attack_benign": 42,
+    "attack_any": 42,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 20,
+    "k_benign": 20,
+    "attack_benign": 22,
+    "attack_any": 22,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 46,
+    "k_benign": 46,
+    "attack_benign": 49,
+    "attack_any": 49,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 83,
+    "k_benign": 83,
+    "attack_benign": 93,
+    "attack_any": 93,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 43,
+    "k_benign": 43,
+    "attack_benign": 51,
+    "attack_any": 51,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 50,
+    "k_benign": 50,
+    "attack_benign": 56,
+    "attack_any": 56,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 26,
+    "k_benign": 26,
+    "attack_benign": 28,
+    "attack_any": 28,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 26,
+    "k_benign": 26,
+    "attack_benign": 28,
+    "attack_any": 28,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 44,
+    "k_benign": 44,
+    "attack_benign": 52,
+    "attack_any": 52,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 48,
+    "k_benign": 48,
+    "attack_benign": 54,
+    "attack_any": 54,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 40,
+    "k_benign": 40,
+    "attack_benign": 42,
+    "attack_any": 42,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 26,
+    "k_benign": 26,
+    "attack_benign": 28,
+    "attack_any": 28,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 24,
+    "k_benign": 24,
+    "attack_benign": 26,
+    "attack_any": 26,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 6,
+    "k_benign": 6,
+    "attack_benign": 7,
+    "attack_any": 7,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 54,
+    "k_benign": 54,
+    "attack_benign": 57,
+    "attack_any": 57,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 42,
+    "k_benign": 42,
+    "attack_benign": 49,
+    "attack_any": 49,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 7,
+    "k_benign": 7,
+    "attack_benign": 8,
+    "attack_any": 8,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 40,
+    "k_benign": 40,
+    "attack_benign": 42,
+    "attack_any": 42,
+    "lands": "original"
+   },
+   {
+    "family": "piggybacked",
+    "k_any": 31,
+    "k_benign": 31,
+    "attack_benign": 34,
+    "attack_any": 34,
+    "lands": "original"
+   }
+  ]
+ }
+}

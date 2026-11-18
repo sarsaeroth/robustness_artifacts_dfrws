@@ -1,0 +1,174 @@
+{
+ "summary": {
+  "n": 28,
+  "model": "RandomForest(60) on normalized FCG identifier WL",
+  "k_cert_median": 0.0,
+  "k_attack_median": 78.5,
+  "zero_cert_frac": 0.9642857142857143,
+  "attack_over_cert_median": 78.5,
+  "per_family": {
+   "adware": {
+    "n": 10,
+    "k_cert": 0.0,
+    "k_attack": 15.0
+   },
+   "pua": {
+    "n": 9,
+    "k_cert": 0.0,
+    "k_attack": 16.5
+   },
+   "riskware": {
+    "n": 7,
+    "k_cert": 0.0,
+    "k_attack": 416.0
+   },
+   "trojan": {
+    "n": 2,
+    "k_cert": 0.0,
+    "k_attack": 184.5
+   }
+  }
+ },
+ "rows": [
+  {
+   "family": "adware",
+   "k_cert": 0,
+   "k_attack": 1941
+  },
+  {
+   "family": "adware",
+   "k_cert": 0,
+   "k_attack": 1218
+  },
+  {
+   "family": "adware",
+   "k_cert": 0,
+   "k_attack": 15
+  },
+  {
+   "family": "adware",
+   "k_cert": 0,
+   "k_attack": 13
+  },
+  {
+   "family": "adware",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "adware",
+   "k_cert": 0,
+   "k_attack": 11
+  },
+  {
+   "family": "adware",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "adware",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "adware",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "adware",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "pua",
+   "k_cert": 0,
+   "k_attack": 16
+  },
+  {
+   "family": "pua",
+   "k_cert": 0,
+   "k_attack": 10
+  },
+  {
+   "family": "pua",
+   "k_cert": 0,
+   "k_attack": 10
+  },
+  {
+   "family": "pua",
+   "k_cert": 0,
+   "k_attack": 19
+  },
+  {
+   "family": "pua",
+   "k_cert": 0,
+   "k_attack": 19
+  },
+  {
+   "family": "pua",
+   "k_cert": 0,
+   "k_attack": 17
+  },
+  {
+   "family": "pua",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "pua",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "pua",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "riskware",
+   "k_cert": 1,
+   "k_attack": null
+  },
+  {
+   "family": "riskware",
+   "k_cert": 0,
+   "k_attack": 621
+  },
+  {
+   "family": "riskware",
+   "k_cert": 0,
+   "k_attack": 138
+  },
+  {
+   "family": "riskware",
+   "k_cert": 0,
+   "k_attack": 416
+  },
+  {
+   "family": "riskware",
+   "k_cert": 0,
+   "k_attack": 641
+  },
+  {
+   "family": "riskware",
+   "k_cert": 0,
+   "k_attack": 402
+  },
+  {
+   "family": "riskware",
+   "k_cert": 0,
+   "k_attack": null
+  },
+  {
+   "family": "trojan",
+   "k_cert": 0,
+   "k_attack": 228
+  },
+  {
+   "family": "trojan",
+   "k_cert": 0,
+   "k_attack": 141
+  }
+ ]
+}

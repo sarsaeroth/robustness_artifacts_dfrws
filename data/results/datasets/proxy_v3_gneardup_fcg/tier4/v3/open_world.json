@@ -1,0 +1,1542 @@
+{
+ "n_corpus": 4773,
+ "n_wild": 4887,
+ "classes": [
+  "cashraven",
+  "ipidea",
+  "ipninja",
+  "luminati",
+  "monkeysocks",
+  "non_proxy",
+  "oxylabs",
+  "popa",
+  "traffmonetizer"
+ ],
+ "repeats": 2,
+ "O1_abstain": {
+  "auroc_proxy_vs_wild": 0.8666089795651244,
+  "tau_95_coverage": 0.5250366654013252,
+  "wild_fp_at_tau": 0.8553304685901371
+ },
+ "O1": {
+  "linear": {
+   "wild_fp_rate": 0.22682627378759976,
+   "sd": 0.02139442014048142
+  },
+  "additive": {
+   "wild_fp_rate": 0.22177204829138533,
+   "sd": 0.024967343741145752
+  },
+  "pairwise": {
+   "wild_fp_rate": 0.1624718641293227,
+   "sd": 0.015342745515167172
+  },
+  "rf": {
+   "wild_fp_rate": 0.029077143441784324,
+   "sd": 0.011433530907332654
+  },
+  "mlp": {
+   "wild_fp_rate": 0.22081031307550644,
+   "sd": 0.011542509531067323
+  }
+ },
+ "O2": {
+  "linear": {
+   "macro_f1": 0.6468176551128577,
+   "sd": 0.1348872007918142
+  },
+  "additive": {
+   "macro_f1": 0.5539545416522518,
+   "sd": 0.12411073501533577,
+   "diff_vs_linear": -0.09286311346060584,
+   "p": 0.030502396348392573
+  },
+  "pairwise": {
+   "macro_f1": 0.5357522954449557,
+   "sd": 0.11442801244078786,
+   "diff_vs_linear": -0.11106535966790192,
+   "p": 0.02218000298466937
+  },
+  "rf": {
+   "macro_f1": 0.4042078933684278,
+   "sd": 0.14960842073357566,
+   "diff_vs_linear": -0.24260976174442989,
+   "p": 0.00018506350143107628
+  },
+  "mlp": {
+   "macro_f1": 0.6455016053614764,
+   "sd": 0.13318768025952624,
+   "diff_vs_linear": -0.0013160497513812596,
+   "p": 0.9591475725770806
+  }
+ },
+ "O3": {
+  "n": 176,
+  "k_any_median": 191.0,
+  "k_benign_median": 224.5,
+  "attack_any_median": 259.5,
+  "attack_benign_median": 274.5,
+  "attack_benign_censored": 0.0,
+  "untargeted_lands_benign": 0.6534090909090909,
+  "per_family": {
+   "cashraven": {
+    "n": 4,
+    "k_any_median": 113.0,
+    "k_benign_median": 131.5,
+    "attack_benign_median": 154.5
+   },
+   "ipidea": {
+    "n": 24,
+    "k_any_median": 422.0,
+    "k_benign_median": 422.0,
+    "attack_benign_median": 594.0
+   },
+   "ipninja": {
+    "n": 30,
+    "k_any_median": 50.5,
+    "k_benign_median": 92.0,
+    "attack_benign_median": 105.0
+   },
+   "luminati": {
+    "n": 28,
+    "k_any_median": 87.5,
+    "k_benign_median": 88.0,
+    "attack_benign_median": 105.5
+   },
+   "monkeysocks": {
+    "n": 39,
+    "k_any_median": 344.0,
+    "k_benign_median": 344.0,
+    "attack_benign_median": 465.0
+   },
+   "oxylabs": {
+    "n": 17,
+    "k_any_median": 90.0,
+    "k_benign_median": 90.0,
+    "attack_benign_median": 114.0
+   },
+   "popa": {
+    "n": 26,
+    "k_any_median": 285.0,
+    "k_benign_median": 285.0,
+    "attack_benign_median": 341.5
+   },
+   "traffmonetizer": {
+    "n": 8,
+    "k_any_median": 57.5,
+    "k_benign_median": 194.0,
+    "attack_benign_median": 254.5
+   }
+  },
+  "rows": [
+   {
+    "family": "cashraven",
+    "k_any": 61,
+    "k_benign": 147,
+    "attack_benign": 211,
+    "attack_any": 77,
+    "lands": "luminati"
+   },
+   {
+    "family": "cashraven",
+    "k_any": 102,
+    "k_benign": 137,
+    "attack_benign": 176,
+    "attack_any": 162,
+    "lands": "traffmonetizer"
+   },
+   {
+    "family": "ipidea",
+    "k_any": 174,
+    "k_benign": 174,
+    "attack_benign": 242,
+    "attack_any": 411,
+    "lands": "popa"
+   },
+   {
+    "family": "ipidea",
+    "k_any": 27,
+    "k_benign": 247,
+    "attack_benign": 452,
+    "attack_any": 28,
+    "lands": "popa"
+   },
+   {
+    "family": "ipidea",
+    "k_any": 70,
+    "k_benign": 70,
+    "attack_benign": 77,
+    "attack_any": 77,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "ipidea",
+    "k_any": 188,
+    "k_benign": 304,
+    "attack_benign": 378,
+    "attack_any": 205,
+    "lands": "popa"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 97,
+    "k_benign": 97,
+    "attack_benign": 105,
+    "attack_any": 110,
+    "lands": "oxylabs"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 59,
+    "k_benign": 59,
+    "attack_benign": 78,
+    "attack_any": 98,
+    "lands": "popa"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 16,
+    "k_benign": 16,
+    "attack_benign": 17,
+    "attack_any": 17,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 383,
+    "k_benign": 383,
+    "attack_benign": 467,
+    "attack_any": 467,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 16,
+    "k_benign": 16,
+    "attack_benign": 17,
+    "attack_any": 17,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 16,
+    "k_benign": 16,
+    "attack_benign": 17,
+    "attack_any": 17,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 97,
+    "k_benign": 97,
+    "attack_benign": 105,
+    "attack_any": 110,
+    "lands": "oxylabs"
+   },
+   {
+    "family": "luminati",
+    "k_any": 219,
+    "k_benign": 219,
+    "attack_benign": 320,
+    "attack_any": 346,
+    "lands": "popa"
+   },
+   {
+    "family": "luminati",
+    "k_any": 181,
+    "k_benign": 181,
+    "attack_benign": 222,
+    "attack_any": 264,
+    "lands": "oxylabs"
+   },
+   {
+    "family": "luminati",
+    "k_any": 288,
+    "k_benign": 319,
+    "attack_benign": 468,
+    "attack_any": 444,
+    "lands": "oxylabs"
+   },
+   {
+    "family": "luminati",
+    "k_any": 61,
+    "k_benign": 61,
+    "attack_benign": 65,
+    "attack_any": 65,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "luminati",
+    "k_any": 15,
+    "k_benign": 58,
+    "attack_benign": 80,
+    "attack_any": 16,
+    "lands": "popa"
+   },
+   {
+    "family": "luminati",
+    "k_any": 175,
+    "k_benign": 175,
+    "attack_benign": 219,
+    "attack_any": 233,
+    "lands": "popa"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 344,
+    "k_benign": 344,
+    "attack_benign": 465,
+    "attack_any": 465,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 354,
+    "k_benign": 354,
+    "attack_benign": 482,
+    "attack_any": 482,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 354,
+    "k_benign": 354,
+    "attack_benign": 482,
+    "attack_any": 482,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 344,
+    "k_benign": 344,
+    "attack_benign": 465,
+    "attack_any": 465,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 354,
+    "k_benign": 354,
+    "attack_benign": 482,
+    "attack_any": 482,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 354,
+    "k_benign": 354,
+    "attack_benign": 482,
+    "attack_any": 482,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 344,
+    "k_benign": 344,
+    "attack_benign": 465,
+    "attack_any": 465,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 354,
+    "k_benign": 354,
+    "attack_benign": 482,
+    "attack_any": 482,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 354,
+    "k_benign": 354,
+    "attack_benign": 482,
+    "attack_any": 482,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 344,
+    "k_benign": 344,
+    "attack_benign": 465,
+    "attack_any": 465,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 354,
+    "k_benign": 354,
+    "attack_benign": 482,
+    "attack_any": 482,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 344,
+    "k_benign": 344,
+    "attack_benign": 465,
+    "attack_any": 465,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 344,
+    "k_benign": 344,
+    "attack_benign": 465,
+    "attack_any": 465,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 354,
+    "k_benign": 354,
+    "attack_benign": 482,
+    "attack_any": 482,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 344,
+    "k_benign": 344,
+    "attack_benign": 465,
+    "attack_any": 465,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 354,
+    "k_benign": 354,
+    "attack_benign": 482,
+    "attack_any": 482,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 354,
+    "k_benign": 354,
+    "attack_benign": 482,
+    "attack_any": 482,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 354,
+    "k_benign": 354,
+    "attack_benign": 482,
+    "attack_any": 482,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 354,
+    "k_benign": 354,
+    "attack_benign": 482,
+    "attack_any": 482,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 346,
+    "k_benign": 346,
+    "attack_benign": 469,
+    "attack_any": 469,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 345,
+    "k_benign": 345,
+    "attack_benign": 466,
+    "attack_any": 466,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 354,
+    "k_benign": 354,
+    "attack_benign": 482,
+    "attack_any": 482,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 354,
+    "k_benign": 354,
+    "attack_benign": 482,
+    "attack_any": 482,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 344,
+    "k_benign": 344,
+    "attack_benign": 465,
+    "attack_any": 465,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 354,
+    "k_benign": 354,
+    "attack_benign": 482,
+    "attack_any": 482,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "oxylabs",
+    "k_any": 79,
+    "k_benign": 79,
+    "attack_benign": 92,
+    "attack_any": 92,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "oxylabs",
+    "k_any": 79,
+    "k_benign": 79,
+    "attack_benign": 92,
+    "attack_any": 92,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "oxylabs",
+    "k_any": 90,
+    "k_benign": 90,
+    "attack_benign": 114,
+    "attack_any": 114,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "oxylabs",
+    "k_any": 97,
+    "k_benign": 97,
+    "attack_benign": 129,
+    "attack_any": 129,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "oxylabs",
+    "k_any": 90,
+    "k_benign": 90,
+    "attack_benign": 114,
+    "attack_any": 114,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "oxylabs",
+    "k_any": 97,
+    "k_benign": 97,
+    "attack_benign": 129,
+    "attack_any": 129,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "oxylabs",
+    "k_any": 79,
+    "k_benign": 79,
+    "attack_benign": 92,
+    "attack_any": 92,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "oxylabs",
+    "k_any": 97,
+    "k_benign": 97,
+    "attack_benign": 129,
+    "attack_any": 129,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "oxylabs",
+    "k_any": 90,
+    "k_benign": 90,
+    "attack_benign": 114,
+    "attack_any": 114,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "oxylabs",
+    "k_any": 79,
+    "k_benign": 79,
+    "attack_benign": 92,
+    "attack_any": 92,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "oxylabs",
+    "k_any": 90,
+    "k_benign": 90,
+    "attack_benign": 114,
+    "attack_any": 114,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "oxylabs",
+    "k_any": 97,
+    "k_benign": 97,
+    "attack_benign": 129,
+    "attack_any": 129,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "oxylabs",
+    "k_any": 97,
+    "k_benign": 97,
+    "attack_benign": 129,
+    "attack_any": 129,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "oxylabs",
+    "k_any": 97,
+    "k_benign": 97,
+    "attack_benign": 129,
+    "attack_any": 129,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "popa",
+    "k_any": 413,
+    "k_benign": 413,
+    "attack_benign": 533,
+    "attack_any": 533,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "popa",
+    "k_any": 388,
+    "k_benign": 388,
+    "attack_benign": 518,
+    "attack_any": 627,
+    "lands": "luminati"
+   },
+   {
+    "family": "popa",
+    "k_any": 163,
+    "k_benign": 163,
+    "attack_benign": 189,
+    "attack_any": 189,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "popa",
+    "k_any": 448,
+    "k_benign": 448,
+    "attack_benign": 647,
+    "attack_any": 839,
+    "lands": "luminati"
+   },
+   {
+    "family": "traffmonetizer",
+    "k_any": 148,
+    "k_benign": 196,
+    "attack_benign": 247,
+    "attack_any": 170,
+    "lands": "cashraven"
+   },
+   {
+    "family": "traffmonetizer",
+    "k_any": 192,
+    "k_benign": 192,
+    "attack_benign": 262,
+    "attack_any": 262,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "ipidea",
+    "k_any": 159,
+    "k_benign": 159,
+    "attack_benign": 188,
+    "attack_any": 243,
+    "lands": "popa"
+   },
+   {
+    "family": "ipidea",
+    "k_any": 133,
+    "k_benign": 133,
+    "attack_benign": 159,
+    "attack_any": 177,
+    "lands": "cashraven"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 56,
+    "k_benign": 56,
+    "attack_benign": 72,
+    "attack_any": 72,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 320,
+    "k_benign": 320,
+    "attack_benign": 415,
+    "attack_any": 534,
+    "lands": "luminati"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 286,
+    "k_benign": 286,
+    "attack_benign": 367,
+    "attack_any": 367,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 43,
+    "k_benign": 43,
+    "attack_benign": 62,
+    "attack_any": 62,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "luminati",
+    "k_any": 85,
+    "k_benign": 85,
+    "attack_benign": 96,
+    "attack_any": 96,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "luminati",
+    "k_any": 90,
+    "k_benign": 93,
+    "attack_benign": 107,
+    "attack_any": 103,
+    "lands": "popa"
+   },
+   {
+    "family": "luminati",
+    "k_any": 91,
+    "k_benign": 91,
+    "attack_benign": 104,
+    "attack_any": 104,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "luminati",
+    "k_any": 73,
+    "k_benign": 73,
+    "attack_benign": 78,
+    "attack_any": 78,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "oxylabs",
+    "k_any": 105,
+    "k_benign": 105,
+    "attack_benign": 152,
+    "attack_any": 152,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "oxylabs",
+    "k_any": 105,
+    "k_benign": 105,
+    "attack_benign": 152,
+    "attack_any": 152,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "popa",
+    "k_any": 421,
+    "k_benign": 421,
+    "attack_benign": 528,
+    "attack_any": 528,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "popa",
+    "k_any": 13,
+    "k_benign": 13,
+    "attack_benign": 14,
+    "attack_any": 14,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "popa",
+    "k_any": 274,
+    "k_benign": 274,
+    "attack_benign": 301,
+    "attack_any": 301,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "popa",
+    "k_any": 274,
+    "k_benign": 274,
+    "attack_benign": 301,
+    "attack_any": 301,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "ipidea",
+    "k_any": 54,
+    "k_benign": 55,
+    "attack_benign": 57,
+    "attack_any": 56,
+    "lands": "popa"
+   },
+   {
+    "family": "ipidea",
+    "k_any": 40,
+    "k_benign": 40,
+    "attack_benign": 41,
+    "attack_any": 41,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 45,
+    "k_benign": 45,
+    "attack_benign": 59,
+    "attack_any": 59,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 45,
+    "k_benign": 45,
+    "attack_benign": 59,
+    "attack_any": 59,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 45,
+    "k_benign": 45,
+    "attack_benign": 59,
+    "attack_any": 59,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 45,
+    "k_benign": 45,
+    "attack_benign": 59,
+    "attack_any": 59,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 45,
+    "k_benign": 45,
+    "attack_benign": 59,
+    "attack_any": 59,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 282,
+    "k_benign": 282,
+    "attack_benign": 346,
+    "attack_any": 419,
+    "lands": "luminati"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 258,
+    "k_benign": 258,
+    "attack_benign": 303,
+    "attack_any": 372,
+    "lands": "luminati"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 423,
+    "k_benign": 423,
+    "attack_benign": 560,
+    "attack_any": 573,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "luminati",
+    "k_any": 17,
+    "k_benign": 17,
+    "attack_benign": 18,
+    "attack_any": 18,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "luminati",
+    "k_any": 17,
+    "k_benign": 17,
+    "attack_benign": 18,
+    "attack_any": 18,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "luminati",
+    "k_any": 17,
+    "k_benign": 17,
+    "attack_benign": 18,
+    "attack_any": 18,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "luminati",
+    "k_any": 17,
+    "k_benign": 17,
+    "attack_benign": 18,
+    "attack_any": 18,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "luminati",
+    "k_any": 220,
+    "k_benign": 220,
+    "attack_benign": 257,
+    "attack_any": 257,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "luminati",
+    "k_any": 60,
+    "k_benign": 60,
+    "attack_benign": 62,
+    "attack_any": 62,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "popa",
+    "k_any": 38,
+    "k_benign": 38,
+    "attack_benign": 39,
+    "attack_any": 39,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "popa",
+    "k_any": 28,
+    "k_benign": 28,
+    "attack_benign": 29,
+    "attack_any": 29,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "popa",
+    "k_any": 435,
+    "k_benign": 435,
+    "attack_benign": 563,
+    "attack_any": 813,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "popa",
+    "k_any": 29,
+    "k_benign": 29,
+    "attack_benign": 30,
+    "attack_any": 30,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "popa",
+    "k_any": 361,
+    "k_benign": 361,
+    "attack_benign": 467,
+    "attack_any": 467,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "popa",
+    "k_any": 358,
+    "k_benign": 358,
+    "attack_benign": 459,
+    "attack_any": 459,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "popa",
+    "k_any": 25,
+    "k_benign": 25,
+    "attack_benign": 26,
+    "attack_any": 26,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "popa",
+    "k_any": 19,
+    "k_benign": 19,
+    "attack_benign": 20,
+    "attack_any": 20,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "traffmonetizer",
+    "k_any": 58,
+    "k_benign": 234,
+    "attack_benign": 304,
+    "attack_any": 60,
+    "lands": "popa"
+   },
+   {
+    "family": "traffmonetizer",
+    "k_any": 183,
+    "k_benign": 189,
+    "attack_benign": 238,
+    "attack_any": 229,
+    "lands": "popa"
+   },
+   {
+    "family": "traffmonetizer",
+    "k_any": 57,
+    "k_benign": 233,
+    "attack_benign": 304,
+    "attack_any": 58,
+    "lands": "popa"
+   },
+   {
+    "family": "traffmonetizer",
+    "k_any": 8,
+    "k_benign": 238,
+    "attack_benign": 325,
+    "attack_any": 9,
+    "lands": "popa"
+   },
+   {
+    "family": "ipidea",
+    "k_any": 320,
+    "k_benign": 376,
+    "attack_benign": 593,
+    "attack_any": 421,
+    "lands": "popa"
+   },
+   {
+    "family": "ipidea",
+    "k_any": 435,
+    "k_benign": 435,
+    "attack_benign": 608,
+    "attack_any": 714,
+    "lands": "popa"
+   },
+   {
+    "family": "ipidea",
+    "k_any": 426,
+    "k_benign": 426,
+    "attack_benign": 611,
+    "attack_any": 670,
+    "lands": "luminati"
+   },
+   {
+    "family": "ipidea",
+    "k_any": 429,
+    "k_benign": 429,
+    "attack_benign": 621,
+    "attack_any": 664,
+    "lands": "luminati"
+   },
+   {
+    "family": "ipidea",
+    "k_any": 427,
+    "k_benign": 427,
+    "attack_benign": 618,
+    "attack_any": 654,
+    "lands": "luminati"
+   },
+   {
+    "family": "ipidea",
+    "k_any": 434,
+    "k_benign": 434,
+    "attack_benign": 605,
+    "attack_any": 793,
+    "lands": "luminati"
+   },
+   {
+    "family": "ipidea",
+    "k_any": 430,
+    "k_benign": 430,
+    "attack_benign": 597,
+    "attack_any": 745,
+    "lands": "luminati"
+   },
+   {
+    "family": "ipidea",
+    "k_any": 313,
+    "k_benign": 380,
+    "attack_benign": 610,
+    "attack_any": 407,
+    "lands": "popa"
+   },
+   {
+    "family": "ipidea",
+    "k_any": 428,
+    "k_benign": 428,
+    "attack_benign": 590,
+    "attack_any": 738,
+    "lands": "luminati"
+   },
+   {
+    "family": "ipidea",
+    "k_any": 314,
+    "k_benign": 371,
+    "attack_benign": 583,
+    "attack_any": 411,
+    "lands": "popa"
+   },
+   {
+    "family": "ipidea",
+    "k_any": 430,
+    "k_benign": 430,
+    "attack_benign": 596,
+    "attack_any": 687,
+    "lands": "popa"
+   },
+   {
+    "family": "ipidea",
+    "k_any": 432,
+    "k_benign": 432,
+    "attack_benign": 603,
+    "attack_any": 758,
+    "lands": "luminati"
+   },
+   {
+    "family": "ipidea",
+    "k_any": 418,
+    "k_benign": 418,
+    "attack_benign": 589,
+    "attack_any": 630,
+    "lands": "popa"
+   },
+   {
+    "family": "ipidea",
+    "k_any": 429,
+    "k_benign": 429,
+    "attack_benign": 621,
+    "attack_any": 655,
+    "lands": "luminati"
+   },
+   {
+    "family": "ipidea",
+    "k_any": 429,
+    "k_benign": 429,
+    "attack_benign": 595,
+    "attack_any": 735,
+    "lands": "luminati"
+   },
+   {
+    "family": "ipidea",
+    "k_any": 432,
+    "k_benign": 432,
+    "attack_benign": 600,
+    "attack_any": 734,
+    "lands": "luminati"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 47,
+    "k_benign": 95,
+    "attack_benign": 111,
+    "attack_any": 50,
+    "lands": "popa"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 426,
+    "k_benign": 426,
+    "attack_benign": 551,
+    "attack_any": 767,
+    "lands": "luminati"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 47,
+    "k_benign": 95,
+    "attack_benign": 111,
+    "attack_any": 50,
+    "lands": "popa"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 307,
+    "k_benign": 307,
+    "attack_benign": 394,
+    "attack_any": 394,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 47,
+    "k_benign": 95,
+    "attack_benign": 111,
+    "attack_any": 50,
+    "lands": "popa"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 54,
+    "k_benign": 92,
+    "attack_benign": 106,
+    "attack_any": 58,
+    "lands": "popa"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 54,
+    "k_benign": 92,
+    "attack_benign": 106,
+    "attack_any": 58,
+    "lands": "popa"
+   },
+   {
+    "family": "luminati",
+    "k_any": 75,
+    "k_benign": 75,
+    "attack_benign": 92,
+    "attack_any": 92,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "luminati",
+    "k_any": 72,
+    "k_benign": 72,
+    "attack_benign": 87,
+    "attack_any": 87,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "luminati",
+    "k_any": 222,
+    "k_benign": 222,
+    "attack_benign": 287,
+    "attack_any": 287,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "luminati",
+    "k_any": 58,
+    "k_benign": 60,
+    "attack_benign": 87,
+    "attack_any": 83,
+    "lands": "popa"
+   },
+   {
+    "family": "luminati",
+    "k_any": 309,
+    "k_benign": 315,
+    "attack_benign": 456,
+    "attack_any": 748,
+    "lands": "oxylabs"
+   },
+   {
+    "family": "luminati",
+    "k_any": 70,
+    "k_benign": 83,
+    "attack_benign": 110,
+    "attack_any": 86,
+    "lands": "popa"
+   },
+   {
+    "family": "luminati",
+    "k_any": 181,
+    "k_benign": 181,
+    "attack_benign": 210,
+    "attack_any": 353,
+    "lands": "cashraven"
+   },
+   {
+    "family": "luminati",
+    "k_any": 67,
+    "k_benign": 67,
+    "attack_benign": 80,
+    "attack_any": 80,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 380,
+    "k_benign": 380,
+    "attack_benign": 524,
+    "attack_any": 714,
+    "lands": "popa"
+   },
+   {
+    "family": "popa",
+    "k_any": 157,
+    "k_benign": 228,
+    "attack_benign": 244,
+    "attack_any": 162,
+    "lands": "luminati"
+   },
+   {
+    "family": "popa",
+    "k_any": 471,
+    "k_benign": 471,
+    "attack_benign": 662,
+    "attack_any": 1020,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "popa",
+    "k_any": 343,
+    "k_benign": 343,
+    "attack_benign": 411,
+    "attack_any": 411,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "popa",
+    "k_any": 471,
+    "k_benign": 471,
+    "attack_benign": 662,
+    "attack_any": 1020,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "popa",
+    "k_any": 296,
+    "k_benign": 296,
+    "attack_benign": 382,
+    "attack_any": 480,
+    "lands": "luminati"
+   },
+   {
+    "family": "popa",
+    "k_any": 209,
+    "k_benign": 226,
+    "attack_benign": 241,
+    "attack_any": 221,
+    "lands": "luminati"
+   },
+   {
+    "family": "popa",
+    "k_any": 223,
+    "k_benign": 223,
+    "attack_benign": 239,
+    "attack_any": 239,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "traffmonetizer",
+    "k_any": 7,
+    "k_benign": 59,
+    "attack_benign": 79,
+    "attack_any": 8,
+    "lands": "cashraven"
+   },
+   {
+    "family": "cashraven",
+    "k_any": 126,
+    "k_benign": 126,
+    "attack_benign": 133,
+    "attack_any": 133,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "cashraven",
+    "k_any": 124,
+    "k_benign": 124,
+    "attack_benign": 131,
+    "attack_any": 131,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 44,
+    "k_benign": 44,
+    "attack_benign": 63,
+    "attack_any": 63,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 44,
+    "k_benign": 44,
+    "attack_benign": 63,
+    "attack_any": 63,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 44,
+    "k_benign": 44,
+    "attack_benign": 63,
+    "attack_any": 63,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "ipninja",
+    "k_any": 377,
+    "k_benign": 377,
+    "attack_benign": 450,
+    "attack_any": 450,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "luminati",
+    "k_any": 158,
+    "k_benign": 158,
+    "attack_benign": 253,
+    "attack_any": 285,
+    "lands": "popa"
+   },
+   {
+    "family": "luminati",
+    "k_any": 194,
+    "k_benign": 194,
+    "attack_benign": 217,
+    "attack_any": 217,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "luminati",
+    "k_any": 172,
+    "k_benign": 172,
+    "attack_benign": 188,
+    "attack_any": 188,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "luminati",
+    "k_any": 190,
+    "k_benign": 190,
+    "attack_benign": 234,
+    "attack_any": 234,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 327,
+    "k_benign": 327,
+    "attack_benign": 384,
+    "attack_any": 384,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 314,
+    "k_benign": 314,
+    "attack_benign": 365,
+    "attack_any": 365,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 327,
+    "k_benign": 327,
+    "attack_benign": 384,
+    "attack_any": 384,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 327,
+    "k_benign": 327,
+    "attack_benign": 384,
+    "attack_any": 384,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 327,
+    "k_benign": 327,
+    "attack_benign": 384,
+    "attack_any": 384,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 327,
+    "k_benign": 327,
+    "attack_benign": 384,
+    "attack_any": 384,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 327,
+    "k_benign": 327,
+    "attack_benign": 384,
+    "attack_any": 384,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 314,
+    "k_benign": 314,
+    "attack_benign": 365,
+    "attack_any": 365,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 327,
+    "k_benign": 327,
+    "attack_benign": 384,
+    "attack_any": 384,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 327,
+    "k_benign": 327,
+    "attack_benign": 384,
+    "attack_any": 384,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 327,
+    "k_benign": 327,
+    "attack_benign": 384,
+    "attack_any": 384,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 327,
+    "k_benign": 327,
+    "attack_benign": 384,
+    "attack_any": 384,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "monkeysocks",
+    "k_any": 327,
+    "k_benign": 327,
+    "attack_benign": 384,
+    "attack_any": 384,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "oxylabs",
+    "k_any": 82,
+    "k_benign": 82,
+    "attack_benign": 96,
+    "attack_any": 96,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "popa",
+    "k_any": 441,
+    "k_benign": 441,
+    "attack_benign": 618,
+    "attack_any": 637,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "popa",
+    "k_any": 116,
+    "k_benign": 195,
+    "attack_benign": 215,
+    "attack_any": 123,
+    "lands": "cashraven"
+   },
+   {
+    "family": "popa",
+    "k_any": 472,
+    "k_benign": 472,
+    "attack_benign": 637,
+    "attack_any": 637,
+    "lands": "non_proxy"
+   },
+   {
+    "family": "traffmonetizer",
+    "k_any": 27,
+    "k_benign": 69,
+    "attack_benign": 92,
+    "attack_any": 28,
+    "lands": "ipidea"
+   }
+  ]
+ }
+}

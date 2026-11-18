@@ -1,0 +1,1479 @@
+{
+ "n": 176,
+ "n_donors": 40,
+ "n_packages": 1197,
+ "token": {
+  "success": 1.0,
+  "median_tokens_when_successful": 274.5
+ },
+ "greedy": {
+  "success": 0.6590909090909091,
+  "median_tokens_when_successful": 7124.0
+ },
+ "random": {
+  "success": 0.3125,
+  "median_tokens_when_successful": 8497.0
+ },
+ "greedy_packages_median": 2.0,
+ "whole_app_flip_rate_mean": 0.1421875,
+ "per_family": {
+  "cashraven": {
+   "n": 4,
+   "greedy_success": 1.0,
+   "random_success": 0.25,
+   "whole_app_flip_rate": 0.15
+  },
+  "ipidea": {
+   "n": 24,
+   "greedy_success": 0.2916666666666667,
+   "random_success": 0.16666666666666666,
+   "whole_app_flip_rate": 0.06354166666666666
+  },
+  "ipninja": {
+   "n": 30,
+   "greedy_success": 0.8666666666666667,
+   "random_success": 0.6666666666666666,
+   "whole_app_flip_rate": 0.2625
+  },
+  "luminati": {
+   "n": 28,
+   "greedy_success": 0.9285714285714286,
+   "random_success": 0.42857142857142855,
+   "whole_app_flip_rate": 0.2401785714285714
+  },
+  "monkeysocks": {
+   "n": 39,
+   "greedy_success": 0.3333333333333333,
+   "random_success": 0.0,
+   "whole_app_flip_rate": 0.0
+  },
+  "oxylabs": {
+   "n": 17,
+   "greedy_success": 1.0,
+   "random_success": 0.5882352941176471,
+   "whole_app_flip_rate": 0.24852941176470586
+  },
+  "popa": {
+   "n": 26,
+   "greedy_success": 0.5769230769230769,
+   "random_success": 0.2692307692307692,
+   "whole_app_flip_rate": 0.12211538461538461
+  },
+  "traffmonetizer": {
+   "n": 8,
+   "greedy_success": 1.0,
+   "random_success": 0.125,
+   "whole_app_flip_rate": 0.1125
+  }
+ },
+ "rows": [
+  {
+   "family": "cashraven",
+   "token": 211,
+   "greedy": 6950.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.1
+  },
+  {
+   "family": "cashraven",
+   "token": 176,
+   "greedy": 6950.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.15
+  },
+  {
+   "family": "ipidea",
+   "token": 242,
+   "greedy": 12742.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.075
+  },
+  {
+   "family": "ipidea",
+   "token": 452,
+   "greedy": 13346.0,
+   "greedy_packages": 4,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipidea",
+   "token": 77,
+   "greedy": 6346.0,
+   "greedy_packages": 1,
+   "random": 6397.0,
+   "whole_app_flip_rate": 0.325
+  },
+  {
+   "family": "ipidea",
+   "token": 378,
+   "greedy": null,
+   "greedy_packages": 10,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipninja",
+   "token": 105,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": 10432.0,
+   "whole_app_flip_rate": 0.225
+  },
+  {
+   "family": "ipninja",
+   "token": 78,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": 4323.0,
+   "whole_app_flip_rate": 0.35
+  },
+  {
+   "family": "ipninja",
+   "token": 17,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": 3144.0,
+   "whole_app_flip_rate": 0.75
+  },
+  {
+   "family": "ipninja",
+   "token": 467,
+   "greedy": null,
+   "greedy_packages": 10,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipninja",
+   "token": 17,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": 1302.0,
+   "whole_app_flip_rate": 0.75
+  },
+  {
+   "family": "ipninja",
+   "token": 17,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": 2231.0,
+   "whole_app_flip_rate": 0.75
+  },
+  {
+   "family": "ipninja",
+   "token": 105,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": 9540.0,
+   "whole_app_flip_rate": 0.225
+  },
+  {
+   "family": "luminati",
+   "token": 320,
+   "greedy": 19771.0,
+   "greedy_packages": 6,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "luminati",
+   "token": 222,
+   "greedy": 11600.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.025
+  },
+  {
+   "family": "luminati",
+   "token": 468,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "luminati",
+   "token": 65,
+   "greedy": 3635.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.3
+  },
+  {
+   "family": "luminati",
+   "token": 80,
+   "greedy": 3635.0,
+   "greedy_packages": 1,
+   "random": 13946.0,
+   "whole_app_flip_rate": 0.325
+  },
+  {
+   "family": "luminati",
+   "token": 219,
+   "greedy": 11600.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.025
+  },
+  {
+   "family": "monkeysocks",
+   "token": 465,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 482,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 482,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 465,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 482,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 482,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 465,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 482,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 482,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 465,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 482,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 465,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 465,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 482,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 465,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 482,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 482,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 482,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 482,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 469,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 466,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 482,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 482,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 465,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 482,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "oxylabs",
+   "token": 92,
+   "greedy": 4338.0,
+   "greedy_packages": 1,
+   "random": 12439.0,
+   "whole_app_flip_rate": 0.3
+  },
+  {
+   "family": "oxylabs",
+   "token": 92,
+   "greedy": 4338.0,
+   "greedy_packages": 1,
+   "random": 7769.0,
+   "whole_app_flip_rate": 0.3
+  },
+  {
+   "family": "oxylabs",
+   "token": 114,
+   "greedy": 4302.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.25
+  },
+  {
+   "family": "oxylabs",
+   "token": 129,
+   "greedy": 7965.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.225
+  },
+  {
+   "family": "oxylabs",
+   "token": 114,
+   "greedy": 4302.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.25
+  },
+  {
+   "family": "oxylabs",
+   "token": 129,
+   "greedy": 7965.0,
+   "greedy_packages": 2,
+   "random": 15376.0,
+   "whole_app_flip_rate": 0.225
+  },
+  {
+   "family": "oxylabs",
+   "token": 92,
+   "greedy": 4338.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.3
+  },
+  {
+   "family": "oxylabs",
+   "token": 129,
+   "greedy": 7965.0,
+   "greedy_packages": 2,
+   "random": 13871.0,
+   "whole_app_flip_rate": 0.225
+  },
+  {
+   "family": "oxylabs",
+   "token": 114,
+   "greedy": 4302.0,
+   "greedy_packages": 1,
+   "random": 12045.0,
+   "whole_app_flip_rate": 0.25
+  },
+  {
+   "family": "oxylabs",
+   "token": 92,
+   "greedy": 4338.0,
+   "greedy_packages": 1,
+   "random": 12264.0,
+   "whole_app_flip_rate": 0.3
+  },
+  {
+   "family": "oxylabs",
+   "token": 114,
+   "greedy": 4302.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.25
+  },
+  {
+   "family": "oxylabs",
+   "token": 129,
+   "greedy": 7965.0,
+   "greedy_packages": 2,
+   "random": 19547.0,
+   "whole_app_flip_rate": 0.225
+  },
+  {
+   "family": "oxylabs",
+   "token": 129,
+   "greedy": 7965.0,
+   "greedy_packages": 2,
+   "random": 15599.0,
+   "whole_app_flip_rate": 0.225
+  },
+  {
+   "family": "oxylabs",
+   "token": 129,
+   "greedy": 7965.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.225
+  },
+  {
+   "family": "popa",
+   "token": 533,
+   "greedy": null,
+   "greedy_packages": 10,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "popa",
+   "token": 518,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "popa",
+   "token": 189,
+   "greedy": 11404.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.05
+  },
+  {
+   "family": "popa",
+   "token": 647,
+   "greedy": null,
+   "greedy_packages": 10,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "traffmonetizer",
+   "token": 247,
+   "greedy": 12966.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.075
+  },
+  {
+   "family": "traffmonetizer",
+   "token": 262,
+   "greedy": 12966.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.075
+  },
+  {
+   "family": "ipidea",
+   "token": 188,
+   "greedy": 13296.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.1
+  },
+  {
+   "family": "ipidea",
+   "token": 159,
+   "greedy": 10009.0,
+   "greedy_packages": 2,
+   "random": 9007.0,
+   "whole_app_flip_rate": 0.175
+  },
+  {
+   "family": "ipninja",
+   "token": 72,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": 3286.0,
+   "whole_app_flip_rate": 0.375
+  },
+  {
+   "family": "ipninja",
+   "token": 415,
+   "greedy": 17799.0,
+   "greedy_packages": 6,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipninja",
+   "token": 367,
+   "greedy": 15688.0,
+   "greedy_packages": 5,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipninja",
+   "token": 62,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": 5670.0,
+   "whole_app_flip_rate": 0.45
+  },
+  {
+   "family": "luminati",
+   "token": 96,
+   "greedy": 3635.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.3
+  },
+  {
+   "family": "luminati",
+   "token": 107,
+   "greedy": 3635.0,
+   "greedy_packages": 1,
+   "random": 5150.0,
+   "whole_app_flip_rate": 0.3
+  },
+  {
+   "family": "luminati",
+   "token": 104,
+   "greedy": 3635.0,
+   "greedy_packages": 1,
+   "random": 14709.0,
+   "whole_app_flip_rate": 0.3
+  },
+  {
+   "family": "luminati",
+   "token": 78,
+   "greedy": 3635.0,
+   "greedy_packages": 1,
+   "random": 12538.0,
+   "whole_app_flip_rate": 0.325
+  },
+  {
+   "family": "oxylabs",
+   "token": 152,
+   "greedy": 8001.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "oxylabs",
+   "token": 152,
+   "greedy": 8001.0,
+   "greedy_packages": 2,
+   "random": 8038.0,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "popa",
+   "token": 528,
+   "greedy": null,
+   "greedy_packages": 13,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "popa",
+   "token": 14,
+   "greedy": 3439.0,
+   "greedy_packages": 1,
+   "random": 4430.0,
+   "whole_app_flip_rate": 0.75
+  },
+  {
+   "family": "popa",
+   "token": 301,
+   "greedy": 13780.0,
+   "greedy_packages": 4,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "popa",
+   "token": 301,
+   "greedy": 13780.0,
+   "greedy_packages": 4,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipidea",
+   "token": 57,
+   "greedy": 6346.0,
+   "greedy_packages": 1,
+   "random": 7184.0,
+   "whole_app_flip_rate": 0.375
+  },
+  {
+   "family": "ipidea",
+   "token": 41,
+   "greedy": 6346.0,
+   "greedy_packages": 1,
+   "random": 12867.0,
+   "whole_app_flip_rate": 0.475
+  },
+  {
+   "family": "ipninja",
+   "token": 59,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": 6026.0,
+   "whole_app_flip_rate": 0.375
+  },
+  {
+   "family": "ipninja",
+   "token": 59,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": 8054.0,
+   "whole_app_flip_rate": 0.375
+  },
+  {
+   "family": "ipninja",
+   "token": 59,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": 8497.0,
+   "whole_app_flip_rate": 0.375
+  },
+  {
+   "family": "ipninja",
+   "token": 59,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": 6756.0,
+   "whole_app_flip_rate": 0.375
+  },
+  {
+   "family": "ipninja",
+   "token": 59,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": 14865.0,
+   "whole_app_flip_rate": 0.375
+  },
+  {
+   "family": "ipninja",
+   "token": 346,
+   "greedy": 18645.0,
+   "greedy_packages": 6,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipninja",
+   "token": 303,
+   "greedy": 16585.0,
+   "greedy_packages": 5,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipninja",
+   "token": 560,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "luminati",
+   "token": 18,
+   "greedy": 4302.0,
+   "greedy_packages": 1,
+   "random": 5746.0,
+   "whole_app_flip_rate": 0.725
+  },
+  {
+   "family": "luminati",
+   "token": 18,
+   "greedy": 4302.0,
+   "greedy_packages": 1,
+   "random": 18955.0,
+   "whole_app_flip_rate": 0.725
+  },
+  {
+   "family": "luminati",
+   "token": 18,
+   "greedy": 4302.0,
+   "greedy_packages": 1,
+   "random": 4655.0,
+   "whole_app_flip_rate": 0.725
+  },
+  {
+   "family": "luminati",
+   "token": 18,
+   "greedy": 4302.0,
+   "greedy_packages": 1,
+   "random": 1632.0,
+   "whole_app_flip_rate": 0.725
+  },
+  {
+   "family": "luminati",
+   "token": 257,
+   "greedy": 14281.0,
+   "greedy_packages": 4,
+   "random": null,
+   "whole_app_flip_rate": 0.025
+  },
+  {
+   "family": "luminati",
+   "token": 62,
+   "greedy": 4302.0,
+   "greedy_packages": 1,
+   "random": 4658.0,
+   "whole_app_flip_rate": 0.325
+  },
+  {
+   "family": "popa",
+   "token": 39,
+   "greedy": 3439.0,
+   "greedy_packages": 1,
+   "random": 13487.0,
+   "whole_app_flip_rate": 0.35
+  },
+  {
+   "family": "popa",
+   "token": 29,
+   "greedy": 3439.0,
+   "greedy_packages": 1,
+   "random": 4695.0,
+   "whole_app_flip_rate": 0.425
+  },
+  {
+   "family": "popa",
+   "token": 563,
+   "greedy": null,
+   "greedy_packages": 10,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "popa",
+   "token": 30,
+   "greedy": 3439.0,
+   "greedy_packages": 1,
+   "random": 5158.0,
+   "whole_app_flip_rate": 0.425
+  },
+  {
+   "family": "popa",
+   "token": 467,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "popa",
+   "token": 459,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "popa",
+   "token": 26,
+   "greedy": 3439.0,
+   "greedy_packages": 1,
+   "random": 10414.0,
+   "whole_app_flip_rate": 0.425
+  },
+  {
+   "family": "popa",
+   "token": 20,
+   "greedy": 3439.0,
+   "greedy_packages": 1,
+   "random": 5823.0,
+   "whole_app_flip_rate": 0.625
+  },
+  {
+   "family": "traffmonetizer",
+   "token": 304,
+   "greedy": 18032.0,
+   "greedy_packages": 5,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "traffmonetizer",
+   "token": 238,
+   "greedy": 12966.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.075
+  },
+  {
+   "family": "traffmonetizer",
+   "token": 304,
+   "greedy": 18032.0,
+   "greedy_packages": 5,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "traffmonetizer",
+   "token": 325,
+   "greedy": 18032.0,
+   "greedy_packages": 5,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipidea",
+   "token": 593,
+   "greedy": null,
+   "greedy_packages": 10,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipidea",
+   "token": 608,
+   "greedy": null,
+   "greedy_packages": 10,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipidea",
+   "token": 611,
+   "greedy": null,
+   "greedy_packages": 10,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipidea",
+   "token": 621,
+   "greedy": null,
+   "greedy_packages": 10,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipidea",
+   "token": 618,
+   "greedy": null,
+   "greedy_packages": 10,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipidea",
+   "token": 605,
+   "greedy": null,
+   "greedy_packages": 10,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipidea",
+   "token": 597,
+   "greedy": null,
+   "greedy_packages": 10,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipidea",
+   "token": 610,
+   "greedy": null,
+   "greedy_packages": 10,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipidea",
+   "token": 590,
+   "greedy": null,
+   "greedy_packages": 10,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipidea",
+   "token": 583,
+   "greedy": null,
+   "greedy_packages": 10,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipidea",
+   "token": 596,
+   "greedy": null,
+   "greedy_packages": 10,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipidea",
+   "token": 603,
+   "greedy": null,
+   "greedy_packages": 10,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipidea",
+   "token": 589,
+   "greedy": null,
+   "greedy_packages": 10,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipidea",
+   "token": 621,
+   "greedy": null,
+   "greedy_packages": 10,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipidea",
+   "token": 595,
+   "greedy": null,
+   "greedy_packages": 10,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipidea",
+   "token": 600,
+   "greedy": null,
+   "greedy_packages": 10,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipninja",
+   "token": 111,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": 10657.0,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "ipninja",
+   "token": 551,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipninja",
+   "token": 111,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "ipninja",
+   "token": 394,
+   "greedy": 16418.0,
+   "greedy_packages": 6,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "ipninja",
+   "token": 111,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": 18580.0,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "ipninja",
+   "token": 106,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": 14321.0,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "ipninja",
+   "token": 106,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": 14671.0,
+   "whole_app_flip_rate": 0.2
+  },
+  {
+   "family": "luminati",
+   "token": 92,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.25
+  },
+  {
+   "family": "luminati",
+   "token": 87,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": 15487.0,
+   "whole_app_flip_rate": 0.25
+  },
+  {
+   "family": "luminati",
+   "token": 287,
+   "greedy": 13591.0,
+   "greedy_packages": 4,
+   "random": null,
+   "whole_app_flip_rate": 0.025
+  },
+  {
+   "family": "luminati",
+   "token": 87,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": 10948.0,
+   "whole_app_flip_rate": 0.275
+  },
+  {
+   "family": "luminati",
+   "token": 456,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "luminati",
+   "token": 110,
+   "greedy": 7298.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.225
+  },
+  {
+   "family": "luminati",
+   "token": 210,
+   "greedy": 10304.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.05
+  },
+  {
+   "family": "luminati",
+   "token": 80,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": 7903.0,
+   "whole_app_flip_rate": 0.275
+  },
+  {
+   "family": "monkeysocks",
+   "token": 524,
+   "greedy": null,
+   "greedy_packages": 7,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "popa",
+   "token": 244,
+   "greedy": 10922.0,
+   "greedy_packages": 3,
+   "random": 18681.0,
+   "whole_app_flip_rate": 0.025
+  },
+  {
+   "family": "popa",
+   "token": 662,
+   "greedy": null,
+   "greedy_packages": 10,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "popa",
+   "token": 411,
+   "greedy": 17367.0,
+   "greedy_packages": 5,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "popa",
+   "token": 662,
+   "greedy": null,
+   "greedy_packages": 10,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "popa",
+   "token": 382,
+   "greedy": 14361.0,
+   "greedy_packages": 4,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "popa",
+   "token": 241,
+   "greedy": 10922.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.025
+  },
+  {
+   "family": "popa",
+   "token": 239,
+   "greedy": 10922.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.025
+  },
+  {
+   "family": "traffmonetizer",
+   "token": 79,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": 5755.0,
+   "whole_app_flip_rate": 0.325
+  },
+  {
+   "family": "cashraven",
+   "token": 133,
+   "greedy": 7965.0,
+   "greedy_packages": 2,
+   "random": null,
+   "whole_app_flip_rate": 0.175
+  },
+  {
+   "family": "cashraven",
+   "token": 131,
+   "greedy": 7965.0,
+   "greedy_packages": 2,
+   "random": 18297.0,
+   "whole_app_flip_rate": 0.175
+  },
+  {
+   "family": "ipninja",
+   "token": 63,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": 5046.0,
+   "whole_app_flip_rate": 0.375
+  },
+  {
+   "family": "ipninja",
+   "token": 63,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": 4179.0,
+   "whole_app_flip_rate": 0.375
+  },
+  {
+   "family": "ipninja",
+   "token": 63,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": 6179.0,
+   "whole_app_flip_rate": 0.375
+  },
+  {
+   "family": "ipninja",
+   "token": 450,
+   "greedy": null,
+   "greedy_packages": 11,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "luminati",
+   "token": 253,
+   "greedy": 16650.0,
+   "greedy_packages": 4,
+   "random": null,
+   "whole_app_flip_rate": 0.05
+  },
+  {
+   "family": "luminati",
+   "token": 217,
+   "greedy": 10304.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.05
+  },
+  {
+   "family": "luminati",
+   "token": 188,
+   "greedy": 10304.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.075
+  },
+  {
+   "family": "luminati",
+   "token": 234,
+   "greedy": 11600.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.05
+  },
+  {
+   "family": "monkeysocks",
+   "token": 384,
+   "greedy": 19606.0,
+   "greedy_packages": 7,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 365,
+   "greedy": 19606.0,
+   "greedy_packages": 7,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 384,
+   "greedy": 19606.0,
+   "greedy_packages": 7,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 384,
+   "greedy": 19606.0,
+   "greedy_packages": 7,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 384,
+   "greedy": 19606.0,
+   "greedy_packages": 7,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 384,
+   "greedy": 19606.0,
+   "greedy_packages": 7,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 384,
+   "greedy": 19606.0,
+   "greedy_packages": 7,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 365,
+   "greedy": 19606.0,
+   "greedy_packages": 7,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 384,
+   "greedy": 19606.0,
+   "greedy_packages": 7,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 384,
+   "greedy": 19606.0,
+   "greedy_packages": 7,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 384,
+   "greedy": 19606.0,
+   "greedy_packages": 7,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 384,
+   "greedy": 19606.0,
+   "greedy_packages": 7,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "monkeysocks",
+   "token": 384,
+   "greedy": 19606.0,
+   "greedy_packages": 7,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "oxylabs",
+   "token": 96,
+   "greedy": 4302.0,
+   "greedy_packages": 1,
+   "random": 13010.0,
+   "whole_app_flip_rate": 0.275
+  },
+  {
+   "family": "popa",
+   "token": 618,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "popa",
+   "token": 215,
+   "greedy": 10698.0,
+   "greedy_packages": 3,
+   "random": null,
+   "whole_app_flip_rate": 0.05
+  },
+  {
+   "family": "popa",
+   "token": 637,
+   "greedy": null,
+   "greedy_packages": 9,
+   "random": null,
+   "whole_app_flip_rate": 0.0
+  },
+  {
+   "family": "traffmonetizer",
+   "token": 92,
+   "greedy": 3663.0,
+   "greedy_packages": 1,
+   "random": null,
+   "whole_app_flip_rate": 0.35
+  }
+ ]
+}

@@ -1,0 +1,1184 @@
+{
+ "dataset": "cic_andmal",
+ "groups": "neardup",
+ "graphs": [
+  "fcg"
+ ],
+ "n": 1848,
+ "fields": {
+  "first_seen": {
+   "dated": 1.0,
+   "coverage": {
+    "adware": {
+     "n": 399,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2015.69,
+      2016.52,
+      2018.56
+     ]
+    },
+    "benign": {
+     "n": 499,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2014.21,
+      2016.66,
+      2019.14
+     ]
+    },
+    "pua": {
+     "n": 400,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2016.19,
+      2016.47,
+      2018.75
+     ]
+    },
+    "riskware": {
+     "n": 397,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2016.13,
+      2016.65,
+      2019.33
+     ]
+    },
+    "trojan": {
+     "n": 153,
+     "dated": 1.0,
+     "p10_p50_p90": [
+      2015.91,
+      2016.65,
+      2019.36
+     ]
+    }
+   },
+   "date_only": {
+    "n": 1848,
+    "f1_date_only": 0.38968995649489,
+    "f1_prior": 0.2011235976416137
+   },
+   "era": {
+    "adware": {
+     "skipped": "399 dated apps or interquartile range < 0.5 years"
+    },
+    "benign": {
+     "n": 499,
+     "split_year": 2016.66,
+     "auroc_late_vs_early": 0.7626827309236948
+    },
+    "pua": {
+     "skipped": "400 dated apps or interquartile range < 0.5 years"
+    },
+    "riskware": {
+     "n": 397,
+     "split_year": 2016.65,
+     "auroc_late_vs_early": 0.6535561985988425
+    },
+    "trojan": {
+     "n": 153,
+     "split_year": 2016.65,
+     "auroc_late_vs_early": 0.6438461538461537
+    }
+   },
+   "feature_drift": {
+    "adware": [
+     {
+      "year": 2014,
+      "n": 28,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2015,
+      "n": 44,
+      "dist_first": 0.9788553489927649,
+      "dist_prev": 0.9788553489927649,
+      "new_active_share": 0.0009765625
+     },
+     {
+      "year": 2016,
+      "n": 262,
+      "dist_first": 0.8725985473216931,
+      "dist_prev": 0.8543074914093848,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2018,
+      "n": 35,
+      "dist_first": 0.971624988595237,
+      "dist_prev": 0.8251931793660396,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2019,
+      "n": 12,
+      "dist_first": 0.9890590160222483,
+      "dist_prev": 0.6402045318622003,
+      "new_active_share": 0.0
+     }
+    ],
+    "benign": [
+     {
+      "year": 2013,
+      "n": 26,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 96,
+      "dist_first": 0.802303672266018,
+      "dist_prev": 0.802303672266018,
+      "new_active_share": 0.001953125
+     },
+     {
+      "year": 2015,
+      "n": 19,
+      "dist_first": 0.8342623640802613,
+      "dist_prev": 0.6383329369891217,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 120,
+      "dist_first": 0.8899642166611529,
+      "dist_prev": 0.7675978921204929,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2017,
+      "n": 34,
+      "dist_first": 1.0040142664393084,
+      "dist_prev": 0.5699623528281603,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2018,
+      "n": 145,
+      "dist_first": 0.960096073180236,
+      "dist_prev": 0.4852090118717325,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2019,
+      "n": 56,
+      "dist_first": 0.9568263281570069,
+      "dist_prev": 0.43858262869406506,
+      "new_active_share": 0.0
+     }
+    ],
+    "pua": [
+     {
+      "year": 2015,
+      "n": 19,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2016,
+      "n": 316,
+      "dist_first": 0.409097990483567,
+      "dist_prev": 0.409097990483567,
+      "new_active_share": 0.0458984375
+     },
+     {
+      "year": 2018,
+      "n": 26,
+      "dist_first": 0.8504217745382519,
+      "dist_prev": 0.552593630815896,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2019,
+      "n": 17,
+      "dist_first": 0.3753458455980425,
+      "dist_prev": 0.7583631860315532,
+      "new_active_share": 0.0
+     }
+    ],
+    "riskware": [
+     {
+      "year": 2014,
+      "n": 21,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2015,
+      "n": 13,
+      "dist_first": 0.5098412472530596,
+      "dist_prev": 0.5098412472530596,
+      "new_active_share": 0.05067567567567568
+     },
+     {
+      "year": 2016,
+      "n": 244,
+      "dist_first": 0.4690189925664774,
+      "dist_prev": 0.4567880156494222,
+      "new_active_share": 0.0126953125
+     },
+     {
+      "year": 2018,
+      "n": 69,
+      "dist_first": 0.7663052984937678,
+      "dist_prev": 0.6367466189939697,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2019,
+      "n": 22,
+      "dist_first": 0.5928832021581689,
+      "dist_prev": 0.7980695686750294,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2020,
+      "n": 10,
+      "dist_first": 1.0202903431437726,
+      "dist_prev": 0.7363767867811862,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2021,
+      "n": 10,
+      "dist_first": 0.9743791485597358,
+      "dist_prev": 0.704813358270633,
+      "new_active_share": 0.0
+     }
+    ],
+    "trojan": [
+     {
+      "year": 2016,
+      "n": 73,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2018,
+      "n": 36,
+      "dist_first": 0.7804709942828135,
+      "dist_prev": 0.7804709942828135,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2019,
+      "n": 18,
+      "dist_first": 0.7851912298149988,
+      "dist_prev": 0.9008958550732002,
+      "new_active_share": 0.0
+     }
+    ]
+   },
+   "global_split": {
+    "split_year": 2016.56,
+    "f1": 0.46996493597536465,
+    "n_test_scored": 924,
+    "train_classes": {
+     "adware": 245,
+     "benign": 241,
+     "pua": 237,
+     "riskware": 145,
+     "trojan": 56
+    },
+    "test_classes": {
+     "adware": 154,
+     "benign": 258,
+     "pua": 163,
+     "riskware": 252,
+     "trojan": 97
+    }
+   },
+   "within_class": {
+    "classes": [
+     "adware",
+     "benign",
+     "pua",
+     "riskware",
+     "trojan"
+    ],
+    "n_train": 906,
+    "n_test": 878,
+    "f1_temporal": 0.46725856102333185,
+    "f1_random": 0.5881958553308356,
+    "gap": 0.12093729430750377
+   },
+   "rolling": {
+    "windows": [
+     {
+      "year": 2015,
+      "f1": 0.330277172597434,
+      "classes": [
+       "adware",
+       "benign",
+       "riskware"
+      ],
+      "n_test": 76,
+      "test_apps_of_untrained_classes": 19
+     },
+     {
+      "year": 2016,
+      "f1": 0.3047614655564274,
+      "classes": [
+       "adware",
+       "benign",
+       "pua",
+       "riskware",
+       "trojan"
+      ],
+      "n_test": 952,
+      "test_apps_of_untrained_classes": 0
+     },
+     {
+      "year": 2018,
+      "f1": 0.41950657556761606,
+      "classes": [
+       "adware",
+       "benign",
+       "pua",
+       "riskware",
+       "trojan"
+      ],
+      "n_test": 305,
+      "test_apps_of_untrained_classes": 0
+     },
+     {
+      "year": 2019,
+      "f1": 0.562110682110682,
+      "classes": [
+       "adware",
+       "benign",
+       "pua",
+       "riskware",
+       "trojan"
+      ],
+      "n_test": 107,
+      "test_apps_of_untrained_classes": 0
+     }
+    ],
+    "aut": 0.39015398949270047
+   },
+   "oof_by_year": {
+    "adware": {
+     "by_year": {
+      "2013": [
+       6,
+       0.333
+      ],
+      "2014": [
+       28,
+       0.393
+      ],
+      "2015": [
+       44,
+       0.705
+      ],
+      "2016": [
+       262,
+       0.565
+      ],
+      "2017": [
+       5,
+       0.8
+      ],
+      "2018": [
+       35,
+       0.514
+      ],
+      "2019": [
+       12,
+       0.5
+      ],
+      "2020": [
+       2,
+       1.0
+      ],
+      "2021": [
+       3,
+       0.333
+      ],
+      "2022": [
+       2,
+       0.0
+      ]
+     },
+     "spearman_correct_date": -0.04120376109899811
+    },
+    "benign": {
+     "by_year": {
+      "2012": [
+       2,
+       0.0
+      ],
+      "2013": [
+       26,
+       0.5
+      ],
+      "2014": [
+       96,
+       0.531
+      ],
+      "2015": [
+       19,
+       0.632
+      ],
+      "2016": [
+       120,
+       0.7
+      ],
+      "2017": [
+       34,
+       0.765
+      ],
+      "2018": [
+       145,
+       0.855
+      ],
+      "2019": [
+       56,
+       0.821
+      ],
+      "2020": [
+       1,
+       1.0
+      ]
+     },
+     "spearman_correct_date": 0.29174539673051364
+    },
+    "pua": {
+     "by_year": {
+      "2013": [
+       3,
+       0.667
+      ],
+      "2014": [
+       3,
+       0.667
+      ],
+      "2015": [
+       19,
+       0.684
+      ],
+      "2016": [
+       316,
+       0.734
+      ],
+      "2017": [
+       3,
+       0.667
+      ],
+      "2018": [
+       26,
+       0.423
+      ],
+      "2019": [
+       17,
+       0.588
+      ],
+      "2020": [
+       4,
+       1.0
+      ],
+      "2021": [
+       5,
+       0.6
+      ],
+      "2022": [
+       4,
+       0.5
+      ]
+     },
+     "spearman_correct_date": -0.1828366495085241
+    },
+    "riskware": {
+     "by_year": {
+      "2013": [
+       1,
+       0.0
+      ],
+      "2014": [
+       21,
+       0.762
+      ],
+      "2015": [
+       13,
+       0.769
+      ],
+      "2016": [
+       244,
+       0.668
+      ],
+      "2017": [
+       3,
+       0.333
+      ],
+      "2018": [
+       69,
+       0.304
+      ],
+      "2019": [
+       22,
+       0.636
+      ],
+      "2020": [
+       10,
+       0.5
+      ],
+      "2021": [
+       10,
+       0.4
+      ],
+      "2022": [
+       3,
+       0.667
+      ],
+      "2024": [
+       1,
+       0.0
+      ]
+     },
+     "spearman_correct_date": -0.2146391516305814
+    },
+    "trojan": {
+     "by_year": {
+      "2012": [
+       1,
+       0.0
+      ],
+      "2013": [
+       5,
+       0.4
+      ],
+      "2014": [
+       6,
+       0.167
+      ],
+      "2015": [
+       4,
+       0.0
+      ],
+      "2016": [
+       73,
+       0.425
+      ],
+      "2017": [
+       4,
+       1.0
+      ],
+      "2018": [
+       36,
+       0.417
+      ],
+      "2019": [
+       18,
+       0.389
+      ],
+      "2020": [
+       1,
+       0.0
+      ],
+      "2021": [
+       3,
+       0.667
+      ],
+      "2022": [
+       2,
+       0.5
+      ]
+     },
+     "spearman_correct_date": 0.09203530278909333
+    }
+   },
+   "versions": {
+    "packages": 16,
+    "packages_by_class": {
+     "benign": 1,
+     "adware": 3,
+     "pua": 7,
+     "trojan": 2,
+     "riskware": 3
+    },
+    "pairs": 49,
+    "spearman_dist_timegap": 0.23241389443111793,
+    "median_dist_consecutive": 2.220446049250313e-16,
+    "acc_first_build": 0.75,
+    "acc_last_build": 0.625
+   }
+  },
+  "dex_date": {
+   "dated": 0.899,
+   "coverage": {
+    "adware": {
+     "n": 399,
+     "dated": 0.997,
+     "p10_p50_p90": [
+      2014.14,
+      2016.26,
+      2016.62
+     ]
+    },
+    "benign": {
+     "n": 499,
+     "dated": 0.635,
+     "p10_p50_p90": [
+      2012.75,
+      2014.83,
+      2017.03
+     ]
+    },
+    "pua": {
+     "n": 400,
+     "dated": 0.995,
+     "p10_p50_p90": [
+      2011.62,
+      2015.69,
+      2016.57
+     ]
+    },
+    "riskware": {
+     "n": 397,
+     "dated": 0.997,
+     "p10_p50_p90": [
+      2014.65,
+      2016.47,
+      2016.68
+     ]
+    },
+    "trojan": {
+     "n": 153,
+     "dated": 0.993,
+     "p10_p50_p90": [
+      2012.5,
+      2015.93,
+      2016.7
+     ]
+    }
+   },
+   "date_only": {
+    "n": 1661,
+    "f1_date_only": 0.2958192543424677,
+    "f1_prior": 0.1961975710678931
+   },
+   "era": {
+    "adware": {
+     "n": 398,
+     "split_year": 2016.26,
+     "auroc_late_vs_early": 0.7429105325623091
+    },
+    "benign": {
+     "n": 317,
+     "split_year": 2014.83,
+     "auroc_late_vs_early": 0.7735052941644774
+    },
+    "pua": {
+     "n": 398,
+     "split_year": 2015.69,
+     "auroc_late_vs_early": 0.8995580808080808
+    },
+    "riskware": {
+     "n": 396,
+     "split_year": 2016.47,
+     "auroc_late_vs_early": 0.8203754718906234
+    },
+    "trojan": {
+     "n": 152,
+     "split_year": 2015.93,
+     "auroc_late_vs_early": 0.7844529085872577
+    }
+   },
+   "feature_drift": {
+    "adware": [
+     {
+      "year": 2012,
+      "n": 11,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2013,
+      "n": 21,
+      "dist_first": 0.952126059783245,
+      "dist_prev": 0.952126059783245,
+      "new_active_share": 0.0273972602739726
+     },
+     {
+      "year": 2014,
+      "n": 45,
+      "dist_first": 0.8943636264730014,
+      "dist_prev": 0.8639516683824425,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2015,
+      "n": 90,
+      "dist_first": 0.9782741775653387,
+      "dist_prev": 0.8473817990908634,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 227,
+      "dist_first": 0.9963859058327366,
+      "dist_prev": 0.7700182534356269,
+      "new_active_share": 0.0
+     }
+    ],
+    "benign": [
+     {
+      "year": 2012,
+      "n": 26,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2013,
+      "n": 37,
+      "dist_first": 0.9589903617784393,
+      "dist_prev": 0.9589903617784393,
+      "new_active_share": 0.005859375
+     },
+     {
+      "year": 2014,
+      "n": 90,
+      "dist_first": 0.9100598644212039,
+      "dist_prev": 0.569809761329858,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2015,
+      "n": 36,
+      "dist_first": 1.0284047532349874,
+      "dist_prev": 0.5995664067855413,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 82,
+      "dist_first": 0.9372692839216595,
+      "dist_prev": 0.6133639494538217,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2017,
+      "n": 13,
+      "dist_first": 0.9526069031011628,
+      "dist_prev": 0.7669469817063548,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2018,
+      "n": 18,
+      "dist_first": 1.0382623483879923,
+      "dist_prev": 0.8179112098919733,
+      "new_active_share": 0.0
+     }
+    ],
+    "pua": [
+     {
+      "year": 2011,
+      "n": 56,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2012,
+      "n": 32,
+      "dist_first": 0.8916669113126454,
+      "dist_prev": 0.8916669113126454,
+      "new_active_share": 0.011111111111111112
+     },
+     {
+      "year": 2013,
+      "n": 19,
+      "dist_first": 0.9208959281077844,
+      "dist_prev": 0.6686546014355301,
+      "new_active_share": 0.00202020202020202
+     },
+     {
+      "year": 2014,
+      "n": 30,
+      "dist_first": 0.991738668688348,
+      "dist_prev": 0.867195800139261,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2015,
+      "n": 102,
+      "dist_first": 0.9953836378009906,
+      "dist_prev": 0.6020681754606618,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 157,
+      "dist_first": 0.9822366999899944,
+      "dist_prev": 0.5248985812646625,
+      "new_active_share": 0.0
+     }
+    ],
+    "riskware": [
+     {
+      "year": 2014,
+      "n": 55,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2015,
+      "n": 52,
+      "dist_first": 0.7402886966557406,
+      "dist_prev": 0.7402886966557406,
+      "new_active_share": 0.03616813294232649
+     },
+     {
+      "year": 2016,
+      "n": 274,
+      "dist_first": 0.7886314874011576,
+      "dist_prev": 0.6724556845798721,
+      "new_active_share": 0.0
+     }
+    ],
+    "trojan": [
+     {
+      "year": 2013,
+      "n": 10,
+      "dist_first": null,
+      "dist_prev": null,
+      "new_active_share": null
+     },
+     {
+      "year": 2014,
+      "n": 23,
+      "dist_first": 0.9241638150161774,
+      "dist_prev": 0.9241638150161774,
+      "new_active_share": 0.005865102639296188
+     },
+     {
+      "year": 2015,
+      "n": 24,
+      "dist_first": 0.9372207110809387,
+      "dist_prev": 0.7629349662532645,
+      "new_active_share": 0.0
+     },
+     {
+      "year": 2016,
+      "n": 76,
+      "dist_first": 0.9219936144512981,
+      "dist_prev": 0.7414435203943,
+      "new_active_share": 0.0
+     }
+    ]
+   },
+   "global_split": {
+    "split_year": 2016.08,
+    "f1": 0.4074420359512268,
+    "n_test_scored": 831,
+    "train_classes": {
+     "adware": 174,
+     "benign": 206,
+     "pua": 246,
+     "riskware": 127,
+     "trojan": 77
+    },
+    "test_classes": {
+     "adware": 224,
+     "benign": 111,
+     "pua": 152,
+     "riskware": 269,
+     "trojan": 75
+    }
+   },
+   "within_class": {
+    "classes": [
+     "adware",
+     "benign",
+     "pua",
+     "riskware",
+     "trojan"
+    ],
+    "n_train": 829,
+    "n_test": 789,
+    "f1_temporal": 0.42102298498676693,
+    "f1_random": 0.5744637675675363,
+    "gap": 0.15344078258076932
+   },
+   "rolling": {
+    "windows": [
+     {
+      "year": 2012,
+      "f1": 0.44521072796934863,
+      "classes": [
+       "benign",
+       "pua",
+       "trojan"
+      ],
+      "n_test": 66,
+      "test_apps_of_untrained_classes": 17
+     },
+     {
+      "year": 2013,
+      "f1": 0.3147691660934037,
+      "classes": [
+       "adware",
+       "benign",
+       "pua",
+       "trojan"
+      ],
+      "n_test": 87,
+      "test_apps_of_untrained_classes": 8
+     },
+     {
+      "year": 2014,
+      "f1": 0.42612345102717375,
+      "classes": [
+       "adware",
+       "benign",
+       "pua",
+       "riskware",
+       "trojan"
+      ],
+      "n_test": 241,
+      "test_apps_of_untrained_classes": 0
+     },
+     {
+      "year": 2015,
+      "f1": 0.3333622317398913,
+      "classes": [
+       "adware",
+       "benign",
+       "pua",
+       "riskware",
+       "trojan"
+      ],
+      "n_test": 303,
+      "test_apps_of_untrained_classes": 0
+     },
+     {
+      "year": 2016,
+      "f1": 0.3535154573116389,
+      "classes": [
+       "adware",
+       "benign",
+       "pua",
+       "riskware",
+       "trojan"
+      ],
+      "n_test": 799,
+      "test_apps_of_untrained_classes": 0
+     }
+    ],
+    "aut": 0.3684044853752406
+   },
+   "oof_by_year": {
+    "adware": {
+     "by_year": {
+      "2011": [
+       4,
+       0.25
+      ],
+      "2012": [
+       11,
+       0.455
+      ],
+      "2013": [
+       21,
+       0.143
+      ],
+      "2014": [
+       45,
+       0.311
+      ],
+      "2015": [
+       90,
+       0.6
+      ],
+      "2016": [
+       227,
+       0.639
+      ]
+     },
+     "spearman_correct_date": 0.15988549512772635
+    },
+    "benign": {
+     "by_year": {
+      "2008": [
+       3,
+       1.0
+      ],
+      "2010": [
+       5,
+       0.0
+      ],
+      "2011": [
+       5,
+       0.4
+      ],
+      "2012": [
+       26,
+       0.346
+      ],
+      "2013": [
+       37,
+       0.541
+      ],
+      "2014": [
+       90,
+       0.6
+      ],
+      "2015": [
+       36,
+       0.75
+      ],
+      "2016": [
+       82,
+       0.732
+      ],
+      "2017": [
+       13,
+       0.538
+      ],
+      "2018": [
+       18,
+       0.667
+      ],
+      "2019": [
+       2,
+       1.0
+      ]
+     },
+     "spearman_correct_date": 0.1845672780133531
+    },
+    "pua": {
+     "by_year": {
+      "2008": [
+       1,
+       0.0
+      ],
+      "2009": [
+       1,
+       0.0
+      ],
+      "2011": [
+       56,
+       0.714
+      ],
+      "2012": [
+       32,
+       0.875
+      ],
+      "2013": [
+       19,
+       0.684
+      ],
+      "2014": [
+       30,
+       0.6
+      ],
+      "2015": [
+       102,
+       0.882
+      ],
+      "2016": [
+       157,
+       0.573
+      ]
+     },
+     "spearman_correct_date": -0.16454014937964767
+    },
+    "riskware": {
+     "by_year": {
+      "2011": [
+       1,
+       0.0
+      ],
+      "2012": [
+       6,
+       0.0
+      ],
+      "2013": [
+       8,
+       0.75
+      ],
+      "2014": [
+       55,
+       0.8
+      ],
+      "2015": [
+       52,
+       0.538
+      ],
+      "2016": [
+       274,
+       0.577
+      ]
+     },
+     "spearman_correct_date": -0.09591232788531771
+    },
+    "trojan": {
+     "by_year": {
+      "2008": [
+       3,
+       0.0
+      ],
+      "2010": [
+       1,
+       0.0
+      ],
+      "2011": [
+       7,
+       0.429
+      ],
+      "2012": [
+       8,
+       0.375
+      ],
+      "2013": [
+       10,
+       0.3
+      ],
+      "2014": [
+       23,
+       0.348
+      ],
+      "2015": [
+       24,
+       0.333
+      ],
+      "2016": [
+       76,
+       0.5
+      ]
+     },
+     "spearman_correct_date": 0.1745568202121517
+    }
+   },
+   "versions": {
+    "packages": 16,
+    "packages_by_class": {
+     "benign": 1,
+     "adware": 3,
+     "pua": 7,
+     "trojan": 2,
+     "riskware": 3
+    },
+    "pairs": 49,
+    "spearman_dist_timegap": 0.5828168760335447,
+    "median_dist_consecutive": 0.0,
+    "acc_first_build": 0.75,
+    "acc_last_build": 0.625
+   }
+  }
+ },
+ "oof_f1": 0.5953755437000032
+}
